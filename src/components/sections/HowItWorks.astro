@@ -1,0 +1,109 @@
+---
+import SectionHeader from '@components/ui/SectionHeader.astro'
+---
+
+<section id="how-it-works" class="py-20 md:py-28">
+  <div class="max-w-6xl mx-auto px-6">
+    <SectionHeader label="How it works" title="Up and running in minutes" />
+
+    <div class="grid md:grid-cols-3 gap-8 md:gap-6">
+      <!-- Step 1 -->
+      <div class="fade-up fade-up-delay-1 text-center">
+        <div class="relative inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand text-white font-display text-xl mb-6">
+          1
+        </div>
+        <h3 class="text-lg font-semibold text-text-primary mb-2">Set up your menu</h3>
+        <p class="text-text-secondary text-[15px] leading-relaxed max-w-xs mx-auto">
+          Add your dishes, categories, allergens, and daily specials. Import from a spreadsheet or build from scratch.
+        </p>
+        <!-- Mini mockup -->
+        <div class="mt-6 mx-auto max-w-[200px] bg-surface-card rounded-xl border border-border p-3 shadow-sm">
+          <div class="space-y-2">
+            <div class="flex items-center gap-2">
+              <div class="w-8 h-8 rounded-lg bg-brand-soft"></div>
+              <div class="flex-1">
+                <div class="h-2 w-16 bg-text-primary/10 rounded"></div>
+                <div class="h-1.5 w-10 bg-text-muted/20 rounded mt-1"></div>
+              </div>
+              <div class="text-[10px] font-mono text-text-secondary">&euro;12</div>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-8 h-8 rounded-lg bg-amber-soft"></div>
+              <div class="flex-1">
+                <div class="h-2 w-20 bg-text-primary/10 rounded"></div>
+                <div class="h-1.5 w-12 bg-text-muted/20 rounded mt-1"></div>
+              </div>
+              <div class="text-[10px] font-mono text-text-secondary">&euro;18</div>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-8 h-8 rounded-lg bg-terracotta-soft"></div>
+              <div class="flex-1">
+                <div class="h-2 w-14 bg-text-primary/10 rounded"></div>
+                <div class="h-1.5 w-8 bg-text-muted/20 rounded mt-1"></div>
+              </div>
+              <div class="text-[10px] font-mono text-text-secondary">&euro;9</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="fade-up fade-up-delay-2 text-center">
+        <div class="relative inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand text-white font-display text-xl mb-6">
+          2
+        </div>
+        <h3 class="text-lg font-semibold text-text-primary mb-2">Generate table QR codes</h3>
+        <p class="text-text-secondary text-[15px] leading-relaxed max-w-xs mx-auto">
+          Print unique QR codes for each table. Customers scan to view the menu and place orders from their phone.
+        </p>
+        <!-- Mini mockup -->
+        <div class="mt-6 mx-auto max-w-[200px] bg-surface-card rounded-xl border border-border p-3 shadow-sm">
+          <div class="grid grid-cols-3 gap-2">
+            <div class="aspect-square rounded-lg bg-text-primary p-1.5 flex items-center justify-center">
+              <div class="w-full h-full bg-white/20 rounded-sm"></div>
+            </div>
+            <div class="aspect-square rounded-lg bg-text-primary p-1.5 flex items-center justify-center">
+              <div class="w-full h-full bg-white/20 rounded-sm"></div>
+            </div>
+            <div class="aspect-square rounded-lg bg-text-primary p-1.5 flex items-center justify-center">
+              <div class="w-full h-full bg-white/20 rounded-sm"></div>
+            </div>
+          </div>
+          <div class="flex justify-between mt-2">
+            <span class="text-[9px] text-text-muted">T1</span>
+            <span class="text-[9px] text-text-muted">T2</span>
+            <span class="text-[9px] text-text-muted">T3</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="fade-up fade-up-delay-3 text-center">
+        <div class="relative inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand text-white font-display text-xl mb-6">
+          3
+        </div>
+        <h3 class="text-lg font-semibold text-text-primary mb-2">Manage orders in real-time</h3>
+        <p class="text-text-secondary text-[15px] leading-relaxed max-w-xs mx-auto">
+          Watch orders flow from table to kitchen to plate. Track every dish, manage payments, and close tables with a tap.
+        </p>
+        <!-- Mini mockup -->
+        <div class="mt-6 mx-auto max-w-[200px] bg-surface-card rounded-xl border border-border p-3 shadow-sm">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <div class="h-2 w-16 bg-text-primary/10 rounded"></div>
+              <span class="px-1.5 py-0.5 text-[8px] font-semibold rounded-full bg-brand/15 text-brand-dark">Ready</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="h-2 w-12 bg-text-primary/10 rounded"></div>
+              <span class="px-1.5 py-0.5 text-[8px] font-semibold rounded-full bg-amber/15 text-amber">Cooking</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="h-2 w-20 bg-text-primary/10 rounded"></div>
+              <span class="px-1.5 py-0.5 text-[8px] font-semibold rounded-full bg-gray-100 text-text-muted">Pending</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
