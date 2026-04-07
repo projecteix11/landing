@@ -1,0 +1,732 @@
+---
+import Layout from "@layouts/Layout.astro";
+import "@styles/global.css";
+
+const colorGroups = [
+  {
+    name: "Brand",
+    description: "Primary brand identity colors",
+    colors: [
+      { variable: "--color-brand", tailwind: "bg-brand", label: "Brand" },
+      { variable: "--color-brand-dark", tailwind: "bg-brand-dark", label: "Dark" },
+      { variable: "--color-brand-light", tailwind: "bg-brand-light", label: "Light" },
+      { variable: "--color-brand-soft", tailwind: "bg-brand-soft", label: "Soft" },
+    ],
+  },
+  {
+    name: "Surface",
+    description: "Backgrounds and card surfaces",
+    colors: [
+      { variable: "--color-surface", tailwind: "bg-surface", label: "Base" },
+      { variable: "--color-surface-card", tailwind: "bg-surface-card", label: "Card" },
+      { variable: "--color-surface-elevated", tailwind: "bg-surface-elevated", label: "Elevated" },
+    ],
+  },
+  {
+    name: "Text",
+    description: "Typography hierarchy",
+    showContrast: true,
+    colors: [
+      { variable: "--color-text-primary", tailwind: "text-text-primary", label: "Primary" },
+      { variable: "--color-text-secondary", tailwind: "text-text-secondary", label: "Secondary" },
+      { variable: "--color-text-muted", tailwind: "text-text-muted", label: "Muted" },
+    ],
+  },
+  {
+    name: "Border",
+    description: "Dividers and outlines",
+    colors: [
+      { variable: "--color-border", tailwind: "border-border", label: "Default" },
+      { variable: "--color-border-strong", tailwind: "border-border-strong", label: "Strong" },
+    ],
+  },
+  {
+    name: "Accents",
+    description: "Feature and category highlights",
+    colors: [
+      { variable: "--color-terracotta", tailwind: "bg-terracotta", label: "Terracotta" },
+      { variable: "--color-terracotta-soft", tailwind: "bg-terracotta-soft", label: "Terracotta Soft" },
+      { variable: "--color-amber", tailwind: "bg-amber", label: "Amber" },
+      { variable: "--color-amber-soft", tailwind: "bg-amber-soft", label: "Amber Soft" },
+      { variable: "--color-blue", tailwind: "bg-blue", label: "Blue" },
+      { variable: "--color-blue-soft", tailwind: "bg-blue-soft", label: "Blue Soft" },
+    ],
+  },
+  {
+    name: "Hero Gradient",
+    description: "Landing page hero background",
+    colors: [
+      { variable: "--color-hero-gradient-start", tailwind: "from-hero-gradient-start", label: "Start" },
+      { variable: "--color-hero-gradient-end", tailwind: "to-hero-gradient-end", label: "End" },
+    ],
+  },
+];
+
+const fonts = [
+  { variable: "--font-display", label: "Display", family: "DM Serif Display", sample: "Gobbly — Restaurant Management" },
+  { variable: "--font-body", label: "Body", family: "DM Sans", sample: "The quick brown fox jumps over the lazy dog. 0123456789" },
+  { variable: "--font-mono", label: "Mono", family: "JetBrains Mono", sample: "const price = formatCurrency(12.50);" },
+];
+
+const themeColors: Record<string, { label: string; accent: string }> = {
+  default: { label: "Gobbly Green", accent: "#22c55e" },
+  ocean: { label: "Ocean Blue", accent: "#3b82f6" },
+  sunset: { label: "Sunset Orange", accent: "#f97316" },
+  lavender: { label: "Lavender Purple", accent: "#8b5cf6" },
+};
+---
+
+<Layout title="Color Palette - Design System" description="Internal color palette documentation for the Gobbly design system.">
+  <div class="ds-page">
+    <!-- Header -->
+    <header class="ds-header">
+      <div class="ds-container">
+        <a href="/" class="ds-back">&larr; Back to site</a>
+        <div class="ds-header-row">
+          <div>
+            <h1 class="ds-title">Color Palette</h1>
+            <p class="ds-subtitle">Gobbly Design System — internal token reference</p>
+          </div>
+          <!-- Theme Selector -->
+          <div class="ds-theme-selector" id="theme-selector">
+            {Object.entries(themeColors).map(([key, { label, accent }]) => (
+              <button
+                data-theme={key}
+                class:list={["ds-theme-btn", { active: key === "default" }]}
+                aria-pressed={key === "default" ? "true" : "false"}
+                title={label}
+              >
+                <span class="ds-theme-dot" style={`background: ${accent};`}></span>
+                <span class="ds-theme-label">{label}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Color Groups -->
+    <div class="ds-container ds-content">
+      {colorGroups.map((group) => (
+        <section class="ds-section">
+          <div class="ds-section-header">
+            <h2 class="ds-section-title">{group.name}</h2>
+            <p class="ds-section-desc">{group.description}</p>
+          </div>
+          <div class="ds-card">
+            <div class="ds-swatch-grid">
+              {group.colors.map((color) => (
+                <button
+                  class="ds-swatch"
+                  data-variable={color.variable}
+                  data-tailwind={color.tailwind}
+                  title={`Click to copy var(${color.variable})`}
+                >
+                  <div class="ds-swatch-circle" data-variable={color.variable}>
+                    <span class="ds-swatch-check" aria-hidden="true">&#10003;</span>
+                  </div>
+                  <span class="ds-swatch-label">{color.label}</span>
+                  <span class="ds-swatch-var">{color.variable}</span>
+                  <span class="ds-swatch-value" data-variable={color.variable}></span>
+                  <code class="ds-swatch-tw">{color.tailwind}</code>
+                  {group.showContrast && (
+                    <span class="ds-contrast" data-variable={color.variable}></span>
+                  )}
+                </button>
+              ))}
+            </div>
+          </div>
+          {group.name === "Hero Gradient" && (
+            <div class="ds-gradient-preview">
+              <span class="ds-gradient-label">linear-gradient(135deg, start, end)</span>
+            </div>
+          )}
+        </section>
+      ))}
+
+      <!-- Typography -->
+      <section class="ds-section">
+        <div class="ds-section-header">
+          <h2 class="ds-section-title">Typography</h2>
+          <p class="ds-section-desc">Font families and scales</p>
+        </div>
+        {fonts.map((font) => (
+          <div class="ds-card ds-font-card">
+            <div class="ds-font-header">
+              <span class="ds-font-label">{font.label}</span>
+              <code class="ds-font-var">{font.variable}</code>
+              <span class="ds-font-family">{font.family}</span>
+            </div>
+            <div class="ds-font-samples" style={`font-family: var(${font.variable});`}>
+              <p class="ds-font-xl">{font.sample}</p>
+              <p class="ds-font-lg">{font.sample}</p>
+              <p class="ds-font-md">{font.sample}</p>
+              <p class="ds-font-sm">{font.sample}</p>
+            </div>
+          </div>
+        ))}
+      </section>
+    </div>
+
+    <!-- Copy toast -->
+    <div id="copy-toast" class="ds-toast">Copied!</div>
+  </div>
+
+  <script>
+    // ---------------------------------------------------------------
+    // Theme definitions
+    // ---------------------------------------------------------------
+    const themes: Record<string, Record<string, string>> = {
+      default: {
+        "--color-brand": "#22c55e",
+        "--color-brand-dark": "#16a34a",
+        "--color-brand-light": "#dcfce7",
+        "--color-brand-soft": "rgba(34, 197, 94, 0.08)",
+        "--color-surface": "#FAFAF8",
+        "--color-surface-card": "#ffffff",
+        "--color-surface-elevated": "#F5F5F3",
+        "--color-text-primary": "#1C1917",
+        "--color-text-secondary": "#57534E",
+        "--color-text-muted": "#a8a29e",
+        "--color-border": "#E7E5E4",
+        "--color-border-strong": "#D6D3D1",
+        "--color-terracotta": "#C2704E",
+        "--color-terracotta-soft": "rgba(194, 112, 78, 0.08)",
+        "--color-amber": "#f59e0b",
+        "--color-amber-soft": "rgba(245, 158, 11, 0.1)",
+        "--color-blue": "#3b82f6",
+        "--color-blue-soft": "rgba(59, 130, 246, 0.1)",
+        "--color-hero-gradient-start": "#F8FAF5",
+        "--color-hero-gradient-end": "#FAFAF8",
+      },
+      ocean: {
+        "--color-brand": "#3b82f6",
+        "--color-brand-dark": "#2563eb",
+        "--color-brand-light": "#dbeafe",
+        "--color-brand-soft": "rgba(59, 130, 246, 0.08)",
+        "--color-surface": "#F8FAFC",
+        "--color-surface-card": "#ffffff",
+        "--color-surface-elevated": "#F1F5F9",
+        "--color-text-primary": "#0F172A",
+        "--color-text-secondary": "#475569",
+        "--color-text-muted": "#94a3b8",
+        "--color-border": "#E2E8F0",
+        "--color-border-strong": "#CBD5E1",
+        "--color-terracotta": "#0EA5E9",
+        "--color-terracotta-soft": "rgba(14, 165, 233, 0.08)",
+        "--color-amber": "#06B6D4",
+        "--color-amber-soft": "rgba(6, 182, 212, 0.1)",
+        "--color-blue": "#6366F1",
+        "--color-blue-soft": "rgba(99, 102, 241, 0.1)",
+        "--color-hero-gradient-start": "#F0F9FF",
+        "--color-hero-gradient-end": "#F8FAFC",
+      },
+      sunset: {
+        "--color-brand": "#f97316",
+        "--color-brand-dark": "#ea580c",
+        "--color-brand-light": "#ffedd5",
+        "--color-brand-soft": "rgba(249, 115, 22, 0.08)",
+        "--color-surface": "#FFFBF5",
+        "--color-surface-card": "#ffffff",
+        "--color-surface-elevated": "#FFF7ED",
+        "--color-text-primary": "#1C1917",
+        "--color-text-secondary": "#57534E",
+        "--color-text-muted": "#a8a29e",
+        "--color-border": "#F5E6D3",
+        "--color-border-strong": "#E7D5C0",
+        "--color-terracotta": "#DC2626",
+        "--color-terracotta-soft": "rgba(220, 38, 38, 0.08)",
+        "--color-amber": "#EAB308",
+        "--color-amber-soft": "rgba(234, 179, 8, 0.1)",
+        "--color-blue": "#F43F5E",
+        "--color-blue-soft": "rgba(244, 63, 94, 0.1)",
+        "--color-hero-gradient-start": "#FFF7ED",
+        "--color-hero-gradient-end": "#FFFBF5",
+      },
+      lavender: {
+        "--color-brand": "#8b5cf6",
+        "--color-brand-dark": "#7c3aed",
+        "--color-brand-light": "#ede9fe",
+        "--color-brand-soft": "rgba(139, 92, 246, 0.08)",
+        "--color-surface": "#FAFAFF",
+        "--color-surface-card": "#ffffff",
+        "--color-surface-elevated": "#F5F3FF",
+        "--color-text-primary": "#1E1B4B",
+        "--color-text-secondary": "#4C4578",
+        "--color-text-muted": "#A5A0C8",
+        "--color-border": "#E4E0F0",
+        "--color-border-strong": "#D4CEE8",
+        "--color-terracotta": "#EC4899",
+        "--color-terracotta-soft": "rgba(236, 72, 153, 0.08)",
+        "--color-amber": "#D946EF",
+        "--color-amber-soft": "rgba(217, 70, 239, 0.1)",
+        "--color-blue": "#6366F1",
+        "--color-blue-soft": "rgba(99, 102, 241, 0.1)",
+        "--color-hero-gradient-start": "#F5F3FF",
+        "--color-hero-gradient-end": "#FAFAFF",
+      },
+    };
+
+    // ---------------------------------------------------------------
+    // Canvas-based color resolver (handles oklch, rgb, hex, etc.)
+    // ---------------------------------------------------------------
+    const _canvas = document.createElement("canvas");
+    _canvas.width = _canvas.height = 1;
+    const _ctx = _canvas.getContext("2d", { willReadFrequently: true })!;
+
+    function resolveColorToRgb(cssColor: string): { r: number; g: number; b: number; a: number } | null {
+      if (!cssColor?.trim()) return null;
+      _ctx.clearRect(0, 0, 1, 1);
+      _ctx.fillStyle = "#000000";
+      _ctx.fillStyle = cssColor;
+      _ctx.fillRect(0, 0, 1, 1);
+      const [r, g, b, a] = _ctx.getImageData(0, 0, 1, 1).data;
+      return { r, g, b, a };
+    }
+
+    function resolveVariable(variable: string) {
+      const raw = getComputedStyle(document.documentElement).getPropertyValue(variable).trim();
+      return resolveColorToRgb(raw);
+    }
+
+    function rgbToHex(r: number, g: number, b: number) {
+      return "#" + [r, g, b].map(c => c.toString(16).padStart(2, "0")).join("");
+    }
+
+    function luminance(r: number, g: number, b: number) {
+      const [rs, gs, bs] = [r, g, b].map(c => {
+        const s = c / 255;
+        return s <= 0.03928 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4;
+      });
+      return 0.2126 * rs + 0.7152 * gs + 0.0722 * bs;
+    }
+
+    function contrast(c1: { r: number; g: number; b: number }, c2: { r: number; g: number; b: number }) {
+      const l1 = luminance(c1.r, c1.g, c1.b);
+      const l2 = luminance(c2.r, c2.g, c2.b);
+      return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+    }
+
+    // ---------------------------------------------------------------
+    // Update display
+    // ---------------------------------------------------------------
+    function updateAll() {
+      // Swatch circles
+      document.querySelectorAll<HTMLElement>(".ds-swatch-circle").forEach(el => {
+        const v = el.dataset.variable;
+        if (v) el.style.backgroundColor = `var(${v})`;
+      });
+
+      // Resolved values
+      document.querySelectorAll<HTMLElement>(".ds-swatch-value").forEach(el => {
+        const v = el.dataset.variable;
+        if (!v) return;
+        const rgb = resolveVariable(v);
+        if (!rgb) { el.textContent = ""; return; }
+        el.textContent = rgb.a < 250
+          ? `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, ${(rgb.a / 255).toFixed(2)})`
+          : rgbToHex(rgb.r, rgb.g, rgb.b);
+      });
+
+      // Contrast ratios
+      const surface = resolveVariable("--color-surface");
+      document.querySelectorAll<HTMLElement>(".ds-contrast").forEach(el => {
+        const v = el.dataset.variable;
+        if (!v || !surface) return;
+        const text = resolveVariable(v);
+        if (!text) return;
+        const ratio = contrast(text, surface);
+        const label = ratio >= 7 ? "AAA" : ratio >= 4.5 ? "AA" : "Fail";
+        const cls = ratio >= 7 ? "ds-badge-pass" : ratio >= 4.5 ? "ds-badge-warn" : "ds-badge-fail";
+        el.innerHTML = `<span class="ds-badge ${cls}">${label} ${ratio.toFixed(1)}:1</span>`;
+      });
+    }
+
+    // ---------------------------------------------------------------
+    // Theme switching
+    // ---------------------------------------------------------------
+    function applyTheme(name: string) {
+      const theme = themes[name];
+      if (!theme) return;
+      const root = document.documentElement;
+      for (const [prop, value] of Object.entries(theme)) {
+        root.style.setProperty(prop, value);
+      }
+      document.querySelectorAll<HTMLButtonElement>(".ds-theme-btn").forEach(btn => {
+        const active = btn.dataset.theme === name;
+        btn.classList.toggle("active", active);
+        btn.setAttribute("aria-pressed", String(active));
+      });
+      requestAnimationFrame(updateAll);
+    }
+
+    document.querySelectorAll<HTMLButtonElement>(".ds-theme-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (btn.dataset.theme) applyTheme(btn.dataset.theme);
+      });
+    });
+
+    // ---------------------------------------------------------------
+    // Copy to clipboard
+    // ---------------------------------------------------------------
+    const toast = document.getElementById("copy-toast")!;
+    let toastTimer: ReturnType<typeof setTimeout>;
+
+    document.querySelectorAll<HTMLButtonElement>(".ds-swatch").forEach(swatch => {
+      swatch.addEventListener("click", async () => {
+        const variable = swatch.dataset.variable;
+        if (!variable) return;
+        try {
+          await navigator.clipboard.writeText(`var(${variable})`);
+          toast.textContent = `Copied: var(${variable})`;
+          toast.classList.add("show");
+          clearTimeout(toastTimer);
+          toastTimer = setTimeout(() => toast.classList.remove("show"), 2000);
+        } catch {}
+      });
+    });
+
+    // Init
+    updateAll();
+  </script>
+
+  <style>
+    /* ============================================================
+       Design System Documentation Page — scoped styles
+       ============================================================ */
+    .ds-page {
+      min-height: 100vh;
+      background: var(--color-surface-elevated, #f5f5f3);
+    }
+
+    .ds-container {
+      max-width: 72rem;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Header */
+    .ds-header {
+      background: var(--color-surface-card, #fff);
+      border-bottom: 1px solid var(--color-border, #e7e5e4);
+      padding: 1.5rem 0 2rem;
+    }
+    .ds-back {
+      font-size: 0.8rem;
+      color: var(--color-text-muted, #a8a29e);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .ds-back:hover { color: var(--color-brand, #22c55e); }
+
+    .ds-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 0.75rem;
+    }
+    .ds-title {
+      font-family: var(--font-display, serif);
+      font-size: 2rem;
+      color: var(--color-text-primary, #1c1917);
+      line-height: 1.2;
+      margin: 0;
+    }
+    .ds-subtitle {
+      font-family: var(--font-body, sans-serif);
+      font-size: 0.95rem;
+      color: var(--color-text-secondary, #57534e);
+      margin: 0.25rem 0 0;
+    }
+
+    /* Theme selector */
+    .ds-theme-selector {
+      display: flex;
+      gap: 0.5rem;
+      background: var(--color-surface-elevated, #f5f5f3);
+      border: 1px solid var(--color-border, #e7e5e4);
+      border-radius: 0.75rem;
+      padding: 0.35rem;
+    }
+    .ds-theme-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.4rem 0.85rem;
+      border: none;
+      border-radius: 0.5rem;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: var(--font-body, sans-serif);
+      font-size: 0.8rem;
+      color: var(--color-text-muted, #a8a29e);
+    }
+    .ds-theme-btn:hover {
+      background: var(--color-surface-card, #fff);
+      color: var(--color-text-primary, #1c1917);
+    }
+    .ds-theme-btn.active {
+      background: var(--color-surface-card, #fff);
+      color: var(--color-text-primary, #1c1917);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    }
+    .ds-theme-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .ds-theme-label {
+      white-space: nowrap;
+    }
+
+    /* Content */
+    .ds-content {
+      padding-top: 2.5rem;
+      padding-bottom: 4rem;
+    }
+
+    /* Section */
+    .ds-section {
+      margin-bottom: 3rem;
+    }
+    .ds-section-header {
+      margin-bottom: 1rem;
+    }
+    .ds-section-title {
+      font-family: var(--font-display, serif);
+      font-size: 1.35rem;
+      color: var(--color-text-primary, #1c1917);
+      margin: 0;
+    }
+    .ds-section-desc {
+      font-size: 0.85rem;
+      color: var(--color-text-muted, #a8a29e);
+      margin: 0.2rem 0 0;
+    }
+
+    /* Card */
+    .ds-card {
+      background: var(--color-surface-card, #fff);
+      border: 1px solid var(--color-border, #e7e5e4);
+      border-radius: 1rem;
+      padding: 1.75rem;
+      transition: border-color 0.2s;
+    }
+
+    /* Swatch grid */
+    .ds-swatch-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.75rem;
+    }
+
+    /* Individual swatch */
+    .ds-swatch {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.4rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+      border-radius: 0.75rem;
+      transition: background 0.2s, transform 0.15s;
+      min-width: 90px;
+      font-family: var(--font-body, sans-serif);
+    }
+    .ds-swatch:hover {
+      background: var(--color-surface-elevated, #f5f5f3);
+      transform: translateY(-2px);
+    }
+    .ds-swatch:active {
+      transform: translateY(0);
+    }
+
+    /* Color circle */
+    .ds-swatch-circle {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08), inset 0 0 0 1px rgba(0,0,0,0.06);
+      position: relative;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .ds-swatch:hover .ds-swatch-circle {
+      transform: scale(1.1);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12), inset 0 0 0 1px rgba(0,0,0,0.06);
+    }
+    .ds-swatch-check {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      color: white;
+      opacity: 0;
+      transition: opacity 0.15s;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    }
+    .ds-swatch:hover .ds-swatch-check {
+      opacity: 0.7;
+    }
+
+    /* Swatch text */
+    .ds-swatch-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--color-text-primary, #1c1917);
+      margin-top: 0.25rem;
+    }
+    .ds-swatch-var {
+      font-family: var(--font-mono, monospace);
+      font-size: 0.65rem;
+      color: var(--color-text-muted, #a8a29e);
+    }
+    .ds-swatch-value {
+      font-family: var(--font-mono, monospace);
+      font-size: 0.65rem;
+      color: var(--color-text-secondary, #57534e);
+      font-weight: 500;
+    }
+    .ds-swatch-tw {
+      font-size: 0.6rem;
+      background: var(--color-surface-elevated, #f5f5f3);
+      color: var(--color-text-muted, #a8a29e);
+      padding: 0.15rem 0.5rem;
+      border-radius: 0.25rem;
+      font-family: var(--font-mono, monospace);
+    }
+
+    /* Contrast badges */
+    .ds-contrast {
+      margin-top: 0.1rem;
+    }
+    .ds-badge {
+      display: inline-block;
+      font-size: 0.6rem;
+      font-weight: 700;
+      padding: 0.15rem 0.45rem;
+      border-radius: 0.25rem;
+      letter-spacing: 0.02em;
+    }
+    .ds-badge-pass { background: #dcfce7; color: #166534; }
+    .ds-badge-warn { background: #fef9c3; color: #854d0e; }
+    .ds-badge-fail { background: #fee2e2; color: #991b1b; }
+
+    /* Gradient preview */
+    .ds-gradient-preview {
+      margin-top: 1rem;
+      height: 5rem;
+      border-radius: 1rem;
+      border: 1px solid var(--color-border, #e7e5e4);
+      background: linear-gradient(135deg, var(--color-hero-gradient-start), var(--color-hero-gradient-end));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .ds-gradient-label {
+      font-family: var(--font-mono, monospace);
+      font-size: 0.75rem;
+      color: var(--color-text-muted, #a8a29e);
+      background: rgba(255,255,255,0.7);
+      padding: 0.3rem 0.8rem;
+      border-radius: 0.5rem;
+      backdrop-filter: blur(4px);
+    }
+
+    /* Font showcase */
+    .ds-font-card {
+      margin-bottom: 1rem;
+    }
+    .ds-font-header {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--color-border, #e7e5e4);
+    }
+    .ds-font-label {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--color-text-primary, #1c1917);
+    }
+    .ds-font-var {
+      font-size: 0.7rem;
+      color: var(--color-text-muted, #a8a29e);
+      background: var(--color-surface-elevated, #f5f5f3);
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.25rem;
+    }
+    .ds-font-family {
+      font-size: 0.8rem;
+      color: var(--color-text-secondary, #57534e);
+    }
+    .ds-font-samples {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .ds-font-xl {
+      font-size: 2.25rem;
+      color: var(--color-text-primary, #1c1917);
+      margin: 0;
+      line-height: 1.3;
+    }
+    .ds-font-lg {
+      font-size: 1.5rem;
+      color: var(--color-text-primary, #1c1917);
+      margin: 0;
+      line-height: 1.4;
+    }
+    .ds-font-md {
+      font-size: 1rem;
+      color: var(--color-text-secondary, #57534e);
+      margin: 0;
+    }
+    .ds-font-sm {
+      font-size: 0.85rem;
+      color: var(--color-text-muted, #a8a29e);
+      margin: 0;
+    }
+
+    /* Toast */
+    .ds-toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(1rem);
+      background: var(--color-text-primary, #1c1917);
+      color: var(--color-surface-card, #fff);
+      font-family: var(--font-body, sans-serif);
+      font-size: 0.85rem;
+      padding: 0.6rem 1.25rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s, transform 0.3s;
+    }
+    .ds-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .ds-header-row { flex-direction: column; align-items: flex-start; }
+      .ds-theme-selector { flex-wrap: wrap; }
+      .ds-title { font-size: 1.6rem; }
+      .ds-swatch-grid { gap: 1rem; }
+      .ds-swatch-circle { width: 44px; height: 44px; }
+      .ds-swatch { min-width: 72px; }
+    }
+  </style>
+</Layout>
