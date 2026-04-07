@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Gobbly — Gestió de Restaurants, Simplificada",
+    "description": "Plataforma tot-en-un per a la gestió de restaurants. TPV, pantalla de cuina, menús digitals, comandes per QR i pagaments intel·ligents — en una sola app.",
+    "schemaDescription": "Plataforma tot-en-un per a la gestió de restaurants. TPV, pantalla de cuina, menús digitals, comandes per QR i pagaments intel·ligents."
+  },
+  "nav": {
+    "features": "Funcionalitats",
+    "howItWorks": "Com funciona",
+    "pricing": "Preus",
+    "signIn": "Iniciar sessió",
+    "getStartedFree": "Comença gratis",
+    "toggleMenu": "Obrir menú"
+  },
+  "hero": {
+    "badge": "Ara en beta oberta",
+    "titleLine1": "El teu restaurant,",
+    "titleHighlight": "tot en un sol lloc",
+    "subtitle": "Oblida't de les comandes en paper i les eines disperses. Gobbly unifica el teu TPV, cuina, carta i pagaments en una sola plataforma en temps real.",
+    "ctaPrimary": "Comença gratis",
+    "ctaSecondary": "Mira com funciona",
+    "mockupKitchenLabel": "Cuina",
+    "mockupRisotto": "Risotto",
+    "mockupCaesarSalad": "Amanida César",
+    "mockupGrilledSalmon": "Salmó a la planxa",
+    "mockupCooking": "Cuinant",
+    "mockupReady": "Llest",
+    "mockupPending": "Pendent",
+    "mockupTableQr": "Taula 4 — QR",
+    "mockupScanToOrder": "Escaneja per demanar",
+    "mockupSplitPaid": "Compte dividit!"
+  },
+  "trustedBy": {
+    "label": "Més de 500 restaurants confien en nosaltres"
+  },
+  "problemSolution": {
+    "label": "Per què Gobbly",
+    "title": "El caos s'acaba aquí",
+    "cards": [
+      {
+        "title": "Adéu a les comandes en paper",
+        "description": "Les comandes van directament de la taula a la pantalla de cuina. Sense lletra il·legible, sense comandes perdudes, sense malentesos."
+      },
+      {
+        "title": "Cuina sincronitzada en temps real",
+        "description": "L'equip de cuina veu les comandes en el moment en què es fan. Les actualitzacions d'estat flueixen a l'instant — pendent, cuinant, llest, servit."
+      },
+      {
+        "title": "Els clients paguen com vulguin",
+        "description": "Els comensals escanegen el QR, trien el que han demanat i divideixen el compte com vulguin. Efectiu, targeta o mixt — llest en segons."
+      }
+    ]
+  },
+  "features": {
+    "label": "Funcionalitats",
+    "title": "Tot el que el teu restaurant necessita",
+    "description": "Des de la sala fins a la cuina, Gobbly cobreix cada punt de contacte en l'operació del teu restaurant.",
+    "items": [
+      {
+        "title": "Punt de Venda",
+        "description": "TPV intuïtiu amb gestió de taules, navegació per categories i creació instantània de comandes. Mode simple per a servei ràpid, mode avançat per a restaurants d'autor.",
+        "tags": ["Mapa de taules", "Cerca ràpida", "Plats personalitzats"]
+      },
+      {
+        "title": "Pantalla de Cuina",
+        "description": "Pantalla optimitzada per a tauleta a la cuina. Les comandes apareixen en temps real amb badges d'estat clicables. Disseny tàctil pensat per a cuines amb molt moviment.",
+        "tags": ["Actualitzacions en viu", "Tàctil", "Flux d'estats"]
+      },
+      {
+        "title": "Carta Digital i QR",
+        "description": "Els clients escanegen un codi QR a la seva taula per veure la carta completa, consultar al·lèrgens i fer comandes directament. Els menús del dia s'actualitzen automàticament.",
+        "tags": ["Al·lèrgens", "Menú del dia", "Multi-idioma"]
+      },
+      {
+        "title": "Pagaments Intel·ligents",
+        "description": "Divisió de compte flexible — per plat, parts iguals o quantitats personalitzades. Suporta efectiu, targeta i pagaments mixtos amb facturació compatible amb VeriFactu.",
+        "tags": ["Dividir compte", "Pagament mixt", "VeriFactu"]
+      }
+    ]
+  },
+  "howItWorks": {
+    "label": "Com funciona",
+    "title": "Llest en minuts",
+    "steps": [
+      {
+        "title": "Configura la teva carta",
+        "description": "Afegeix els teus plats, categories, al·lèrgens i menús del dia. Importa des d'un full de càlcul o crea des de zero."
+      },
+      {
+        "title": "Genera els QR de les taules",
+        "description": "Imprimeix codis QR únics per a cada taula. Els clients escanegen per veure la carta i fer comandes des del seu mòbil."
+      },
+      {
+        "title": "Gestiona comandes en temps real",
+        "description": "Observa les comandes fluir de la taula a la cuina al plat. Controla cada plat, gestiona pagaments i tanca taules amb un toc."
+      }
+    ],
+    "mockupReady": "Llest",
+    "mockupCooking": "Cuinant",
+    "mockupPending": "Pendent"
+  },
+  "testimonials": {
+    "label": "Testimonis",
+    "title": "Els restauradors ens estimen",
+    "items": [
+      {
+        "quote": "\u201cVam reduir els errors en comandes un 80% la primera setmana. Només la pantalla de cuina ens va salvar de la falta de comunicació constant a les hores punta.\u201d",
+        "name": "Marta Pérez",
+        "role": "Propietària, La Bodeguita"
+      },
+      {
+        "quote": "\u201cAls nostres clients els encanta demanar per QR. Escanegen, veuen la carta amb info d'al·lèrgens i paguen — tot sense esperar el cambrer. Les propines van pujar un 15%.\u201d",
+        "name": "Joan Lluís",
+        "role": "Gerent, Can Roca Petit"
+      },
+      {
+        "quote": "\u201cLa configuració va tardar 20 minuts. La facturació VeriFactu va ser la funcionalitat clau per a nosaltres — s'ha acabat fer malabarismes amb un sistema de facturació apart.\u201d",
+        "name": "Ana García",
+        "role": "Cofundadora, Grupo Umami"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Preus",
+    "title": "Preus simples i transparents",
+    "description": "Comença gratis i escala a mesura que creixes. Sense costos ocults, sense contractes.",
+    "mostPopular": "Més popular",
+    "perMonth": "/mes",
+    "plans": [
+      {
+        "name": "Starter",
+        "subtitle": "Per a restaurants petits que comencen",
+        "price": "Gratis",
+        "priceSuffix": "",
+        "features": [
+          "Fins a 10 taules",
+          "TPV i pantalla de cuina",
+          "Carta QR i comandes",
+          "Analítiques bàsiques"
+        ],
+        "cta": "Comença ara"
+      },
+      {
+        "name": "Pro",
+        "subtitle": "Per a restaurants en creixement",
+        "price": "49 €",
+        "priceSuffix": "/mes",
+        "features": [
+          "Taules il·limitades",
+          "Tot el de Starter",
+          "Mode TPV avançat",
+          "Divisió de compte i pagaments mixtos",
+          "Facturació VeriFactu",
+          "Suport prioritari"
+        ],
+        "cta": "Prova gratis"
+      },
+      {
+        "name": "Enterprise",
+        "subtitle": "Per a grups de restaurants i cadenes",
+        "price": "Personalitzat",
+        "priceSuffix": "",
+        "features": [
+          "Tot el de Pro",
+          "Gestió multi-local",
+          "Integracions personalitzades",
+          "Account manager dedicat",
+          "SLA i onboarding"
+        ],
+        "cta": "Contactar vendes"
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "Preparat per transformar",
+    "titleLine2": "el teu restaurant?",
+    "subtitle": "Uneix-te a centenars de restaurants que ja utilitzen Gobbly per optimitzar les seves operacions i delectar els seus clients.",
+    "button": "Comença gratis",
+    "note": "Sense targeta de crèdit"
+  },
+  "footer": {
+    "tagline": "Gestió de restaurants tot-en-un. De la cuina a la taula, simplificat.",
+    "product": "Producte",
+    "productFeatures": "Funcionalitats",
+    "productPricing": "Preus",
+    "productChangelog": "Novetats",
+    "productIntegrations": "Integracions",
+    "company": "Empresa",
+    "companyAbout": "Sobre nosaltres",
+    "companyBlog": "Blog",
+    "companyCareers": "Feina",
+    "companyContact": "Contacte",
+    "legal": "Legal",
+    "legalPrivacy": "Privacitat",
+    "legalTerms": "Termes",
+    "legalCookies": "Cookies",
+    "copyright": "© 2025 Gobbly. Tots els drets reservats."
+  },
+  "languageSwitcher": {
+    "label": "Canviar idioma",
+    "en": "English",
+    "es": "Español",
+    "ca": "Català"
+  },
+  "about": {
+    "title": "Sobre Gobbly",
+    "subtitle": "La nostra missió és simplificar la gestió de restaurants per a tothom — des de bistrots de barri fins a grups amb múltiples locals.",
+    "missionLabel": "La Nostra Missió",
+    "missionTitle": "Tecnologia al servei de l'hostaleria",
+    "missionText": "Creiem que els propietaris de restaurants haurien de dedicar el seu temps al que estimen — crear experiències gastronòmiques inoblidables — i no barallar-se amb eines desconnectades i processos en paper. Gobbly va néixer d'aquesta convicció: una plataforma única i intuïtiva que connecta cada part del teu restaurant en temps real.",
+    "foundersLabel": "L'Equip",
+    "foundersTitle": "Les persones darrere de Gobbly",
+    "founders": [
+      {
+        "name": "Marc Solé",
+        "role": "CEO i Cofundador",
+        "bio": "Exgerent de restaurant reconvertit en emprenedor tecnològic. Després d'anys lluitant amb eines fragmentades i comandes en paper, Marc va decidir construir la plataforma tot-en-un que li hauria encantat tenir. Lidera la visió de producte i l'estratègia."
+      },
+      {
+        "name": "Elena Vidal",
+        "role": "CTO i Cofundadora",
+        "bio": "Enginyera full-stack amb una dècada d'experiència construint sistemes en temps real. L'Elena dissenya la infraestructura de Gobbly — des de la sincronització de la pantalla de cuina fins al pipeline de pagaments — assegurant que tot funcioni a la perfecció."
+      },
+      {
+        "name": "Pau Ribera",
+        "role": "COO i Cofundador",
+        "bio": "Especialista en operacions amb experiència en consultoria hostalera. En Pau treballa directament amb els restaurants associats per donar forma al roadmap del producte i assegurar que Gobbly resol problemes reals a cuines reals."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacta'ns",
+    "subtitle": "Tens alguna pregunta, vols una demo o simplement saludar? Ens encantaria saber de tu.",
+    "infoTitle": "Altres formes de contactar-nos",
+    "infoEmail": "gobbly.app@gmail.com",
+    "infoEmailLabel": "Escriu-nos directament",
+    "infoResponseTime": "Normalment responem en menys de 24 hores.",
+    "formName": "El teu nom",
+    "formEmail": "Correu electrònic",
+    "formSubject": "Assumpte",
+    "formMessage": "Missatge",
+    "formSend": "Enviar missatge",
+    "formNamePlaceholder": "Joan Garcia",
+    "formEmailPlaceholder": "joan@restaurant.com",
+    "formSubjectPlaceholder": "M'agradaria una demo",
+    "formMessagePlaceholder": "Explica'ns sobre el teu restaurant i com podem ajudar-te...",
+    "successTitle": "Missatge enviat!",
+    "successMessage": "Gràcies per contactar-nos. Et respondrem en menys de 24 hores.",
+    "errorMessage": "Alguna cosa ha fallat. Si us plau, torna-ho a intentar o escriu-nos directament."
+  },
+  "privacy": {
+    "title": "Política de Privacitat",
+    "lastUpdated": "Última actualització: 1 de gener de 2025",
+    "sections": [
+      {
+        "heading": "1. Informació que recopilem",
+        "content": "Recopilem la informació que ens proporcioneu directament en crear un compte, utilitzar els nostres serveis o contactar-nos. Això inclou el vostre nom, adreça de correu electrònic, nom del restaurant i informació de pagament. També recopilem automàticament dades d'ús com informació del dispositiu, adreça IP i com interactueu amb la plataforma."
+      },
+      {
+        "heading": "2. Com utilitzem la vostra informació",
+        "content": "Utilitzem la informació recopilada per proporcionar, mantenir i millorar els nostres serveis; processar transaccions i enviar informació relacionada; enviar-vos avisos tècnics, actualitzacions i missatges de suport; respondre als vostres comentaris i preguntes; i monitorar i analitzar tendències i ús."
+      },
+      {
+        "heading": "3. Compartició de dades",
+        "content": "No venem la vostra informació personal. Podem compartir la vostra informació amb proveïdors de serveis tercers que realitzen serveis en el nostre nom, com processament de pagaments (Stripe), enviament de correus i allotjament al núvol. Aquests proveïdors estan obligats contractualment a mantenir la confidencialitat de la vostra informació."
+      },
+      {
+        "heading": "4. Cookies i seguiment",
+        "content": "Utilitzem cookies essencials per mantenir la vostra sessió iniciada i recordar les vostres preferències. També fem servir cookies d'analítica per entendre com s'utilitza la nostra plataforma. Podeu controlar les preferències de cookies a través de la configuració del vostre navegador. La nostra plataforma no respon a senyals Do Not Track."
+      },
+      {
+        "heading": "5. Seguretat de dades",
+        "content": "Implementem mesures de seguretat estàndard de la indústria per protegir les vostres dades, incloent xifrat en trànsit (TLS) i en repòs. Les dades de pagament són processades per proveïdors compatibles amb PCI DSS i mai s'emmagatzemen als nostres servidors. Realitzem auditories de seguretat periòdiques i mantenim controls d'accés estrictes."
+      },
+      {
+        "heading": "6. Els vostres drets (RGPD)",
+        "content": "Si us trobeu a l'Espai Econòmic Europeu, teniu dret a accedir, corregir o eliminar les vostres dades personals; oposar-vos o restringir el processament; portabilitat de dades; i retirar el consentiment en qualsevol moment. Per exercir aquests drets, contacteu-nos a gobbly.app@gmail.com. Respondrem en un termini de 30 dies."
+      },
+      {
+        "heading": "7. Retenció de dades",
+        "content": "Conservem les vostres dades personals mentre el vostre compte estigui actiu o segons sigui necessari per proporcionar-vos serveis. Si elimineu el vostre compte, eliminarem o anonimitzarem les vostres dades en un termini de 90 dies, excepte quan estiguem obligats a conservar-les per motius legals o regulatoris."
+      },
+      {
+        "heading": "8. Contacte",
+        "content": "Si teniu alguna pregunta sobre aquesta Política de Privacitat, contacteu-nos a gobbly.app@gmail.com o escriviu-nos a Gobbly SL, Barcelona, Espanya."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Termes de Servei",
+    "lastUpdated": "Última actualització: 1 de gener de 2025",
+    "sections": [
+      {
+        "heading": "1. Acceptació dels termes",
+        "content": "En accedir o utilitzar la plataforma Gobbly, accepteu quedar vinculats per aquests Termes de Servei. Si no hi esteu d'acord, no podeu utilitzar la plataforma. Aquests termes s'apliquen a tots els usuaris, incloent propietaris de restaurants, personal i clients finals que utilitzen la comanda per QR."
+      },
+      {
+        "heading": "2. Descripció del servei",
+        "content": "Gobbly proporciona una plataforma de gestió de restaurants al núvol que inclou punt de venda (TPV), sistema de pantalla de cuina, menús digitals amb comanda per QR i processament de pagaments. Ens reservem el dret de modificar, suspendre o discontinuar qualsevol part del servei amb un avís raonable."
+      },
+      {
+        "heading": "3. Comptes d'usuari",
+        "content": "Sou responsables de mantenir la confidencialitat de les credencials del vostre compte i de totes les activitats que es produeixin sota el vostre compte. Heu de proporcionar informació precisa i completa en crear un compte i mantenir-la actualitzada. Heu de notificar-nos immediatament de qualsevol ús no autoritzat."
+      },
+      {
+        "heading": "4. Pagaments i facturació",
+        "content": "Els plans de pagament es facturen mensualment o anualment per avançat. Els preus són en euros i no inclouen impostos aplicables. Ens reservem el dret de canviar els preus amb 30 dies d'avís. Els reemborsaments es gestionen cas per cas. L'ús del pla gratuït està subjecte als límits descrits a la nostra pàgina de preus."
+      },
+      {
+        "heading": "5. Ús acceptable",
+        "content": "Accepteu no utilitzar la plataforma per a cap propòsit il·legal, interferir o interrompre el servei, intentar accessos no autoritzats, o transmetre codi maliciós. Ens reservem el dret de suspendre comptes que violin aquests termes."
+      },
+      {
+        "heading": "6. Propietat intel·lectual",
+        "content": "La plataforma Gobbly, incloent el seu programari, disseny, logotips i contingut, és propietat de Gobbly SL i està protegida per les lleis de propietat intel·lectual. Vosaltres conserveu la propietat de les dades del vostre restaurant. En utilitzar la plataforma, ens concediu una llicència limitada per processar les vostres dades únicament per proporcionar el servei."
+      },
+      {
+        "heading": "7. Limitació de responsabilitat",
+        "content": "En la màxima mesura permesa per la llei, Gobbly no serà responsable de cap dany indirecte, incidental, especial o conseqüent derivat de l'ús de la plataforma. La nostra responsabilitat total no excedirà la quantitat que ens hàgiu pagat en els 12 mesos anteriors a la reclamació."
+      },
+      {
+        "heading": "8. Terminació",
+        "content": "Qualsevol de les parts pot terminar aquest acord en qualsevol moment. Podeu cancel·lar el vostre compte des de la pàgina de configuració. Després de la terminació, el vostre dret a utilitzar la plataforma cessa immediatament. Conservarem les vostres dades durant 90 dies després de la terminació, després dels quals seran eliminades permanentment."
+      },
+      {
+        "heading": "9. Llei aplicable",
+        "content": "Aquests termes es regiran i interpretaran d'acord amb les lleis d'Espanya. Qualsevol disputa derivada d'aquests termes estarà subjecta a la jurisdicció exclusiva dels tribunals de Barcelona, Espanya."
+      },
+      {
+        "heading": "10. Contacte",
+        "content": "Per a preguntes sobre aquests Termes de Servei, contacteu-nos a gobbly.app@gmail.com o escriviu-nos a Gobbly SL, Barcelona, Espanya."
+      }
+    ]
+  }
+}

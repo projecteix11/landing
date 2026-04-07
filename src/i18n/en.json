@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Gobbly — Restaurant Management, Simplified",
+    "description": "All-in-one restaurant management platform. POS, kitchen display, digital menus, QR ordering, and smart payments — in a single app.",
+    "schemaDescription": "All-in-one restaurant management platform. POS, kitchen display, digital menus, QR ordering, and smart payments."
+  },
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "signIn": "Sign in",
+    "getStartedFree": "Get started free",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "badge": "Now in open beta",
+    "titleLine1": "Your restaurant,",
+    "titleHighlight": "all in one place",
+    "subtitle": "Ditch the paper tickets and scattered tools. Gobbly brings your POS, kitchen, menu, and payments into a single, real-time platform.",
+    "ctaPrimary": "Start for free",
+    "ctaSecondary": "See how it works",
+    "mockupKitchenLabel": "Kitchen",
+    "mockupRisotto": "Risotto",
+    "mockupCaesarSalad": "Caesar Salad",
+    "mockupGrilledSalmon": "Grilled Salmon",
+    "mockupCooking": "Cooking",
+    "mockupReady": "Ready",
+    "mockupPending": "Pending",
+    "mockupTableQr": "Table 4 — QR",
+    "mockupScanToOrder": "Scan to order",
+    "mockupSplitPaid": "Split paid!"
+  },
+  "trustedBy": {
+    "label": "Trusted by 500+ restaurants"
+  },
+  "problemSolution": {
+    "label": "Why Gobbly",
+    "title": "The chaos ends here",
+    "cards": [
+      {
+        "title": "No more paper tickets",
+        "description": "Orders go straight from the table to the kitchen screen. No handwriting, no lost tickets, no miscommunication."
+      },
+      {
+        "title": "Real-time kitchen sync",
+        "description": "Kitchen staff see orders the moment they're placed. Status updates flow back instantly — pending, cooking, ready, delivered."
+      },
+      {
+        "title": "Customers pay their way",
+        "description": "Diners scan the QR, pick what they ate, and split the bill however they like. Cash, card, or mixed — done in seconds."
+      }
+    ]
+  },
+  "features": {
+    "label": "Features",
+    "title": "Everything your restaurant needs",
+    "description": "From the front of house to the kitchen, Gobbly covers every touchpoint in your restaurant operation.",
+    "items": [
+      {
+        "title": "Point of Sale",
+        "description": "Intuitive POS with table management, category browsing, and instant order creation. Simple mode for quick service, advanced mode for fine dining.",
+        "tags": ["Table grid", "Quick search", "Custom dishes"]
+      },
+      {
+        "title": "Kitchen Display",
+        "description": "Tablet-optimized screen for the kitchen. Orders appear in real-time with clickable status badges. Touch-friendly design built for busy kitchens.",
+        "tags": ["Live updates", "Touch-first", "Status flow"]
+      },
+      {
+        "title": "Digital Menu & QR",
+        "description": "Customers scan a QR code at their table to browse your full menu, see allergens, and place orders directly. Daily menus update automatically.",
+        "tags": ["Allergens", "Daily specials", "Multi-language"]
+      },
+      {
+        "title": "Smart Payments",
+        "description": "Flexible bill splitting — by item, equal shares, or custom amounts. Supports cash, card, and mixed payments with VeriFactu-compliant invoicing.",
+        "tags": ["Bill split", "Mixed payment", "VeriFactu"]
+      }
+    ]
+  },
+  "howItWorks": {
+    "label": "How it works",
+    "title": "Up and running in minutes",
+    "steps": [
+      {
+        "title": "Set up your menu",
+        "description": "Add your dishes, categories, allergens, and daily specials. Import from a spreadsheet or build from scratch."
+      },
+      {
+        "title": "Generate table QR codes",
+        "description": "Print unique QR codes for each table. Customers scan to view the menu and place orders from their phone."
+      },
+      {
+        "title": "Manage orders in real-time",
+        "description": "Watch orders flow from table to kitchen to plate. Track every dish, manage payments, and close tables with a tap."
+      }
+    ],
+    "mockupReady": "Ready",
+    "mockupCooking": "Cooking",
+    "mockupPending": "Pending"
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "Loved by restaurateurs",
+    "items": [
+      {
+        "quote": "\u201cWe cut order errors by 80% the first week. The kitchen display alone saved us from constant miscommunication during rush hours.\u201d",
+        "name": "Marta P\u00e9rez",
+        "role": "Owner, La Bodeguita"
+      },
+      {
+        "quote": "\u201cOur customers love the QR ordering. They scan, browse the menu with allergen info, and pay \u2014 all without waiting for a waiter. Tips went up 15%.\u201d",
+        "name": "Joan Llu\u00eds",
+        "role": "Manager, Can Roca Petit"
+      },
+      {
+        "quote": "\u201cSetting up took 20 minutes. The VeriFactu invoicing was the killer feature for us \u2014 no more juggling a separate billing system.\u201d",
+        "name": "Ana Garc\u00eda",
+        "role": "Co-founder, Grupo Umami"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Simple, transparent pricing",
+    "description": "Start free and scale as you grow. No hidden fees, no contracts.",
+    "mostPopular": "Most popular",
+    "perMonth": "/month",
+    "plans": [
+      {
+        "name": "Starter",
+        "subtitle": "For small restaurants getting started",
+        "price": "Free",
+        "priceSuffix": "",
+        "features": [
+          "Up to 10 tables",
+          "POS & kitchen display",
+          "QR menu & ordering",
+          "Basic analytics"
+        ],
+        "cta": "Get started"
+      },
+      {
+        "name": "Pro",
+        "subtitle": "For growing restaurants",
+        "price": "€49",
+        "priceSuffix": "/month",
+        "features": [
+          "Unlimited tables",
+          "Everything in Starter",
+          "Advanced POS mode",
+          "Bill splitting & mixed payments",
+          "VeriFactu invoicing",
+          "Priority support"
+        ],
+        "cta": "Start free trial"
+      },
+      {
+        "name": "Enterprise",
+        "subtitle": "For restaurant groups & chains",
+        "price": "Custom",
+        "priceSuffix": "",
+        "features": [
+          "Everything in Pro",
+          "Multi-location management",
+          "Custom integrations",
+          "Dedicated account manager",
+          "SLA & onboarding"
+        ],
+        "cta": "Contact sales"
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "Ready to transform",
+    "titleLine2": "your restaurant?",
+    "subtitle": "Join hundreds of restaurants already using Gobbly to streamline their operations and delight their guests.",
+    "button": "Get started for free",
+    "note": "No credit card required"
+  },
+  "footer": {
+    "tagline": "All-in-one restaurant management. From the kitchen to the table, simplified.",
+    "product": "Product",
+    "productFeatures": "Features",
+    "productPricing": "Pricing",
+    "productChangelog": "Changelog",
+    "productIntegrations": "Integrations",
+    "company": "Company",
+    "companyAbout": "About",
+    "companyBlog": "Blog",
+    "companyCareers": "Careers",
+    "companyContact": "Contact",
+    "legal": "Legal",
+    "legalPrivacy": "Privacy",
+    "legalTerms": "Terms",
+    "legalCookies": "Cookies",
+    "copyright": "© 2025 Gobbly. All rights reserved."
+  },
+  "languageSwitcher": {
+    "label": "Change language",
+    "en": "English",
+    "es": "Español",
+    "ca": "Català"
+  },
+  "about": {
+    "title": "About Gobbly",
+    "subtitle": "We're on a mission to simplify restaurant management for everyone — from neighborhood bistros to multi-location groups.",
+    "missionLabel": "Our Mission",
+    "missionTitle": "Technology that serves hospitality",
+    "missionText": "We believe restaurant owners should spend their time doing what they love — creating unforgettable dining experiences — not wrestling with disconnected tools and paper-based processes. Gobbly was born from that conviction: a single, intuitive platform that connects every part of your restaurant in real time.",
+    "foundersLabel": "Meet the Team",
+    "foundersTitle": "The people behind Gobbly",
+    "founders": [
+      {
+        "name": "Marc Solé",
+        "role": "CEO & Co-founder",
+        "bio": "Former restaurant manager turned tech entrepreneur. After years of dealing with fragmented tools and paper tickets, Marc set out to build the all-in-one platform he wished he'd had. He leads product vision and strategy."
+      },
+      {
+        "name": "Elena Vidal",
+        "role": "CTO & Co-founder",
+        "bio": "Full-stack engineer with a decade of experience building real-time systems. Elena architects Gobbly's infrastructure — from the kitchen display sync to the payment processing pipeline — ensuring everything just works."
+      },
+      {
+        "name": "Pau Ribera",
+        "role": "COO & Co-founder",
+        "bio": "Operations specialist with a background in hospitality consulting. Pau works directly with restaurant partners to shape the product roadmap and ensure Gobbly solves real problems for real kitchens."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Have a question, want a demo, or just want to say hi? We'd love to hear from you.",
+    "infoTitle": "Other ways to reach us",
+    "infoEmail": "gobbly.app@gmail.com",
+    "infoEmailLabel": "Email us directly",
+    "infoResponseTime": "We typically respond within 24 hours.",
+    "formName": "Your name",
+    "formEmail": "Email address",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSend": "Send message",
+    "formNamePlaceholder": "John Doe",
+    "formEmailPlaceholder": "john@restaurant.com",
+    "formSubjectPlaceholder": "I'd like a demo",
+    "formMessagePlaceholder": "Tell us about your restaurant and how we can help...",
+    "successTitle": "Message sent!",
+    "successMessage": "Thanks for reaching out. We'll get back to you within 24 hours.",
+    "errorMessage": "Something went wrong. Please try again or email us directly."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 1, 2025",
+    "sections": [
+      {
+        "heading": "1. Information We Collect",
+        "content": "We collect information you provide directly to us when you create an account, use our services, or contact us. This includes your name, email address, restaurant name, and payment information. We also automatically collect usage data such as device information, IP address, and how you interact with the platform."
+      },
+      {
+        "heading": "2. How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services; process transactions and send related information; send you technical notices, updates, and support messages; respond to your comments and questions; and monitor and analyze trends and usage."
+      },
+      {
+        "heading": "3. Data Sharing",
+        "content": "We do not sell your personal information. We may share your information with third-party service providers who perform services on our behalf, such as payment processing (Stripe), email delivery, and cloud hosting. These providers are bound by contractual obligations to keep your information confidential."
+      },
+      {
+        "heading": "4. Cookies & Tracking",
+        "content": "We use essential cookies to keep you logged in and remember your preferences. We also use analytics cookies to understand how our platform is used. You can control cookie preferences through your browser settings. Our platform does not respond to Do Not Track signals."
+      },
+      {
+        "heading": "5. Data Security",
+        "content": "We implement industry-standard security measures to protect your data, including encryption in transit (TLS) and at rest. Payment data is processed by PCI DSS-compliant providers and never stored on our servers. We conduct regular security audits and maintain strict access controls."
+      },
+      {
+        "heading": "6. Your Rights (GDPR)",
+        "content": "If you are in the European Economic Area, you have the right to access, correct, or delete your personal data; object to or restrict processing; data portability; and withdraw consent at any time. To exercise these rights, contact us at gobbly.app@gmail.com. We will respond within 30 days."
+      },
+      {
+        "heading": "7. Data Retention",
+        "content": "We retain your personal data for as long as your account is active or as needed to provide you services. If you delete your account, we will delete or anonymize your data within 90 days, except where we are required to retain it for legal or regulatory purposes."
+      },
+      {
+        "heading": "8. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at gobbly.app@gmail.com or write to us at Gobbly SL, Barcelona, Spain."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 1, 2025",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing or using the Gobbly platform, you agree to be bound by these Terms of Service. If you do not agree, you may not use the platform. These terms apply to all users, including restaurant owners, staff members, and end customers using QR ordering."
+      },
+      {
+        "heading": "2. Service Description",
+        "content": "Gobbly provides a cloud-based restaurant management platform including point of sale (POS), kitchen display system, digital menus with QR ordering, and payment processing. We reserve the right to modify, suspend, or discontinue any part of the service with reasonable notice."
+      },
+      {
+        "heading": "3. User Accounts",
+        "content": "You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You must provide accurate and complete information when creating an account and keep it up to date. You must notify us immediately of any unauthorized use."
+      },
+      {
+        "heading": "4. Payments & Billing",
+        "content": "Paid plans are billed monthly or annually in advance. Prices are in euros and exclude applicable taxes. We reserve the right to change pricing with 30 days' notice. Refunds are handled on a case-by-case basis. Free tier usage is subject to the limits described on our pricing page."
+      },
+      {
+        "heading": "5. Acceptable Use",
+        "content": "You agree not to use the platform for any unlawful purpose, to interfere with or disrupt the service, to attempt unauthorized access, or to transmit malicious code. We reserve the right to suspend accounts that violate these terms."
+      },
+      {
+        "heading": "6. Intellectual Property",
+        "content": "The Gobbly platform, including its software, design, logos, and content, is the property of Gobbly SL and is protected by intellectual property laws. You retain ownership of your restaurant data. By using the platform, you grant us a limited license to process your data solely to provide the service."
+      },
+      {
+        "heading": "7. Limitation of Liability",
+        "content": "To the fullest extent permitted by law, Gobbly shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the platform. Our total liability shall not exceed the amount you paid us in the 12 months preceding the claim."
+      },
+      {
+        "heading": "8. Termination",
+        "content": "Either party may terminate this agreement at any time. You can cancel your account from the settings page. Upon termination, your right to use the platform ceases immediately. We will retain your data for 90 days after termination, after which it will be permanently deleted."
+      },
+      {
+        "heading": "9. Governing Law",
+        "content": "These terms shall be governed by and construed in accordance with the laws of Spain. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts of Barcelona, Spain."
+      },
+      {
+        "heading": "10. Contact",
+        "content": "For questions about these Terms of Service, contact us at gobbly.app@gmail.com or write to Gobbly SL, Barcelona, Spain."
+      }
+    ]
+  }
+}

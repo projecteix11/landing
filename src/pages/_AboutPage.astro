@@ -1,0 +1,58 @@
+---
+import Layout from '@layouts/Layout.astro'
+import Navbar from '@components/layout/Navbar.astro'
+import Footer from '@components/layout/Footer.astro'
+import '@styles/global.css'
+import type { Locale } from '@i18n/types'
+import { getTranslations } from '@i18n/utils'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+
+const founderConfig = [
+  { initials: 'MS', gradient: 'from-brand to-brand-dark' },
+  { initials: 'EV', gradient: 'from-terracotta to-amber' },
+  { initials: 'PR', gradient: 'from-blue to-blue/70' },
+]
+---
+
+<Layout locale={locale} title={`${t.about.title} — Gobbly`} description={t.about.subtitle}>
+  <Navbar locale={locale} />
+  <main class="pt-28 pb-20 md:pt-36 md:pb-28">
+    <!-- Hero -->
+    <section class="max-w-4xl mx-auto px-6 text-center mb-20">
+      <div class="fade-up">
+        <p class="text-xs font-semibold text-brand uppercase tracking-widest mb-4">{t.about.foundersLabel}</p>
+        <h1 class="font-display text-4xl md:text-6xl tracking-tight mb-6">{t.about.title}</h1>
+        <p class="text-text-secondary text-lg max-w-2xl mx-auto">{t.about.subtitle}</p>
+      </div>
+    </section>
+
+    <!-- Founders -->
+    <section class="max-w-5xl mx-auto px-6 mb-20">
+      <div class="grid md:grid-cols-3 gap-8">
+        {founderConfig.map((config, i) => (
+          <div class="fade-up fade-up-delay-1 bg-surface-card rounded-2xl border border-border p-8 text-center">
+            <div class={`w-20 h-20 rounded-full bg-gradient-to-br ${config.gradient} flex items-center justify-center text-white text-2xl font-semibold mx-auto mb-5`}>
+              {config.initials}
+            </div>
+            <h3 class="text-lg font-semibold text-text-primary mb-1">{t.about.founders[i].name}</h3>
+            <p class="text-sm text-brand font-medium mb-4">{t.about.founders[i].role}</p>
+            <p class="text-text-secondary text-sm leading-relaxed">{t.about.founders[i].bio}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="max-w-4xl mx-auto px-6">
+      <div class="fade-up bg-surface-card rounded-2xl border border-border p-10 md:p-14">
+        <p class="text-xs font-semibold text-brand uppercase tracking-widest mb-4">{t.about.missionLabel}</p>
+        <h2 class="font-display text-2xl md:text-4xl tracking-tight mb-6">{t.about.missionTitle}</h2>
+        <p class="text-text-secondary leading-relaxed text-lg">{t.about.missionText}</p>
+      </div>
+    </section>
+  </main>
+  <Footer locale={locale} />
+</Layout>

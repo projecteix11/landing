@@ -1,10 +1,16 @@
 ---
 import SectionHeader from '@components/ui/SectionHeader.astro'
+import type { Locale } from '@i18n/types'
+import { getTranslations } from '@i18n/utils'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
 ---
 
 <section id="how-it-works" class="py-20 md:py-28">
   <div class="max-w-6xl mx-auto px-6">
-    <SectionHeader label="How it works" title="Up and running in minutes" />
+    <SectionHeader label={t.howItWorks.label} title={t.howItWorks.title} />
 
     <div class="grid md:grid-cols-3 gap-8 md:gap-6">
       <!-- Step 1 -->
@@ -12,9 +18,9 @@ import SectionHeader from '@components/ui/SectionHeader.astro'
         <div class="relative inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand text-white font-display text-xl mb-6">
           1
         </div>
-        <h3 class="text-lg font-semibold text-text-primary mb-2">Set up your menu</h3>
+        <h3 class="text-lg font-semibold text-text-primary mb-2">{t.howItWorks.steps[0].title}</h3>
         <p class="text-text-secondary text-[15px] leading-relaxed max-w-xs mx-auto">
-          Add your dishes, categories, allergens, and daily specials. Import from a spreadsheet or build from scratch.
+          {t.howItWorks.steps[0].description}
         </p>
         <!-- Mini mockup -->
         <div class="mt-6 mx-auto max-w-[200px] bg-surface-card rounded-xl border border-border p-3 shadow-sm">
@@ -52,9 +58,9 @@ import SectionHeader from '@components/ui/SectionHeader.astro'
         <div class="relative inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand text-white font-display text-xl mb-6">
           2
         </div>
-        <h3 class="text-lg font-semibold text-text-primary mb-2">Generate table QR codes</h3>
+        <h3 class="text-lg font-semibold text-text-primary mb-2">{t.howItWorks.steps[1].title}</h3>
         <p class="text-text-secondary text-[15px] leading-relaxed max-w-xs mx-auto">
-          Print unique QR codes for each table. Customers scan to view the menu and place orders from their phone.
+          {t.howItWorks.steps[1].description}
         </p>
         <!-- Mini mockup -->
         <div class="mt-6 mx-auto max-w-[200px] bg-surface-card rounded-xl border border-border p-3 shadow-sm">
@@ -82,24 +88,24 @@ import SectionHeader from '@components/ui/SectionHeader.astro'
         <div class="relative inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand text-white font-display text-xl mb-6">
           3
         </div>
-        <h3 class="text-lg font-semibold text-text-primary mb-2">Manage orders in real-time</h3>
+        <h3 class="text-lg font-semibold text-text-primary mb-2">{t.howItWorks.steps[2].title}</h3>
         <p class="text-text-secondary text-[15px] leading-relaxed max-w-xs mx-auto">
-          Watch orders flow from table to kitchen to plate. Track every dish, manage payments, and close tables with a tap.
+          {t.howItWorks.steps[2].description}
         </p>
         <!-- Mini mockup -->
         <div class="mt-6 mx-auto max-w-[200px] bg-surface-card rounded-xl border border-border p-3 shadow-sm">
           <div class="space-y-2">
             <div class="flex items-center justify-between">
               <div class="h-2 w-16 bg-text-primary/10 rounded"></div>
-              <span class="px-1.5 py-0.5 text-[8px] font-semibold rounded-full bg-brand/15 text-brand-dark">Ready</span>
+              <span class="px-1.5 py-0.5 text-[8px] font-semibold rounded-full bg-brand/15 text-brand-dark">{t.howItWorks.mockupReady}</span>
             </div>
             <div class="flex items-center justify-between">
               <div class="h-2 w-12 bg-text-primary/10 rounded"></div>
-              <span class="px-1.5 py-0.5 text-[8px] font-semibold rounded-full bg-amber/15 text-amber">Cooking</span>
+              <span class="px-1.5 py-0.5 text-[8px] font-semibold rounded-full bg-amber/15 text-amber">{t.howItWorks.mockupCooking}</span>
             </div>
             <div class="flex items-center justify-between">
               <div class="h-2 w-20 bg-text-primary/10 rounded"></div>
-              <span class="px-1.5 py-0.5 text-[8px] font-semibold rounded-full bg-gray-100 text-text-muted">Pending</span>
+              <span class="px-1.5 py-0.5 text-[8px] font-semibold rounded-full bg-gray-100 text-text-muted">{t.howItWorks.mockupPending}</span>
             </div>
           </div>
         </div>

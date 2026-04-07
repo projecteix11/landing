@@ -1,0 +1,194 @@
+---
+import Layout from '@layouts/Layout.astro'
+import Navbar from '@components/layout/Navbar.astro'
+import Footer from '@components/layout/Footer.astro'
+import '@styles/global.css'
+import type { Locale } from '@i18n/types'
+import { getTranslations } from '@i18n/utils'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+---
+
+<Layout locale={locale} title={`${t.contact.title} — Gobbly`} description={t.contact.subtitle}>
+  <Navbar locale={locale} />
+  <main class="pt-28 pb-20 md:pt-36 md:pb-28">
+    <div class="max-w-5xl mx-auto px-6">
+      <!-- Header -->
+      <div class="fade-up text-center mb-14">
+        <h1 class="font-display text-4xl md:text-6xl tracking-tight mb-6">{t.contact.title}</h1>
+        <p class="text-text-secondary text-lg max-w-2xl mx-auto">{t.contact.subtitle}</p>
+      </div>
+
+      <div class="grid md:grid-cols-5 gap-10">
+        <!-- Form -->
+        <div class="md:col-span-3 fade-up fade-up-delay-1">
+          <!-- Success state (hidden by default) -->
+          <div id="contact-success" class="hidden bg-surface-card rounded-2xl border border-brand/30 p-10 text-center">
+            <div class="w-14 h-14 rounded-full bg-brand-soft flex items-center justify-center mx-auto mb-5">
+              <svg class="w-7 h-7 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-text-primary mb-2">{t.contact.successTitle}</h3>
+            <p class="text-text-secondary">{t.contact.successMessage}</p>
+          </div>
+
+          <!-- Form -->
+          <form
+            id="contact-form"
+            class="bg-surface-card rounded-2xl border border-border p-8 md:p-10 space-y-6"
+          >
+            <div>
+              <label for="name" class="block text-sm font-medium text-text-primary mb-2">{t.contact.formName}</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder={t.contact.formNamePlaceholder}
+                class="w-full px-4 py-3 rounded-xl border border-border bg-surface text-text-primary placeholder:text-text-muted text-sm focus:outline-none focus:ring-2 focus:ring-brand/30 focus:border-brand transition-colors"
+              />
+            </div>
+
+            <div>
+              <label for="email" class="block text-sm font-medium text-text-primary mb-2">{t.contact.formEmail}</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder={t.contact.formEmailPlaceholder}
+                class="w-full px-4 py-3 rounded-xl border border-border bg-surface text-text-primary placeholder:text-text-muted text-sm focus:outline-none focus:ring-2 focus:ring-brand/30 focus:border-brand transition-colors"
+              />
+            </div>
+
+            <div>
+              <label for="subject" class="block text-sm font-medium text-text-primary mb-2">{t.contact.formSubject}</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                required
+                placeholder={t.contact.formSubjectPlaceholder}
+                class="w-full px-4 py-3 rounded-xl border border-border bg-surface text-text-primary placeholder:text-text-muted text-sm focus:outline-none focus:ring-2 focus:ring-brand/30 focus:border-brand transition-colors"
+              />
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-medium text-text-primary mb-2">{t.contact.formMessage}</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                rows="5"
+                placeholder={t.contact.formMessagePlaceholder}
+                class="w-full px-4 py-3 rounded-xl border border-border bg-surface text-text-primary placeholder:text-text-muted text-sm focus:outline-none focus:ring-2 focus:ring-brand/30 focus:border-brand transition-colors resize-none"
+              ></textarea>
+            </div>
+
+            <!-- Error message -->
+            <p id="contact-error" class="hidden text-sm text-red-500">{t.contact.errorMessage}</p>
+
+            <button
+              id="contact-submit"
+              type="submit"
+              class="inline-flex items-center gap-2 px-7 py-3.5 bg-brand text-white text-sm font-semibold rounded-full hover:bg-brand-dark transition-colors shadow-[0_2px_16px_-4px_rgba(34,197,94,0.4)] disabled:opacity-60 disabled:cursor-not-allowed"
+            >
+              <span id="submit-label">{t.contact.formSend}</span>
+              <span id="submit-spinner" class="hidden">
+                <svg class="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+                </svg>
+              </span>
+              <svg id="submit-icon" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Info sidebar -->
+        <div class="md:col-span-2 fade-up fade-up-delay-2">
+          <div class="bg-surface-card rounded-2xl border border-border p-8">
+            <h3 class="text-lg font-semibold text-text-primary mb-4">{t.contact.infoTitle}</h3>
+
+            <div class="space-y-5">
+              <div class="flex items-start gap-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-soft flex items-center justify-center shrink-0">
+                  <svg class="w-5 h-5 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm font-medium text-text-primary mb-0.5">{t.contact.infoEmailLabel}</p>
+                  <a href="mailto:gobbly.app@gmail.com" class="text-sm text-brand hover:text-brand-dark transition-colors">{t.contact.infoEmail}</a>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-10 h-10 rounded-xl bg-blue-soft flex items-center justify-center shrink-0">
+                  <svg class="w-5 h-5 text-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm text-text-secondary">{t.contact.infoResponseTime}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer locale={locale} />
+</Layout>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement | null
+  const successEl = document.getElementById('contact-success')
+  const errorEl = document.getElementById('contact-error')
+  const submitBtn = document.getElementById('contact-submit') as HTMLButtonElement | null
+  const submitLabel = document.getElementById('submit-label')
+  const submitSpinner = document.getElementById('submit-spinner')
+  const submitIcon = document.getElementById('submit-icon')
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault()
+    if (!form || !submitBtn) return
+
+    // Loading state
+    submitBtn.disabled = true
+    submitLabel?.classList.add('opacity-0')
+    submitSpinner?.classList.remove('hidden')
+    submitIcon?.classList.add('hidden')
+    errorEl?.classList.add('hidden')
+
+    const data = new FormData(form)
+
+    try {
+      data.append('access_key', '927a25ef-e09c-4953-9459-3f14f4b381ad')
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: data,
+      })
+
+      if (res.ok) {
+        form.classList.add('hidden')
+        successEl?.classList.remove('hidden')
+      } else {
+        throw new Error('Server error')
+      }
+    } catch {
+      errorEl?.classList.remove('hidden')
+      submitBtn.disabled = false
+      submitLabel?.classList.remove('opacity-0')
+      submitSpinner?.classList.add('hidden')
+      submitIcon?.classList.remove('hidden')
+    }
+  })
+</script>
