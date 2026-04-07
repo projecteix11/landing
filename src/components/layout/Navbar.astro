@@ -1,0 +1,84 @@
+---
+const navLinks = [
+  { href: '#features', label: 'Features' },
+  { href: '#how-it-works', label: 'How it works' },
+  { href: '#pricing', label: 'Pricing' },
+]
+---
+
+<nav id="navbar" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+  <div id="navbar-bar" class="nav-blur max-w-6xl mx-auto px-6 h-16 flex items-center justify-between transition-colors duration-300">
+    <a href="#" class="flex items-center gap-1 text-text-primary no-underline">
+      <span class="font-display text-2xl tracking-tight">Gobbly</span>
+      <span class="logo-dot"></span>
+    </a>
+
+    <div class="hidden md:flex items-center gap-8">
+      {navLinks.map((link) => (
+        <a href={link.href} class="text-sm font-medium text-text-secondary hover:text-text-primary transition-colors">{link.label}</a>
+      ))}
+    </div>
+
+    <div class="hidden md:flex items-center gap-4">
+      <a href="#" class="text-sm font-medium text-text-secondary hover:text-text-primary transition-colors">Sign in</a>
+      <a href="#" class="inline-flex items-center px-5 py-2.5 bg-text-primary text-white text-sm font-semibold rounded-full hover:bg-text-secondary transition-colors">
+        Get started free
+      </a>
+    </div>
+
+    <button id="menu-btn" class="md:hidden p-2 -mr-2" aria-label="Toggle menu" aria-expanded="false">
+      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+    </button>
+  </div>
+
+  <div id="mobile-nav" class="mobile-nav md:hidden bg-surface-card border-b border-border">
+    <div class="px-6 py-4 flex flex-col gap-3">
+      {navLinks.map((link) => (
+        <a href={link.href} class="text-sm font-medium text-text-secondary py-2">{link.label}</a>
+      ))}
+      <hr class="border-border" />
+      <a href="#" class="text-sm font-medium text-text-secondary py-2">Sign in</a>
+      <a href="#" class="inline-flex items-center justify-center px-5 py-2.5 bg-text-primary text-white text-sm font-semibold rounded-full">Get started free</a>
+    </div>
+  </div>
+</nav>
+
+<style>
+  #navbar-bar.scrolled {
+    background: rgba(250, 250, 248, 0.92);
+    box-shadow: 0 1px 0 var(--color-border);
+  }
+</style>
+
+<script>
+  const menuBtn = document.getElementById('menu-btn')
+  const mobileNav = document.getElementById('mobile-nav')
+
+  if (menuBtn && mobileNav) {
+    menuBtn.addEventListener('click', () => {
+      mobileNav.classList.toggle('open')
+      const isOpen = mobileNav.classList.contains('open')
+      menuBtn.setAttribute('aria-expanded', String(isOpen))
+    })
+
+    mobileNav.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        mobileNav.classList.remove('open')
+        menuBtn.setAttribute('aria-expanded', 'false')
+      })
+    })
+  }
+
+  const navBar = document.getElementById('navbar-bar')
+  if (navBar) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        navBar.classList.add('scrolled')
+      } else {
+        navBar.classList.remove('scrolled')
+      }
+    }, { passive: true })
+  }
+</script>

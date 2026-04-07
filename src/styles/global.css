@@ -189,3 +189,30 @@
   position: relative;
   top: -2px;
 }
+
+/* Focus indicators for keyboard navigation */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .fade-up {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .float-slow,
+  .float-medium,
+  .float-fast {
+    animation: none;
+  }
+  .mockup-shimmer {
+    animation: none;
+  }
+  .badge-pulse {
+    animation: none;
+  }
+}
