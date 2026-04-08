@@ -1,53 +1,61 @@
+---
+import type { Locale } from '@i18n/types'
+import { getTranslations } from '@i18n/utils'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+---
+
 <footer class="border-t border-border bg-surface-card">
   <div class="max-w-6xl mx-auto px-6 py-14">
     <div class="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-12">
       <!-- Brand column -->
       <div class="col-span-2">
-        <a href="#" class="flex items-center gap-1 text-text-primary no-underline mb-4">
-          <span class="font-display text-2xl tracking-tight">Gobbly</span>
-          <span class="logo-dot"></span>
+        <a href={`/${locale}/`} class="flex items-center no-underline mb-4">
+          <img src="/logo.png" alt="Gobbly" class="h-8 w-auto" />
         </a>
         <p class="text-sm text-text-secondary leading-relaxed max-w-xs">
-          All-in-one restaurant management. From the kitchen to the table, simplified.
+          {t.footer.tagline}
         </p>
       </div>
 
       <!-- Product -->
       <div>
-        <h4 class="text-sm font-semibold text-text-primary mb-4">Product</h4>
+        <h4 class="text-sm font-semibold text-text-primary mb-4">{t.footer.product}</h4>
         <ul class="space-y-2.5">
-          <li><a href="#features" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Features</a></li>
-          <li><a href="#pricing" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Pricing</a></li>
-          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Changelog</a></li>
-          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Integrations</a></li>
+          <li><a href="#features" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.productFeatures}</a></li>
+          <li><a href="#pricing" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.productPricing}</a></li>
+          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.productChangelog}</a></li>
+          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.productIntegrations}</a></li>
         </ul>
       </div>
 
       <!-- Company -->
       <div>
-        <h4 class="text-sm font-semibold text-text-primary mb-4">Company</h4>
+        <h4 class="text-sm font-semibold text-text-primary mb-4">{t.footer.company}</h4>
         <ul class="space-y-2.5">
-          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">About</a></li>
-          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Blog</a></li>
-          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Careers</a></li>
-          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Contact</a></li>
+          <li><a href={`/${locale}/about/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.companyAbout}</a></li>
+          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.companyBlog}</a></li>
+          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.companyCareers}</a></li>
+          <li><a href={`/${locale}/contact/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.companyContact}</a></li>
         </ul>
       </div>
 
       <!-- Legal -->
       <div>
-        <h4 class="text-sm font-semibold text-text-primary mb-4">Legal</h4>
+        <h4 class="text-sm font-semibold text-text-primary mb-4">{t.footer.legal}</h4>
         <ul class="space-y-2.5">
-          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Privacy</a></li>
-          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Terms</a></li>
-          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">Cookies</a></li>
+          <li><a href={`/${locale}/privacy/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.legalPrivacy}</a></li>
+          <li><a href={`/${locale}/terms/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.legalTerms}</a></li>
+          <li><a href="#" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.legalCookies}</a></li>
         </ul>
       </div>
     </div>
 
     <!-- Bottom bar -->
     <div class="mt-12 pt-6 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
-      <p class="text-xs text-text-muted">&copy; 2025 Gobbly. All rights reserved.</p>
+      <p class="text-xs text-text-muted">{t.footer.copyright}</p>
       <div class="flex items-center gap-4">
         <!-- Twitter/X -->
         <a href="#" class="text-text-muted hover:text-text-primary transition-colors" aria-label="Twitter">

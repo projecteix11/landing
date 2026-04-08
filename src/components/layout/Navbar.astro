@@ -1,16 +1,23 @@
 ---
+import LanguageSwitcher from '@components/ui/LanguageSwitcher.astro'
+import type { Locale } from '@i18n/types'
+import { getTranslations } from '@i18n/utils'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+
 const navLinks = [
-  { href: '#features', label: 'Features' },
-  { href: '#how-it-works', label: 'How it works' },
-  { href: '#pricing', label: 'Pricing' },
+  { href: '#features', label: t.nav.features },
+  { href: '#how-it-works', label: t.nav.howItWorks },
+  { href: '#pricing', label: t.nav.pricing },
 ]
 ---
 
 <nav id="navbar" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
   <div id="navbar-bar" class="nav-blur max-w-6xl mx-auto px-6 h-16 flex items-center justify-between transition-colors duration-300">
-    <a href="#" class="flex items-center gap-1 text-text-primary no-underline">
-      <span class="font-display text-2xl tracking-tight">Gobbly</span>
-      <span class="logo-dot"></span>
+    <a href={`/${locale}/`} class="flex items-center no-underline">
+      <img src="/logo.png" alt="Gobbly" class="h-8 w-auto" />
     </a>
 
     <div class="hidden md:flex items-center gap-8">
@@ -20,13 +27,14 @@ const navLinks = [
     </div>
 
     <div class="hidden md:flex items-center gap-4">
-      <a href="#" class="text-sm font-medium text-text-secondary hover:text-text-primary transition-colors">Sign in</a>
+      <LanguageSwitcher locale={locale} />
+      <a href="#" class="text-sm font-medium text-text-secondary hover:text-text-primary transition-colors">{t.nav.signIn}</a>
       <a href="#" class="inline-flex items-center px-5 py-2.5 bg-text-primary text-white text-sm font-semibold rounded-full hover:bg-text-secondary transition-colors">
-        Get started free
+        {t.nav.getStartedFree}
       </a>
     </div>
 
-    <button id="menu-btn" class="md:hidden p-2 -mr-2" aria-label="Toggle menu" aria-expanded="false">
+    <button id="menu-btn" class="md:hidden p-2 -mr-2" aria-label={t.nav.toggleMenu} aria-expanded="false">
       <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
       </svg>
@@ -39,8 +47,12 @@ const navLinks = [
         <a href={link.href} class="text-sm font-medium text-text-secondary py-2">{link.label}</a>
       ))}
       <hr class="border-border" />
-      <a href="#" class="text-sm font-medium text-text-secondary py-2">Sign in</a>
-      <a href="#" class="inline-flex items-center justify-center px-5 py-2.5 bg-text-primary text-white text-sm font-semibold rounded-full">Get started free</a>
+      <div class="py-2">
+        <LanguageSwitcher locale={locale} />
+      </div>
+      <hr class="border-border" />
+      <a href="#" class="text-sm font-medium text-text-secondary py-2">{t.nav.signIn}</a>
+      <a href="#" class="inline-flex items-center justify-center px-5 py-2.5 bg-text-primary text-white text-sm font-semibold rounded-full">{t.nav.getStartedFree}</a>
     </div>
   </div>
 </nav>

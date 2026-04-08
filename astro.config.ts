@@ -5,6 +5,14 @@ import devOnlyPages from './integrations/dev-only-pages'
 
 export default defineConfig({
   site: 'https://gobbly.app',
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'es', 'ca'],
+    routing: {
+      prefixDefaultLocale: true,
+      redirectToDefaultLocale: true,
+    },
+  },
   integrations: [
     devOnlyPages({ pages: ['design/colors'] }),
     sitemap(),

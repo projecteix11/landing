@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Gobbly — Gestión de Restaurantes, Simplificada",
+    "description": "Plataforma todo-en-uno para la gestión de restaurantes. TPV, pantalla de cocina, menús digitales, pedidos por QR y pagos inteligentes — en una sola app.",
+    "schemaDescription": "Plataforma todo-en-uno para la gestión de restaurantes. TPV, pantalla de cocina, menús digitales, pedidos por QR y pagos inteligentes."
+  },
+  "nav": {
+    "features": "Funcionalidades",
+    "howItWorks": "Cómo funciona",
+    "pricing": "Precios",
+    "signIn": "Iniciar sesión",
+    "getStartedFree": "Empieza gratis",
+    "toggleMenu": "Abrir menú"
+  },
+  "hero": {
+    "badge": "Ahora en beta abierta",
+    "titleLine1": "Tu restaurante,",
+    "titleHighlight": "todo en un solo lugar",
+    "subtitle": "Olvídate de las comandas en papel y las herramientas dispersas. Gobbly unifica tu TPV, cocina, carta y pagos en una sola plataforma en tiempo real.",
+    "ctaPrimary": "Empieza gratis",
+    "ctaSecondary": "Mira cómo funciona",
+    "mockupKitchenLabel": "Cocina",
+    "mockupRisotto": "Risotto",
+    "mockupCaesarSalad": "Ensalada César",
+    "mockupGrilledSalmon": "Salmón a la plancha",
+    "mockupCooking": "Cocinando",
+    "mockupReady": "Listo",
+    "mockupPending": "Pendiente",
+    "mockupTableQr": "Mesa 4 — QR",
+    "mockupScanToOrder": "Escanea para pedir",
+    "mockupSplitPaid": "¡Cuenta dividida!"
+  },
+  "trustedBy": {
+    "label": "Más de 500 restaurantes confían en nosotros"
+  },
+  "problemSolution": {
+    "label": "Por qué Gobbly",
+    "title": "El caos termina aquí",
+    "cards": [
+      {
+        "title": "Adiós a las comandas en papel",
+        "description": "Los pedidos van directamente de la mesa a la pantalla de cocina. Sin letra ilegible, sin comandas perdidas, sin malentendidos."
+      },
+      {
+        "title": "Cocina sincronizada en tiempo real",
+        "description": "El equipo de cocina ve los pedidos en el momento en que se hacen. Las actualizaciones de estado fluyen al instante — pendiente, cocinando, listo, servido."
+      },
+      {
+        "title": "Los clientes pagan a su manera",
+        "description": "Los comensales escanean el QR, eligen lo que pidieron y dividen la cuenta como quieran. Efectivo, tarjeta o mixto — listo en segundos."
+      }
+    ]
+  },
+  "features": {
+    "label": "Funcionalidades",
+    "title": "Todo lo que tu restaurante necesita",
+    "description": "Desde la sala hasta la cocina, Gobbly cubre cada punto de contacto en la operación de tu restaurante.",
+    "items": [
+      {
+        "title": "Punto de Venta",
+        "description": "TPV intuitivo con gestión de mesas, navegación por categorías y creación instantánea de pedidos. Modo simple para servicio rápido, modo avanzado para restaurantes de autor.",
+        "tags": ["Mapa de mesas", "Búsqueda rápida", "Platos personalizados"]
+      },
+      {
+        "title": "Pantalla de Cocina",
+        "description": "Pantalla optimizada para tablet en cocina. Los pedidos aparecen en tiempo real con badges de estado clicables. Diseño táctil pensado para cocinas con mucho movimiento.",
+        "tags": ["Actualizaciones en vivo", "Táctil", "Flujo de estados"]
+      },
+      {
+        "title": "Carta Digital y QR",
+        "description": "Los clientes escanean un código QR en su mesa para ver la carta completa, consultar alérgenos y hacer pedidos directamente. Los menús del día se actualizan automáticamente.",
+        "tags": ["Alérgenos", "Menú del día", "Multi-idioma"]
+      },
+      {
+        "title": "Pagos Inteligentes",
+        "description": "División de cuenta flexible — por plato, partes iguales o cantidades personalizadas. Soporta efectivo, tarjeta y pagos mixtos con facturación compatible con VeriFactu.",
+        "tags": ["Dividir cuenta", "Pago mixto", "VeriFactu"]
+      }
+    ]
+  },
+  "howItWorks": {
+    "label": "Cómo funciona",
+    "title": "Listo en minutos",
+    "steps": [
+      {
+        "title": "Configura tu carta",
+        "description": "Añade tus platos, categorías, alérgenos y menús del día. Importa desde una hoja de cálculo o crea desde cero."
+      },
+      {
+        "title": "Genera los QR de las mesas",
+        "description": "Imprime códigos QR únicos para cada mesa. Los clientes escanean para ver la carta y hacer pedidos desde su móvil."
+      },
+      {
+        "title": "Gestiona pedidos en tiempo real",
+        "description": "Observa los pedidos fluir de la mesa a la cocina al plato. Controla cada plato, gestiona pagos y cierra mesas con un toque."
+      }
+    ],
+    "mockupReady": "Listo",
+    "mockupCooking": "Cocinando",
+    "mockupPending": "Pendiente"
+  },
+  "testimonials": {
+    "label": "Testimonios",
+    "title": "Los restauradores nos adoran",
+    "items": [
+      {
+        "quote": "\u201cRedujimos los errores en pedidos un 80% la primera semana. Solo la pantalla de cocina nos salvó de la falta de comunicación constante en las horas punta.\u201d",
+        "name": "Marta Pérez",
+        "role": "Propietaria, La Bodeguita"
+      },
+      {
+        "quote": "\u201cA nuestros clientes les encanta pedir por QR. Escanean, ven la carta con info de alérgenos y pagan — todo sin esperar al camarero. Las propinas subieron un 15%.\u201d",
+        "name": "Joan Lluís",
+        "role": "Gerente, Can Roca Petit"
+      },
+      {
+        "quote": "\u201cLa configuración tardó 20 minutos. La facturación VeriFactu fue la funcionalidad clave para nosotros — se acabó hacer malabarismos con un sistema de facturación aparte.\u201d",
+        "name": "Ana García",
+        "role": "Cofundadora, Grupo Umami"
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Precios",
+    "title": "Precios simples y transparentes",
+    "description": "Empieza gratis y escala a medida que creces. Sin costes ocultos, sin contratos.",
+    "mostPopular": "Más popular",
+    "perMonth": "/mes",
+    "plans": [
+      {
+        "name": "Starter",
+        "subtitle": "Para restaurantes pequeños que empiezan",
+        "price": "Gratis",
+        "priceSuffix": "",
+        "features": [
+          "Hasta 10 mesas",
+          "TPV y pantalla de cocina",
+          "Carta QR y pedidos",
+          "Analíticas básicas"
+        ],
+        "cta": "Empieza ya"
+      },
+      {
+        "name": "Pro",
+        "subtitle": "Para restaurantes en crecimiento",
+        "price": "49 €",
+        "priceSuffix": "/mes",
+        "features": [
+          "Mesas ilimitadas",
+          "Todo lo de Starter",
+          "Modo TPV avanzado",
+          "División de cuenta y pagos mixtos",
+          "Facturación VeriFactu",
+          "Soporte prioritario"
+        ],
+        "cta": "Prueba gratis"
+      },
+      {
+        "name": "Enterprise",
+        "subtitle": "Para grupos de restaurantes y cadenas",
+        "price": "Personalizado",
+        "priceSuffix": "",
+        "features": [
+          "Todo lo de Pro",
+          "Gestión multi-local",
+          "Integraciones personalizadas",
+          "Account manager dedicado",
+          "SLA y onboarding"
+        ],
+        "cta": "Contactar ventas"
+      }
+    ]
+  },
+  "cta": {
+    "titleLine1": "¿Listo para transformar",
+    "titleLine2": "tu restaurante?",
+    "subtitle": "Únete a cientos de restaurantes que ya usan Gobbly para optimizar sus operaciones y deleitar a sus clientes.",
+    "button": "Empieza gratis",
+    "note": "Sin tarjeta de crédito"
+  },
+  "footer": {
+    "tagline": "Gestión de restaurantes todo-en-uno. De la cocina a la mesa, simplificado.",
+    "product": "Producto",
+    "productFeatures": "Funcionalidades",
+    "productPricing": "Precios",
+    "productChangelog": "Novedades",
+    "productIntegrations": "Integraciones",
+    "company": "Empresa",
+    "companyAbout": "Sobre nosotros",
+    "companyBlog": "Blog",
+    "companyCareers": "Empleo",
+    "companyContact": "Contacto",
+    "legal": "Legal",
+    "legalPrivacy": "Privacidad",
+    "legalTerms": "Términos",
+    "legalCookies": "Cookies",
+    "copyright": "© 2025 Gobbly. Todos los derechos reservados."
+  },
+  "languageSwitcher": {
+    "label": "Cambiar idioma",
+    "en": "English",
+    "es": "Español",
+    "ca": "Català"
+  },
+  "about": {
+    "title": "Sobre Gobbly",
+    "subtitle": "Nuestra misión es simplificar la gestión de restaurantes para todos — desde bistrós de barrio hasta grupos con múltiples locales.",
+    "missionLabel": "Nuestra Misión",
+    "missionTitle": "Tecnología al servicio de la hostelería",
+    "missionText": "Creemos que los dueños de restaurantes deberían dedicar su tiempo a lo que aman — crear experiencias gastronómicas inolvidables — y no pelearse con herramientas desconectadas y procesos en papel. Gobbly nació de esa convicción: una plataforma única e intuitiva que conecta cada parte de tu restaurante en tiempo real.",
+    "foundersLabel": "El Equipo",
+    "foundersTitle": "Las personas detrás de Gobbly",
+    "founders": [
+      {
+        "name": "Marc Solé",
+        "role": "CEO y Cofundador",
+        "bio": "Exgerente de restaurante reconvertido en emprendedor tecnológico. Después de años lidiando con herramientas fragmentadas y comandas en papel, Marc decidió construir la plataforma todo-en-uno que le habría encantado tener. Lidera la visión de producto y la estrategia."
+      },
+      {
+        "name": "Elena Vidal",
+        "role": "CTO y Cofundadora",
+        "bio": "Ingeniera full-stack con una década de experiencia construyendo sistemas en tiempo real. Elena diseña la infraestructura de Gobbly — desde la sincronización de la pantalla de cocina hasta el pipeline de pagos — asegurando que todo funcione a la perfección."
+      },
+      {
+        "name": "Pau Ribera",
+        "role": "COO y Cofundador",
+        "bio": "Especialista en operaciones con experiencia en consultoría hostelera. Pau trabaja directamente con los restaurantes asociados para dar forma al roadmap del producto y asegurar que Gobbly resuelve problemas reales en cocinas reales."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes alguna pregunta, quieres una demo o simplemente saludar? Nos encantaría saber de ti.",
+    "infoTitle": "Otras formas de contactarnos",
+    "infoEmail": "gobbly.app@gmail.com",
+    "infoEmailLabel": "Escríbenos directamente",
+    "infoResponseTime": "Normalmente respondemos en menos de 24 horas.",
+    "formName": "Tu nombre",
+    "formEmail": "Correo electrónico",
+    "formSubject": "Asunto",
+    "formMessage": "Mensaje",
+    "formSend": "Enviar mensaje",
+    "formNamePlaceholder": "Juan García",
+    "formEmailPlaceholder": "juan@restaurante.com",
+    "formSubjectPlaceholder": "Me gustaría una demo",
+    "formMessagePlaceholder": "Cuéntanos sobre tu restaurante y cómo podemos ayudarte...",
+    "successTitle": "¡Mensaje enviado!",
+    "successMessage": "Gracias por contactarnos. Te responderemos en menos de 24 horas.",
+    "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo o escríbenos directamente."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 1 de enero de 2025",
+    "sections": [
+      {
+        "heading": "1. Información que recopilamos",
+        "content": "Recopilamos la información que nos proporcionas directamente al crear una cuenta, usar nuestros servicios o contactarnos. Esto incluye tu nombre, dirección de correo electrónico, nombre del restaurante e información de pago. También recopilamos automáticamente datos de uso como información del dispositivo, dirección IP y cómo interactúas con la plataforma."
+      },
+      {
+        "heading": "2. Cómo usamos tu información",
+        "content": "Usamos la información recopilada para proporcionar, mantener y mejorar nuestros servicios; procesar transacciones y enviar información relacionada; enviarte avisos técnicos, actualizaciones y mensajes de soporte; responder a tus comentarios y preguntas; y monitorear y analizar tendencias y uso."
+      },
+      {
+        "heading": "3. Compartición de datos",
+        "content": "No vendemos tu información personal. Podemos compartir tu información con proveedores de servicios terceros que realizan servicios en nuestro nombre, como procesamiento de pagos (Stripe), envío de correos y alojamiento en la nube. Estos proveedores están obligados contractualmente a mantener la confidencialidad de tu información."
+      },
+      {
+        "heading": "4. Cookies y seguimiento",
+        "content": "Utilizamos cookies esenciales para mantener tu sesión iniciada y recordar tus preferencias. También usamos cookies de analítica para entender cómo se usa nuestra plataforma. Puedes controlar las preferencias de cookies a través de la configuración de tu navegador. Nuestra plataforma no responde a señales Do Not Track."
+      },
+      {
+        "heading": "5. Seguridad de datos",
+        "content": "Implementamos medidas de seguridad estándar de la industria para proteger tus datos, incluyendo cifrado en tránsito (TLS) y en reposo. Los datos de pago son procesados por proveedores compatibles con PCI DSS y nunca se almacenan en nuestros servidores. Realizamos auditorías de seguridad periódicas y mantenemos controles de acceso estrictos."
+      },
+      {
+        "heading": "6. Tus derechos (RGPD)",
+        "content": "Si te encuentras en el Espacio Económico Europeo, tienes derecho a acceder, corregir o eliminar tus datos personales; oponerte o restringir el procesamiento; portabilidad de datos; y retirar el consentimiento en cualquier momento. Para ejercer estos derechos, contáctanos en gobbly.app@gmail.com. Responderemos en un plazo de 30 días."
+      },
+      {
+        "heading": "7. Retención de datos",
+        "content": "Conservamos tus datos personales mientras tu cuenta esté activa o según sea necesario para proporcionarte servicios. Si eliminas tu cuenta, eliminaremos o anonimizaremos tus datos en un plazo de 90 días, excepto cuando estemos obligados a conservarlos por motivos legales o regulatorios."
+      },
+      {
+        "heading": "8. Contacto",
+        "content": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en gobbly.app@gmail.com o escríbenos a Gobbly SL, Barcelona, España."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: 1 de enero de 2025",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los términos",
+        "content": "Al acceder o usar la plataforma Gobbly, aceptas quedar vinculado por estos Términos de Servicio. Si no estás de acuerdo, no puedes usar la plataforma. Estos términos se aplican a todos los usuarios, incluyendo propietarios de restaurantes, personal y clientes finales que usan el pedido por QR."
+      },
+      {
+        "heading": "2. Descripción del servicio",
+        "content": "Gobbly proporciona una plataforma de gestión de restaurantes en la nube que incluye punto de venta (TPV), sistema de pantalla de cocina, menús digitales con pedido por QR y procesamiento de pagos. Nos reservamos el derecho de modificar, suspender o discontinuar cualquier parte del servicio con un aviso razonable."
+      },
+      {
+        "heading": "3. Cuentas de usuario",
+        "content": "Eres responsable de mantener la confidencialidad de las credenciales de tu cuenta y de todas las actividades que ocurran bajo tu cuenta. Debes proporcionar información precisa y completa al crear una cuenta y mantenerla actualizada. Debes notificarnos inmediatamente de cualquier uso no autorizado."
+      },
+      {
+        "heading": "4. Pagos y facturación",
+        "content": "Los planes de pago se facturan mensual o anualmente por adelantado. Los precios están en euros y no incluyen impuestos aplicables. Nos reservamos el derecho de cambiar los precios con 30 días de aviso. Los reembolsos se gestionan caso por caso. El uso del plan gratuito está sujeto a los límites descritos en nuestra página de precios."
+      },
+      {
+        "heading": "5. Uso aceptable",
+        "content": "Aceptas no usar la plataforma para ningún propósito ilegal, interferir o interrumpir el servicio, intentar accesos no autorizados, o transmitir código malicioso. Nos reservamos el derecho de suspender cuentas que violen estos términos."
+      },
+      {
+        "heading": "6. Propiedad intelectual",
+        "content": "La plataforma Gobbly, incluyendo su software, diseño, logotipos y contenido, es propiedad de Gobbly SL y está protegida por las leyes de propiedad intelectual. Tú conservas la propiedad de los datos de tu restaurante. Al usar la plataforma, nos concedes una licencia limitada para procesar tus datos únicamente para proporcionar el servicio."
+      },
+      {
+        "heading": "7. Limitación de responsabilidad",
+        "content": "En la máxima medida permitida por la ley, Gobbly no será responsable de ningún daño indirecto, incidental, especial o consecuente derivado del uso de la plataforma. Nuestra responsabilidad total no excederá la cantidad que nos hayas pagado en los 12 meses anteriores a la reclamación."
+      },
+      {
+        "heading": "8. Terminación",
+        "content": "Cualquiera de las partes puede terminar este acuerdo en cualquier momento. Puedes cancelar tu cuenta desde la página de configuración. Tras la terminación, tu derecho a usar la plataforma cesa inmediatamente. Conservaremos tus datos durante 90 días tras la terminación, después de lo cual serán eliminados permanentemente."
+      },
+      {
+        "heading": "9. Ley aplicable",
+        "content": "Estos términos se regirán e interpretarán de acuerdo con las leyes de España. Cualquier disputa derivada de estos términos estará sujeta a la jurisdicción exclusiva de los tribunales de Barcelona, España."
+      },
+      {
+        "heading": "10. Contacto",
+        "content": "Para preguntas sobre estos Términos de Servicio, contáctanos en gobbly.app@gmail.com o escríbenos a Gobbly SL, Barcelona, España."
+      }
+    ]
+  }
+}

@@ -1,56 +1,26 @@
 ---
 import SectionHeader from '@components/ui/SectionHeader.astro'
 import CheckIcon from '@components/ui/CheckIcon.astro'
+import type { Locale } from '@i18n/types'
+import { getTranslations } from '@i18n/utils'
 
-const plans = [
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+
+const planConfig = [
   {
     delay: 1,
-    name: 'Starter',
-    subtitle: 'For small restaurants getting started',
-    price: 'Free',
-    priceSuffix: '',
-    features: [
-      'Up to 10 tables',
-      'POS &amp; kitchen display',
-      'QR menu &amp; ordering',
-      'Basic analytics',
-    ],
-    cta: 'Get started',
     ctaStyle: 'border border-border text-text-primary hover:border-brand hover:text-brand',
     popular: false,
   },
   {
     delay: 2,
-    name: 'Pro',
-    subtitle: 'For growing restaurants',
-    price: '&euro;49',
-    priceSuffix: '/month',
-    features: [
-      'Unlimited tables',
-      'Everything in Starter',
-      'Advanced POS mode',
-      'Bill splitting &amp; mixed payments',
-      'VeriFactu invoicing',
-      'Priority support',
-    ],
-    cta: 'Start free trial',
     ctaStyle: 'bg-brand text-white hover:bg-brand-dark shadow-[0_2px_16px_-4px_rgba(34,197,94,0.4)]',
     popular: true,
   },
   {
     delay: 3,
-    name: 'Enterprise',
-    subtitle: 'For restaurant groups &amp; chains',
-    price: 'Custom',
-    priceSuffix: '',
-    features: [
-      'Everything in Pro',
-      'Multi-location management',
-      'Custom integrations',
-      'Dedicated account manager',
-      'SLA &amp; onboarding',
-    ],
-    cta: 'Contact sales',
     ctaStyle: 'border border-border text-text-primary hover:border-brand hover:text-brand',
     popular: false,
   },
@@ -60,43 +30,46 @@ const plans = [
 <section id="pricing" class="py-20 md:py-28">
   <div class="max-w-6xl mx-auto px-6">
     <SectionHeader
-      label="Pricing"
-      title="Simple, transparent pricing"
-      description="Start free and scale as you grow. No hidden fees, no contracts."
+      label={t.pricing.label}
+      title={t.pricing.title}
+      description={t.pricing.description}
     />
 
     <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-      {plans.map((plan) => (
-        <div class:list={[
-          `fade-up fade-up-delay-${plan.delay} bg-surface-card rounded-2xl p-8 flex flex-col`,
-          plan.popular ? 'pricing-glow relative' : 'border border-border',
-        ]}>
-          {plan.popular && (
-            <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-brand text-white text-xs font-semibold rounded-full">
-              Most popular
+      {planConfig.map((config, i) => {
+        const plan = t.pricing.plans[i]
+        return (
+          <div class:list={[
+            `fade-up fade-up-delay-${config.delay} bg-surface-card rounded-2xl p-8 flex flex-col`,
+            config.popular ? 'pricing-glow relative' : 'border border-border',
+          ]}>
+            {config.popular && (
+              <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-brand text-white text-xs font-semibold rounded-full">
+                {t.pricing.mostPopular}
+              </div>
+            )}
+            <div class="mb-6">
+              <h3 class="text-lg font-semibold text-text-primary">{plan.name}</h3>
+              <p class="text-sm text-text-muted mt-1">{plan.subtitle}</p>
             </div>
-          )}
-          <div class="mb-6">
-            <h3 class="text-lg font-semibold text-text-primary">{plan.name}</h3>
-            <p class="text-sm text-text-muted mt-1" set:html={plan.subtitle} />
+            <div class="mb-6">
+              <span class="font-display text-5xl tracking-tight text-text-primary">{plan.price}</span>
+              {plan.priceSuffix && <span class="text-text-muted text-sm">{plan.priceSuffix}</span>}
+            </div>
+            <ul class="space-y-3 mb-8 flex-1">
+              {plan.features.map((feature) => (
+                <li class="flex items-start gap-2.5 text-sm text-text-secondary">
+                  <CheckIcon />
+                  <span>{feature}</span>
+                </li>
+              ))}
+            </ul>
+            <a href="#" class={`block text-center px-6 py-3 rounded-full text-sm font-semibold transition-colors ${config.ctaStyle}`}>
+              {plan.cta}
+            </a>
           </div>
-          <div class="mb-6">
-            <span class="font-display text-5xl tracking-tight text-text-primary" set:html={plan.price} />
-            {plan.priceSuffix && <span class="text-text-muted text-sm">{plan.priceSuffix}</span>}
-          </div>
-          <ul class="space-y-3 mb-8 flex-1">
-            {plan.features.map((feature) => (
-              <li class="flex items-start gap-2.5 text-sm text-text-secondary">
-                <CheckIcon />
-                <span set:html={feature} />
-              </li>
-            ))}
-          </ul>
-          <a href="#" class={`block text-center px-6 py-3 rounded-full text-sm font-semibold transition-colors ${plan.ctaStyle}`}>
-            {plan.cta}
-          </a>
-        </div>
-      ))}
+        )
+      })}
     </div>
   </div>
 </section>
