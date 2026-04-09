@@ -1,5 +1,6 @@
 ---
 import Layout from '@layouts/Layout.astro'
+import JsonLd from '@components/ui/JsonLd.astro'
 import Navbar from '@components/layout/Navbar.astro'
 import Hero from '@components/sections/Hero.astro'
 import TrustedBy from '@components/sections/TrustedBy.astro'
@@ -35,4 +36,19 @@ const t = getTranslations(locale)
     <CtaSection locale={locale} />
   </main>
   <Footer locale={locale} />
+  <JsonLd schema={{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Gobbly",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": t.hero.subtitle,
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "EUR",
+      "lowPrice": "0",
+      "highPrice": "49",
+      "offerCount": "3"
+    }
+  }} />
 </Layout>

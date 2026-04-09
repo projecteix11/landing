@@ -10,7 +10,8 @@
     "pricing": "Pricing",
     "signIn": "Sign in",
     "getStartedFree": "Get started free",
-    "toggleMenu": "Toggle menu"
+    "toggleMenu": "Toggle menu",
+    "home": "Home"
   },
   "hero": {
     "badge": "Now in open beta",
@@ -250,6 +251,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
+    "description": "Learn how Gobbly collects, uses, and protects your personal data. GDPR compliant.",
     "lastUpdated": "Last updated: January 1, 2025",
     "sections": [
       {
@@ -288,6 +290,7 @@
   },
   "terms": {
     "title": "Terms of Service",
+    "description": "Read the terms and conditions for using Gobbly restaurant management platform.",
     "lastUpdated": "Last updated: January 1, 2025",
     "sections": [
       {

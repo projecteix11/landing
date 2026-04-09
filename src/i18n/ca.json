@@ -10,7 +10,8 @@
     "pricing": "Preus",
     "signIn": "Iniciar sessió",
     "getStartedFree": "Comença gratis",
-    "toggleMenu": "Obrir menú"
+    "toggleMenu": "Obrir menú",
+    "home": "Inici"
   },
   "hero": {
     "badge": "Ara en beta oberta",
@@ -250,6 +251,7 @@
   },
   "privacy": {
     "title": "Política de Privacitat",
+    "description": "Descobreix com Gobbly recull, utilitza i protegeix les teves dades personals. Compliment RGPD.",
     "lastUpdated": "Última actualització: 1 de gener de 2025",
     "sections": [
       {
@@ -288,6 +290,7 @@
   },
   "terms": {
     "title": "Termes de Servei",
+    "description": "Llegeix els termes i condicions d'us de la plataforma de gestio de restaurants Gobbly.",
     "lastUpdated": "Última actualització: 1 de gener de 2025",
     "sections": [
       {
