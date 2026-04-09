@@ -215,19 +215,57 @@
       {
         "name": "Marc Solé",
         "role": "CEO y Cofundador",
-        "bio": "Exgerente de restaurante reconvertido en emprendedor tecnológico. Después de años lidiando con herramientas fragmentadas y comandas en papel, Marc decidió construir la plataforma todo-en-uno que le habría encantado tener. Lidera la visión de producto y la estrategia."
+        "bio": "Exgerente de restaurante reconvertido en emprendedor tecnológico. Después de años lidiando con herramientas fragmentadas y comandas en papel, Marc decidió construir la plataforma todo-en-uno que le habría encantado tener. Lidera la visión de producto y la estrategia, trabajando estrechamente con propietarios de restaurantes de toda España para que Gobbly se mantenga fiel a la realidad del servicio diario."
       },
       {
         "name": "Elena Vidal",
         "role": "CTO y Cofundadora",
-        "bio": "Ingeniera full-stack con una década de experiencia construyendo sistemas en tiempo real. Elena diseña la infraestructura de Gobbly — desde la sincronización de la pantalla de cocina hasta el pipeline de pagos — asegurando que todo funcione a la perfección."
+        "bio": "Ingeniera full-stack con una década de experiencia construyendo sistemas en tiempo real. Elena diseña la infraestructura de Gobbly — desde la sincronización de la pantalla de cocina hasta el pipeline de pagos — asegurando que todo funcione a la perfección. Antes de Gobbly, lideró equipos de ingeniería en dos startups SaaS de Barcelona, lanzando productos usados por miles de negocios a diario."
       },
       {
         "name": "Pau Ribera",
         "role": "COO y Cofundador",
-        "bio": "Especialista en operaciones con experiencia en consultoría hostelera. Pau trabaja directamente con los restaurantes asociados para dar forma al roadmap del producto y asegurar que Gobbly resuelve problemas reales en cocinas reales."
+        "bio": "Especialista en operaciones con experiencia en consultoría hostelera. Pau trabaja directamente con los restaurantes asociados para dar forma al roadmap del producto y asegurar que Gobbly resuelve problemas reales en cocinas reales. Su enfoque práctico le lleva a pasar tiempo regularmente en los restaurantes asociados, observando flujos de trabajo y recogiendo feedback de primera mano."
       }
-    ]
+    ],
+    "story": {
+      "title": "Nuestra Historia",
+      "paragraphs": [
+        "Gobbly nació en Barcelona en 2024, fruto de una frustración compartida que todo propietario de restaurante conoce demasiado bien: el malabarismo diario entre un sistema de punto de venta que no se comunica con la cocina, un flujo de comandas en papel que se desmorona en hora punta y un montón de herramientas desconectadas que nunca fueron diseñadas para funcionar juntas.",
+        "Nuestro equipo fundador reúne una profunda experiencia en el sector de la restauración y conocimiento técnico de vanguardia. Marc pasó más de una década gestionando restaurantes y sabía exactamente dónde estaban los puntos de dolor. Elena llevaba años construyendo software colaborativo en tiempo real y vio que la misma tecnología que impulsa los lugares de trabajo modernos podía transformar la hostelería. Pau, con su experiencia en consultoría de operaciones, entendía cómo salvar la distancia entre lo que la tecnología puede hacer y lo que los equipos de restaurante realmente necesitan.",
+        "Juntos, nos propusimos una misión clara: hacer que la tecnología sirva a la hostelería, y no al revés. Queríamos construir una plataforma que un propietario de restaurante pudiera configurar en minutos, que el equipo de cocina disfrutara usando y que los comensales encontraran fluida. Hoy, Gobbly es utilizado por restaurantes en toda España y más allá, y esto es solo el principio."
+      ]
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "items": [
+        {
+          "title": "Simplicidad",
+          "description": "La tecnología debe simplificar, no complicar. Cada funcionalidad que lanzamos debe pasar una prueba simple: ¿facilita el día a día del restaurador?"
+        },
+        {
+          "title": "Tiempo real",
+          "description": "Los restaurantes se mueven rápido, y tus herramientas también deberían. Desde la toma del pedido hasta la pantalla de cocina y el pago, todo ocurre en tiempo real — sin recargas, sin esperas."
+        },
+        {
+          "title": "Transparencia",
+          "description": "Sin costes ocultos, sin contratos de permanencia. Puedes ver nuestros precios, exportar tus datos en cualquier momento y cancelar cuando quieras. Nos ganamos tu confianza cada mes."
+        },
+        {
+          "title": "Local",
+          "description": "Hecho en Barcelona, para restaurantes de todo el mundo. Entendemos la cultura de la hostelería mediterránea y diseñamos con la calidez y el ritmo del servicio real en mente."
+        }
+      ]
+    },
+    "numbers": {
+      "title": "Gobbly en Números",
+      "items": [
+        { "value": "500+", "label": "Restaurantes atendidos" },
+        { "value": "3", "label": "Idiomas soportados" },
+        { "value": "99.9%", "label": "Tiempo de actividad" },
+        { "value": "<20 min", "label": "Tiempo medio de configuración" }
+      ]
+    }
   },
   "contact": {
     "title": "Contáctanos",
@@ -236,6 +274,13 @@
     "infoEmail": "gobbly.app@gmail.com",
     "infoEmailLabel": "Escríbenos directamente",
     "infoResponseTime": "Normalmente respondemos en menos de 24 horas.",
+    "infoAddressLabel": "Nuestra oficina",
+    "infoAddress": "Barcelona, España",
+    "infoPhoneLabel": "Llámanos",
+    "infoPhone": "+34 XXX XXX XXX",
+    "infoHoursLabel": "Horario de atención",
+    "infoHours": "Lun-Vie, 9:00 - 18:00 CET",
+    "mapPlaceholder": "Barcelona, España",
     "formName": "Tu nombre",
     "formEmail": "Correo electrónico",
     "formSubject": "Asunto",
@@ -334,5 +379,377 @@
         "content": "Para preguntas sobre estos Términos de Servicio, contáctanos en gobbly.app@gmail.com o escríbenos a Gobbly SL, Barcelona, España."
       }
     ]
+  },
+  "featurePages": {
+    "pos": {
+      "title": "Punto de Venta (TPV)",
+      "description": "Sistema TPV intuitivo diseñado para la hostelería. Gestión de mesas, búsqueda rápida y creación instantánea de comandas.",
+      "heroTitle": "Un TPV pensado para restaurantes, no para retail",
+      "heroSubtitle": "Olvídate de los sistemas anticuados. El TPV de Gobbly funciona en cualquier tablet, se configura en minutos y gestiona todo, desde las mesas hasta la división de cuentas.",
+      "problemsLabel": "El problema",
+      "problemsTitle": "El TPV antiguo te frena",
+      "problems": [
+        { "title": "Hardware lento y obsoleto", "description": "Terminales voluminosos que se cuelgan en hora punta y cuestan miles de euros reemplazar." },
+        { "title": "Licencias caras", "description": "Cuotas mensuales que no paran de subir, con cargos por cada terminal y cada actualización." },
+        { "title": "Configuración complicada", "description": "Semanas de instalación y formación antes de que tu equipo pueda tomar una sola comanda." }
+      ],
+      "highlightsLabel": "Funcionalidades clave",
+      "highlightsTitle": "Todo lo que necesitas en el punto de venta",
+      "highlights": [
+        { "title": "Gestión visual de mesas", "description": "Plano del local con estado en tiempo real de cada mesa — libre, ocupada, esperando cuenta." },
+        { "title": "Búsqueda rápida de platos", "description": "Encuentra cualquier plato al instante con búsqueda inteligente por categorías, nombres y etiquetas." },
+        { "title": "Modificadores personalizados", "description": "Añade extras, quita ingredientes o anota peticiones especiales con un solo toque." },
+        { "title": "Descuentos y promociones", "description": "Aplica descuentos porcentuales o fijos por plato o por mesa. Configura reglas de happy hour automáticamente." },
+        { "title": "División de comandas", "description": "Mueve platos entre comensales, divide tiempos para cocina y gestiona grupos sin complicaciones." },
+        { "title": "Modo sin conexión", "description": "Sigue tomando comandas aunque caiga internet. Todo se sincroniza automáticamente cuando vuelves a estar online." }
+      ],
+      "stepsLabel": "Cómo funciona",
+      "stepsTitle": "Listo en tres pasos",
+      "steps": [
+        { "title": "Configura tu carta", "description": "Importa tus platos, define categorías, precios y modificadores. Listo en minutos." },
+        { "title": "Asigna tus mesas", "description": "Arrastra y coloca las mesas en el plano visual para que coincida con tu local." },
+        { "title": "Empieza a tomar comandas", "description": "Toca una mesa, añade platos, envía a cocina. Tu equipo lo aprenderá en un turno." }
+      ],
+      "benefitsLabel": "Resultados",
+      "benefitsTitle": "Impacto medible desde el primer día",
+      "benefits": [
+        { "stat": "3x", "description": "Más rápido tomando comandas que con TPV antiguos" },
+        { "stat": "20 min", "description": "Tiempo medio de configuración desde cero hasta la primera comanda" },
+        { "stat": "Cualquier tablet", "description": "Funciona en iPad, Android o cualquier dispositivo con navegador" },
+        { "stat": "99,9%", "description": "Disponibilidad con modo offline como red de seguridad" }
+      ],
+      "ctaTitle": "¿Listo para actualizar tu TPV?",
+      "ctaButton": "Empieza gratis",
+      "exploreTitle": "Descubre más funcionalidades",
+      "exploreSubtitle": "Gobbly conecta cada parte de tu restaurante."
+    },
+    "kitchen": {
+      "title": "Pantalla de Cocina",
+      "description": "Sistema de pantalla de cocina en tiempo real. Ve las comandas al instante, controla estados y elimina los tickets en papel.",
+      "heroTitle": "Una pantalla de cocina que va al ritmo de tus chefs",
+      "heroSubtitle": "Se acabaron los tickets que se pierden, se manchan o se acumulan. Cada comanda aparece en pantalla en el momento en que se realiza, con prioridades claras y seguimiento de estado.",
+      "problemsLabel": "El problema",
+      "problemsTitle": "Los tickets en papel crean caos en cocina",
+      "problems": [
+        { "title": "Los tickets se pierden o se manchan", "description": "Los tickets de papel se caen del riel, se mojan o se vuelven ilegibles en las horas de más trabajo." },
+        { "title": "Sin prioridad de comandas", "description": "Sin una cola clara, la cocina adivina qué comandas llegaron primero y qué mesas llevan más tiempo esperando." },
+        { "title": "Cero visibilidad para la sala", "description": "Los camareros no saben qué se está cocinando, qué está listo o cuánto lleva esperando una mesa." }
+      ],
+      "highlightsLabel": "Funcionalidades clave",
+      "highlightsTitle": "Un centro de mando para tu cocina",
+      "highlights": [
+        { "title": "Comandas en tiempo real", "description": "Las comandas aparecen al instante desde el TPV o el menú QR. Sin retrasos, sin intermediarios." },
+        { "title": "Ordenación por prioridad", "description": "Cola automática basada en la hora de la comanda. Las más antiguas siempre visibles arriba." },
+        { "title": "Badges de estado", "description": "Toca para mover las comandas entre Pendiente, Cocinando y Listo. Todo el equipo ve el estado actual." },
+        { "title": "Alertas de tiempo", "description": "Avisos visuales cuando las comandas superan el tiempo objetivo de preparación. No dejes que ninguna mesa espere demasiado." },
+        { "title": "Soporte multi-estación", "description": "Divide la pantalla por estación — plancha, freidora, postres — para que cada cocinero vea solo lo que le toca." },
+        { "title": "Diseño táctil", "description": "Botones grandes, alto contraste y gestos de deslizar pensados para dedos con grasa y cocinas a toda velocidad." }
+      ],
+      "stepsLabel": "Cómo funciona",
+      "stepsTitle": "De la mesa a la cocina en segundos",
+      "steps": [
+        { "title": "Se realiza la comanda", "description": "Un camarero la introduce en el TPV o un cliente la hace por QR. Llega al instante." },
+        { "title": "Aparece en pantalla", "description": "La comanda se muestra en la pantalla de cocina con todos los platos, modificadores y número de mesa." },
+        { "title": "Se marca como lista", "description": "El chef toca 'Listo' y el camarero recibe la notificación. El plato sale caliente." }
+      ],
+      "benefitsLabel": "Resultados",
+      "benefitsTitle": "Impacto medible desde el primer día",
+      "benefits": [
+        { "stat": "80%", "description": "Menos errores en comandas la primera semana" },
+        { "stat": "30%", "description": "Más rápido en tiempo medio de servicio" },
+        { "stat": "Cero", "description": "Residuos de papel por tickets de cocina impresos" },
+        { "stat": "100%", "description": "Visibilidad para sala sobre el estado de las comandas" }
+      ],
+      "ctaTitle": "¿Listo para digitalizar tu cocina?",
+      "ctaButton": "Empieza gratis",
+      "exploreTitle": "Descubre más funcionalidades",
+      "exploreSubtitle": "Gobbly conecta cada parte de tu restaurante."
+    },
+    "qrMenu": {
+      "title": "Carta Digital y Pedidos por QR",
+      "description": "Cartas QR interactivas con fotos, alérgenos y pedidos directos. Actualiza al instante, no imprimas nada.",
+      "heroTitle": "Tu carta, siempre actualizada, siempre en sus manos",
+      "heroSubtitle": "Los clientes escanean un código QR en su mesa y acceden a tu carta completa con fotos, información de alérgenos y la posibilidad de pedir directamente. Sin descargar ninguna app.",
+      "problemsLabel": "El problema",
+      "problemsTitle": "Las cartas impresas son un lastre",
+      "problems": [
+        { "title": "Caras de actualizar", "description": "Cada cambio de precio o plato de temporada supone reimprimir cientos de cartas. Dinero y tiempo perdidos." },
+        { "title": "Sin transparencia en alérgenos", "description": "Las cartas impresas rara vez muestran información completa de alérgenos. Un error puede tener consecuencias graves." },
+        { "title": "Proceso de pedido lento", "description": "Los clientes esperan a que traigan la carta, y luego vuelven a esperar para hacer su pedido." }
+      ],
+      "highlightsLabel": "Funcionalidades clave",
+      "highlightsTitle": "Una carta digital que hace mucho más que mostrar platos",
+      "highlights": [
+        { "title": "QR por mesa", "description": "Cada mesa tiene su propio código QR. Los clientes escanean con la cámara del móvil — sin necesidad de app." },
+        { "title": "Carta interactiva", "description": "Fotos de calidad, descripciones detalladas e información completa de alérgenos para cada plato." },
+        { "title": "Pedido directo", "description": "Los clientes añaden platos a su pedido y lo envían directamente a cocina. Sin necesidad de camarero." },
+        { "title": "Disponibilidad en tiempo real", "description": "¿Se ha agotado un plato? Márcalo como no disponible y desaparece de la carta al instante." },
+        { "title": "Soporte multi-idioma", "description": "Tu carta se muestra automáticamente en el idioma preferido del cliente. Perfecto para zonas turísticas." },
+        { "title": "Diseño personalizable", "description": "Adapta el aspecto de la carta a la marca de tu restaurante. Colores, tipografías y diseño a tu gusto." }
+      ],
+      "stepsLabel": "Cómo funciona",
+      "stepsTitle": "Tres pasos hacia una carta sin papel",
+      "steps": [
+        { "title": "Sube tu carta", "description": "Añade platos con fotos, precios, alérgenos y categorías. Importa desde una hoja de cálculo o créala visualmente." },
+        { "title": "Imprime los códigos QR", "description": "Genera códigos QR únicos para cada mesa. Imprímelos en soportes de mesa, pegatinas o manteles." },
+        { "title": "Los clientes escanean y piden", "description": "Los comensales escanean el código, ven la carta y hacen su pedido. Llega directamente a cocina." }
+      ],
+      "benefitsLabel": "Resultados",
+      "benefitsTitle": "Impacto medible desde el primer día",
+      "benefits": [
+        { "stat": "40%", "description": "Menos carga de trabajo para camareros en toma de pedidos" },
+        { "stat": "Instantáneo", "description": "Actualizaciones de carta — sin reimprimir, sin parones" },
+        { "stat": "Cero", "description": "Costes de impresión de cartas físicas" },
+        { "stat": "12+", "description": "Idiomas soportados de serie" }
+      ],
+      "ctaTitle": "¿Listo para dar el salto digital?",
+      "ctaButton": "Empieza gratis",
+      "exploreTitle": "Descubre más funcionalidades",
+      "exploreSubtitle": "Gobbly conecta cada parte de tu restaurante."
+    },
+    "payments": {
+      "title": "Pagos Inteligentes",
+      "description": "División de cuenta flexible, pagos mixtos y facturación VeriFactu. Cierra mesas en segundos.",
+      "heroTitle": "Pagos que se adaptan a cómo paga la gente de verdad",
+      "heroSubtitle": "Divide cuentas por plato, por persona o por cantidad personalizada. Acepta efectivo, tarjeta o ambos. Genera facturas legales automáticamente.",
+      "problemsLabel": "El problema",
+      "problemsTitle": "El momento de pagar no debería ser el peor",
+      "problems": [
+        { "title": "Dividir la cuenta es un lío", "description": "Calcular manualmente quién pidió qué convierte el cobro en una experiencia lenta y frustrante para todos." },
+        { "title": "Facturación manual", "description": "Hacer facturas a mano o cambiar a un sistema de facturación aparte pierde tiempo e introduce errores." },
+        { "title": "Cierre de caja lento", "description": "Contar efectivo, cuadrar tarjetas y generar informes diarios lleva una eternidad al final de cada turno." }
+      ],
+      "highlightsLabel": "Funcionalidades clave",
+      "highlightsTitle": "Cada escenario de pago, cubierto",
+      "highlights": [
+        { "title": "División inteligente de cuenta", "description": "Divide por plato (cada persona elige lo que pidió), partes iguales o cantidades personalizadas. Tres toques y listo." },
+        { "title": "Efectivo, tarjeta o mixto", "description": "Acepta cualquier combinación de métodos de pago en la misma cuenta. Sin atajos ni apaños." },
+        { "title": "Facturación VeriFactu", "description": "Genera facturas legalmente válidas automáticamente. Totalmente compatible con la normativa VeriFactu de España." },
+        { "title": "Propinas digitales", "description": "Los clientes pueden añadir propina durante el pago digital. Las cantidades sugeridas hacen que dar propina sea fácil y natural." },
+        { "title": "Cierre de caja automatizado", "description": "Cierre de turno con un toque: arqueo automático, conciliación de tarjetas e informe diario." }
+      ],
+      "stepsLabel": "Cómo funciona",
+      "stepsTitle": "De la cuenta al cobro en segundos",
+      "steps": [
+        { "title": "El cliente pide la cuenta", "description": "El camarero abre la mesa en el TPV, o el cliente toca 'Pagar' en el menú QR." },
+        { "title": "Elige cómo dividir", "description": "Selecciona el método de división: por plato, partes iguales o cantidad personalizada. Vista previa antes de confirmar." },
+        { "title": "Paga y recibe la factura", "description": "Procesa el pago, genera la factura al instante y cierra la mesa. Hecho." }
+      ],
+      "benefitsLabel": "Resultados",
+      "benefitsTitle": "Impacto medible desde el primer día",
+      "benefits": [
+        { "stat": "2x", "description": "Más rápido en el cobro comparado con facturación manual" },
+        { "stat": "100%", "description": "Cumplimiento legal en facturación integrado" },
+        { "stat": "15%", "description": "Más propinas con la opción de propina digital" },
+        { "stat": "5 min", "description": "Cierre de turno en lugar de más de 30 minutos" }
+      ],
+      "ctaTitle": "¿Listo para simplificar los pagos?",
+      "ctaButton": "Empieza gratis",
+      "exploreTitle": "Descubre más funcionalidades",
+      "exploreSubtitle": "Gobbly conecta cada parte de tu restaurante."
+    }
+  },
+  "pricingPage": {
+    "title": "Precios",
+    "description": "Precios simples y transparentes para restaurantes de cualquier tamaño. Empieza gratis y escala a medida que creces.",
+    "heroTitle": "Precios simples para cada restaurante",
+    "heroSubtitle": "Sin costes ocultos, sin sorpresas. Elige el plan que se adapte a tu restaurante y amplía cuando lo necesites.",
+    "starterName": "Starter",
+    "starterSubtitle": "Para restaurantes pequeños que empiezan",
+    "starterPrice": "Gratis",
+    "starterPriceSuffix": "",
+    "starterCta": "Empieza ya",
+    "starterFeatures": [
+      "Hasta 10 mesas",
+      "TPV básico",
+      "Pantalla de cocina",
+      "Carta QR y pedidos",
+      "Analíticas básicas",
+      "Soporte comunitario"
+    ],
+    "proName": "Pro",
+    "proSubtitle": "Para restaurantes en crecimiento que necesitan más potencia",
+    "proPrice": "49 €",
+    "proPriceSuffix": "/mes",
+    "proCta": "Prueba gratis",
+    "proFeatures": [
+      "Mesas ilimitadas",
+      "TPV avanzado con modos personalizados",
+      "Pantalla de cocina",
+      "Carta QR y pedidos",
+      "División de cuenta y pagos mixtos",
+      "Facturación VeriFactu",
+      "Analíticas avanzadas",
+      "Soporte prioritario"
+    ],
+    "enterpriseName": "Enterprise",
+    "enterpriseSubtitle": "Para grupos de hostelería y cadenas",
+    "enterprisePrice": "Personalizado",
+    "enterprisePriceSuffix": "",
+    "enterpriseCta": "Contactar ventas",
+    "enterpriseFeatures": [
+      "Todo lo de Pro",
+      "Gestión multi-local",
+      "Integraciones personalizadas",
+      "Account manager dedicado",
+      "SLA y tiempo de actividad garantizado",
+      "Onboarding y formación a medida"
+    ],
+    "mostPopular": "Más popular",
+    "comparisonTitle": "Compara los planes en detalle",
+    "comparisonSubtitle": "Mira exactamente qué incluye cada plan.",
+    "featureLabel": "Funcionalidad",
+    "comparisonFeatures": [
+      { "name": "Mesas", "starter": "Hasta 10", "pro": "Ilimitadas", "enterprise": "Ilimitadas" },
+      { "name": "TPV", "starter": "Básico", "pro": "Avanzado", "enterprise": "Avanzado + Personalizado" },
+      { "name": "Pantalla de cocina", "starter": true, "pro": true, "enterprise": true },
+      { "name": "Carta QR", "starter": true, "pro": true, "enterprise": "Marca personalizada" },
+      { "name": "División de cuenta", "starter": false, "pro": true, "enterprise": true },
+      { "name": "Facturación VeriFactu", "starter": false, "pro": true, "enterprise": true },
+      { "name": "Analíticas", "starter": "Básicas", "pro": "Avanzadas", "enterprise": "Avanzadas + API" },
+      { "name": "Soporte", "starter": "Comunitario", "pro": "Prioritario", "enterprise": "Manager dedicado" },
+      { "name": "Multi-local", "starter": false, "pro": false, "enterprise": true },
+      { "name": "Integraciones personalizadas", "starter": false, "pro": false, "enterprise": true },
+      { "name": "SLA", "starter": false, "pro": false, "enterprise": true }
+    ],
+    "faqTitle": "Preguntas frecuentes",
+    "faqSubtitle": "Todo lo que necesitas saber sobre nuestros precios.",
+    "faq": [
+      {
+        "question": "¿Puedo cambiar de plan en cualquier momento?",
+        "answer": "Sí. Puedes subir o bajar de plan en cualquier momento desde la configuración de tu cuenta. Al subir, tendrás acceso inmediato a las nuevas funcionalidades. Al bajar, el cambio se aplica al final del ciclo de facturación actual."
+      },
+      {
+        "question": "¿Hay contrato o permanencia?",
+        "answer": "No. Todos los planes son mensuales sin compromiso a largo plazo. Puedes cancelar en cualquier momento. Los planes Enterprise pueden incluir condiciones personalizadas según tus necesidades."
+      },
+      {
+        "question": "¿Qué métodos de pago aceptáis?",
+        "answer": "Aceptamos las principales tarjetas de crédito y débito (Visa, Mastercard, American Express) así como domiciliación bancaria SEPA para clientes europeos. Todos los pagos se procesan de forma segura a través de Stripe."
+      },
+      {
+        "question": "¿Hay prueba gratuita del plan Pro?",
+        "answer": "Sí. Tienes 14 días de prueba gratuita del plan Pro con acceso completo a todas las funcionalidades. No se requiere tarjeta de crédito para empezar. Al final de la prueba, puedes suscribirte o pasar al plan gratuito Starter."
+      },
+      {
+        "question": "¿Qué pasa si supero los límites del plan Starter?",
+        "answer": "Si necesitas más de 10 mesas, te invitaremos a pasar al plan Pro. Nunca cortaremos tu servicio de forma inesperada — recibirás una notificación con tiempo suficiente para decidir."
+      },
+      {
+        "question": "¿Ofrecéis descuento por facturación anual?",
+        "answer": "Sí. La facturación anual te ahorra un 20% respecto a la mensual. Eso significa que el plan Pro sale a solo 39 €/mes con facturación anual."
+      }
+    ],
+    "ctaTitle": "¿Listo para empezar?",
+    "ctaSubtitle": "Únete a cientos de restaurantes que ya usan Gobbly. Empieza gratis, sin tarjeta de crédito.",
+    "ctaButton": "Empieza gratis"
+  },
+  "faqPage": {
+    "title": "Preguntas Frecuentes",
+    "description": "Encuentra respuestas sobre la plataforma de gestión de restaurantes Gobbly — funcionalidades, precios, configuración, normativa y más.",
+    "heroTitle": "Preguntas Frecuentes",
+    "heroSubtitle": "Todo lo que necesitas saber sobre Gobbly. ¿No encuentras tu respuesta? Contacta con nuestro equipo.",
+    "categories": {
+      "general": {
+        "title": "General",
+        "items": [
+          {
+            "question": "¿Qué es Gobbly?",
+            "answer": "Gobbly es una plataforma todo-en-uno de gestión de restaurantes que combina TPV, pantalla de cocina, carta digital con pedidos por QR y pagos inteligentes en una sola app en tiempo real. Sustituye las comandas en papel y las herramientas dispersas por un único sistema unificado."
+          },
+          {
+            "question": "¿Para quién es Gobbly?",
+            "answer": "Gobbly está pensado para cualquier negocio de hostelería — desde pequeños bares y cafeterías de barrio hasta grupos de restaurantes con múltiples locales. Tanto si tienes un servicio rápido como un restaurante de alta cocina, Gobbly se adapta a tu forma de trabajar."
+          },
+          {
+            "question": "¿En qué se diferencia Gobbly de otras herramientas de gestión?",
+            "answer": "A diferencia de las soluciones tradicionales que requieren múltiples sistemas desconectados, Gobbly integra TPV, gestión de cocina, carta digital y pagos en una sola plataforma. Todo se sincroniza en tiempo real, de modo que sala y cocina siempre están coordinados."
+          },
+          {
+            "question": "¿Gobbly está disponible en mi idioma?",
+            "answer": "Gobbly está disponible actualmente en español, inglés y catalán. Estamos trabajando activamente en añadir más idiomas. La carta digital para tus clientes puede mostrarse en varios idiomas simultáneamente."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Precios y Planes",
+        "items": [
+          {
+            "question": "¿Hay un plan gratuito?",
+            "answer": "Sí. Nuestro plan Starter es completamente gratuito e incluye hasta 10 mesas, TPV, pantalla de cocina, carta QR con pedidos y analíticas básicas. No se necesita tarjeta de crédito para empezar."
+          },
+          {
+            "question": "¿Puedo cambiar de plan en cualquier momento?",
+            "answer": "Por supuesto. Puedes subir o bajar de plan en cualquier momento desde la configuración de tu cuenta. Al subir, tendrás acceso inmediato a las nuevas funcionalidades. Al bajar, el cambio se aplica al final de tu ciclo de facturación."
+          },
+          {
+            "question": "¿Hay contrato o permanencia?",
+            "answer": "Sin contratos a largo plazo. Todos los planes de pago son mensuales y puedes cancelar en cualquier momento. Creemos en ganarnos tu confianza cada mes, no en atarte con permanencias."
+          },
+          {
+            "question": "¿Qué métodos de pago aceptáis?",
+            "answer": "Aceptamos las principales tarjetas de crédito y débito (Visa, Mastercard, American Express) a través de nuestro procesador de pagos seguro, Stripe. Para planes Enterprise, también ofrecemos transferencia bancaria y facturación personalizada."
+          }
+        ]
+      },
+      "features": {
+        "title": "Funcionalidades",
+        "items": [
+          {
+            "question": "¿Gobbly funciona sin conexión?",
+            "answer": "Gobbly está diseñado como una plataforma online para sincronización en tiempo real. Sin embargo, las funciones básicas del TPV siguen operativas durante breves interrupciones de conectividad, y los datos se sincronizan automáticamente cuando se restablece la conexión."
+          },
+          {
+            "question": "¿Los clientes pueden pedir desde su móvil?",
+            "answer": "Sí. Los clientes escanean un código QR en su mesa para ver la carta completa, consultar información de alérgenos y hacer pedidos directamente desde su móvil. No necesitan descargar ninguna app — funciona en cualquier navegador."
+          },
+          {
+            "question": "¿Se puede dividir la cuenta?",
+            "answer": "Sí. Gobbly ofrece división de cuenta flexible — los clientes pueden dividir por plato, partes iguales o cantidades personalizadas. Soporta efectivo, tarjeta y pagos mixtos en una sola transacción."
+          },
+          {
+            "question": "¿Puedo personalizar mi carta digital?",
+            "answer": "Por supuesto. Puedes organizar platos por categorías, añadir fotos e información de alérgenos, configurar menús del día y gestionar la disponibilidad en tiempo real. Los cambios se reflejan al instante en la carta QR que ven tus clientes."
+          }
+        ]
+      },
+      "technical": {
+        "title": "Técnico",
+        "items": [
+          {
+            "question": "¿En qué dispositivos funciona Gobbly?",
+            "answer": "Gobbly funciona en cualquier navegador web moderno — Chrome, Safari, Firefox o Edge — en tablets, portátiles y ordenadores de sobremesa. La pantalla de cocina está optimizada para tablets, mientras que el TPV funciona perfectamente en cualquier tamaño de pantalla."
+          },
+          {
+            "question": "¿Necesito hardware especial?",
+            "answer": "No se necesita hardware especial. Gobbly funciona en los dispositivos que ya tienes — cualquier tablet, portátil u ordenador con navegador web. Para impresión, es compatible con impresoras térmicas de tickets estándar a través del navegador."
+          },
+          {
+            "question": "¿Cómo configuro Gobbly?",
+            "answer": "La configuración lleva unos 20 minutos. Crea tu cuenta, añade los platos de tu carta (o importa desde una hoja de cálculo), imprime los códigos QR de tus mesas y listo. Nuestra guía de inicio te acompaña en cada paso."
+          }
+        ]
+      },
+      "legal": {
+        "title": "Legal y Normativa",
+        "items": [
+          {
+            "question": "¿Gobbly cumple con VeriFactu?",
+            "answer": "Sí. Los planes Pro y Enterprise de Gobbly incluyen facturación compatible con VeriFactu de serie. Todas las facturas cumplen la normativa española de facturación electrónica, para que estés al día sin esfuerzo adicional."
+          },
+          {
+            "question": "¿Cómo gestiona Gobbly mis datos (RGPD)?",
+            "answer": "Gobbly cumple plenamente con el RGPD. Tus datos están cifrados en tránsito y en reposo, almacenados en servidores dentro de la UE y nunca se venden a terceros. Puedes exportar o eliminar tus datos en cualquier momento desde la configuración de tu cuenta."
+          },
+          {
+            "question": "¿Gobbly genera facturas legales?",
+            "answer": "Sí. Gobbly genera facturas legalmente válidas que cumplen con la normativa fiscal española. Los planes Pro y Enterprise incluyen facturación electrónica compatible con VeriFactu, y todas las facturas se pueden descargar o enviar por email directamente a los clientes."
+          }
+        ]
+      }
+    },
+    "ctaTitle": "¿Aún tienes dudas?",
+    "ctaText": "Nuestro equipo está aquí para ayudarte. Escríbenos y te responderemos en menos de 24 horas.",
+    "ctaButton": "Contáctanos"
   }
 }

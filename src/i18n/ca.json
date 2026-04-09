@@ -215,19 +215,57 @@
       {
         "name": "Marc Solé",
         "role": "CEO i Cofundador",
-        "bio": "Exgerent de restaurant reconvertit en emprenedor tecnològic. Després d'anys lluitant amb eines fragmentades i comandes en paper, Marc va decidir construir la plataforma tot-en-un que li hauria encantat tenir. Lidera la visió de producte i l'estratègia."
+        "bio": "Exgerent de restaurant reconvertit en emprenedor tecnològic. Després d'anys lluitant amb eines fragmentades i comandes en paper, Marc va decidir construir la plataforma tot-en-un que li hauria encantat tenir. Lidera la visió de producte i l'estratègia, treballant estretament amb propietaris de restaurants de tota Espanya perquè Gobbly es mantingui fidel a la realitat del servei diari."
       },
       {
         "name": "Elena Vidal",
         "role": "CTO i Cofundadora",
-        "bio": "Enginyera full-stack amb una dècada d'experiència construint sistemes en temps real. L'Elena dissenya la infraestructura de Gobbly — des de la sincronització de la pantalla de cuina fins al pipeline de pagaments — assegurant que tot funcioni a la perfecció."
+        "bio": "Enginyera full-stack amb una dècada d'experiència construint sistemes en temps real. L'Elena dissenya la infraestructura de Gobbly — des de la sincronització de la pantalla de cuina fins al pipeline de pagaments — assegurant que tot funcioni a la perfecció. Abans de Gobbly, va liderar equips d'enginyeria a dues startups SaaS de Barcelona, llançant productes usats per milers de negocis cada dia."
       },
       {
         "name": "Pau Ribera",
         "role": "COO i Cofundador",
-        "bio": "Especialista en operacions amb experiència en consultoria hostalera. En Pau treballa directament amb els restaurants associats per donar forma al roadmap del producte i assegurar que Gobbly resol problemes reals a cuines reals."
+        "bio": "Especialista en operacions amb experiència en consultoria hostalera. En Pau treballa directament amb els restaurants associats per donar forma al roadmap del producte i assegurar que Gobbly resol problemes reals a cuines reals. El seu enfocament pràctic el porta a passar temps regularment als restaurants associats, observant fluxos de treball i recollint feedback de primera mà."
       }
-    ]
+    ],
+    "story": {
+      "title": "La Nostra Història",
+      "paragraphs": [
+        "Gobbly va néixer a Barcelona el 2024, fruit d'una frustració compartida que tot propietari de restaurant coneix massa bé: els malabarismes diaris entre un sistema de punt de venda que no es comunica amb la cuina, un flux de comandes en paper que es desmunta a l'hora punta i un munt d'eines desconnectades que mai van ser dissenyades per funcionar juntes.",
+        "El nostre equip fundador reuneix una profunda experiència al sector de la restauració i coneixement tècnic d'avantguarda. En Marc va passar més d'una dècada gestionant restaurants i sabia exactament on eren els punts de dolor. L'Elena portava anys construint programari col·laboratiu en temps real i va veure que la mateixa tecnologia que impulsa els llocs de treball moderns podia transformar l'hostaleria. En Pau, amb la seva experiència en consultoria d'operacions, entenia com salvar la distància entre el que la tecnologia pot fer i el que els equips de restaurant realment necessiten.",
+        "Junts, ens vam proposar una missió clara: fer que la tecnologia serveixi l'hostaleria, i no al revés. Volíem construir una plataforma que un propietari de restaurant pogués configurar en minuts, que l'equip de cuina gaudís fent servir i que els comensals trobessin fluida. Avui, Gobbly és utilitzat per restaurants a tota Espanya i més enllà, i això és només el principi."
+      ]
+    },
+    "values": {
+      "title": "Els Nostres Valors",
+      "items": [
+        {
+          "title": "Simplicitat",
+          "description": "La tecnologia ha de simplificar, no complicar. Cada funcionalitat que llancem ha de passar una prova simple: facilita el dia a dia del restaurador?"
+        },
+        {
+          "title": "Temps real",
+          "description": "Els restaurants es mouen ràpid, i les teves eines també haurien de fer-ho. Des de la presa de la comanda fins a la pantalla de cuina i el pagament, tot passa en temps real — sense recàrregues, sense esperes."
+        },
+        {
+          "title": "Transparència",
+          "description": "Sense costos ocults, sense contractes de permanència. Pots veure els nostres preus, exportar les teves dades en qualsevol moment i cancel·lar quan vulguis. Ens guanyem la teva confiança cada mes."
+        },
+        {
+          "title": "Local",
+          "description": "Fet a Barcelona, per a restaurants d'arreu. Entenem la cultura de l'hostaleria mediterrània i dissenyem amb la calidesa i el ritme del servei real al cap."
+        }
+      ]
+    },
+    "numbers": {
+      "title": "Gobbly en Xifres",
+      "items": [
+        { "value": "500+", "label": "Restaurants atesos" },
+        { "value": "3", "label": "Idiomes suportats" },
+        { "value": "99.9%", "label": "Temps d'activitat" },
+        { "value": "<20 min", "label": "Temps mitjà de configuració" }
+      ]
+    }
   },
   "contact": {
     "title": "Contacta'ns",
@@ -236,6 +274,13 @@
     "infoEmail": "gobbly.app@gmail.com",
     "infoEmailLabel": "Escriu-nos directament",
     "infoResponseTime": "Normalment responem en menys de 24 hores.",
+    "infoAddressLabel": "La nostra oficina",
+    "infoAddress": "Barcelona, Espanya",
+    "infoPhoneLabel": "Truca'ns",
+    "infoPhone": "+34 XXX XXX XXX",
+    "infoHoursLabel": "Horari d'atenció",
+    "infoHours": "Dl-Dv, 9:00 - 18:00 CET",
+    "mapPlaceholder": "Barcelona, Espanya",
     "formName": "El teu nom",
     "formEmail": "Correu electrònic",
     "formSubject": "Assumpte",
@@ -334,5 +379,377 @@
         "content": "Per a preguntes sobre aquests Termes de Servei, contacteu-nos a gobbly.app@gmail.com o escriviu-nos a Gobbly SL, Barcelona, Espanya."
       }
     ]
+  },
+  "featurePages": {
+    "pos": {
+      "title": "Punt de Venda (TPV)",
+      "description": "Sistema TPV intuitiu dissenyat per a l'hostaleria. Gestió de taules, cerca ràpida i creació instantània de comandes.",
+      "heroTitle": "Un TPV pensat per a restaurants, no per a retail",
+      "heroSubtitle": "Oblida't dels sistemes antiquats. El TPV de Gobbly funciona en qualsevol tauleta, es configura en minuts i gestiona tot, des de les taules fins a la divisió de comptes.",
+      "problemsLabel": "El problema",
+      "problemsTitle": "El TPV antic et frena",
+      "problems": [
+        { "title": "Hardware lent i obsolet", "description": "Terminals voluminosos que es pengen a l'hora punta i costen milers d'euros reemplaçar." },
+        { "title": "Llicències cares", "description": "Quotes mensuals que no paren de pujar, amb càrrecs per cada terminal i cada actualització." },
+        { "title": "Configuració complicada", "description": "Setmanes d'instal·lació i formació abans que el teu equip pugui prendre una sola comanda." }
+      ],
+      "highlightsLabel": "Funcionalitats clau",
+      "highlightsTitle": "Tot el que necessites al punt de venda",
+      "highlights": [
+        { "title": "Gestió visual de taules", "description": "Plànol del local amb estat en temps real de cada taula — lliure, ocupada, esperant compte." },
+        { "title": "Cerca ràpida de plats", "description": "Troba qualsevol plat a l'instant amb cerca intel·ligent per categories, noms i etiquetes." },
+        { "title": "Modificadors personalitzats", "description": "Afegeix extres, treu ingredients o anota peticions especials amb un sol toc." },
+        { "title": "Descomptes i promocions", "description": "Aplica descomptes percentuals o fixos per plat o per taula. Configura regles de happy hour automàticament." },
+        { "title": "Divisió de comandes", "description": "Mou plats entre comensals, divideix temps per a cuina i gestiona grups sense complicacions." },
+        { "title": "Mode sense connexió", "description": "Segueix prenent comandes encara que caigui internet. Tot se sincronitza automàticament quan tornes a estar online." }
+      ],
+      "stepsLabel": "Com funciona",
+      "stepsTitle": "Llest en tres passos",
+      "steps": [
+        { "title": "Configura la teva carta", "description": "Importa els teus plats, defineix categories, preus i modificadors. Llest en minuts." },
+        { "title": "Assigna les teves taules", "description": "Arrossega i col·loca les taules al plànol visual perquè coincideixi amb el teu local." },
+        { "title": "Comença a prendre comandes", "description": "Toca una taula, afegeix plats, envia a cuina. El teu equip ho aprendrà en un torn." }
+      ],
+      "benefitsLabel": "Resultats",
+      "benefitsTitle": "Impacte mesurable des del primer dia",
+      "benefits": [
+        { "stat": "3x", "description": "Més ràpid prenent comandes que amb TPV antics" },
+        { "stat": "20 min", "description": "Temps mitjà de configuració des de zero fins a la primera comanda" },
+        { "stat": "Qualsevol tauleta", "description": "Funciona en iPad, Android o qualsevol dispositiu amb navegador" },
+        { "stat": "99,9%", "description": "Disponibilitat amb mode offline com a xarxa de seguretat" }
+      ],
+      "ctaTitle": "Preparat per actualitzar el teu TPV?",
+      "ctaButton": "Comença gratis",
+      "exploreTitle": "Descobreix més funcionalitats",
+      "exploreSubtitle": "Gobbly connecta cada part del teu restaurant."
+    },
+    "kitchen": {
+      "title": "Pantalla de Cuina",
+      "description": "Sistema de pantalla de cuina en temps real. Veu les comandes a l'instant, controla estats i elimina els tiquets en paper.",
+      "heroTitle": "Una pantalla de cuina que va al ritme dels teus xefs",
+      "heroSubtitle": "S'han acabat els tiquets que es perden, es taquen o s'acumulen. Cada comanda apareix en pantalla en el moment en què es fa, amb prioritats clares i seguiment d'estat.",
+      "problemsLabel": "El problema",
+      "problemsTitle": "Els tiquets en paper creen caos a la cuina",
+      "problems": [
+        { "title": "Els tiquets es perden o es taquen", "description": "Els tiquets de paper cauen del rail, es mullen o es tornen il·legibles a les hores de més feina." },
+        { "title": "Sense prioritat de comandes", "description": "Sense una cua clara, la cuina endevina quines comandes van arribar primer i quines taules porten més temps esperant." },
+        { "title": "Zero visibilitat per a la sala", "description": "Els cambrers no saben què s'està cuinant, què està llest o quant porta esperant una taula." }
+      ],
+      "highlightsLabel": "Funcionalitats clau",
+      "highlightsTitle": "Un centre de comandament per a la teva cuina",
+      "highlights": [
+        { "title": "Comandes en temps real", "description": "Les comandes apareixen a l'instant des del TPV o el menú QR. Sense retards, sense intermediaris." },
+        { "title": "Ordenació per prioritat", "description": "Cua automàtica basada en l'hora de la comanda. Les més antigues sempre visibles a dalt." },
+        { "title": "Badges d'estat", "description": "Toca per moure les comandes entre Pendent, Cuinant i Llest. Tot l'equip veu l'estat actual." },
+        { "title": "Alertes de temps", "description": "Avisos visuals quan les comandes superen el temps objectiu de preparació. No deixis que cap taula esperi massa." },
+        { "title": "Suport multi-estació", "description": "Divideix la pantalla per estació — planxa, fregidora, postres — perquè cada cuiner vegi només el que li toca." },
+        { "title": "Disseny tàctil", "description": "Botons grans, alt contrast i gestos de lliscar pensats per a dits amb greix i cuines a tota velocitat." }
+      ],
+      "stepsLabel": "Com funciona",
+      "stepsTitle": "De la taula a la cuina en segons",
+      "steps": [
+        { "title": "Es fa la comanda", "description": "Un cambrer la introdueix al TPV o un client la fa per QR. Arriba a l'instant." },
+        { "title": "Apareix en pantalla", "description": "La comanda es mostra a la pantalla de cuina amb tots els plats, modificadors i número de taula." },
+        { "title": "Es marca com a llesta", "description": "El xef toca 'Llest' i el cambrer rep la notificació. El plat surt calent." }
+      ],
+      "benefitsLabel": "Resultats",
+      "benefitsTitle": "Impacte mesurable des del primer dia",
+      "benefits": [
+        { "stat": "80%", "description": "Menys errors en comandes la primera setmana" },
+        { "stat": "30%", "description": "Més ràpid en temps mitjà de servei" },
+        { "stat": "Zero", "description": "Residus de paper per tiquets de cuina impresos" },
+        { "stat": "100%", "description": "Visibilitat per a sala sobre l'estat de les comandes" }
+      ],
+      "ctaTitle": "Preparat per digitalitzar la teva cuina?",
+      "ctaButton": "Comença gratis",
+      "exploreTitle": "Descobreix més funcionalitats",
+      "exploreSubtitle": "Gobbly connecta cada part del teu restaurant."
+    },
+    "qrMenu": {
+      "title": "Carta Digital i Comandes per QR",
+      "description": "Cartes QR interactives amb fotos, al·lèrgens i comandes directes. Actualitza a l'instant, no imprimeixis res.",
+      "heroTitle": "La teva carta, sempre actualitzada, sempre a les seves mans",
+      "heroSubtitle": "Els clients escanegen un codi QR a la seva taula i accedeixen a la teva carta completa amb fotos, informació d'al·lèrgens i la possibilitat de demanar directament. Sense descarregar cap app.",
+      "problemsLabel": "El problema",
+      "problemsTitle": "Les cartes impreses són un llast",
+      "problems": [
+        { "title": "Cares d'actualitzar", "description": "Cada canvi de preu o plat de temporada suposa reimprimir centenars de cartes. Diners i temps perduts." },
+        { "title": "Sense transparència en al·lèrgens", "description": "Les cartes impreses rarament mostren informació completa d'al·lèrgens. Un error pot tenir conseqüències greus." },
+        { "title": "Procés de comanda lent", "description": "Els clients esperen que portin la carta, i després tornen a esperar per fer la comanda." }
+      ],
+      "highlightsLabel": "Funcionalitats clau",
+      "highlightsTitle": "Una carta digital que fa molt més que mostrar plats",
+      "highlights": [
+        { "title": "QR per taula", "description": "Cada taula té el seu propi codi QR. Els clients escanegen amb la càmera del mòbil — sense necessitat d'app." },
+        { "title": "Carta interactiva", "description": "Fotos de qualitat, descripcions detallades i informació completa d'al·lèrgens per a cada plat." },
+        { "title": "Comanda directa", "description": "Els clients afegeixen plats a la seva comanda i l'envien directament a cuina. Sense necessitat de cambrer." },
+        { "title": "Disponibilitat en temps real", "description": "S'ha acabat un plat? Marca'l com a no disponible i desapareix de la carta a l'instant." },
+        { "title": "Suport multi-idioma", "description": "La teva carta es mostra automàticament en l'idioma preferit del client. Perfecte per a zones turístiques." },
+        { "title": "Disseny personalitzable", "description": "Adapta l'aspecte de la carta a la marca del teu restaurant. Colors, tipografies i disseny al teu gust." }
+      ],
+      "stepsLabel": "Com funciona",
+      "stepsTitle": "Tres passos cap a una carta sense paper",
+      "steps": [
+        { "title": "Puja la teva carta", "description": "Afegeix plats amb fotos, preus, al·lèrgens i categories. Importa des d'un full de càlcul o crea-la visualment." },
+        { "title": "Imprimeix els codis QR", "description": "Genera codis QR únics per a cada taula. Imprimeix-los en suports de taula, adhesius o estovalles." },
+        { "title": "Els clients escanegen i demanen", "description": "Els comensals escanegen el codi, veuen la carta i fan la seva comanda. Arriba directament a cuina." }
+      ],
+      "benefitsLabel": "Resultats",
+      "benefitsTitle": "Impacte mesurable des del primer dia",
+      "benefits": [
+        { "stat": "40%", "description": "Menys càrrega de treball per als cambrers en presa de comandes" },
+        { "stat": "Instantani", "description": "Actualitzacions de carta — sense reimprimir, sense aturades" },
+        { "stat": "Zero", "description": "Costos d'impressió de cartes físiques" },
+        { "stat": "12+", "description": "Idiomes suportats de sèrie" }
+      ],
+      "ctaTitle": "Preparat per fer el salt digital?",
+      "ctaButton": "Comença gratis",
+      "exploreTitle": "Descobreix més funcionalitats",
+      "exploreSubtitle": "Gobbly connecta cada part del teu restaurant."
+    },
+    "payments": {
+      "title": "Pagaments Intel·ligents",
+      "description": "Divisió de compte flexible, pagaments mixtos i facturació VeriFactu. Tanca taules en segons.",
+      "heroTitle": "Pagaments que s'adapten a com paga la gent de veritat",
+      "heroSubtitle": "Divideix comptes per plat, per persona o per quantitat personalitzada. Accepta efectiu, targeta o ambdós. Genera factures legals automàticament.",
+      "problemsLabel": "El problema",
+      "problemsTitle": "El moment de pagar no hauria de ser el pitjor",
+      "problems": [
+        { "title": "Dividir el compte és un embolic", "description": "Calcular manualment qui va demanar què converteix el cobrament en una experiència lenta i frustrant per a tothom." },
+        { "title": "Facturació manual", "description": "Fer factures a mà o canviar a un sistema de facturació apart perd temps i introdueix errors." },
+        { "title": "Tancament de caixa lent", "description": "Comptar efectiu, quadrar targetes i generar informes diaris porta una eternitat al final de cada torn." }
+      ],
+      "highlightsLabel": "Funcionalitats clau",
+      "highlightsTitle": "Cada escenari de pagament, cobert",
+      "highlights": [
+        { "title": "Divisió intel·ligent de compte", "description": "Divideix per plat (cada persona tria el que va demanar), parts iguals o quantitats personalitzades. Tres tocs i llest." },
+        { "title": "Efectiu, targeta o mixt", "description": "Accepta qualsevol combinació de mètodes de pagament al mateix compte. Sense dreceres ni pedaços." },
+        { "title": "Facturació VeriFactu", "description": "Genera factures legalment vàlides automàticament. Totalment compatible amb la normativa VeriFactu d'Espanya." },
+        { "title": "Propines digitals", "description": "Els clients poden afegir propina durant el pagament digital. Les quantitats suggerides fan que donar propina sigui fàcil i natural." },
+        { "title": "Tancament de caixa automatitzat", "description": "Tancament de torn amb un toc: arqueig automàtic, conciliació de targetes i informe diari." }
+      ],
+      "stepsLabel": "Com funciona",
+      "stepsTitle": "Del compte al cobrament en segons",
+      "steps": [
+        { "title": "El client demana el compte", "description": "El cambrer obre la taula al TPV, o el client toca 'Pagar' al menú QR." },
+        { "title": "Tria com dividir", "description": "Selecciona el mètode de divisió: per plat, parts iguals o quantitat personalitzada. Vista prèvia abans de confirmar." },
+        { "title": "Paga i rep la factura", "description": "Processa el pagament, genera la factura a l'instant i tanca la taula. Fet." }
+      ],
+      "benefitsLabel": "Resultats",
+      "benefitsTitle": "Impacte mesurable des del primer dia",
+      "benefits": [
+        { "stat": "2x", "description": "Més ràpid en el cobrament comparat amb facturació manual" },
+        { "stat": "100%", "description": "Compliment legal en facturació integrat" },
+        { "stat": "15%", "description": "Més propines amb l'opció de propina digital" },
+        { "stat": "5 min", "description": "Tancament de torn en lloc de més de 30 minuts" }
+      ],
+      "ctaTitle": "Preparat per simplificar els pagaments?",
+      "ctaButton": "Comença gratis",
+      "exploreTitle": "Descobreix més funcionalitats",
+      "exploreSubtitle": "Gobbly connecta cada part del teu restaurant."
+    }
+  },
+  "pricingPage": {
+    "title": "Preus",
+    "description": "Preus simples i transparents per a restaurants de qualsevol mida. Comença gratis i escala a mesura que creixes.",
+    "heroTitle": "Preus simples per a cada restaurant",
+    "heroSubtitle": "Sense costos ocults, sense sorpreses. Tria el pla que s'adapti al teu restaurant i amplia quan ho necessitis.",
+    "starterName": "Starter",
+    "starterSubtitle": "Per a restaurants petits que comencen",
+    "starterPrice": "Gratis",
+    "starterPriceSuffix": "",
+    "starterCta": "Comença ara",
+    "starterFeatures": [
+      "Fins a 10 taules",
+      "TPV bàsic",
+      "Pantalla de cuina",
+      "Carta QR i comandes",
+      "Analítiques bàsiques",
+      "Suport comunitari"
+    ],
+    "proName": "Pro",
+    "proSubtitle": "Per a restaurants en creixement que necessiten més potència",
+    "proPrice": "49 €",
+    "proPriceSuffix": "/mes",
+    "proCta": "Prova gratis",
+    "proFeatures": [
+      "Taules il·limitades",
+      "TPV avançat amb modes personalitzats",
+      "Pantalla de cuina",
+      "Carta QR i comandes",
+      "Divisió de compte i pagaments mixtos",
+      "Facturació VeriFactu",
+      "Analítiques avançades",
+      "Suport prioritari"
+    ],
+    "enterpriseName": "Enterprise",
+    "enterpriseSubtitle": "Per a grups de restauració i cadenes",
+    "enterprisePrice": "Personalitzat",
+    "enterprisePriceSuffix": "",
+    "enterpriseCta": "Contactar vendes",
+    "enterpriseFeatures": [
+      "Tot el de Pro",
+      "Gestió multi-local",
+      "Integracions personalitzades",
+      "Account manager dedicat",
+      "SLA i temps d'activitat garantit",
+      "Onboarding i formació a mida"
+    ],
+    "mostPopular": "Més popular",
+    "comparisonTitle": "Compara els plans en detall",
+    "comparisonSubtitle": "Mira exactament què inclou cada pla.",
+    "featureLabel": "Funcionalitat",
+    "comparisonFeatures": [
+      { "name": "Taules", "starter": "Fins a 10", "pro": "Il·limitades", "enterprise": "Il·limitades" },
+      { "name": "TPV", "starter": "Bàsic", "pro": "Avançat", "enterprise": "Avançat + Personalitzat" },
+      { "name": "Pantalla de cuina", "starter": true, "pro": true, "enterprise": true },
+      { "name": "Carta QR", "starter": true, "pro": true, "enterprise": "Marca personalitzada" },
+      { "name": "Divisió de compte", "starter": false, "pro": true, "enterprise": true },
+      { "name": "Facturació VeriFactu", "starter": false, "pro": true, "enterprise": true },
+      { "name": "Analítiques", "starter": "Bàsiques", "pro": "Avançades", "enterprise": "Avançades + API" },
+      { "name": "Suport", "starter": "Comunitari", "pro": "Prioritari", "enterprise": "Manager dedicat" },
+      { "name": "Multi-local", "starter": false, "pro": false, "enterprise": true },
+      { "name": "Integracions personalitzades", "starter": false, "pro": false, "enterprise": true },
+      { "name": "SLA", "starter": false, "pro": false, "enterprise": true }
+    ],
+    "faqTitle": "Preguntes freqüents",
+    "faqSubtitle": "Tot el que necessites saber sobre els nostres preus.",
+    "faq": [
+      {
+        "question": "Puc canviar de pla en qualsevol moment?",
+        "answer": "Sí. Pots pujar o baixar de pla en qualsevol moment des de la configuració del teu compte. En pujar, tindràs accés immediat a les noves funcionalitats. En baixar, el canvi s'aplica al final del cicle de facturació actual."
+      },
+      {
+        "question": "Hi ha contracte o permanència?",
+        "answer": "No. Tots els plans són mensuals sense compromís a llarg termini. Pots cancel·lar en qualsevol moment. Els plans Enterprise poden incloure condicions personalitzades segons les teves necessitats."
+      },
+      {
+        "question": "Quins mètodes de pagament accepteu?",
+        "answer": "Acceptem les principals targetes de crèdit i dèbit (Visa, Mastercard, American Express) així com domiciliació bancària SEPA per a clients europeus. Tots els pagaments es processen de forma segura a través de Stripe."
+      },
+      {
+        "question": "Hi ha prova gratuïta del pla Pro?",
+        "answer": "Sí. Tens 14 dies de prova gratuïta del pla Pro amb accés complet a totes les funcionalitats. No cal targeta de crèdit per començar. Al final de la prova, pots subscriure't o passar al pla gratuït Starter."
+      },
+      {
+        "question": "Què passa si supero els límits del pla Starter?",
+        "answer": "Si necessites més de 10 taules, et convidarem a passar al pla Pro. Mai tallarem el teu servei de forma inesperada — rebràs una notificació amb temps suficient per decidir."
+      },
+      {
+        "question": "Oferiu descompte per facturació anual?",
+        "answer": "Sí. La facturació anual t'estalvia un 20% respecte a la mensual. Això vol dir que el pla Pro surt a només 39 €/mes amb facturació anual."
+      }
+    ],
+    "ctaTitle": "Preparat per començar?",
+    "ctaSubtitle": "Uneix-te a centenars de restaurants que ja utilitzen Gobbly. Comença gratis, sense targeta de crèdit.",
+    "ctaButton": "Comença gratis"
+  },
+  "faqPage": {
+    "title": "Preguntes Freqüents",
+    "description": "Troba respostes sobre la plataforma de gestió de restaurants Gobbly — funcionalitats, preus, configuració, normativa i més.",
+    "heroTitle": "Preguntes Freqüents",
+    "heroSubtitle": "Tot el que necessites saber sobre Gobbly. No trobes la teva resposta? Contacta amb el nostre equip.",
+    "categories": {
+      "general": {
+        "title": "General",
+        "items": [
+          {
+            "question": "Què és Gobbly?",
+            "answer": "Gobbly és una plataforma tot-en-un de gestió de restaurants que combina TPV, pantalla de cuina, carta digital amb comandes per QR i pagaments intel·ligents en una sola app en temps real. Substitueix les comandes en paper i les eines disperses per un únic sistema unificat."
+          },
+          {
+            "question": "Per a qui és Gobbly?",
+            "answer": "Gobbly està pensat per a qualsevol negoci d'hostaleria — des de petits bars i cafeteries de barri fins a grups de restaurants amb múltiples locals. Tant si tens un servei ràpid com un restaurant d'alta cuina, Gobbly s'adapta a la teva manera de treballar."
+          },
+          {
+            "question": "En què es diferencia Gobbly d'altres eines de gestió?",
+            "answer": "A diferència de les solucions tradicionals que requereixen múltiples sistemes desconnectats, Gobbly integra TPV, gestió de cuina, carta digital i pagaments en una sola plataforma. Tot se sincronitza en temps real, de manera que sala i cuina sempre estan coordinats."
+          },
+          {
+            "question": "Gobbly està disponible en el meu idioma?",
+            "answer": "Gobbly està disponible actualment en català, castellà i anglès. Estem treballant activament per afegir més idiomes. La carta digital per als teus clients es pot mostrar en diversos idiomes simultàniament."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Preus i Plans",
+        "items": [
+          {
+            "question": "Hi ha un pla gratuït?",
+            "answer": "Sí. El nostre pla Starter és completament gratuït i inclou fins a 10 taules, TPV, pantalla de cuina, carta QR amb comandes i analítiques bàsiques. No cal targeta de crèdit per començar."
+          },
+          {
+            "question": "Puc canviar de pla en qualsevol moment?",
+            "answer": "Per descomptat. Pots pujar o baixar de pla en qualsevol moment des de la configuració del teu compte. En pujar, tindràs accés immediat a les noves funcionalitats. En baixar, el canvi s'aplica al final del teu cicle de facturació."
+          },
+          {
+            "question": "Hi ha contracte o permanència?",
+            "answer": "Sense contractes a llarg termini. Tots els plans de pagament són mensuals i pots cancel·lar en qualsevol moment. Creiem en guanyar-nos la teva confiança cada mes, no en lligar-te amb permanències."
+          },
+          {
+            "question": "Quins mètodes de pagament accepteu?",
+            "answer": "Acceptem les principals targetes de crèdit i dèbit (Visa, Mastercard, American Express) a través del nostre processador de pagaments segur, Stripe. Per a plans Enterprise, també oferim transferència bancària i facturació personalitzada."
+          }
+        ]
+      },
+      "features": {
+        "title": "Funcionalitats",
+        "items": [
+          {
+            "question": "Gobbly funciona sense connexió?",
+            "answer": "Gobbly està dissenyat com una plataforma online per a sincronització en temps real. No obstant això, les funcions bàsiques del TPV continuen operatives durant breus interrupcions de connectivitat, i les dades se sincronitzen automàticament quan es restableix la connexió."
+          },
+          {
+            "question": "Els clients poden demanar des del seu mòbil?",
+            "answer": "Sí. Els clients escanegen un codi QR a la seva taula per veure la carta completa, consultar informació d'al·lèrgens i fer comandes directament des del seu mòbil. No cal descarregar cap app — funciona en qualsevol navegador."
+          },
+          {
+            "question": "Es pot dividir el compte?",
+            "answer": "Sí. Gobbly ofereix divisió de compte flexible — els clients poden dividir per plat, parts iguals o quantitats personalitzades. Suporta efectiu, targeta i pagaments mixtos en una sola transacció."
+          },
+          {
+            "question": "Puc personalitzar la meva carta digital?",
+            "answer": "Per descomptat. Pots organitzar plats per categories, afegir fotos i informació d'al·lèrgens, configurar menús del dia i gestionar la disponibilitat en temps real. Els canvis es reflecteixen a l'instant a la carta QR que veuen els teus clients."
+          }
+        ]
+      },
+      "technical": {
+        "title": "Tècnic",
+        "items": [
+          {
+            "question": "En quins dispositius funciona Gobbly?",
+            "answer": "Gobbly funciona en qualsevol navegador web modern — Chrome, Safari, Firefox o Edge — en tauletes, portàtils i ordinadors de sobretaula. La pantalla de cuina està optimitzada per a tauletes, mentre que el TPV funciona perfectament en qualsevol mida de pantalla."
+          },
+          {
+            "question": "Necessito maquinari especial?",
+            "answer": "No cal maquinari especial. Gobbly funciona amb els dispositius que ja tens — qualsevol tauleta, portàtil o ordinador amb navegador web. Per a impressió, és compatible amb impressores tèrmiques de tiquets estàndard a través del navegador."
+          },
+          {
+            "question": "Com configuro Gobbly?",
+            "answer": "La configuració dura uns 20 minuts. Crea el teu compte, afegeix els plats de la teva carta (o importa des d'un full de càlcul), imprimeix els codis QR de les teves taules i ja està. La nostra guia d'inici t'acompanya en cada pas."
+          }
+        ]
+      },
+      "legal": {
+        "title": "Legal i Normativa",
+        "items": [
+          {
+            "question": "Gobbly compleix amb VeriFactu?",
+            "answer": "Sí. Els plans Pro i Enterprise de Gobbly inclouen facturació compatible amb VeriFactu de sèrie. Totes les factures compleixen la normativa espanyola de facturació electrònica, perquè estiguis al dia sense esforç addicional."
+          },
+          {
+            "question": "Com gestiona Gobbly les meves dades (RGPD)?",
+            "answer": "Gobbly compleix plenament amb el RGPD. Les teves dades estan xifrades en trànsit i en repòs, emmagatzemades en servidors dins de la UE i mai es venen a tercers. Pots exportar o eliminar les teves dades en qualsevol moment des de la configuració del teu compte."
+          },
+          {
+            "question": "Gobbly genera factures legals?",
+            "answer": "Sí. Gobbly genera factures legalment vàlides que compleixen amb la normativa fiscal espanyola. Els plans Pro i Enterprise inclouen facturació electrònica compatible amb VeriFactu, i totes les factures es poden descarregar o enviar per email directament als clients."
+          }
+        ]
+      }
+    },
+    "ctaTitle": "Encara tens dubtes?",
+    "ctaText": "El nostre equip és aquí per ajudar-te. Escriu-nos i et respondrem en menys de 24 hores.",
+    "ctaButton": "Contacta'ns"
   }
 }

@@ -27,7 +27,7 @@ const t = getTranslations(locale)
         <h4 class="text-sm font-semibold text-text-primary mb-4">{t.footer.product}</h4>
         <ul class="space-y-2.5">
           <li><a href="#features" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.productFeatures}</a></li>
-          <li><a href="#pricing" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.productPricing}</a></li>
+          <li><a href={`/${locale}/pricing/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.productPricing}</a></li>
         </ul>
       </div>
 

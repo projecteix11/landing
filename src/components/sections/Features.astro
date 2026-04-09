@@ -7,6 +7,13 @@ interface Props { locale: Locale }
 const { locale } = Astro.props
 const t = getTranslations(locale)
 
+const featureLinks = [
+  `/${locale}/features/pos/`,
+  `/${locale}/features/kitchen-display/`,
+  `/${locale}/features/qr-menu/`,
+  `/${locale}/features/payments/`,
+]
+
 const featureConfig = [
   {
     delay: 1,
@@ -59,7 +66,7 @@ const tagClasses: Record<string, string> = {
 
     <div class="grid md:grid-cols-2 gap-6">
       {featureConfig.map((feature, i) => (
-        <div class={`fade-up fade-up-delay-${feature.delay} feature-card group rounded-2xl border border-border bg-surface p-8 md:p-10`}>
+        <a href={featureLinks[i]} class={`fade-up fade-up-delay-${feature.delay} feature-card group rounded-2xl border border-border bg-surface p-8 md:p-10 no-underline hover:border-brand/30 transition-colors`}>
           <div class="flex items-start gap-5">
             <div class={`w-14 h-14 rounded-2xl ${feature.iconBg} flex items-center justify-center shrink-0 ${feature.iconHoverBg} transition-colors`}>
               <svg class={`w-7 h-7 ${feature.iconColor}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
@@ -67,7 +74,7 @@ const tagClasses: Record<string, string> = {
               </svg>
             </div>
             <div>
-              <h3 class="text-xl font-semibold text-text-primary mb-2">{t.features.items[i].title}</h3>
+              <h3 class="text-xl font-semibold text-text-primary mb-2 group-hover:text-brand transition-colors">{t.features.items[i].title}</h3>
               <p class="text-text-secondary leading-relaxed">{t.features.items[i].description}</p>
               <div class="flex flex-wrap gap-2 mt-4">
                 {t.features.items[i].tags.map((tag, j) => (
@@ -76,7 +83,7 @@ const tagClasses: Record<string, string> = {
               </div>
             </div>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   </div>

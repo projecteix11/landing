@@ -1,0 +1,21 @@
+---
+import FeaturePageLayout from '@components/sections/FeaturePageLayout.astro'
+import type { Locale } from '@i18n/types'
+import { getTranslations } from '@i18n/utils'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+---
+
+<FeaturePageLayout
+  locale={locale}
+  featureKey="kitchen"
+  path="/features/kitchen-display/"
+  emoji="📺"
+  otherFeatures={[
+    { title: t.featurePages.pos.title, href: `/${locale}/features/pos/`, description: t.featurePages.pos.description },
+    { title: t.featurePages.qrMenu.title, href: `/${locale}/features/qr-menu/`, description: t.featurePages.qrMenu.description },
+    { title: t.featurePages.payments.title, href: `/${locale}/features/payments/`, description: t.featurePages.payments.description },
+  ]}
+/>
