@@ -6,11 +6,12 @@ interface Props {
   locale: Locale
   title: string
   description: string
+  path?: string
 }
 
-const { locale, title, description } = Astro.props
-const alternates = getAlternateUrls('/')
-const canonicalUrl = `https://gobbly.app/${locale}/`
+const { locale, title, description, path = '/' } = Astro.props
+const alternates = getAlternateUrls(path)
+const canonicalUrl = `https://gobbly.app/${locale}${path}`
 ---
 
 <!doctype html>
@@ -38,7 +39,7 @@ const canonicalUrl = `https://gobbly.app/${locale}/`
     {alternates.map((alt) => (
       <link rel="alternate" hreflang={alt.locale} href={alt.url} />
     ))}
-    <link rel="alternate" hreflang="x-default" href="https://gobbly.app/en/" />
+    <link rel="alternate" hreflang="x-default" href={`https://gobbly.app/en${path}`} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=DM+Serif+Display&display=swap" rel="stylesheet" />

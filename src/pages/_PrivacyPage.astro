@@ -11,7 +11,7 @@ const { locale } = Astro.props
 const t = getTranslations(locale)
 ---
 
-<Layout locale={locale} title={`${t.privacy.title} — Gobbly`} description={t.privacy.title}>
+<Layout locale={locale} title={`${t.privacy.title} — Gobbly`} description={t.privacy.title} path="/privacy/">
   <Navbar locale={locale} />
   <main class="pt-28 pb-20 md:pt-36 md:pb-28">
     <article class="max-w-3xl mx-auto px-6">

@@ -11,7 +11,7 @@ const { locale } = Astro.props
 const t = getTranslations(locale)
 ---
 
-<Layout locale={locale} title={`${t.contact.title} — Gobbly`} description={t.contact.subtitle}>
+<Layout locale={locale} title={`${t.contact.title} — Gobbly`} description={t.contact.subtitle} path="/contact/">
   <Navbar locale={locale} />
   <main class="pt-28 pb-20 md:pt-36 md:pb-28">
     <div class="max-w-5xl mx-auto px-6">
@@ -31,7 +31,7 @@ const t = getTranslations(locale)
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-text-primary mb-2">{t.contact.successTitle}</h3>
+            <h2 class="text-xl font-semibold text-text-primary mb-2">{t.contact.successTitle}</h2>
             <p class="text-text-secondary">{t.contact.successMessage}</p>
           </div>
 
@@ -113,7 +113,7 @@ const t = getTranslations(locale)
         <!-- Info sidebar -->
         <div class="md:col-span-2 fade-up fade-up-delay-2">
           <div class="bg-surface-card rounded-2xl border border-border p-8">
-            <h3 class="text-lg font-semibold text-text-primary mb-4">{t.contact.infoTitle}</h3>
+            <h2 class="text-lg font-semibold text-text-primary mb-4">{t.contact.infoTitle}</h2>
 
             <div class="space-y-5">
               <div class="flex items-start gap-3">

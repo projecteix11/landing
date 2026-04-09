@@ -17,7 +17,7 @@ const founderConfig = [
 ]
 ---
 
-<Layout locale={locale} title={`${t.about.title} — Gobbly`} description={t.about.subtitle}>
+<Layout locale={locale} title={`${t.about.title} — Gobbly`} description={t.about.subtitle} path="/about/">
   <Navbar locale={locale} />
   <main class="pt-28 pb-20 md:pt-36 md:pb-28">
     <!-- Hero -->
@@ -37,7 +37,7 @@ const founderConfig = [
             <div class={`w-20 h-20 rounded-full bg-gradient-to-br ${config.gradient} flex items-center justify-center text-white text-2xl font-semibold mx-auto mb-5`}>
               {config.initials}
             </div>
-            <h3 class="text-lg font-semibold text-text-primary mb-1">{t.about.founders[i].name}</h3>
+            <p class="text-lg font-semibold text-text-primary mb-1">{t.about.founders[i].name}</p>
             <p class="text-sm text-brand font-medium mb-4">{t.about.founders[i].role}</p>
             <p class="text-text-secondary text-sm leading-relaxed">{t.about.founders[i].bio}</p>
           </div>

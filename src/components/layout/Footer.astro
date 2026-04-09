@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets'
+import logo from '@assets/logo.png'
 import type { Locale } from '@i18n/types'
 import { getTranslations } from '@i18n/utils'
 
@@ -13,7 +15,7 @@ const t = getTranslations(locale)
       <!-- Brand column -->
       <div class="col-span-2">
         <a href={`/${locale}/`} class="flex items-center no-underline mb-4">
-          <img src="/logo.png" alt="Gobbly" class="h-8 w-auto" />
+          <Image src={logo} alt="Gobbly" height={32} class="h-8 w-auto" />
         </a>
         <p class="text-sm text-text-secondary leading-relaxed max-w-xs">
           {t.footer.tagline}
