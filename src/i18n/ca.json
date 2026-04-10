@@ -1107,5 +1107,142 @@
       "ctaTitle": "Preparat per sortir a la carretera amb Gobbly?",
       "ctaButton": "Comença gratis"
     }
+  },
+  "stats": {
+    "label": "Gobbly en xifres",
+    "title": "Resultats reals per a restaurants reals",
+    "items": [
+      { "value": "+500", "label": "Restaurants actius" },
+      { "value": "2M+", "label": "Comandes processades" },
+      { "value": "98%", "label": "Reducció de no-shows" },
+      { "value": "-20 min", "label": "Estalviats per taula" }
+    ]
+  },
+  "faqLanding": {
+    "label": "FAQ",
+    "title": "Preguntes freqüents",
+    "description": "Tot el que necessites saber abans de començar.",
+    "cta": "Veure totes les preguntes",
+    "items": [
+      {
+        "question": "Què és Gobbly?",
+        "answer": "Gobbly és una plataforma tot-en-un de gestió de restaurants que combina TPV, pantalla de cuina, carta digital amb comandes per QR i pagaments intel·ligents en una sola app en temps real."
+      },
+      {
+        "question": "Necessito maquinari especial?",
+        "answer": "No cal maquinari especial. Gobbly funciona en qualsevol tablet, portàtil o ordinador amb navegador web. Per a impressió, és compatible amb impressores tèrmiques estàndard."
+      },
+      {
+        "question": "Hi ha prova gratuïta?",
+        "answer": "Sí. Tens 14 dies de prova gratuïta del pla Pro amb accés complet. Sense targeta de crèdit. En acabar, pots subscriure't o passar al pla Starter."
+      },
+      {
+        "question": "Els clients poden demanar des del mòbil?",
+        "answer": "Sí. Els clients escanegen un QR a la taula per veure la carta, consultar al·lèrgens i fer comandes des del mòbil. Sense app — funciona en qualsevol navegador."
+      },
+      {
+        "question": "Funciona sense connexió?",
+        "answer": "Les funcions bàsiques del TPV segueixen operatives durant breus interrupcions. Les dades es sincronitzen automàticament quan es recupera la connexió."
+      },
+      {
+        "question": "Hi ha contracte o permanència?",
+        "answer": "No. Tots els plans són mensuals sense compromís. Pots cancel·lar en qualsevol moment. Ens guanyem la teva confiança cada mes, sense lligar-te."
+      }
+    ]
+  },
+  "kitDigital": {
+    "label": "Kit Digital",
+    "title": "Finança Gobbly amb les ajudes del Kit Digital",
+    "description": "Si ets autònom o pime a Espanya, és possible que tinguis dret a ajudes públiques per digitalitzar el teu restaurant amb Gobbly.",
+    "badge": "Fins a 12.000 €",
+    "learnMore": "Veure com sol·licitar-ho",
+    "steps": [
+      { "step": "01", "title": "Comprova la teva elegibilitat", "description": "Autònoms, microempreses i pimes amb fins a 49 empleats amb domicili fiscal a Espanya." },
+      { "step": "02", "title": "Sol·licita el teu Bo Digital", "description": "Tramita el teu bo a través del portal acelerapyme.gob.es i obté l'assignació." },
+      { "step": "03", "title": "Tria Gobbly com a digitalitzador", "description": "Selecciona Gobbly com a agent digitalitzador homologat i inicia la transformació digital del teu restaurant." }
+    ],
+    "segments": [
+      { "label": "10–49 empleats", "amount": "Fins a 12.000 €", "color": "brand" },
+      { "label": "3–9 empleats", "amount": "Fins a 6.000 €", "color": "amber" },
+      { "label": "0–2 empleats", "amount": "Fins a 2.000 €", "color": "blue" }
+    ]
+  },
+  "kitDigitalPage": {
+    "title": "Kit Digital — Finança la teva digitalització",
+    "description": "Descobreix com aconseguir fins a 12.000 € en ajudes del govern per digitalitzar el teu restaurant amb Gobbly a través del programa Kit Digital.",
+    "heroTitle": "Finança Gobbly amb les ajudes del Kit Digital",
+    "heroSubtitle": "El programa Kit Digital del govern espanyol ofereix subvencions per ajudar els petits negocis i autònoms a digitalitzar-se. Gobbly és una solució elegible — així és com ho pots aprofitar.",
+    "badge": "Finançat per NextGenerationEU",
+    "whatTitle": "Què és el Kit Digital?",
+    "whatBody": "El Kit Digital és un programa del govern finançat per NextGenerationEU i gestionat per Red.es. Proporciona Bons Digitals a pimes i autònoms per cobrir el cost d'adoptar eines digitals — sense cost per al beneficiari.\n\nEl programari de gestió de restaurants com Gobbly entra dins de les categories de solucions elegibles, cosa que significa que pots usar el teu bo per cobrir la teva subscripció.",
+    "segmentsTitle": "Quant pots rebre?",
+    "segments": [
+      { "label": "Segment I — de 10 a 49 empleats", "amount": "Fins a 12.000 €", "color": "brand" },
+      { "label": "Segment II — de 3 a 9 empleats", "amount": "Fins a 6.000 €", "color": "amber" },
+      { "label": "Segment III — 0 a 2 empleats / autònoms", "amount": "Fins a 2.000 €", "color": "blue" }
+    ],
+    "stepsTitle": "Com sol·licitar-ho, pas a pas",
+    "steps": [
+      {
+        "step": "1",
+        "title": "Fes el test de diagnòstic digital",
+        "description": "Accedeix a acelerapyme.gob.es i completa el test d'autodiagnòstic gratuït. És un pas obligatori per verificar l'elegibilitat. Triga uns 10 minuts."
+      },
+      {
+        "step": "2",
+        "title": "Sol·licita el teu Bo Digital",
+        "description": "Un cop completat el test, sol·licita el teu bo digital a través de la plataforma de Red.es. Necessitaràs el teu DNI/NIE, NIF i el certificat del test de diagnòstic."
+      },
+      {
+        "step": "3",
+        "title": "Tria Gobbly com a agent digitalitzador",
+        "description": "Amb el bo aprovat, selecciona Gobbly del catàleg oficial d'agents digitalitzadors homologats. Signa l'acord de serveis digitals directament amb nosaltres."
+      },
+      {
+        "step": "4",
+        "title": "Comença a digitalitzar el teu restaurant",
+        "description": "Ens encarreguem de la configuració i l'onboarding. La subvenció cobreix l'import acordat i Gobbly activa el teu pla. No pagues res (o només la diferència si el teu pla supera l'ajuda)."
+      }
+    ],
+    "requirementsTitle": "Requisits bàsics d'elegibilitat",
+    "requirements": [
+      "Estar registrat i en actiu a Espanya",
+      "Ser autònom, microempresa o pime amb menys de 50 empleats",
+      "No estar en situació de crisi segons la normativa europea",
+      "Estar al corrent d'obligacions tributàries i amb la Seguretat Social",
+      "Completar el test de diagnòstic digital obligatori a acelerapyme.gob.es"
+    ],
+    "faqTitle": "Preguntes habituals sobre el Kit Digital",
+    "faq": [
+      {
+        "question": "Encara puc sol·licitar l'ajuda del Kit Digital?",
+        "answer": "Les principals convocatòries han tancat, però els beneficiaris que ja tenen un Bo Digital poden bescanviar-lo amb un agent digitalitzador homologat. Si ja tens el teu bo, contacta'ns i et guiem en el procés."
+      },
+      {
+        "question": "Gobbly és un agent digitalitzador oficial?",
+        "answer": "Gobbly està en procés d'acreditar-se com a agent digitalitzador del programa Kit Digital. Contacta'ns per conèixer l'estat actual i com et podem ajudar."
+      },
+      {
+        "question": "La subvenció cobreix el cost complet de Gobbly?",
+        "answer": "La subvenció cobreix l'import del servei de digitalització acordat. Segons el teu segment i pla, pot cobrir total o parcialment la teva subscripció durant fins a 12 mesos."
+      },
+      {
+        "question": "Ja he sol·licitat el bo però encara no he triat digitalitzador. Què faig?",
+        "answer": "Cap problema — encara pots seleccionar Gobbly com el teu agent digitalitzador. Contacta amb el nostre equip i et guiarem en els passos següents."
+      }
+    ],
+    "ctaTitle": "Preparat per digitalitzar el teu restaurant?",
+    "ctaSubtitle": "Contacta amb el nostre equip i t'ajudem a tramitar l'ajuda del Kit Digital i a posar en marxa Gobbly al teu restaurant.",
+    "ctaButton": "Contactar"
+  },
+  "appScreenshots": {
+    "label": "La plataforma",
+    "title": "Tot el que necessites, en una sola pantalla",
+    "description": "Des de la cuina fins al cobrament — Gobbly ofereix al teu equip una visió clara i en temps real de tot el restaurant.",
+    "tabs": [
+      { "id": "dashboard", "label": "Dashboard" },
+      { "id": "orders", "label": "Taules actives" },
+      { "id": "kitchen", "label": "Pantalla de cuina" }
+    ]
   }
 }

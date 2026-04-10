@@ -1,0 +1,565 @@
+---
+import SectionHeader from '@components/ui/SectionHeader.astro'
+import type { Locale } from '@i18n/types'
+import { getTranslations } from '@i18n/utils'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+---
+
+<section class="py-20 md:py-28 overflow-hidden">
+  <div class="max-w-6xl mx-auto px-6">
+    <SectionHeader
+      label={t.appScreenshots.label}
+      title={t.appScreenshots.title}
+      description={t.appScreenshots.description}
+    />
+
+    <!-- Tab buttons -->
+    <div class="flex justify-center gap-2 mb-8 flex-wrap">
+      {t.appScreenshots.tabs.map((tab, i) => (
+        <button
+          data-tab={tab.id}
+          class:list={[
+            'screenshot-tab px-4 py-2 rounded-full text-sm font-medium transition-colors border',
+            i === 0
+              ? 'bg-brand text-white border-brand'
+              : 'bg-surface-card text-text-secondary border-border hover:border-brand hover:text-brand',
+          ]}
+        >
+          {tab.label}
+        </button>
+      ))}
+    </div>
+
+    <!-- Screenshot panels -->
+    <div class="relative rounded-2xl overflow-hidden border border-border shadow-2xl">
+
+      <!-- ── Dashboard ─────────────────────────────────────────────────── -->
+      <div id="screenshot-dashboard" class="screenshot-panel">
+        <svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto block">
+          <rect width="1200" height="700" fill="#0f1117"/>
+          <!-- Sidebar -->
+          <rect width="220" height="700" fill="#161b27"/>
+          <rect x="24" y="20" width="92" height="28" rx="6" fill="#22c55e" fill-opacity="0.15"/>
+          <text x="36" y="39" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#22c55e">Gobbly</text>
+          <rect x="12" y="64" width="196" height="36" rx="8" fill="#22c55e" fill-opacity="0.12"/>
+          <rect x="28" y="76" width="14" height="14" rx="3" fill="#22c55e"/>
+          <text x="50" y="88" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#22c55e">Dashboard</text>
+          <rect x="28" y="114" width="14" height="14" rx="3" fill="#4b5563"/>
+          <text x="50" y="126" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Mesas</text>
+          <rect x="28" y="150" width="14" height="14" rx="3" fill="#4b5563"/>
+          <text x="50" y="162" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Cocina</text>
+          <rect x="28" y="186" width="14" height="14" rx="3" fill="#4b5563"/>
+          <text x="50" y="198" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Pagos</text>
+          <rect x="28" y="222" width="14" height="14" rx="3" fill="#4b5563"/>
+          <text x="50" y="234" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Carta QR</text>
+          <rect x="28" y="258" width="14" height="14" rx="3" fill="#4b5563"/>
+          <text x="50" y="270" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Analíticas</text>
+          <circle cx="35" cy="658" r="16" fill="#1e293b"/>
+          <text x="27" y="663" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">RG</text>
+          <text x="58" y="654" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Roger García</text>
+          <text x="58" y="668" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280">Admin</text>
+
+          <!-- Page header -->
+          <text x="248" y="48" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">Dashboard</text>
+          <text x="248" y="66" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Vista general del negocio</text>
+          <rect x="1054" y="26" width="126" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+          <text x="1080" y="48" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">↻  Actualizar</text>
+
+          <!-- KPI Cards -->
+          <rect x="248" y="88" width="218" height="110" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="268" y="112" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#6b7280" letter-spacing="1">INGRESOS HOY</text>
+          <rect x="428" y="100" width="28" height="28" rx="6" fill="#14532d"/>
+          <text x="436" y="119" font-family="system-ui,sans-serif" font-size="14" fill="#22c55e">€</text>
+          <text x="268" y="150" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#f1f5f9">1.284,50€</text>
+          <text x="268" y="170" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">42 pedidos hoy</text>
+
+          <rect x="482" y="88" width="218" height="110" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="502" y="112" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#6b7280" letter-spacing="1">TICKET MEDIO</text>
+          <rect x="662" y="100" width="28" height="28" rx="6" fill="#1e3a5f"/>
+          <text x="670" y="119" font-family="system-ui,sans-serif" font-size="14" fill="#3b82f6">≡</text>
+          <text x="502" y="150" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#f1f5f9">30,58€</text>
+          <text x="502" y="170" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">Sobre 42 pedidos totales</text>
+
+          <rect x="716" y="88" width="218" height="110" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="736" y="112" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#6b7280" letter-spacing="1">PEDIDOS ABIERTOS</text>
+          <rect x="896" y="100" width="28" height="28" rx="6" fill="#451a03"/>
+          <text x="902" y="119" font-family="system-ui,sans-serif" font-size="14" fill="#f59e0b">⊕</text>
+          <text x="736" y="150" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#f1f5f9">8</text>
+          <text x="736" y="170" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">Mesas activas ahora</text>
+
+          <rect x="950" y="88" width="218" height="110" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="970" y="112" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#6b7280" letter-spacing="1">PLATOS SERVIDOS</text>
+          <rect x="1130" y="100" width="28" height="28" rx="6" fill="#1a2e1a"/>
+          <text x="1136" y="119" font-family="system-ui,sans-serif" font-size="14" fill="#22c55e">✦</text>
+          <text x="970" y="150" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#f1f5f9">187</text>
+          <text x="970" y="170" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">En pedidos cerrados</text>
+
+          <!-- Revenue by hour chart -->
+          <rect x="248" y="216" width="460" height="216" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="268" y="242" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Ingresos por hora</text>
+          <!-- bars (static) -->
+          <rect x="274" y="368" width="12" height="8" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <rect x="291" y="360" width="12" height="16" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <rect x="308" y="372" width="12" height="4" rx="2" fill="#1e293b"/>
+          <rect x="325" y="376" width="12" height="2" rx="1" fill="#1e293b"/>
+          <rect x="342" y="376" width="12" height="2" rx="1" fill="#1e293b"/>
+          <rect x="359" y="376" width="12" height="2" rx="1" fill="#1e293b"/>
+          <rect x="376" y="376" width="12" height="2" rx="1" fill="#1e293b"/>
+          <rect x="393" y="350" width="12" height="26" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <rect x="410" y="310" width="12" height="66" rx="2" fill="#22c55e" fill-opacity="0.8"/>
+          <rect x="427" y="278" width="12" height="98" rx="2" fill="#22c55e"/>
+          <rect x="444" y="266" width="12" height="110" rx="2" fill="#22c55e"/>
+          <rect x="461" y="284" width="12" height="92" rx="2" fill="#22c55e" fill-opacity="0.9"/>
+          <rect x="478" y="294" width="12" height="82" rx="2" fill="#22c55e" fill-opacity="0.8"/>
+          <rect x="495" y="318" width="12" height="58" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <rect x="512" y="330" width="12" height="46" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <rect x="529" y="310" width="12" height="66" rx="2" fill="#22c55e" fill-opacity="0.8"/>
+          <rect x="546" y="266" width="12" height="110" rx="2" fill="#22c55e"/>
+          <rect x="563" y="270" width="12" height="106" rx="2" fill="#22c55e" fill-opacity="0.9"/>
+          <rect x="580" y="284" width="12" height="92" rx="2" fill="#22c55e" fill-opacity="0.8"/>
+          <rect x="597" y="314" width="12" height="62" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <rect x="614" y="340" width="12" height="36" rx="2" fill="#22c55e" fill-opacity="0.6"/>
+          <rect x="631" y="356" width="12" height="20" rx="2" fill="#22c55e" fill-opacity="0.5"/>
+          <rect x="648" y="368" width="12" height="8" rx="2" fill="#22c55e" fill-opacity="0.4"/>
+          <text x="274" y="390" font-family="system-ui,sans-serif" font-size="8" fill="#6b7280">0h</text>
+          <text x="393" y="390" font-family="system-ui,sans-serif" font-size="8" fill="#6b7280">8h</text>
+          <text x="512" y="390" font-family="system-ui,sans-serif" font-size="8" fill="#6b7280">13h</text>
+          <text x="631" y="390" font-family="system-ui,sans-serif" font-size="8" fill="#6b7280">18h</text>
+
+          <!-- Top dishes -->
+          <rect x="724" y="216" width="444" height="216" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="744" y="242" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Platos más pedidos</text>
+          <!-- dish 1 -->
+          <rect x="744" y="256" width="24" height="24" rx="6" fill="#14532d"/>
+          <text x="752" y="273" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#22c55e">1</text>
+          <text x="778" y="270" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0">Croquetas de jamón</text>
+          <rect x="778" y="274" width="240" height="4" rx="2" fill="#1e293b"/>
+          <rect x="778" y="274" width="240" height="4" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <text x="1132" y="270" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">34×</text>
+          <!-- dish 2 -->
+          <rect x="744" y="292" width="24" height="24" rx="6" fill="#14532d"/>
+          <text x="752" y="309" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#22c55e">2</text>
+          <text x="778" y="306" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0">Tortilla española</text>
+          <rect x="778" y="310" width="240" height="4" rx="2" fill="#1e293b"/>
+          <rect x="778" y="310" width="197" height="4" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <text x="1132" y="306" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">28×</text>
+          <!-- dish 3 -->
+          <rect x="744" y="328" width="24" height="24" rx="6" fill="#14532d"/>
+          <text x="752" y="345" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#22c55e">3</text>
+          <text x="778" y="342" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0">Ensalada mixta</text>
+          <rect x="778" y="346" width="240" height="4" rx="2" fill="#1e293b"/>
+          <rect x="778" y="346" width="149" height="4" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <text x="1132" y="342" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">21×</text>
+          <!-- dish 4 -->
+          <rect x="744" y="364" width="24" height="24" rx="6" fill="#14532d"/>
+          <text x="752" y="381" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#22c55e">4</text>
+          <text x="778" y="378" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0">Lomo a la brasa</text>
+          <rect x="778" y="382" width="240" height="4" rx="2" fill="#1e293b"/>
+          <rect x="778" y="382" width="120" height="4" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <text x="1132" y="378" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">17×</text>
+          <!-- dish 5 -->
+          <rect x="744" y="400" width="24" height="24" rx="6" fill="#14532d"/>
+          <text x="752" y="417" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#22c55e">5</text>
+          <text x="778" y="414" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0">Tiramisú casero</text>
+          <rect x="778" y="418" width="240" height="4" rx="2" fill="#1e293b"/>
+          <rect x="778" y="418" width="84" height="4" rx="2" fill="#22c55e" fill-opacity="0.7"/>
+          <text x="1132" y="414" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">12×</text>
+
+          <!-- Payment methods -->
+          <rect x="248" y="448" width="460" height="220" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="268" y="474" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Métodos de pago</text>
+          <!-- Tarjeta -->
+          <rect x="268" y="490" width="36" height="36" rx="8" fill="#1a2e1a"/>
+          <text x="280" y="514" font-family="system-ui,sans-serif" font-size="16" fill="#22c55e">▣</text>
+          <text x="314" y="504" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0">Tarjeta</text>
+          <rect x="314" y="508" width="310" height="6" rx="3" fill="#1e293b"/>
+          <rect x="314" y="508" width="180" height="6" rx="3" fill="#22c55e" fill-opacity="0.7"/>
+          <text x="636" y="513" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#22c55e">58%</text>
+          <!-- Efectivo -->
+          <rect x="268" y="536" width="36" height="36" rx="8" fill="#1a2e1a"/>
+          <text x="280" y="560" font-family="system-ui,sans-serif" font-size="16" fill="#22c55e">€</text>
+          <text x="314" y="550" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0">Efectivo</text>
+          <rect x="314" y="554" width="310" height="6" rx="3" fill="#1e293b"/>
+          <rect x="314" y="554" width="84" height="6" rx="3" fill="#22c55e" fill-opacity="0.7"/>
+          <text x="636" y="559" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#22c55e">27%</text>
+          <!-- Bizum -->
+          <rect x="268" y="582" width="36" height="36" rx="8" fill="#1e3a5f"/>
+          <text x="280" y="606" font-family="system-ui,sans-serif" font-size="16" fill="#3b82f6">◈</text>
+          <text x="314" y="596" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0">Bizum</text>
+          <rect x="314" y="600" width="310" height="6" rx="3" fill="#1e293b"/>
+          <rect x="314" y="600" width="31" height="6" rx="3" fill="#3b82f6" fill-opacity="0.7"/>
+          <text x="636" y="605" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3b82f6">10%</text>
+          <!-- Apple Pay -->
+          <rect x="268" y="628" width="36" height="36" rx="8" fill="#1e293b"/>
+          <text x="280" y="652" font-family="system-ui,sans-serif" font-size="16" fill="#94a3b8">◇</text>
+          <text x="314" y="642" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0">Apple Pay</text>
+          <rect x="314" y="646" width="310" height="6" rx="3" fill="#1e293b"/>
+          <rect x="314" y="646" width="16" height="6" rx="3" fill="#94a3b8" fill-opacity="0.7"/>
+          <text x="636" y="651" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#94a3b8">5%</text>
+
+          <!-- Active tables -->
+          <rect x="724" y="448" width="444" height="220" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="744" y="474" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesas activas ahora</text>
+          <!-- table 3 -->
+          <rect x="744" y="488" width="404" height="38" rx="8" fill="#1e293b"/>
+          <rect x="744" y="488" width="38" height="38" rx="8" fill="#451a03"/>
+          <text x="755" y="512" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#f59e0b">3</text>
+          <text x="792" y="502" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Mesa #3</text>
+          <text x="792" y="518" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280">4 platos · 13:22</text>
+          <text x="1060" y="502" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">48,50€</text>
+          <rect x="1060" y="508" width="80" height="16" rx="8" fill="#451a03"/>
+          <text x="1072" y="520" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#f59e0b">Cocinando</text>
+          <!-- table 7 -->
+          <rect x="744" y="536" width="404" height="38" rx="8" fill="#1e293b"/>
+          <rect x="744" y="536" width="38" height="38" rx="8" fill="#14532d"/>
+          <text x="755" y="560" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#22c55e">7</text>
+          <text x="792" y="550" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Mesa #7</text>
+          <text x="792" y="566" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280">6 platos · 12:58</text>
+          <text x="1060" y="550" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">87,20€</text>
+          <rect x="1074" y="556" width="54" height="16" rx="8" fill="#14532d"/>
+          <text x="1086" y="568" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#22c55e">Listo</text>
+          <!-- table 12 -->
+          <rect x="744" y="584" width="404" height="38" rx="8" fill="#1e293b"/>
+          <rect x="744" y="584" width="38" height="38" rx="8" fill="#451a03"/>
+          <text x="751" y="608" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#f59e0b">12</text>
+          <text x="792" y="598" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Mesa #12</text>
+          <text x="792" y="614" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280">3 platos · 13:35</text>
+          <text x="1060" y="598" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">35,00€</text>
+          <rect x="1060" y="604" width="80" height="16" rx="8" fill="#451a03"/>
+          <text x="1072" y="616" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#f59e0b">Cocinando</text>
+          <!-- table 15 -->
+          <rect x="744" y="632" width="404" height="38" rx="8" fill="#1e293b"/>
+          <rect x="744" y="632" width="38" height="38" rx="8" fill="#14532d"/>
+          <text x="751" y="656" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#22c55e">15</text>
+          <text x="792" y="646" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Mesa #15</text>
+          <text x="792" y="662" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280">8 platos · 12:41</text>
+          <text x="1044" y="646" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">124,60€</text>
+          <rect x="1074" y="652" width="54" height="16" rx="8" fill="#14532d"/>
+          <text x="1086" y="664" font-family="system-ui,sans-serif" font-size="10" font-weight="600" fill="#22c55e">Listo</text>
+        </svg>
+      </div>
+
+      <!-- ── Active Tables ──────────────────────────────────────────────── -->
+      <div id="screenshot-orders" class="screenshot-panel hidden">
+        <svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto block">
+          <rect width="1200" height="700" fill="#0f1117"/>
+          <rect width="220" height="700" fill="#161b27"/>
+          <rect x="24" y="20" width="92" height="28" rx="6" fill="#22c55e" fill-opacity="0.15"/>
+          <text x="36" y="39" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#22c55e">Gobbly</text>
+          <rect x="28" y="76" width="14" height="14" rx="3" fill="#4b5563"/>
+          <text x="50" y="88" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Dashboard</text>
+          <rect x="12" y="100" width="196" height="36" rx="8" fill="#22c55e" fill-opacity="0.12"/>
+          <rect x="28" y="112" width="14" height="14" rx="3" fill="#22c55e"/>
+          <text x="50" y="124" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#22c55e">Mesas</text>
+          <rect x="28" y="150" width="14" height="14" rx="3" fill="#4b5563"/>
+          <text x="50" y="162" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Cocina</text>
+          <rect x="28" y="186" width="14" height="14" rx="3" fill="#4b5563"/>
+          <text x="50" y="198" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Pagos</text>
+
+          <text x="248" y="48" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">Mesas activas</text>
+          <text x="248" y="66" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">16 mesas · 8 ocupadas</text>
+          <rect x="1034" y="26" width="146" height="34" rx="8" fill="#22c55e"/>
+          <text x="1054" y="48" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#fff">+ Nueva mesa</text>
+
+          <!-- Table grid 4x4 -->
+          <!-- Row 1 -->
+          <rect x="248" y="88" width="210" height="130" rx="12" fill="#161b27" stroke="#22c55e" stroke-opacity="0.3" stroke-width="1.5"/>
+          <text x="268" y="114" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 1</text>
+          <rect x="268" y="120" width="64" height="20" rx="10" fill="#451a03"/>
+          <text x="278" y="134" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#f59e0b">Cocinando</text>
+          <text x="268" y="168" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">52,00€</text>
+          <text x="268" y="186" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">3 personas · 4 platos</text>
+          <text x="268" y="206" font-family="system-ui,sans-serif" font-size="12" fill="#22c55e">Ver pedido →</text>
+
+          <rect x="474" y="88" width="210" height="130" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="494" y="114" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 2</text>
+          <rect x="494" y="120" width="46" height="20" rx="10" fill="#1e293b"/>
+          <text x="506" y="134" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#6b7280">Libre</text>
+
+          <rect x="700" y="88" width="210" height="130" rx="12" fill="#161b27" stroke="#22c55e" stroke-opacity="0.3" stroke-width="1.5"/>
+          <text x="720" y="114" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 3</text>
+          <rect x="720" y="120" width="46" height="20" rx="10" fill="#14532d"/>
+          <text x="730" y="134" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#22c55e">Listo</text>
+          <text x="720" y="168" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">48,50€</text>
+          <text x="720" y="186" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">2 personas · 4 platos</text>
+          <text x="720" y="206" font-family="system-ui,sans-serif" font-size="12" fill="#22c55e">Ver pedido →</text>
+
+          <rect x="926" y="88" width="210" height="130" rx="12" fill="#161b27" stroke="#22c55e" stroke-opacity="0.3" stroke-width="1.5"/>
+          <text x="946" y="114" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 4</text>
+          <rect x="946" y="120" width="64" height="20" rx="10" fill="#451a03"/>
+          <text x="956" y="134" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#f59e0b">Cocinando</text>
+          <text x="946" y="168" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">76,00€</text>
+          <text x="946" y="186" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">5 personas · 6 platos</text>
+          <text x="946" y="206" font-family="system-ui,sans-serif" font-size="12" fill="#22c55e">Ver pedido →</text>
+
+          <!-- Row 2 -->
+          <rect x="248" y="234" width="210" height="130" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="268" y="260" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 5</text>
+          <rect x="268" y="266" width="46" height="20" rx="10" fill="#1e293b"/>
+          <text x="280" y="280" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#6b7280">Libre</text>
+
+          <rect x="474" y="234" width="210" height="130" rx="12" fill="#161b27" stroke="#22c55e" stroke-opacity="0.3" stroke-width="1.5"/>
+          <text x="494" y="260" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 6</text>
+          <rect x="494" y="266" width="64" height="20" rx="10" fill="#451a03"/>
+          <text x="504" y="280" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#f59e0b">Cocinando</text>
+          <text x="494" y="314" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">31,50€</text>
+          <text x="494" y="332" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">2 personas · 3 platos</text>
+          <text x="494" y="352" font-family="system-ui,sans-serif" font-size="12" fill="#22c55e">Ver pedido →</text>
+
+          <rect x="700" y="234" width="210" height="130" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="720" y="260" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 7</text>
+          <rect x="720" y="266" width="46" height="20" rx="10" fill="#1e293b"/>
+          <text x="732" y="280" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#6b7280">Libre</text>
+
+          <rect x="926" y="234" width="210" height="130" rx="12" fill="#161b27" stroke="#22c55e" stroke-opacity="0.3" stroke-width="1.5"/>
+          <text x="946" y="260" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 8</text>
+          <rect x="946" y="266" width="46" height="20" rx="10" fill="#14532d"/>
+          <text x="956" y="280" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#22c55e">Listo</text>
+          <text x="946" y="314" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">92,00€</text>
+          <text x="946" y="332" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">6 personas · 8 platos</text>
+          <text x="946" y="352" font-family="system-ui,sans-serif" font-size="12" fill="#22c55e">Ver pedido →</text>
+
+          <!-- Row 3 -->
+          <rect x="248" y="380" width="210" height="130" rx="12" fill="#161b27" stroke="#22c55e" stroke-opacity="0.3" stroke-width="1.5"/>
+          <text x="268" y="406" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 9</text>
+          <rect x="268" y="412" width="64" height="20" rx="10" fill="#451a03"/>
+          <text x="278" y="426" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#f59e0b">Cocinando</text>
+          <text x="268" y="460" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">44,00€</text>
+          <text x="268" y="478" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">2 personas · 3 platos</text>
+          <text x="268" y="498" font-family="system-ui,sans-serif" font-size="12" fill="#22c55e">Ver pedido →</text>
+
+          <rect x="474" y="380" width="210" height="130" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="494" y="406" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 10</text>
+          <rect x="494" y="412" width="46" height="20" rx="10" fill="#1e293b"/>
+          <text x="506" y="426" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#6b7280">Libre</text>
+
+          <rect x="700" y="380" width="210" height="130" rx="12" fill="#161b27" stroke="#22c55e" stroke-opacity="0.3" stroke-width="1.5"/>
+          <text x="720" y="406" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 11</text>
+          <rect x="720" y="412" width="46" height="20" rx="10" fill="#14532d"/>
+          <text x="730" y="426" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#22c55e">Listo</text>
+          <text x="720" y="460" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">63,00€</text>
+          <text x="720" y="478" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">4 personas · 5 platos</text>
+          <text x="720" y="498" font-family="system-ui,sans-serif" font-size="12" fill="#22c55e">Ver pedido →</text>
+
+          <rect x="926" y="380" width="210" height="130" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="946" y="406" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 12</text>
+          <rect x="946" y="412" width="46" height="20" rx="10" fill="#1e293b"/>
+          <text x="958" y="426" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#6b7280">Libre</text>
+
+          <!-- Row 4 -->
+          <rect x="248" y="526" width="210" height="130" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="268" y="552" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 13</text>
+          <rect x="268" y="558" width="46" height="20" rx="10" fill="#1e293b"/>
+          <text x="280" y="572" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#6b7280">Libre</text>
+
+          <rect x="474" y="526" width="210" height="130" rx="12" fill="#161b27" stroke="#22c55e" stroke-opacity="0.3" stroke-width="1.5"/>
+          <text x="494" y="552" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 14</text>
+          <rect x="494" y="558" width="64" height="20" rx="10" fill="#451a03"/>
+          <text x="504" y="572" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#f59e0b">Cocinando</text>
+          <text x="494" y="606" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">39,00€</text>
+          <text x="494" y="624" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">3 personas · 4 platos</text>
+          <text x="494" y="644" font-family="system-ui,sans-serif" font-size="12" fill="#22c55e">Ver pedido →</text>
+
+          <rect x="700" y="526" width="210" height="130" rx="12" fill="#161b27" stroke="#1e293b" stroke-width="1"/>
+          <text x="720" y="552" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 15</text>
+          <rect x="720" y="558" width="46" height="20" rx="10" fill="#1e293b"/>
+          <text x="732" y="572" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#6b7280">Libre</text>
+
+          <rect x="926" y="526" width="210" height="130" rx="12" fill="#161b27" stroke="#22c55e" stroke-opacity="0.3" stroke-width="1.5"/>
+          <text x="946" y="552" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">Mesa 16</text>
+          <rect x="946" y="558" width="46" height="20" rx="10" fill="#14532d"/>
+          <text x="956" y="572" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#22c55e">Listo</text>
+          <text x="946" y="606" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">124,60€</text>
+          <text x="946" y="624" font-family="system-ui,sans-serif" font-size="12" fill="#6b7280">8 personas · 10 platos</text>
+          <text x="946" y="644" font-family="system-ui,sans-serif" font-size="12" fill="#22c55e">Ver pedido →</text>
+        </svg>
+      </div>
+
+      <!-- ── Kitchen Display ───────────────────────────────────────────── -->
+      <div id="screenshot-kitchen" class="screenshot-panel hidden">
+        <svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto block">
+          <rect width="1200" height="700" fill="#0a0e16"/>
+          <!-- Top bar -->
+          <rect width="1200" height="56" fill="#161b27"/>
+          <text x="24" y="30" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#22c55e">Gobbly</text>
+          <text x="24" y="47" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280">Pantalla de cocina</text>
+          <rect x="892" y="14" width="134" height="28" rx="8" fill="#14532d"/>
+          <text x="910" y="33" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#22c55e">● En directo</text>
+          <text x="1060" y="32" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#f1f5f9">13:42</text>
+          <text x="1110" y="32" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Viernes</text>
+
+          <!-- Column headers -->
+          <rect x="12" y="68" width="370" height="36" rx="8" fill="#451a03"/>
+          <text x="32" y="91" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#f59e0b">Pendiente</text>
+          <rect x="354" y="76" width="24" height="20" rx="10" fill="#f59e0b" fill-opacity="0.2"/>
+          <text x="361" y="91" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#f59e0b">4</text>
+
+          <rect x="402" y="68" width="370" height="36" rx="8" fill="#1e3a5f"/>
+          <text x="422" y="91" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#3b82f6">En preparación</text>
+          <rect x="744" y="76" width="24" height="20" rx="10" fill="#3b82f6" fill-opacity="0.2"/>
+          <text x="751" y="91" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3b82f6">3</text>
+
+          <rect x="792" y="68" width="396" height="36" rx="8" fill="#14532d"/>
+          <text x="812" y="91" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#22c55e">Listo</text>
+          <rect x="1158" y="76" width="24" height="20" rx="10" fill="#22c55e" fill-opacity="0.2"/>
+          <text x="1165" y="91" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#22c55e">2</text>
+
+          <!-- Pending cards -->
+          <!-- Order 1 – urgent -->
+          <rect x="12" y="114" width="370" height="138" rx="10" fill="#161b27" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1.5"/>
+          <rect x="12" y="114" width="370" height="4" rx="2" fill="#f59e0b"/>
+          <rect x="24" y="126" width="54" height="26" rx="6" fill="#451a03"/>
+          <text x="33" y="144" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#f59e0b">M.3</text>
+          <text x="88" y="141" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesa 3</text>
+          <rect x="302" y="124" width="70" height="22" rx="11" fill="#7c2d12"/>
+          <text x="314" y="139" font-family="system-ui,sans-serif" font-size="11" fill="#fb923c">3 min ⚡</text>
+          <rect x="24" y="164" width="8" height="8" rx="2" fill="#f59e0b" fill-opacity="0.6"/>
+          <text x="40" y="173" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Croquetas de jamón ×2</text>
+          <rect x="24" y="184" width="8" height="8" rx="2" fill="#f59e0b" fill-opacity="0.6"/>
+          <text x="40" y="193" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Tortilla española ×1</text>
+          <rect x="24" y="204" width="8" height="8" rx="2" fill="#f59e0b" fill-opacity="0.6"/>
+          <text x="40" y="213" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Agua mineral ×2</text>
+          <rect x="24" y="232" width="354" height="14" rx="4" fill="#1e293b"/>
+          <text x="140" y="244" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280">Toca para empezar preparación</text>
+
+          <!-- Order 2 -->
+          <rect x="12" y="262" width="370" height="120" rx="10" fill="#161b27" stroke="#1e293b" stroke-width="1.5"/>
+          <rect x="12" y="262" width="370" height="4" rx="2" fill="#f59e0b" fill-opacity="0.5"/>
+          <rect x="24" y="274" width="54" height="26" rx="6" fill="#451a03"/>
+          <text x="33" y="292" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#f59e0b">M.7</text>
+          <text x="88" y="289" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesa 7</text>
+          <rect x="312" y="272" width="60" height="22" rx="11" fill="#1e293b"/>
+          <text x="324" y="287" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280">7 min</text>
+          <rect x="24" y="310" width="8" height="8" rx="2" fill="#f59e0b" fill-opacity="0.6"/>
+          <text x="40" y="319" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Lomo a la brasa ×1</text>
+          <rect x="24" y="330" width="8" height="8" rx="2" fill="#f59e0b" fill-opacity="0.6"/>
+          <text x="40" y="339" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Ensalada mixta ×2</text>
+
+          <!-- Order 3 – urgent -->
+          <rect x="12" y="392" width="370" height="120" rx="10" fill="#161b27" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1.5"/>
+          <rect x="12" y="392" width="370" height="4" rx="2" fill="#f59e0b"/>
+          <rect x="24" y="404" width="60" height="26" rx="6" fill="#451a03"/>
+          <text x="31" y="422" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#f59e0b">M.12</text>
+          <text x="94" y="419" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesa 12</text>
+          <rect x="302" y="402" width="70" height="22" rx="11" fill="#7c2d12"/>
+          <text x="314" y="417" font-family="system-ui,sans-serif" font-size="11" fill="#fb923c">1 min ⚡</text>
+          <rect x="24" y="440" width="8" height="8" rx="2" fill="#f59e0b" fill-opacity="0.6"/>
+          <text x="40" y="449" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Tiramisú casero ×2</text>
+          <rect x="24" y="460" width="8" height="8" rx="2" fill="#f59e0b" fill-opacity="0.6"/>
+          <text x="40" y="469" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Café solo ×1</text>
+
+          <!-- Order 4 -->
+          <rect x="12" y="522" width="370" height="104" rx="10" fill="#161b27" stroke="#1e293b" stroke-width="1.5"/>
+          <rect x="12" y="522" width="370" height="4" rx="2" fill="#f59e0b" fill-opacity="0.5"/>
+          <rect x="24" y="534" width="60" height="26" rx="6" fill="#451a03"/>
+          <text x="31" y="552" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#f59e0b">M.15</text>
+          <text x="94" y="549" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesa 15</text>
+          <rect x="302" y="532" width="70" height="22" rx="11" fill="#1e293b"/>
+          <text x="314" y="547" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280">12 min</text>
+          <rect x="24" y="570" width="8" height="8" rx="2" fill="#f59e0b" fill-opacity="0.6"/>
+          <text x="40" y="579" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Paella mixta ×3</text>
+
+          <!-- In preparation cards -->
+          <rect x="402" y="114" width="370" height="154" rx="10" fill="#161b27" stroke="#1e3a5f" stroke-width="1.5"/>
+          <rect x="402" y="114" width="370" height="4" rx="2" fill="#3b82f6" fill-opacity="0.6"/>
+          <rect x="414" y="126" width="54" height="26" rx="6" fill="#1e3a5f"/>
+          <text x="423" y="144" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#3b82f6">M.5</text>
+          <text x="478" y="141" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesa 5</text>
+          <rect x="702" y="124" width="60" height="22" rx="11" fill="#1e3a5f"/>
+          <text x="714" y="139" font-family="system-ui,sans-serif" font-size="11" fill="#3b82f6">5 min</text>
+          <rect x="414" y="164" width="8" height="8" rx="2" fill="#3b82f6" fill-opacity="0.6"/>
+          <text x="430" y="173" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Gazpacho andaluz ×2</text>
+          <rect x="414" y="184" width="8" height="8" rx="2" fill="#3b82f6" fill-opacity="0.6"/>
+          <text x="430" y="193" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Jamón ibérico ×1</text>
+          <rect x="414" y="228" width="354" height="6" rx="3" fill="#1e293b"/>
+          <rect x="414" y="228" width="177" height="6" rx="3" fill="#3b82f6" fill-opacity="0.7"/>
+          <text x="594" y="224" font-family="system-ui,sans-serif" font-size="10" fill="#3b82f6">50%</text>
+
+          <rect x="402" y="278" width="370" height="138" rx="10" fill="#161b27" stroke="#1e3a5f" stroke-width="1.5"/>
+          <rect x="402" y="278" width="370" height="4" rx="2" fill="#3b82f6" fill-opacity="0.6"/>
+          <rect x="414" y="290" width="54" height="26" rx="6" fill="#1e3a5f"/>
+          <text x="423" y="308" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#3b82f6">M.9</text>
+          <text x="478" y="305" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesa 9</text>
+          <rect x="702" y="288" width="60" height="22" rx="11" fill="#1e3a5f"/>
+          <text x="714" y="303" font-family="system-ui,sans-serif" font-size="11" fill="#3b82f6">8 min</text>
+          <rect x="414" y="328" width="8" height="8" rx="2" fill="#3b82f6" fill-opacity="0.6"/>
+          <text x="430" y="337" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Paella mixta ×2</text>
+          <rect x="414" y="390" width="354" height="6" rx="3" fill="#1e293b"/>
+          <rect x="414" y="390" width="89" height="6" rx="3" fill="#3b82f6" fill-opacity="0.7"/>
+          <text x="514" y="386" font-family="system-ui,sans-serif" font-size="10" fill="#3b82f6">25%</text>
+
+          <rect x="402" y="426" width="370" height="138" rx="10" fill="#161b27" stroke="#1e3a5f" stroke-width="1.5"/>
+          <rect x="402" y="426" width="370" height="4" rx="2" fill="#3b82f6" fill-opacity="0.6"/>
+          <rect x="414" y="438" width="60" height="26" rx="6" fill="#1e3a5f"/>
+          <text x="421" y="456" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#3b82f6">M.11</text>
+          <text x="484" y="453" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesa 11</text>
+          <rect x="702" y="436" width="60" height="22" rx="11" fill="#1e3a5f"/>
+          <text x="714" y="451" font-family="system-ui,sans-serif" font-size="11" fill="#3b82f6">4 min</text>
+          <rect x="414" y="476" width="8" height="8" rx="2" fill="#3b82f6" fill-opacity="0.6"/>
+          <text x="430" y="485" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Pulpo a la gallega ×1</text>
+          <rect x="414" y="496" width="8" height="8" rx="2" fill="#3b82f6" fill-opacity="0.6"/>
+          <text x="430" y="505" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Pan de cristal ×2</text>
+          <rect x="414" y="540" width="354" height="6" rx="3" fill="#1e293b"/>
+          <rect x="414" y="540" width="248" height="6" rx="3" fill="#3b82f6" fill-opacity="0.7"/>
+          <text x="674" y="536" font-family="system-ui,sans-serif" font-size="10" fill="#3b82f6">70%</text>
+
+          <!-- Ready cards -->
+          <rect x="792" y="114" width="396" height="170" rx="10" fill="#0d1f0d" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1.5"/>
+          <rect x="792" y="114" width="396" height="4" rx="2" fill="#22c55e"/>
+          <rect x="804" y="126" width="54" height="26" rx="6" fill="#14532d"/>
+          <text x="813" y="144" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#22c55e">M.2</text>
+          <text x="868" y="141" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesa 2</text>
+          <rect x="1090" y="124" width="88" height="22" rx="11" fill="#14532d"/>
+          <text x="1100" y="139" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#22c55e">✓ Listo</text>
+          <rect x="804" y="164" width="8" height="8" rx="2" fill="#22c55e" fill-opacity="0.6"/>
+          <text x="820" y="173" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Cóctel de gambas ×2</text>
+          <rect x="804" y="184" width="8" height="8" rx="2" fill="#22c55e" fill-opacity="0.6"/>
+          <text x="820" y="193" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Patatas bravas ×1</text>
+          <rect x="804" y="250" width="372" height="30" rx="8" fill="#14532d"/>
+          <text x="910" y="270" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#22c55e">Marcar como entregado</text>
+
+          <rect x="792" y="294" width="396" height="154" rx="10" fill="#0d1f0d" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1.5"/>
+          <rect x="792" y="294" width="396" height="4" rx="2" fill="#22c55e"/>
+          <rect x="804" y="306" width="54" height="26" rx="6" fill="#14532d"/>
+          <text x="813" y="324" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#22c55e">M.8</text>
+          <text x="868" y="321" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Mesa 8</text>
+          <rect x="1090" y="304" width="88" height="22" rx="11" fill="#14532d"/>
+          <text x="1100" y="319" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#22c55e">✓ Listo</text>
+          <rect x="804" y="344" width="8" height="8" rx="2" fill="#22c55e" fill-opacity="0.6"/>
+          <text x="820" y="353" font-family="system-ui,sans-serif" font-size="13" fill="#cbd5e1">Steak tartar ×1</text>
+          <rect x="804" y="414" width="372" height="30" rx="8" fill="#14532d"/>
+          <text x="910" y="434" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#22c55e">Marcar como entregado</text>
+        </svg>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  const tabs = document.querySelectorAll<HTMLButtonElement>('.screenshot-tab')
+  const panels = document.querySelectorAll<HTMLElement>('.screenshot-panel')
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.tab
+
+      tabs.forEach((t) => {
+        const active = t.dataset.tab === target
+        t.classList.toggle('bg-brand', active)
+        t.classList.toggle('text-white', active)
+        t.classList.toggle('border-brand', active)
+        t.classList.toggle('bg-surface-card', !active)
+        t.classList.toggle('text-text-secondary', !active)
+        t.classList.toggle('border-border', !active)
+      })
+
+      panels.forEach((p) => {
+        p.classList.toggle('hidden', p.id !== `screenshot-${target}`)
+      })
+    })
+  })
+</script>

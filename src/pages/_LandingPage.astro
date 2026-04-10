@@ -6,9 +6,12 @@ import Hero from '@components/sections/Hero.astro'
 import TrustedBy from '@components/sections/TrustedBy.astro'
 import ProblemSolution from '@components/sections/ProblemSolution.astro'
 import Features from '@components/sections/Features.astro'
+import AppScreenshots from '@components/sections/AppScreenshots.astro'
 import HowItWorks from '@components/sections/HowItWorks.astro'
-import Testimonials from '@components/sections/Testimonials.astro'
+import Stats from '@components/sections/Stats.astro'
+import KitDigital from '@components/sections/KitDigital.astro'
 import Pricing from '@components/sections/Pricing.astro'
+import FaqLanding from '@components/sections/FaqLanding.astro'
 import CtaSection from '@components/sections/CtaSection.astro'
 import Footer from '@components/layout/Footer.astro'
 import '@styles/global.css'
@@ -30,9 +33,13 @@ const t = getTranslations(locale)
     <TrustedBy locale={locale} />
     <ProblemSolution locale={locale} />
     <Features locale={locale} />
+    <AppScreenshots locale={locale} />
     <HowItWorks locale={locale} />
+    <Stats locale={locale} />
     {/* <Testimonials locale={locale} /> */}
+    <KitDigital locale={locale} />
     <Pricing locale={locale} />
+    <FaqLanding locale={locale} />
     <CtaSection locale={locale} />
   </main>
   <Footer locale={locale} />

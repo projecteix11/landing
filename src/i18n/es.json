@@ -1107,5 +1107,142 @@
       "ctaTitle": "¿Listo para salir a la carretera con Gobbly?",
       "ctaButton": "Empieza gratis"
     }
+  },
+  "stats": {
+    "label": "Gobbly en cifras",
+    "title": "Resultados reales para restaurantes reales",
+    "items": [
+      { "value": "+500", "label": "Restaurantes activos" },
+      { "value": "2M+", "label": "Pedidos procesados" },
+      { "value": "98%", "label": "Reducción de no-shows" },
+      { "value": "-20 min", "label": "Ahorrados por mesa" }
+    ]
+  },
+  "faqLanding": {
+    "label": "FAQ",
+    "title": "Preguntas frecuentes",
+    "description": "Todo lo que necesitas saber antes de empezar.",
+    "cta": "Ver todas las preguntas",
+    "items": [
+      {
+        "question": "¿Qué es Gobbly?",
+        "answer": "Gobbly es una plataforma todo-en-uno de gestión de restaurantes que combina TPV, pantalla de cocina, carta digital con pedidos por QR y pagos inteligentes en una sola app en tiempo real."
+      },
+      {
+        "question": "¿Necesito hardware especial?",
+        "answer": "No se necesita hardware especial. Gobbly funciona en cualquier tablet, portátil u ordenador con navegador web. Para impresión, es compatible con impresoras térmicas estándar."
+      },
+      {
+        "question": "¿Hay prueba gratuita?",
+        "answer": "Sí. Tienes 14 días de prueba gratuita del plan Pro con acceso completo. Sin tarjeta de crédito. Al terminar, puedes suscribirte o pasarte al plan Starter."
+      },
+      {
+        "question": "¿Los clientes pueden pedir desde su móvil?",
+        "answer": "Sí. Los clientes escanean un QR en su mesa para ver la carta, consultar alérgenos y hacer pedidos desde su móvil. Sin app — funciona en cualquier navegador."
+      },
+      {
+        "question": "¿Funciona sin conexión?",
+        "answer": "Las funciones básicas del TPV siguen operativas durante breves interrupciones. Los datos se sincronizan automáticamente cuando se recupera la conexión."
+      },
+      {
+        "question": "¿Hay contrato o permanencia?",
+        "answer": "No. Todos los planes son mensuales sin compromiso. Puedes cancelar en cualquier momento. Nos ganamos tu confianza cada mes, sin atarte."
+      }
+    ]
+  },
+  "kitDigital": {
+    "label": "Kit Digital",
+    "title": "Financia Gobbly con las ayudas del Kit Digital",
+    "description": "Si eres autónomo o pyme en España, puede que tengas derecho a ayudas públicas para digitalizar tu restaurante con Gobbly.",
+    "badge": "Hasta 12.000€",
+    "learnMore": "Ver cómo solicitarlo",
+    "steps": [
+      { "step": "01", "title": "Comprueba tu elegibilidad", "description": "Autónomos, microempresas y pymes con hasta 49 empleados con domicilio fiscal en España." },
+      { "step": "02", "title": "Solicita tu Bono Digital", "description": "Tramita tu bono a través del portal acelerapyme.gob.es y obtén tu asignación." },
+      { "step": "03", "title": "Elige Gobbly como digitalizador", "description": "Selecciona Gobbly como agente digitalizador homologado e inicia la transformación digital de tu restaurante." }
+    ],
+    "segments": [
+      { "label": "10–49 empleados", "amount": "Hasta 12.000 €", "color": "brand" },
+      { "label": "3–9 empleados", "amount": "Hasta 6.000 €", "color": "amber" },
+      { "label": "0–2 empleados", "amount": "Hasta 2.000 €", "color": "blue" }
+    ]
+  },
+  "kitDigitalPage": {
+    "title": "Kit Digital — Financia tu digitalización",
+    "description": "Descubre cómo conseguir hasta 12.000 € en ayudas del gobierno para digitalizar tu restaurante con Gobbly a través del programa Kit Digital.",
+    "heroTitle": "Financia Gobbly con las ayudas del Kit Digital",
+    "heroSubtitle": "El programa Kit Digital del gobierno español ofrece subvenciones para ayudar a pequeños negocios y autónomos a digitalizarse. Gobbly es una solución elegible — así es como puedes aprovecharlo.",
+    "badge": "Financiado por NextGenerationEU",
+    "whatTitle": "¿Qué es el Kit Digital?",
+    "whatBody": "El Kit Digital es un programa del gobierno financiado por NextGenerationEU y gestionado por Red.es. Proporciona Bonos Digitales a pymes y autónomos para cubrir el coste de adoptar herramientas digitales — sin coste para el beneficiario.\n\nEl software de gestión de restaurantes como Gobbly entra dentro de las categorías de soluciones elegibles, lo que significa que puedes usar tu bono para cubrir tu suscripción.",
+    "segmentsTitle": "¿Cuánto puedes recibir?",
+    "segments": [
+      { "label": "Segmento I — de 10 a 49 empleados", "amount": "Hasta 12.000 €", "color": "brand" },
+      { "label": "Segmento II — de 3 a 9 empleados", "amount": "Hasta 6.000 €", "color": "amber" },
+      { "label": "Segmento III — 0 a 2 empleados / autónomos", "amount": "Hasta 2.000 €", "color": "blue" }
+    ],
+    "stepsTitle": "Cómo solicitarlo, paso a paso",
+    "steps": [
+      {
+        "step": "1",
+        "title": "Realiza el test de diagnóstico digital",
+        "description": "Accede a acelerapyme.gob.es y completa el test de autodiagnóstico gratuito (Test de Diagnóstico Digital). Es un paso obligatorio para verificar la elegibilidad. Tarda unos 10 minutos."
+      },
+      {
+        "step": "2",
+        "title": "Solicita tu Bono Digital",
+        "description": "Una vez completado el test, solicita tu bono digital a través de la plataforma de Red.es. Necesitarás tu DNI/NIE, NIF y el certificado del test de diagnóstico."
+      },
+      {
+        "step": "3",
+        "title": "Elige Gobbly como agente digitalizador",
+        "description": "Con el bono aprobado, selecciona Gobbly del catálogo oficial de agentes digitalizadores homologados. Firma el acuerdo de servicios digitales directamente con nosotros."
+      },
+      {
+        "step": "4",
+        "title": "Empieza a digitalizar tu restaurante",
+        "description": "Nos encargamos de la configuración y el onboarding. La subvención cubre el importe acordado y Gobbly activa tu plan. No pagas nada (o solo la diferencia si tu plan supera la ayuda)."
+      }
+    ],
+    "requirementsTitle": "Requisitos básicos de elegibilidad",
+    "requirements": [
+      "Estar registrado y en activo en España",
+      "Ser autónomo, microempresa o pyme con menos de 50 empleados",
+      "No estar en situación de crisis según la normativa europea",
+      "Estar al corriente de obligaciones tributarias y con la Seguridad Social",
+      "Completar el test de diagnóstico digital obligatorio en acelerapyme.gob.es"
+    ],
+    "faqTitle": "Preguntas habituales sobre el Kit Digital",
+    "faq": [
+      {
+        "question": "¿Todavía puedo solicitar la ayuda del Kit Digital?",
+        "answer": "Las principales convocatorias han cerrado, pero los beneficiarios que ya tienen un Bono Digital pueden canjearlo con un agente digitalizador homologado. Si ya tienes tu bono, contáctanos y te guiamos en el proceso."
+      },
+      {
+        "question": "¿Es Gobbly un agente digitalizador oficial?",
+        "answer": "Gobbly está en proceso de acreditarse como agente digitalizador del programa Kit Digital. Contacta con nosotros para conocer el estado actual y cómo podemos ayudarte."
+      },
+      {
+        "question": "¿La subvención cubre el coste completo de Gobbly?",
+        "answer": "La subvención cubre el importe del servicio de digitalización acordado. Según tu segmento y plan, puede cubrir total o parcialmente tu suscripción durante hasta 12 meses."
+      },
+      {
+        "question": "Ya solicité el bono pero aún no he elegido digitalizador. ¿Qué hago?",
+        "answer": "Sin problema — todavía puedes seleccionar a Gobbly como tu agente digitalizador. Contacta con nuestro equipo y te guiaremos en los siguientes pasos."
+      }
+    ],
+    "ctaTitle": "¿Listo para digitalizar tu restaurante?",
+    "ctaSubtitle": "Contacta con nuestro equipo y te ayudamos a tramitar la ayuda del Kit Digital y a poner en marcha Gobbly en tu restaurante.",
+    "ctaButton": "Contactar"
+  },
+  "appScreenshots": {
+    "label": "La plataforma",
+    "title": "Todo lo que necesitas, en una sola pantalla",
+    "description": "Desde la cocina hasta el cobro — Gobbly ofrece a tu equipo una visión clara y en tiempo real de todo el restaurante.",
+    "tabs": [
+      { "id": "dashboard", "label": "Dashboard" },
+      { "id": "orders", "label": "Mesas activas" },
+      { "id": "kitchen", "label": "Pantalla de cocina" }
+    ]
   }
 }

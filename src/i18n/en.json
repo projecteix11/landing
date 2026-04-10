@@ -1107,5 +1107,142 @@
       "ctaTitle": "Ready to hit the road with Gobbly?",
       "ctaButton": "Start for free"
     }
+  },
+  "stats": {
+    "label": "Gobbly in numbers",
+    "title": "Real results for real restaurants",
+    "items": [
+      { "value": "+500", "label": "Active restaurants" },
+      { "value": "2M+", "label": "Orders processed" },
+      { "value": "98%", "label": "No-show reduction" },
+      { "value": "-20 min", "label": "Saved per table" }
+    ]
+  },
+  "faqLanding": {
+    "label": "FAQ",
+    "title": "Frequently asked questions",
+    "description": "Everything you need to know before getting started.",
+    "cta": "See all questions",
+    "items": [
+      {
+        "question": "What is Gobbly?",
+        "answer": "Gobbly is an all-in-one restaurant management platform that combines POS, kitchen display, QR digital menu with ordering, and smart payments in a single real-time app."
+      },
+      {
+        "question": "Do I need special hardware?",
+        "answer": "No special hardware needed. Gobbly works on any tablet, laptop or computer with a web browser. For printing, it's compatible with standard thermal printers."
+      },
+      {
+        "question": "Is there a free trial?",
+        "answer": "Yes. You get a 14-day free trial of the Pro plan with full access to all features. No credit card required. After the trial, you can subscribe or switch to the Starter plan."
+      },
+      {
+        "question": "Can customers order from their phone?",
+        "answer": "Yes. Customers scan a QR code on their table to see the full menu, check allergen info and place orders directly from their phone — no app download needed."
+      },
+      {
+        "question": "Does Gobbly work offline?",
+        "answer": "Basic POS functions remain operational during brief connectivity interruptions. Data syncs automatically once the connection is restored."
+      },
+      {
+        "question": "Is there a long-term contract?",
+        "answer": "No. All plans are monthly with no long-term commitment. You can cancel at any time. We earn your trust every month, not by locking you in."
+      }
+    ]
+  },
+  "kitDigital": {
+    "label": "Kit Digital",
+    "title": "Finance Gobbly with the Kit Digital grant",
+    "description": "If you are a self-employed person or SME in Spain, you may be eligible for government grants to digitalise your restaurant with Gobbly.",
+    "badge": "Up to €12,000",
+    "learnMore": "See how to apply",
+    "steps": [
+      { "step": "01", "title": "Check your eligibility", "description": "Self-employed, micro-enterprises, and SMEs with up to 49 employees based in Spain." },
+      { "step": "02", "title": "Request your Digital Voucher", "description": "Apply through the acelerapyme.gob.es portal and get your Digital Voucher assigned." },
+      { "step": "03", "title": "Choose Gobbly as your digitizer", "description": "Select Gobbly as your approved digitizer agent and start your restaurant's digital transformation." }
+    ],
+    "segments": [
+      { "label": "10–49 employees", "amount": "Up to €12,000", "color": "brand" },
+      { "label": "3–9 employees", "amount": "Up to €6,000", "color": "amber" },
+      { "label": "0–2 employees", "amount": "Up to €2,000", "color": "blue" }
+    ]
+  },
+  "kitDigitalPage": {
+    "title": "Kit Digital — Finance your digitalisation",
+    "description": "Learn how to get a government grant of up to €12,000 to digitalise your restaurant with Gobbly through the Kit Digital programme.",
+    "heroTitle": "Finance Gobbly with the Kit Digital grant",
+    "heroSubtitle": "The Spanish government's Kit Digital programme provides grants to help small businesses and self-employed people go digital. Gobbly is an eligible solution — here's how to use it.",
+    "badge": "NextGenerationEU Funded",
+    "whatTitle": "What is Kit Digital?",
+    "whatBody": "Kit Digital is a government programme funded by NextGenerationEU and managed by Red.es. It provides Digital Vouchers (bonos digitales) to small businesses and self-employed people to cover the cost of adopting digital tools — at no cost to the beneficiary.\n\nRestaurant management software like Gobbly falls under the eligible solution categories, which means you can use your grant to cover your subscription.",
+    "segmentsTitle": "How much can you receive?",
+    "segments": [
+      { "label": "Segment I — 10 to 49 employees", "amount": "Up to €12,000", "color": "brand" },
+      { "label": "Segment II — 3 to 9 employees", "amount": "Up to €6,000", "color": "amber" },
+      { "label": "Segment III — 0 to 2 employees / self-employed", "amount": "Up to €2,000", "color": "blue" }
+    ],
+    "stepsTitle": "How to apply, step by step",
+    "steps": [
+      {
+        "step": "1",
+        "title": "Take the digital diagnostic test",
+        "description": "Go to acelerapyme.gob.es and complete the free self-assessment test (Test de Diagnóstico Digital). This is a mandatory step to verify eligibility. It takes about 10 minutes."
+      },
+      {
+        "step": "2",
+        "title": "Apply for your Digital Voucher",
+        "description": "Once you have completed the test, apply for your bono digital through the Red.es platform. You will need your DNI/NIE, tax identification number (NIF) and the diagnostic test certificate."
+      },
+      {
+        "step": "3",
+        "title": "Choose Gobbly as your digitizer agent",
+        "description": "With your voucher approved, select Gobbly from the official catalogue of digitizer agents (agentes digitalizadores). Sign the digital services agreement directly with us."
+      },
+      {
+        "step": "4",
+        "title": "Start digitalising your restaurant",
+        "description": "We'll handle the setup and onboarding. The grant covers the agreed amount and Gobbly activates your plan. You pay nothing (or only the difference if your plan exceeds the grant)."
+      }
+    ],
+    "requirementsTitle": "Basic eligibility requirements",
+    "requirements": [
+      "Be registered and operating in Spain",
+      "Be a self-employed person, micro-enterprise or SME with fewer than 50 employees",
+      "Not be in a crisis situation as defined by EU regulations",
+      "Be up to date with tax and Social Security obligations",
+      "Complete the mandatory digital diagnostic test on acelerapyme.gob.es"
+    ],
+    "faqTitle": "Common questions about Kit Digital",
+    "faq": [
+      {
+        "question": "Can I still apply for the Kit Digital grant?",
+        "answer": "The main application rounds have closed, but beneficiaries who already hold a Digital Voucher can still redeem it with an approved digitizer agent. If you already have your bono, contact us and we'll guide you through the process."
+      },
+      {
+        "question": "Is Gobbly an official digitizer agent?",
+        "answer": "Gobbly is in the process of becoming an accredited digitizer agent under the Kit Digital programme. Contact us to check the current status and how we can help you."
+      },
+      {
+        "question": "Does the grant cover the full cost of Gobbly?",
+        "answer": "The grant covers the agreed digitization service amount. Depending on your segment and plan, it may cover all or part of your subscription for up to 12 months."
+      },
+      {
+        "question": "I already applied but haven't chosen a digitizer yet. What do I do?",
+        "answer": "No problem — you can still select Gobbly as your digitizer agent. Get in touch with our team and we'll walk you through the next steps."
+      }
+    ],
+    "ctaTitle": "Ready to digitalise your restaurant?",
+    "ctaSubtitle": "Contact our team and we'll help you apply for the Kit Digital grant and set up Gobbly for your restaurant.",
+    "ctaButton": "Contact us"
+  },
+  "appScreenshots": {
+    "label": "The platform",
+    "title": "Everything you need, in one screen",
+    "description": "From the kitchen to payments — Gobbly gives your team a clear, real-time view of the whole restaurant.",
+    "tabs": [
+      { "id": "dashboard", "label": "Dashboard" },
+      { "id": "orders", "label": "Active tables" },
+      { "id": "kitchen", "label": "Kitchen display" }
+    ]
   }
 }
