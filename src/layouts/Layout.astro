@@ -2,6 +2,7 @@
 import type { Locale } from '@i18n/types'
 import { getAlternateUrls } from '@i18n/utils'
 import JsonLd from '@components/ui/JsonLd.astro'
+import CookieConsent from '@components/CookieConsent.astro'
 
 interface Props {
   locale: Locale
@@ -62,6 +63,7 @@ const canonicalUrl = `https://gobbly.app/${locale}${path}`
   </head>
   <body class="bg-surface text-text-primary font-body antialiased">
     <slot />
+    <CookieConsent locale={locale} />
     <script>
       // Intersection Observer for scroll-triggered animations
       const observer = new IntersectionObserver(

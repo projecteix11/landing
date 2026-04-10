@@ -1,0 +1,79 @@
+---
+import type { Locale } from '@i18n/types'
+import { t } from '@i18n/utils'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+---
+
+<div
+  id="cookie-banner"
+  class="fixed bottom-0 left-0 right-0 z-50 hidden bg-white border-t border-gray-200 shadow-lg"
+  role="dialog"
+  aria-label="Cookie consent"
+>
+  <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center gap-4 justify-between">
+    <p class="text-sm text-gray-700 text-center sm:text-left">
+      {t(locale, 'cookies.message')}
+      <a
+        href={`/${locale}/privacy`}
+        class="underline hover:text-gray-900 ml-1"
+      >
+        {t(locale, 'cookies.learnMore')}
+      </a>
+    </p>
+    <div class="flex gap-2 shrink-0">
+      <button
+        id="cookie-reject"
+        class="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100 transition-colors"
+      >
+        {t(locale, 'cookies.reject')}
+      </button>
+      <button
+        id="cookie-accept"
+        class="px-4 py-2 text-sm bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition-colors"
+      >
+        {t(locale, 'cookies.accept')}
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const STORAGE_KEY = 'cookie_consent'
+  const banner = document.getElementById('cookie-banner')
+
+  function loadAnalytics() {
+    const script = document.createElement('script')
+    script.defer = true
+    script.src = 'https://static.cloudflareinsights.com/beacon.min.js'
+    script.dataset.cfBeacon = JSON.stringify({ token: 'YOUR_CF_TOKEN' })
+    document.head.appendChild(script)
+  }
+
+  function hideBanner() {
+    banner?.classList.add('hidden')
+  }
+
+  const consent = localStorage.getItem(STORAGE_KEY)
+
+  if (consent === 'accepted') {
+    loadAnalytics()
+  } else if (consent === null) {
+    banner?.classList.remove('hidden')
+  }
+
+  document.getElementById('cookie-accept')?.addEventListener('click', () => {
+    localStorage.setItem(STORAGE_KEY, 'accepted')
+    hideBanner()
+    loadAnalytics()
+  })
+
+  document.getElementById('cookie-reject')?.addEventListener('click', () => {
+    localStorage.setItem(STORAGE_KEY, 'rejected')
+    hideBanner()
+  })
+</script>

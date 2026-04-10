@@ -1280,6 +1280,12 @@
     "ctaSubtitle": "Contacta con nuestro equipo y te ayudamos a tramitar la ayuda del Kit Digital y a poner en marcha Gobbly en tu restaurante.",
     "ctaButton": "Contactar"
   },
+  "cookies": {
+    "message": "Usamos cookies para analizar el tráfico y mejorar tu experiencia.",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "learnMore": "Política de privacidad"
+  },
   "appScreenshots": {
     "label": "La plataforma",
     "title": "Todo lo que necesitas, en una sola pantalla",

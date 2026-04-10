@@ -1280,6 +1280,12 @@
     "ctaSubtitle": "Contact our team and we'll help you apply for the Kit Digital grant and set up Gobbly for your restaurant.",
     "ctaButton": "Contact us"
   },
+  "cookies": {
+    "message": "We use cookies to analyse traffic and improve your experience.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "learnMore": "Privacy policy"
+  },
   "appScreenshots": {
     "label": "The platform",
     "title": "Everything you need, in one screen",
