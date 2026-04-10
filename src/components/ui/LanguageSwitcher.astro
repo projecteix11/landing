@@ -31,7 +31,7 @@ const languageLabels: Record<Locale, string> = {
     </svg>
   </button>
 
-  <div class="lang-switcher-dropdown absolute right-0 top-full mt-1 bg-surface-card border border-border rounded-xl shadow-lg py-1 min-w-[140px] hidden z-50">
+  <div class="lang-switcher-dropdown absolute left-0 top-full mt-1 bg-surface-card border border-border rounded-xl shadow-lg py-1 min-w-[140px] hidden z-50">
     {locales.map((loc) => (
       <a
         href={`/${loc}${pathWithoutLocale}`}
