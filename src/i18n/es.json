@@ -17,9 +17,9 @@
   },
   "hero": {
     "badge": "Ahora en beta abierta",
-    "titleLine1": "Tu restaurante,",
-    "titleHighlight": "todo en un solo lugar",
-    "subtitle": "Olvídate de las comandas en papel y las herramientas dispersas. Gobbly unifica tu TPV, cocina, carta y pagos en una sola plataforma en tiempo real.",
+    "titleLine1": "Software de gestión de restaurantes",
+    "titleHighlight": "TPV, cocina, carta digital y pagos en una sola app",
+    "subtitle": "Gobbly unifica tu TPV, pantalla de cocina, carta digital y pagos en una sola plataforma en tiempo real. Configúralo en minutos en cualquier tablet.",
     "ctaPrimary": "Prueba 1 mes gratis",
     "ctaSecondary": "Mira cómo funciona",
     "mockupKitchenLabel": "Cocina",
@@ -175,7 +175,6 @@
     "legal": "Legal",
     "legalPrivacy": "Privacidad",
     "legalTerms": "Términos",
-    "legalCookies": "Cookies",
     "compare": "Comparar",
     "compareRevo": "Gobbly vs Revo XEF",
     "compareCoverManager": "Gobbly vs CoverManager",
@@ -265,8 +264,6 @@
     "infoResponseTime": "Normalmente respondemos en menos de 24 horas.",
     "infoAddressLabel": "Nuestra oficina",
     "infoAddress": "Barcelona, España",
-    "infoPhoneLabel": "Llámanos",
-    "infoPhone": "+34 XXX XXX XXX",
     "infoHoursLabel": "Horario de atención",
     "infoHours": "Lun-Vie, 9:00 - 18:00 CET",
     "mapPlaceholder": "Barcelona, España",
@@ -301,23 +298,19 @@
         "content": "No vendemos tu información personal. Podemos compartir tu información con proveedores de servicios terceros que realizan servicios en nuestro nombre, como procesamiento de pagos (Stripe), envío de correos y alojamiento en la nube. Estos proveedores están obligados contractualmente a mantener la confidencialidad de tu información."
       },
       {
-        "heading": "4. Cookies y seguimiento",
-        "content": "Utilizamos cookies esenciales para mantener tu sesión iniciada y recordar tus preferencias. También usamos cookies de analítica para entender cómo se usa nuestra plataforma. Puedes controlar las preferencias de cookies a través de la configuración de tu navegador. Nuestra plataforma no responde a señales Do Not Track."
-      },
-      {
-        "heading": "5. Seguridad de datos",
+        "heading": "4. Seguridad de datos",
         "content": "Implementamos medidas de seguridad estándar de la industria para proteger tus datos, incluyendo cifrado en tránsito (TLS) y en reposo. Los datos de pago son procesados por proveedores compatibles con PCI DSS y nunca se almacenan en nuestros servidores. Realizamos auditorías de seguridad periódicas y mantenemos controles de acceso estrictos."
       },
       {
-        "heading": "6. Tus derechos (RGPD)",
+        "heading": "5. Tus derechos (RGPD)",
         "content": "Si te encuentras en el Espacio Económico Europeo, tienes derecho a acceder, corregir o eliminar tus datos personales; oponerte o restringir el procesamiento; portabilidad de datos; y retirar el consentimiento en cualquier momento. Para ejercer estos derechos, contáctanos en info@gobbly.app. Responderemos en un plazo de 30 días."
       },
       {
-        "heading": "7. Retención de datos",
+        "heading": "6. Retención de datos",
         "content": "Conservamos tus datos personales mientras tu cuenta esté activa o según sea necesario para proporcionarte servicios. Si eliminas tu cuenta, eliminaremos o anonimizaremos tus datos en un plazo de 90 días, excepto cuando estemos obligados a conservarlos por motivos legales o regulatorios."
       },
       {
-        "heading": "8. Contacto",
+        "heading": "7. Contacto",
         "content": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en info@gobbly.app o escríbenos a Gobbly SL, Barcelona, España."
       }
     ]
@@ -407,6 +400,25 @@
         { "stat": "Cualquier tablet", "description": "Funciona en iPad, Android o cualquier dispositivo con navegador" },
         { "stat": "99,9%", "description": "Disponibilidad con modo offline como red de seguridad" }
       ],
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "question": "¿Qué métodos de pago acepta el TPV de Gobbly?",
+          "answer": "El TPV de Gobbly acepta efectivo, tarjetas de crédito y débito, pagos contactless y monederos móviles. También puedes procesar pagos mixtos en la misma cuenta, combinando cualquiera de estos métodos."
+        },
+        {
+          "question": "¿Puede el TPV de Gobbly dividir cuentas entre comensales?",
+          "answer": "Sí. Gobbly permite dividir cuentas por plato, por partes iguales o por cantidades personalizadas. Cada persona puede pagar con un método diferente y el sistema lo registra automáticamente."
+        },
+        {
+          "question": "¿Funciona el TPV de Gobbly sin conexión a internet?",
+          "answer": "Sí. Gobbly tiene un modo offline completo que permite seguir tomando comandas y procesando pagos sin conexión. Todos los datos se sincronizan automáticamente cuando se restablece la conectividad."
+        },
+        {
+          "question": "¿Qué hardware necesito para usar el TPV de Gobbly?",
+          "answer": "Gobbly funciona en cualquier navegador web moderno, así que puedes usar un iPad, tablet Android o cualquier dispositivo que ya tengas. No necesitas hardware propietario. Opcionalmente, puedes conectar una impresora de tickets o lector de tarjetas Bluetooth."
+        }
+      ],
       "ctaTitle": "¿Listo para actualizar tu TPV?",
       "ctaButton": "Prueba 1 mes gratis",
       "exploreTitle": "Descubre más funcionalidades",
@@ -448,6 +460,25 @@
         { "stat": "30%", "description": "Más rápido en tiempo medio de servicio" },
         { "stat": "Cero", "description": "Residuos de papel por tickets de cocina impresos" },
         { "stat": "100%", "description": "Visibilidad para sala sobre el estado de las comandas" }
+      ],
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "question": "¿Cómo rastrea el estado de los pedidos la pantalla de cocina?",
+          "answer": "Cada pedido pasa por tres estados: Pendiente, Cocinando y Listo. El personal de cocina toca para actualizar el estado, y la pantalla usa badges de color y alertas de tiempo para que todo el equipo vea el progreso de un vistazo."
+        },
+        {
+          "question": "¿Puede el personal de cocina marcar platos como listos desde la pantalla?",
+          "answer": "Sí. Un solo toque mueve un plato de Cocinando a Listo. El personal de sala recibe la notificación de inmediato para servir el plato mientras aún está caliente."
+        },
+        {
+          "question": "¿Se actualiza la pantalla de cocina en tiempo real?",
+          "answer": "Sí. Los pedidos aparecen en la pantalla de cocina en el instante en que se realizan desde el TPV o el menú QR. No hay retraso ni paso manual entre la sala y la cocina."
+        },
+        {
+          "question": "¿Puedo configurar múltiples estaciones de cocina en pantallas separadas?",
+          "answer": "Sí. Gobbly admite configuración multi-estación. Puedes asignar categorías específicas a cada pantalla — por ejemplo, plancha, freidora y postres — para que cada cocinero vea solo los pedidos de su estación."
+        }
       ],
       "ctaTitle": "¿Listo para digitalizar tu cocina?",
       "ctaButton": "Prueba 1 mes gratis",
@@ -491,6 +522,25 @@
         { "stat": "Cero", "description": "Costes de impresión de cartas físicas" },
         { "stat": "12+", "description": "Idiomas soportados de serie" }
       ],
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "question": "¿Cómo acceden los clientes al menú QR?",
+          "answer": "Los clientes escanean un código QR en su mesa con la cámara de su móvil. El menú se abre en el navegador al instante — no necesitan descargar ninguna app. Cada mesa tiene su propio código QR único."
+        },
+        {
+          "question": "¿Puedo personalizar el diseño de la carta digital?",
+          "answer": "Sí. Puedes adaptar los colores, tipografías y disposición de la carta a la marca de tu restaurante. También controlas qué fotos, descripciones y detalles de alérgenos aparecen para cada plato."
+        },
+        {
+          "question": "¿Muestra la carta QR información de alérgenos?",
+          "answer": "Sí. Cada plato puede incluir información completa de alérgenos que los clientes ven antes de pedir. Esto ayuda a cumplir con la normativa de seguridad alimentaria y da confianza a los comensales."
+        },
+        {
+          "question": "¿Pueden los clientes pedir directamente desde la carta QR?",
+          "answer": "Sí. Los clientes pueden consultar la carta, añadir platos a su pedido y enviarlo directamente a cocina — todo desde su móvil. Esto reduce tiempos de espera y libera a tu personal."
+        }
+      ],
       "ctaTitle": "¿Listo para dar el salto digital?",
       "ctaButton": "Prueba 1 mes gratis",
       "exploreTitle": "Descubre más funcionalidades",
@@ -531,6 +581,25 @@
         { "stat": "100%", "description": "Cumplimiento legal en facturación integrado" },
         { "stat": "15%", "description": "Más propinas con la opción de propina digital" },
         { "stat": "5 min", "description": "Cierre de turno en lugar de más de 30 minutos" }
+      ],
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "question": "¿Qué métodos de pago acepta Gobbly?",
+          "answer": "Gobbly acepta efectivo, tarjetas de crédito y débito, pagos contactless y monederos móviles. Puedes combinar varios métodos de pago en la misma cuenta."
+        },
+        {
+          "question": "¿Es el procesamiento de pagos de Gobbly compatible con VeriFactu?",
+          "answer": "Sí. Gobbly genera facturas legalmente válidas de forma automática y cumple íntegramente con la normativa VeriFactu de España. No se necesitan módulos ni plugins adicionales."
+        },
+        {
+          "question": "¿Puedo generar facturas desde Gobbly?",
+          "answer": "Sí. Las facturas se generan automáticamente en el cobro con todos los datos legales requeridos. También puedes emitir facturas retroactivamente desde el panel para cualquier transacción anterior."
+        },
+        {
+          "question": "¿Cómo funciona la división de cuenta en Gobbly?",
+          "answer": "Gobbly ofrece tres modos de división: por plato (cada persona elige lo que pidió), por partes iguales o por cantidades personalizadas. Cada porción puede pagarse con un método de pago diferente."
+        }
       ],
       "ctaTitle": "¿Listo para simplificar los pagos?",
       "ctaButton": "Prueba 1 mes gratis",
@@ -782,6 +851,25 @@
     ],
     "pricingTitle": "Precios claros, sin sorpresas",
     "pricingSubtitle": "Desde 19€/mes. Sin comisiones ocultas, sin permanencia.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "question": "¿Cómo se compara Gobbly con los TPV tradicionales?",
+        "answer": "Los TPV tradicionales suelen estar diseñados para retail y requieren hardware propietario caro. Gobbly está pensado específicamente para hostelería, funciona en cualquier tablet o móvil, e incluye pantalla de cocina, pedidos por QR y pagos en una sola plataforma."
+      },
+      {
+        "question": "¿Por qué elegir una plataforma todo-en-uno en vez de herramientas separadas?",
+        "answer": "Herramientas separadas significan accesos diferentes, facturas diferentes y datos que no se conectan. Con Gobbly, tu TPV, cocina, carta y pagos comparten una única capa de datos, así los pedidos fluyen en tiempo real y los informes están unificados."
+      },
+      {
+        "question": "¿Puedo migrar desde mi TPV actual a Gobbly?",
+        "answer": "Sí. Puedes importar tu carta desde una hoja de cálculo y configurar el plano de sala en minutos. La mayoría de restaurantes están operativos con Gobbly en un solo turno."
+      },
+      {
+        "question": "¿Funciona Gobbly en países fuera de España?",
+        "answer": "Gobbly está en la nube y funciona en cualquier lugar con conexión a internet. La facturación VeriFactu es específica de España, pero el TPV, pantalla de cocina, carta QR y funciones de pago funcionan a nivel internacional."
+      }
+    ],
     "ctaTitle": "¿Listo para probarlo?",
     "ctaSubtitle": "Únete a cientos de restaurantes que ya usan Gobbly. Prueba 1 mes gratis, sin compromiso.",
     "ctaButton": "Prueba 1 mes gratis"
@@ -992,6 +1080,21 @@
       ],
       "exploreTitle": "Gobbly funciona para todo tipo de negocio",
       "exploreSubtitle": "Descubre cómo Gobbly se adapta a distintos negocios de hostelería",
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "question": "¿Es Gobbly adecuado para restaurantes con varias sedes?",
+          "answer": "Sí. Gobbly admite configuración multi-sede desde el plan Enterprise. Puedes gestionar cartas, personal e informes de todas tus ubicaciones desde un único panel."
+        },
+        {
+          "question": "¿Puede Gobbly gestionar mesas y reservas?",
+          "answer": "Sí. Gobbly incluye un plano visual de sala donde puedes asignar mesas, ver su estado en tiempo real y gestionar cubiertos. La integración de reservas está disponible en los planes Pro y Enterprise."
+        },
+        {
+          "question": "¿Cómo ayuda Gobbly a los restaurantes a gestionar el flujo de cocina?",
+          "answer": "Los pedidos realizados desde el TPV o el menú QR aparecen instantáneamente en la pantalla de cocina. Los chefs ven los artículos ordenados por prioridad con alertas de tiempo, y pueden marcar platos como listos con un solo toque, notificando al personal de sala de inmediato."
+        }
+      ],
       "ctaTitle": "¿Listo para transformar tu restaurante?",
       "ctaButton": "Prueba 1 mes gratis"
     },
@@ -1060,6 +1163,21 @@
       ],
       "exploreTitle": "Gobbly funciona para todo tipo de negocio",
       "exploreSubtitle": "Descubre cómo Gobbly se adapta a distintos negocios de hostelería",
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "question": "¿Funciona Gobbly para bares con pedidos rápidos de alto volumen?",
+          "answer": "Sí. El TPV de pedido rápido de Gobbly cuenta con botones grandes, favoritos fijados y pedido con un toque, diseñado para la velocidad. Un pedido típico de bebida se procesa en menos de tres segundos."
+        },
+        {
+          "question": "¿Puede el personal del bar usar Gobbly en una tablet?",
+          "answer": "Sí. Gobbly funciona en cualquier navegador web moderno, por lo que sirve en iPads, tablets Android y cualquier dispositivo que tu bar ya tenga. No se necesita hardware propietario."
+        },
+        {
+          "question": "¿Soporta Gobbly la gestión de cuentas abiertas para bares?",
+          "answer": "Sí. Puedes abrir una cuenta con un nombre o tarjeta, añadir artículos durante toda la noche y cerrarla con un solo toque. El sistema lleva el control de todas las cuentas abiertas de forma clara, eliminando confusiones a la hora del cierre."
+        }
+      ],
       "ctaTitle": "¿Listo para acelerar tu bar?",
       "ctaButton": "Prueba 1 mes gratis"
     },
@@ -1128,6 +1246,21 @@
       ],
       "exploreTitle": "Gobbly funciona para todo tipo de negocio",
       "exploreSubtitle": "Descubre cómo Gobbly se adapta a distintos negocios de hostelería",
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "question": "¿Puede Gobbly funcionar en un dispositivo móvil para food trucks?",
+          "answer": "Sí. Gobbly funciona en cualquier smartphone o tablet con un navegador moderno. No se necesita hardware especializado — usa el dispositivo que ya llevas en el bolsillo."
+        },
+        {
+          "question": "¿Funciona Gobbly sin conexión permanente a internet?",
+          "answer": "Sí. Gobbly tiene un modo offline completo. Puedes tomar pedidos, procesar pagos y gestionar tu food truck sin internet. Todo se sincroniza automáticamente cuando te reconectas."
+        },
+        {
+          "question": "¿Es Gobbly asequible para food trucks pequeños?",
+          "answer": "Sí. Gobbly empieza en 19 EUR al mes sin inversión en hardware. No hay comisiones ocultas, ni contratos a largo plazo, y puedes probarlo gratis durante un mes."
+        }
+      ],
       "ctaTitle": "¿Listo para salir a la carretera con Gobbly?",
       "ctaButton": "Prueba 1 mes gratis"
     }

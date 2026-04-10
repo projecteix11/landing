@@ -17,9 +17,9 @@
   },
   "hero": {
     "badge": "Ara en beta oberta",
-    "titleLine1": "El teu restaurant,",
-    "titleHighlight": "tot en un sol lloc",
-    "subtitle": "Oblida't de les comandes en paper i les eines disperses. Gobbly unifica el teu TPV, cuina, carta i pagaments en una sola plataforma en temps real.",
+    "titleLine1": "Software de gestió de restaurants",
+    "titleHighlight": "TPV, cuina, carta digital i pagaments en una sola app",
+    "subtitle": "Gobbly unifica el teu TPV, pantalla de cuina, carta digital i pagaments en una sola plataforma en temps real. Configura'l en minuts en qualsevol tauleta.",
     "ctaPrimary": "Prova 1 mes gratis",
     "ctaSecondary": "Mira com funciona",
     "mockupKitchenLabel": "Cuina",
@@ -175,7 +175,6 @@
     "legal": "Legal",
     "legalPrivacy": "Privacitat",
     "legalTerms": "Termes",
-    "legalCookies": "Cookies",
     "compare": "Comparar",
     "compareRevo": "Gobbly vs Revo XEF",
     "compareCoverManager": "Gobbly vs CoverManager",
@@ -265,8 +264,6 @@
     "infoResponseTime": "Normalment responem en menys de 24 hores.",
     "infoAddressLabel": "La nostra oficina",
     "infoAddress": "Barcelona, Espanya",
-    "infoPhoneLabel": "Truca'ns",
-    "infoPhone": "+34 XXX XXX XXX",
     "infoHoursLabel": "Horari d'atenció",
     "infoHours": "Dl-Dv, 9:00 - 18:00 CET",
     "mapPlaceholder": "Barcelona, Espanya",
@@ -301,23 +298,19 @@
         "content": "No venem la vostra informació personal. Podem compartir la vostra informació amb proveïdors de serveis tercers que realitzen serveis en el nostre nom, com processament de pagaments (Stripe), enviament de correus i allotjament al núvol. Aquests proveïdors estan obligats contractualment a mantenir la confidencialitat de la vostra informació."
       },
       {
-        "heading": "4. Cookies i seguiment",
-        "content": "Utilitzem cookies essencials per mantenir la vostra sessió iniciada i recordar les vostres preferències. També fem servir cookies d'analítica per entendre com s'utilitza la nostra plataforma. Podeu controlar les preferències de cookies a través de la configuració del vostre navegador. La nostra plataforma no respon a senyals Do Not Track."
-      },
-      {
-        "heading": "5. Seguretat de dades",
+        "heading": "4. Seguretat de dades",
         "content": "Implementem mesures de seguretat estàndard de la indústria per protegir les vostres dades, incloent xifrat en trànsit (TLS) i en repòs. Les dades de pagament són processades per proveïdors compatibles amb PCI DSS i mai s'emmagatzemen als nostres servidors. Realitzem auditories de seguretat periòdiques i mantenim controls d'accés estrictes."
       },
       {
-        "heading": "6. Els vostres drets (RGPD)",
+        "heading": "5. Els vostres drets (RGPD)",
         "content": "Si us trobeu a l'Espai Econòmic Europeu, teniu dret a accedir, corregir o eliminar les vostres dades personals; oposar-vos o restringir el processament; portabilitat de dades; i retirar el consentiment en qualsevol moment. Per exercir aquests drets, contacteu-nos a info@gobbly.app. Respondrem en un termini de 30 dies."
       },
       {
-        "heading": "7. Retenció de dades",
+        "heading": "6. Retenció de dades",
         "content": "Conservem les vostres dades personals mentre el vostre compte estigui actiu o segons sigui necessari per proporcionar-vos serveis. Si elimineu el vostre compte, eliminarem o anonimitzarem les vostres dades en un termini de 90 dies, excepte quan estiguem obligats a conservar-les per motius legals o regulatoris."
       },
       {
-        "heading": "8. Contacte",
+        "heading": "7. Contacte",
         "content": "Si teniu alguna pregunta sobre aquesta Política de Privacitat, contacteu-nos a info@gobbly.app o escriviu-nos a Gobbly SL, Barcelona, Espanya."
       }
     ]
@@ -407,6 +400,25 @@
         { "stat": "Qualsevol tauleta", "description": "Funciona en iPad, Android o qualsevol dispositiu amb navegador" },
         { "stat": "99,9%", "description": "Disponibilitat amb mode offline com a xarxa de seguretat" }
       ],
+      "faqTitle": "Preguntes freqüents",
+      "faq": [
+        {
+          "question": "Quins mètodes de pagament accepta el TPV de Gobbly?",
+          "answer": "El TPV de Gobbly accepta efectiu, targetes de crèdit i dèbit, pagaments contactless i carteres mòbils. També pots processar pagaments mixtos al mateix compte, combinant qualsevol d'aquests mètodes."
+        },
+        {
+          "question": "Pot el TPV de Gobbly dividir comptes entre comensals?",
+          "answer": "Sí. Gobbly permet dividir comptes per plat, per parts iguals o per quantitats personalitzades. Cada persona pot pagar amb un mètode diferent i el sistema ho registra automàticament."
+        },
+        {
+          "question": "Funciona el TPV de Gobbly sense connexió a internet?",
+          "answer": "Sí. Gobbly té un mode offline complet que permet seguir prenent comandes i processant pagaments sense connexió. Totes les dades es sincronitzen automàticament quan es restableix la connectivitat."
+        },
+        {
+          "question": "Quin maquinari necessito per usar el TPV de Gobbly?",
+          "answer": "Gobbly funciona en qualsevol navegador web modern, així que pots usar un iPad, tauleta Android o qualsevol dispositiu que ja tinguis. No necessites maquinari propietari. Opcionalment, pots connectar una impressora de tiquets o lector de targetes Bluetooth."
+        }
+      ],
       "ctaTitle": "Preparat per actualitzar el teu TPV?",
       "ctaButton": "Prova 1 mes gratis",
       "exploreTitle": "Descobreix més funcionalitats",
@@ -448,6 +460,25 @@
         { "stat": "30%", "description": "Més ràpid en temps mitjà de servei" },
         { "stat": "Zero", "description": "Residus de paper per tiquets de cuina impresos" },
         { "stat": "100%", "description": "Visibilitat per a sala sobre l'estat de les comandes" }
+      ],
+      "faqTitle": "Preguntes freqüents",
+      "faq": [
+        {
+          "question": "Com rastreja l'estat de les comandes la pantalla de cuina?",
+          "answer": "Cada comanda passa per tres estats: Pendent, Cuinant i Llest. El personal de cuina toca per actualitzar l'estat, i la pantalla usa badges de color i alertes de temps perquè tot l'equip vegi el progrés d'un cop d'ull."
+        },
+        {
+          "question": "Pot el personal de cuina marcar plats com a llestos des de la pantalla?",
+          "answer": "Sí. Un sol toc mou un plat de Cuinant a Llest. El personal de sala rep la notificació de seguida per servir el plat mentre encara està calent."
+        },
+        {
+          "question": "S'actualitza la pantalla de cuina en temps real?",
+          "answer": "Sí. Les comandes apareixen a la pantalla de cuina a l'instant en què es fan des del TPV o el menú QR. No hi ha retard ni pas manual entre la sala i la cuina."
+        },
+        {
+          "question": "Puc configurar múltiples estacions de cuina en pantalles separades?",
+          "answer": "Sí. Gobbly admet configuració multi-estació. Pots assignar categories específiques a cada pantalla — per exemple, planxa, fregidora i postres — perquè cada cuiner vegi només les comandes de la seva estació."
+        }
       ],
       "ctaTitle": "Preparat per digitalitzar la teva cuina?",
       "ctaButton": "Prova 1 mes gratis",
@@ -491,6 +522,25 @@
         { "stat": "Zero", "description": "Costos d'impressió de cartes físiques" },
         { "stat": "12+", "description": "Idiomes suportats de sèrie" }
       ],
+      "faqTitle": "Preguntes freqüents",
+      "faq": [
+        {
+          "question": "Com accedeixen els clients al menú QR?",
+          "answer": "Els clients escanegen un codi QR a la seva taula amb la càmera del mòbil. El menú s'obre al navegador a l'instant — no necessiten descarregar cap app. Cada taula té el seu propi codi QR únic."
+        },
+        {
+          "question": "Puc personalitzar el disseny de la carta digital?",
+          "answer": "Sí. Pots adaptar els colors, tipografies i disposició de la carta a la marca del teu restaurant. També controles quines fotos, descripcions i detalls d'al·lèrgens apareixen per a cada plat."
+        },
+        {
+          "question": "Mostra la carta QR informació d'al·lèrgens?",
+          "answer": "Sí. Cada plat pot incloure informació completa d'al·lèrgens que els clients veuen abans de demanar. Això ajuda a complir amb la normativa de seguretat alimentària i dona confiança als comensals."
+        },
+        {
+          "question": "Poden els clients demanar directament des de la carta QR?",
+          "answer": "Sí. Els clients poden consultar la carta, afegir plats a la seva comanda i enviar-la directament a cuina — tot des del seu mòbil. Això redueix temps d'espera i allibera el teu personal."
+        }
+      ],
       "ctaTitle": "Preparat per fer el salt digital?",
       "ctaButton": "Prova 1 mes gratis",
       "exploreTitle": "Descobreix més funcionalitats",
@@ -531,6 +581,25 @@
         { "stat": "100%", "description": "Compliment legal en facturació integrat" },
         { "stat": "15%", "description": "Més propines amb l'opció de propina digital" },
         { "stat": "5 min", "description": "Tancament de torn en lloc de més de 30 minuts" }
+      ],
+      "faqTitle": "Preguntes freqüents",
+      "faq": [
+        {
+          "question": "Quins mètodes de pagament accepta Gobbly?",
+          "answer": "Gobbly accepta efectiu, targetes de crèdit i dèbit, pagaments contactless i carteres mòbils. Pots combinar diversos mètodes de pagament al mateix compte."
+        },
+        {
+          "question": "És el processament de pagaments de Gobbly compatible amb VeriFactu?",
+          "answer": "Sí. Gobbly genera factures legalment vàlides de forma automàtica i compleix íntegrament amb la normativa VeriFactu d'Espanya. No calen mòduls ni plugins addicionals."
+        },
+        {
+          "question": "Puc generar factures des de Gobbly?",
+          "answer": "Sí. Les factures es generen automàticament en el cobrament amb totes les dades legals requerides. També pots emetre factures retroactivament des del panell per a qualsevol transacció anterior."
+        },
+        {
+          "question": "Com funciona la divisió de compte a Gobbly?",
+          "answer": "Gobbly ofereix tres modes de divisió: per plat (cada persona tria el que va demanar), per parts iguals o per quantitats personalitzades. Cada porció pot pagar-se amb un mètode de pagament diferent."
+        }
       ],
       "ctaTitle": "Preparat per simplificar els pagaments?",
       "ctaButton": "Prova 1 mes gratis",
@@ -782,6 +851,25 @@
     ],
     "pricingTitle": "Preus clars, sense sorpreses",
     "pricingSubtitle": "Des de 19€/mes. Sense comissions ocultes, sense permanència.",
+    "faqTitle": "Preguntes freqüents",
+    "faq": [
+      {
+        "question": "Com es compara Gobbly amb els TPV tradicionals?",
+        "answer": "Els TPV tradicionals solen estar dissenyats per a retail i requereixen maquinari propietari car. Gobbly està pensat específicament per a hostaleria, funciona en qualsevol tauleta o mòbil, i inclou pantalla de cuina, comandes per QR i pagaments en una sola plataforma."
+      },
+      {
+        "question": "Per què triar una plataforma tot-en-un en comptes d'eines separades?",
+        "answer": "Eines separades signifiquen accessos diferents, factures diferents i dades que no es connecten. Amb Gobbly, el teu TPV, cuina, carta i pagaments comparteixen una única capa de dades, així les comandes flueixen en temps real i els informes estan unificats."
+      },
+      {
+        "question": "Puc migrar des del meu TPV actual a Gobbly?",
+        "answer": "Sí. Pots importar la teva carta des d'un full de càlcul i configurar el plànol de sala en minuts. La majoria de restaurants estan operatius amb Gobbly en un sol torn."
+      },
+      {
+        "question": "Funciona Gobbly en països fora d'Espanya?",
+        "answer": "Gobbly està al núvol i funciona a qualsevol lloc amb connexió a internet. La facturació VeriFactu és específica d'Espanya, però el TPV, pantalla de cuina, carta QR i funcions de pagament funcionen a nivell internacional."
+      }
+    ],
     "ctaTitle": "Preparat per provar-ho?",
     "ctaSubtitle": "Uneix-te a centenars de restaurants que ja utilitzen Gobbly. Prova 1 mes gratis, sense compromís.",
     "ctaButton": "Prova 1 mes gratis"
@@ -992,6 +1080,21 @@
       ],
       "exploreTitle": "Gobbly funciona per a tot tipus de negoci",
       "exploreSubtitle": "Descobreix com Gobbly s'adapta a diferents negocis d'hostaleria",
+      "faqTitle": "Preguntes freqüents",
+      "faq": [
+        {
+          "question": "Es Gobbly adequat per a restaurants amb diverses seus?",
+          "answer": "Sí. Gobbly admet configuració multi-seu des del pla Enterprise. Pots gestionar cartes, personal i informes de totes les teves ubicacions des d'un únic panell."
+        },
+        {
+          "question": "Pot Gobbly gestionar taules i reserves?",
+          "answer": "Sí. Gobbly inclou un plànol visual de sala on pots assignar taules, veure'n l'estat en temps real i gestionar coberts. La integració de reserves està disponible als plans Pro i Enterprise."
+        },
+        {
+          "question": "Com ajuda Gobbly als restaurants a gestionar el flux de cuina?",
+          "answer": "Les comandes fetes des del TPV o el menú QR apareixen instantàniament a la pantalla de cuina. Els xefs veuen els articles ordenats per prioritat amb alertes de temps, i poden marcar plats com a llestos amb un sol toc, notificant al personal de sala de seguida."
+        }
+      ],
       "ctaTitle": "Preparat per transformar el teu restaurant?",
       "ctaButton": "Prova 1 mes gratis"
     },
@@ -1060,6 +1163,21 @@
       ],
       "exploreTitle": "Gobbly funciona per a tot tipus de negoci",
       "exploreSubtitle": "Descobreix com Gobbly s'adapta a diferents negocis d'hostaleria",
+      "faqTitle": "Preguntes freqüents",
+      "faq": [
+        {
+          "question": "Funciona Gobbly per a bars amb comandes ràpides d'alt volum?",
+          "answer": "Sí. El TPV de comanda ràpida de Gobbly compta amb botons grans, favorits fixats i comanda amb un toc, dissenyat per a la velocitat. Una comanda típica de beguda es processa en menys de tres segons."
+        },
+        {
+          "question": "Pot el personal del bar usar Gobbly en una tauleta?",
+          "answer": "Sí. Gobbly funciona en qualsevol navegador web modern, així que serveix en iPads, tauletes Android i qualsevol dispositiu que el teu bar ja tingui. No cal maquinari propietari."
+        },
+        {
+          "question": "Suporta Gobbly la gestió de comptes oberts per a bars?",
+          "answer": "Sí. Pots obrir un compte amb un nom o targeta, afegir articles durant tota la nit i tancar-lo amb un sol toc. El sistema porta el control de tots els comptes oberts de forma clara, eliminant confusions a l'hora del tancament."
+        }
+      ],
       "ctaTitle": "Preparat per accelerar el teu bar?",
       "ctaButton": "Prova 1 mes gratis"
     },
@@ -1128,6 +1246,21 @@
       ],
       "exploreTitle": "Gobbly funciona per a tot tipus de negoci",
       "exploreSubtitle": "Descobreix com Gobbly s'adapta a diferents negocis d'hostaleria",
+      "faqTitle": "Preguntes freqüents",
+      "faq": [
+        {
+          "question": "Pot Gobbly funcionar en un dispositiu mòbil per a food trucks?",
+          "answer": "Sí. Gobbly funciona en qualsevol smartphone o tauleta amb un navegador modern. No cal maquinari especialitzat — usa el dispositiu que ja portes a la butxaca."
+        },
+        {
+          "question": "Funciona Gobbly sense connexió permanent a internet?",
+          "answer": "Sí. Gobbly té un mode offline complet. Pots prendre comandes, processar pagaments i gestionar el teu food truck sense internet. Tot se sincronitza automàticament quan et reconnectes."
+        },
+        {
+          "question": "És Gobbly assequible per a food trucks petits?",
+          "answer": "Sí. Gobbly comença a 19 EUR al mes sense inversió en maquinari. No hi ha comissions ocultes, ni contractes a llarg termini, i pots provar-lo gratis durant un mes."
+        }
+      ],
       "ctaTitle": "Preparat per sortir a la carretera amb Gobbly?",
       "ctaButton": "Prova 1 mes gratis"
     }
