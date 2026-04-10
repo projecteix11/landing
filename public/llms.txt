@@ -1,0 +1,36 @@
+# Gobbly
+
+> All-in-one restaurant management platform — POS, kitchen display, digital menus, QR ordering, and smart payments in a single app.
+
+## About
+
+Gobbly is a web-based restaurant management platform designed for restaurants, bars, and food trucks. It combines point-of-sale (POS), kitchen display system (KDS), digital menu with QR ordering, and payment processing into one unified application.
+
+## Key Features
+
+- **Point of Sale (POS)**: Table management, order taking, bill splitting, and payment processing
+- **Kitchen Display System**: Real-time order tracking with status management (Pending, Cooking, Ready, Served)
+- **Digital Menu & QR Ordering**: Customizable digital menus accessible via QR code, with allergen information
+- **Smart Payments**: Integrated payment processing with multiple payment methods
+
+## Pricing
+
+- Starter: €19/month — 1 location, core POS features, 1-month free trial
+- Professional: €39/month — Up to 3 locations, kitchen display, QR menus, priority support
+- Enterprise: €49/month — Unlimited locations, API access, dedicated support, custom integrations
+
+## Links
+
+- Website: https://gobbly.app
+- App: https://gobbly.app
+- Pricing: https://gobbly.app/en/pricing/
+- FAQ: https://gobbly.app/en/faq/
+- Contact: https://gobbly.app/en/contact/
+
+## Languages
+
+Available in English, Spanish, and Catalan.
+
+## Location
+
+Based in Barcelona, Spain.

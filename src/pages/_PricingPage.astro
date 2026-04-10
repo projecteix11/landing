@@ -209,6 +209,9 @@ const comparisonFeatures = t.pricingPage.comparisonFeatures as Array<{
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "description": t.pricingPage.description,
+    "url": "https://gobbly.app",
+    "screenshot": "https://gobbly.app/screenshot.png",
+    "browserRequirements": "Requires a modern web browser",
     "offers": [
       {
         "@type": "Offer",
@@ -233,5 +236,18 @@ const comparisonFeatures = t.pricingPage.comparisonFeatures as Array<{
         "description": t.pricingPage.enterpriseSubtitle,
       },
     ],
+  }} />
+
+  <JsonLd schema={{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": t.pricingPage.faq.map((item: { question: string; answer: string }) => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer,
+      },
+    })),
   }} />
 </Layout>
