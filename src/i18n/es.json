@@ -133,8 +133,8 @@
       {
         "name": "Starter",
         "subtitle": "Para restaurantes pequeños que empiezan",
-        "price": "Gratis",
-        "priceSuffix": "",
+        "price": "19 €",
+        "priceSuffix": "/mes",
         "features": [
           "Hasta 10 mesas",
           "TPV y pantalla de cocina",
@@ -566,8 +566,8 @@
     "heroSubtitle": "Sin costes ocultos, sin sorpresas. Elige el plan que se adapte a tu restaurante y amplía cuando lo necesites.",
     "starterName": "Starter",
     "starterSubtitle": "Para restaurantes pequeños que empiezan",
-    "starterPrice": "Gratis",
-    "starterPriceSuffix": "",
+    "starterPrice": "19 €",
+    "starterPriceSuffix": "/mes",
     "starterCta": "Empieza ya",
     "starterFeatures": [
       "Hasta 10 mesas",

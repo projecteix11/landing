@@ -133,8 +133,8 @@
       {
         "name": "Starter",
         "subtitle": "For small restaurants getting started",
-        "price": "Free",
-        "priceSuffix": "",
+        "price": "€19",
+        "priceSuffix": "/month",
         "features": [
           "Up to 10 tables",
           "POS & kitchen display",
@@ -566,8 +566,8 @@
     "heroSubtitle": "No hidden fees, no surprises. Pick the plan that fits your restaurant and upgrade anytime as you grow.",
     "starterName": "Starter",
     "starterSubtitle": "For small restaurants getting started",
-    "starterPrice": "Free",
-    "starterPriceSuffix": "",
+    "starterPrice": "€19",
+    "starterPriceSuffix": "/month",
     "starterCta": "Get started",
     "starterFeatures": [
       "Up to 10 tables",

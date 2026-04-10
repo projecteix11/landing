@@ -133,8 +133,8 @@
       {
         "name": "Starter",
         "subtitle": "Per a restaurants petits que comencen",
-        "price": "Gratis",
-        "priceSuffix": "",
+        "price": "19 €",
+        "priceSuffix": "/mes",
         "features": [
           "Fins a 10 taules",
           "TPV i pantalla de cuina",
@@ -566,8 +566,8 @@
     "heroSubtitle": "Sense costos ocults, sense sorpreses. Tria el pla que s'adapti al teu restaurant i amplia quan ho necessitis.",
     "starterName": "Starter",
     "starterSubtitle": "Per a restaurants petits que comencen",
-    "starterPrice": "Gratis",
-    "starterPriceSuffix": "",
+    "starterPrice": "19 €",
+    "starterPriceSuffix": "/mes",
     "starterCta": "Comença ara",
     "starterFeatures": [
       "Fins a 10 taules",
