@@ -19,7 +19,10 @@ const canonicalUrl = `https://gobbly.app/${locale}${path}`
 <html lang={locale}>
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" sizes="any" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -46,7 +49,7 @@ const canonicalUrl = `https://gobbly.app/${locale}${path}`
       "@type": "Organization",
       "name": "Gobbly",
       "url": "https://gobbly.app",
-      "logo": "https://gobbly.app/favicon.svg",
+      "logo": "https://gobbly.app/android-chrome-512x512.png",
       "description": description,
       "address": {
         "@type": "PostalAddress",
