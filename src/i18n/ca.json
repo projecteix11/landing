@@ -11,7 +11,9 @@
     "signIn": "Iniciar sessió",
     "getStartedFree": "Comença gratis",
     "toggleMenu": "Obrir menú",
-    "home": "Inici"
+    "home": "Inici",
+    "compare": "Comparar",
+    "solutions": "Solucions"
   },
   "hero": {
     "badge": "Ara en beta oberta",
@@ -751,5 +753,351 @@
     "ctaTitle": "Encara tens dubtes?",
     "ctaText": "El nostre equip és aquí per ajudar-te. Escriu-nos i et respondrem en menys de 24 hores.",
     "ctaButton": "Contacta'ns"
+  },
+  "comparisons": {
+    "breadcrumbCompare": "Comparar",
+    "vsLabel": "vs",
+    "featureTableTitle": "Comparativa de funcionalitats",
+    "gobblyColumn": "Gobbly",
+    "pricingCompareTitle": "Preus d'un cop d'ull",
+    "perMonth": "/mes",
+    "revoXef": {
+      "title": "Gobbly vs Revo XEF",
+      "description": "Compara Gobbly i Revo XEF costat a costat. Descobreix per què els restaurants canvien de Revo XEF a Gobbly per un TPV més senzill, assequible i amb pantalla de cuina i menús QR integrats.",
+      "heroTitle": "Gobbly vs Revo XEF",
+      "heroSubtitle": "Revo XEF és un TPV conegut a Espanya, però ve amb complexitat i cost. Gobbly t'ofereix la mateixa potència amb una configuració més senzilla, pantalla de cuina integrada i un pla gratuït per començar.",
+      "features": [
+        { "name": "TPV al núvol", "gobbly": true, "competitor": true },
+        { "name": "Pantalla de cuina (KDS)", "gobbly": true, "competitor": false },
+        { "name": "Carta digital amb QR", "gobbly": true, "competitor": false },
+        { "name": "Comandes en línia", "gobbly": true, "competitor": true },
+        { "name": "Processament de pagaments", "gobbly": true, "competitor": true },
+        { "name": "Suport multiidioma", "gobbly": true, "competitor": false },
+        { "name": "Facturació VeriFactu", "gobbly": true, "competitor": true },
+        { "name": "Pla gratuït disponible", "gobbly": true, "competitor": false },
+        { "name": "Gestió de taules", "gobbly": true, "competitor": true },
+        { "name": "Analítica en temps real", "gobbly": true, "competitor": true }
+      ],
+      "advantages": [
+        {
+          "title": "Pla gratuït per començar",
+          "description": "Comença a usar Gobbly sense cost. Sense targeta de crèdit, sense compromís. Revo XEF requereix una subscripció de pagament des del primer dia."
+        },
+        {
+          "title": "Pantalla de cuina integrada",
+          "description": "Gobbly inclou un sistema de pantalla de cuina en temps real sense cost addicional. Amb Revo XEF necessites mòduls i maquinari addicionals."
+        },
+        {
+          "title": "Carta QR i comandes incloses",
+          "description": "Els teus clients escanegen, consulten la carta i demanen des del seu mòbil. Sense apps addicionals — tot integrat a Gobbly."
+        },
+        {
+          "title": "Configuració més senzilla",
+          "description": "Posa el teu restaurant en marxa en minuts, no en dies. Gobbly està dissenyat per a la simplicitat sense sacrificar funcionalitats."
+        }
+      ],
+      "pricingGobbly": "Des de 0\u20ac/mes",
+      "pricingCompetitor": "Des de ~59\u20ac/mes",
+      "ctaTitle": "Preparat per canviar de Revo XEF?",
+      "ctaSubtitle": "Uneix-te a centenars de restaurants que ja han fet el pas a Gobbly. Comença gratis, millora quan creixes.",
+      "ctaButton": "Comença gratis"
+    },
+    "coverManager": {
+      "title": "Gobbly vs CoverManager",
+      "description": "Compara Gobbly i CoverManager. Descobreix com Gobbly ofereix una plataforma tot-en-un per a hostaleria amb TPV, pantalla de cuina i cartes digitals — sense comissions per reserva.",
+      "heroTitle": "Gobbly vs CoverManager",
+      "heroSubtitle": "CoverManager destaca en reserves, però els restaurants necessiten més. Gobbly és una plataforma completa: TPV, pantalla de cuina, carta QR i pagaments — tot en un, sense comissions per reserva.",
+      "features": [
+        { "name": "TPV al núvol", "gobbly": true, "competitor": false },
+        { "name": "Pantalla de cuina (KDS)", "gobbly": true, "competitor": false },
+        { "name": "Carta digital amb QR", "gobbly": true, "competitor": false },
+        { "name": "Gestió de reserves", "gobbly": true, "competitor": true },
+        { "name": "Processament de pagaments", "gobbly": true, "competitor": false },
+        { "name": "Suport multiidioma", "gobbly": true, "competitor": true },
+        { "name": "Facturació VeriFactu", "gobbly": true, "competitor": false },
+        { "name": "Pla gratuït disponible", "gobbly": true, "competitor": false },
+        { "name": "Comandes en línia", "gobbly": true, "competitor": false },
+        { "name": "Analítica en temps real", "gobbly": true, "competitor": true }
+      ],
+      "advantages": [
+        {
+          "title": "Plataforma tot-en-un",
+          "description": "TPV, pantalla de cuina, carta digital i pagaments en una sola app. CoverManager es centra només en reserves, deixant-te muntar la resta pel teu compte."
+        },
+        {
+          "title": "Sense comissions per reserva",
+          "description": "Gobbly cobra una tarifa mensual fixa. Sense sorpreses. CoverManager cobra per reserva, cosa que s'acumula ràpid en restaurants amb molt volum."
+        },
+        {
+          "title": "Gestió de cuina en temps real",
+          "description": "Les comandes arriben a l'instant des de la taula a la pantalla de cuina. CoverManager no ofereix operacions de cuina."
+        },
+        {
+          "title": "Comandes per QR integrades",
+          "description": "Els comensals escanegen, consulten la carta i demanen des del seu mòbil. Redueix la càrrega del personal i accelera el servei."
+        }
+      ],
+      "pricingGobbly": "Des de 0\u20ac/mes",
+      "pricingCompetitor": "Comissions per reserva",
+      "ctaTitle": "Preparat per canviar de CoverManager?",
+      "ctaSubtitle": "Gestiona reserves i tot el reste en una sola plataforma. Comença gratis avui.",
+      "ctaButton": "Comença gratis"
+    },
+    "square": {
+      "title": "Gobbly vs Square",
+      "description": "Compara Gobbly i Square per a la gestió d'hostaleria. Descobreix per què els restaurants europeus trien Gobbly per les seves funcionalitats específiques, facturació VeriFactu i allotjament de dades a la UE.",
+      "heroTitle": "Gobbly vs Square",
+      "heroSubtitle": "Square és un TPV global pensat per al comerç minorista. Gobbly està dissenyat específicament per a hostaleria, amb pantalla de cuina, cartes QR i compliment total de la normativa fiscal europea com VeriFactu.",
+      "features": [
+        { "name": "TPV al núvol", "gobbly": true, "competitor": true },
+        { "name": "Pantalla de cuina (KDS)", "gobbly": true, "competitor": false },
+        { "name": "Carta digital amb QR", "gobbly": true, "competitor": false },
+        { "name": "Comandes en línia", "gobbly": true, "competitor": true },
+        { "name": "Processament de pagaments", "gobbly": true, "competitor": true },
+        { "name": "Suport multiidioma", "gobbly": true, "competitor": false },
+        { "name": "Facturació VeriFactu", "gobbly": true, "competitor": false },
+        { "name": "Pla gratuït disponible", "gobbly": true, "competitor": true },
+        { "name": "Dades allotjades a la UE", "gobbly": true, "competitor": false },
+        { "name": "Analítica en temps real", "gobbly": true, "competitor": true }
+      ],
+      "advantages": [
+        {
+          "title": "Dissenyat per a hostaleria, no per a retail",
+          "description": "Gobbly està dissenyat exclusivament per a hostaleria. Pantalla de cuina, gestió de taules i cartes QR són funcions natives, no afegits."
+        },
+        {
+          "title": "Compatible amb VeriFactu",
+          "description": "Gobbly compleix amb els requisits de facturació electrònica VeriFactu de forma nativa. Square no és compatible amb VeriFactu."
+        },
+        {
+          "title": "Dades allotjades a Europa",
+          "description": "Les teves dades es queden a la UE en servidors conformes amb el RGPD. Square emmagatzema les dades principalment als EUA."
+        },
+        {
+          "title": "Suport natiu en castellà i català",
+          "description": "Gobbly suporta castellà, català i anglès de forma nativa. La localització de Square per a Espanya és limitada."
+        }
+      ],
+      "pricingGobbly": "Des de 0\u20ac/mes",
+      "pricingCompetitor": "Des de ~0$ + comissions per transacció",
+      "ctaTitle": "Preparat per canviar de Square?",
+      "ctaSubtitle": "Aconsegueix un TPV específic per a hostaleria amb compliment europeu. Comença gratis avui.",
+      "ctaButton": "Comença gratis"
+    }
+  },
+  "useCases": {
+    "breadcrumbSolutions": "Solucions",
+    "restaurants": {
+      "title": "Gobbly per a Restaurants",
+      "description": "Gestió integral de restaurants: TPV amb gestió de taules, pantalla de cuina en temps real, carta QR i pagaments intel·ligents. Dissenyat per a restaurants de servei complet.",
+      "heroTitle": "Fet per a restaurants que cuiden cada detall",
+      "heroSubtitle": "Des de la primera reserva fins al compte final, Gobbly manté la teva sala i la teva cuina perfectament sincronitzades, perquè cada comensal visqui una experiència excepcional.",
+      "painPointsLabel": "Reptes habituals",
+      "painPointsTitle": "Et sona?",
+      "painPoints": [
+        {
+          "title": "Malabars amb múltiples sistemes",
+          "description": "El TPV en una pantalla, les reserves en una altra, l'inventari en un full de càlcul. Eines desconnectades creen caos i et fan perdre temps."
+        },
+        {
+          "title": "Errors de comunicació a la cuina",
+          "description": "Els tiquets de paper es perden, les comandes es llegeixen malament i els plats arriben a la taula equivocada. El teu equip de cuina mereix alguna cosa millor."
+        },
+        {
+          "title": "Tiquets en paper i processos manuals",
+          "description": "Comandes a mà, recomptes d'estoc manuals i càlculs de tancament que devoren hores que haurien de dedicar-se a l'hospitalitat."
+        }
+      ],
+      "featuresLabel": "Com Gobbly t'ajuda",
+      "featuresTitle": "Tot el que el teu restaurant necessita",
+      "features": [
+        {
+          "title": "TPV amb gestió de taules",
+          "description": "Plànol visual de sala, assignació de taules i comandes per temps. Mou comensals, divideix comptes i gestiona coberts sense esforç."
+        },
+        {
+          "title": "Pantalla de cuina en temps real",
+          "description": "Les comandes apareixen a la pantalla de cuina a l'instant que es prenen. Controla temps de preparació, assenyala retards i mantén cada estació sincronitzada."
+        },
+        {
+          "title": "Carta QR per a comensals",
+          "description": "Els comensals escanegen, consulten la carta completa amb fotos i al·lèrgens, i demanen directament des del seu mòbil. Menys esperes, més gaudi."
+        },
+        {
+          "title": "Divisió intel·ligent de pagaments",
+          "description": "Divideix per article, per comensal o per quantitat personalitzada. Accepta targeta, contactless i pagaments mòbils, tot des d'un sol dispositiu."
+        },
+        {
+          "title": "Control d'inventari",
+          "description": "Sap exactament el que tens en estoc. Alertes automàtiques quan un producte baixa de nivell i actualitzacions en temps real conforme es venen plats."
+        },
+        {
+          "title": "Informes de tancament",
+          "description": "Facturació, coberts, tiquet mitjà, plats més venuts: tot resumit en un panell net que pots consultar des de qualsevol lloc."
+        }
+      ],
+      "workflowLabel": "Un dia amb Gobbly",
+      "workflowTitle": "Mira com encaixa en la teva rutina",
+      "workflow": [
+        {
+          "title": "Preparació matinal",
+          "description": "Obre Gobbly, revisa les reserves del dia, actualitza els suggeriments del dia i el teu plànol de sala està llest. Les pantalles de cuina s'activen automàticament."
+        },
+        {
+          "title": "Servei del migdia",
+          "description": "Les comandes flueixen de les taules a la pantalla de cuina en temps real. L'equip se centra en els comensals, no en córrer amb tiquets de paper. La carta QR gestiona el desbordament."
+        },
+        {
+          "title": "Tancament del dia",
+          "description": "Tanca els comptes, revisa les xifres del dia i exporta informes amb un toc. Quadra la caixa en minuts, no en hores."
+        }
+      ],
+      "benefits": [
+        { "stat": "30%", "description": "més rotació de taules" },
+        { "stat": "0", "description": "comandes perdudes" },
+        { "stat": "<2 min", "description": "preparació per torn" },
+        { "stat": "99,9%", "description": "disponibilitat" }
+      ],
+      "exploreTitle": "Gobbly funciona per a tot tipus de negoci",
+      "exploreSubtitle": "Descobreix com Gobbly s'adapta a diferents negocis d'hostaleria",
+      "ctaTitle": "Preparat per transformar el teu restaurant?",
+      "ctaButton": "Comença gratis"
+    },
+    "bars": {
+      "title": "Gobbly per a Bars i Cafeteries",
+      "description": "TPV ràpid per a bars i cafeteries: interfície de comanda ràpida, gestió de comptes oberts, autocomanda per QR i inventari en temps real. Fet per a servei d'alt volum.",
+      "heroTitle": "Accelera cada ronda, simplifica cada compte",
+      "heroSubtitle": "Quan la barra està a vessar, necessites un sistema que segueixi el teu ritme. Gobbly està fet per al ritme de bars i cafeteries: comandes ràpides, comptes fàcils i zero confusió.",
+      "painPointsLabel": "Reptes habituals",
+      "painPointsTitle": "Et sona?",
+      "painPoints": [
+        {
+          "title": "Comandes ràpides a gran volum",
+          "description": "Els clients volen la seva beguda ara, no després que naveguis per cinc pantalles. Cada segon a la caixa és un segon sense servir."
+        },
+        {
+          "title": "Caos amb els comptes oberts",
+          "description": "Els comptes oberts s'acumulen, els noms es barregen i l'hora de tancament es converteix en una investigació. Els comptes haurien de ser senzills."
+        },
+        {
+          "title": "Colls d'ampolla en hora punta",
+          "description": "Divendres nit, dos cambrers, cinquanta clients. Sense les eines adequades, el servei s'enfonsa i els clients se'n van."
+        }
+      ],
+      "featuresLabel": "Com Gobbly t'ajuda",
+      "featuresTitle": "Fet per a velocitat i volum",
+      "features": [
+        {
+          "title": "TPV de comanda ràpida",
+          "description": "Botons grans, articles favorits fixats i comanda amb un toc. Cobra una cervesa en menys de tres segons."
+        },
+        {
+          "title": "Comptes oberts i comandes contínues",
+          "description": "Obre un compte amb un nom o targeta, afegeix articles durant tota la nit i tanca amb un sol toc. Sense més comptes perduts."
+        },
+        {
+          "title": "Autocomanda per QR",
+          "description": "Els clients escanegen un codi a la seva taula o a la barra i demanen ells mateixos. Menys cues, servei més ràpid, clients més contents."
+        },
+        {
+          "title": "Inventari en temps real",
+          "description": "Sap exactament quantes ampolles et queden. Rep alertes abans de quedar-te sense estoc a meitat de torn. Mai et quedis sense un producte per sorpresa."
+        }
+      ],
+      "workflowLabel": "Un dia amb Gobbly",
+      "workflowTitle": "Mira com encaixa en la teva rutina",
+      "workflow": [
+        {
+          "title": "Obertura i ofertes del dia",
+          "description": "Toca per actualitzar els còctels del dia, els preus de happy hour i les novetats de temporada. La teva carta QR s'actualitza a l'instant."
+        },
+        {
+          "title": "Hora punta amb autocomanda",
+          "description": "Quan la cua arriba a la porta, els clients demanen des dels seus mòbils. Els teus cambrers se centren a servir, no a teclejar comandes."
+        },
+        {
+          "title": "Tancament de comptes i arqueig",
+          "description": "Tanca tots els comptes oberts d'un cop d'ull, quadra efectiu i targeta, i exporta l'informe de la nit en segons."
+        }
+      ],
+      "benefits": [
+        { "stat": "50%", "description": "comandes més ràpides" },
+        { "stat": "3x", "description": "més rendiment en hora punta" },
+        { "stat": "0", "description": "comptes confosos" },
+        { "stat": "<20s", "description": "per comanda" }
+      ],
+      "exploreTitle": "Gobbly funciona per a tot tipus de negoci",
+      "exploreSubtitle": "Descobreix com Gobbly s'adapta a diferents negocis d'hostaleria",
+      "ctaTitle": "Preparat per accelerar el teu bar?",
+      "ctaButton": "Comença gratis"
+    },
+    "foodTrucks": {
+      "title": "Gobbly per a Food Trucks",
+      "description": "TPV mòbil per a food trucks: funciona en qualsevol mòbil o tauleta, mode sense connexió, comandes per QR i pagaments mòbils. Sense inversió en maquinari.",
+      "heroTitle": "La teva cuina sobre rodes, impulsada pel teu mòbil",
+      "heroSubtitle": "Sense maquinari aparatós, sense dependre del wifi, sense muntatges complicats. Gobbly funciona en el dispositiu que portes a la butxaca i treballa on sigui que aparquis.",
+      "painPointsLabel": "Reptes habituals",
+      "painPointsTitle": "Et sona?",
+      "painPoints": [
+        {
+          "title": "Espai limitat per a maquinari",
+          "description": "No hi ha lloc per a un terminal TPV complet en un food truck. Necessites alguna cosa que càpiga a la teva mà, no en un taulell."
+        },
+        {
+          "title": "Sense wifi en algunes ubicacions",
+          "description": "Parcs, festivals, mercats: genials per al negoci, terribles per a la connectivitat. El teu TPV no hauria de dependre del wifi d'un altre."
+        },
+        {
+          "title": "Condicions a l'aire lliure",
+          "description": "Pluja, sol, vent, pols. El maquinari tradicional de TPV no està fet per al carrer. Necessites alguna cosa resistent."
+        }
+      ],
+      "featuresLabel": "Com Gobbly t'ajuda",
+      "featuresTitle": "Dissenyat per a la vida en moviment",
+      "features": [
+        {
+          "title": "Funciona en qualsevol mòbil o tauleta",
+          "description": "Sense maquinari especialitzat. Usa el mòbil o la tauleta que ja tens. Android o iOS: Gobbly funciona en tots dos."
+        },
+        {
+          "title": "Mode sense connexió complet",
+          "description": "Pren comandes, processa pagaments i gestiona el teu food truck fins i tot sense connexió a internet. Tot es sincronitza quan tornes a estar en línia."
+        },
+        {
+          "title": "Comandes per QR — sense caixer",
+          "description": "Imprimeix un codi QR, enganxa'l a la finestreta del teu food truck. Els clients demanen i paguen des dels seus mòbils mentre esperen a la cua."
+        },
+        {
+          "title": "Pagaments mòbils",
+          "description": "Accepta targeta, contactless i carteres mòbils. Connecta'l amb qualsevol lector Bluetooth o usa tap-to-pay al teu mòbil."
+        }
+      ],
+      "workflowLabel": "Un dia amb Gobbly",
+      "workflowTitle": "Mira com encaixa en la teva rutina",
+      "workflow": [
+        {
+          "title": "Arribar a la ubicació",
+          "description": "Condueix, aparca i obre Gobbly al teu mòbil. La teva carta, preus i codi QR estan llestos per funcionar."
+        },
+        {
+          "title": "Muntatge en 5 minuts",
+          "description": "Enganxa el teu codi QR a la finestreta, encén el teu lector Bluetooth i comença a prendre comandes. Sense cables, sense calibratges."
+        },
+        {
+          "title": "Serveix i cobra a l'instant",
+          "description": "Les comandes arriben per l'app i el QR. Els pagaments es processen al moment. Recull i revisa els teus guanys de camí a casa."
+        }
+      ],
+      "benefits": [
+        { "stat": "5 min", "description": "temps de muntatge" },
+        { "stat": "100%", "description": "funciona sense connexió" },
+        { "stat": "1", "description": "dispositiu necessari" },
+        { "stat": "0€", "description": "inversió en maquinari" }
+      ],
+      "exploreTitle": "Gobbly funciona per a tot tipus de negoci",
+      "exploreSubtitle": "Descobreix com Gobbly s'adapta a diferents negocis d'hostaleria",
+      "ctaTitle": "Preparat per sortir a la carretera amb Gobbly?",
+      "ctaButton": "Comença gratis"
+    }
   }
 }

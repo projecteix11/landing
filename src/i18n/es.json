@@ -11,7 +11,9 @@
     "signIn": "Iniciar sesión",
     "getStartedFree": "Empieza gratis",
     "toggleMenu": "Abrir menú",
-    "home": "Inicio"
+    "home": "Inicio",
+    "compare": "Comparar",
+    "solutions": "Soluciones"
   },
   "hero": {
     "badge": "Ahora en beta abierta",
@@ -751,5 +753,351 @@
     "ctaTitle": "¿Aún tienes dudas?",
     "ctaText": "Nuestro equipo está aquí para ayudarte. Escríbenos y te responderemos en menos de 24 horas.",
     "ctaButton": "Contáctanos"
+  },
+  "comparisons": {
+    "breadcrumbCompare": "Comparar",
+    "vsLabel": "vs",
+    "featureTableTitle": "Comparativa de funcionalidades",
+    "gobblyColumn": "Gobbly",
+    "pricingCompareTitle": "Precios de un vistazo",
+    "perMonth": "/mes",
+    "revoXef": {
+      "title": "Gobbly vs Revo XEF",
+      "description": "Compara Gobbly y Revo XEF lado a lado. Descubre por qué los restaurantes cambian de Revo XEF a Gobbly por un TPV más sencillo, asequible y con pantalla de cocina y menús QR integrados.",
+      "heroTitle": "Gobbly vs Revo XEF",
+      "heroSubtitle": "Revo XEF es un TPV conocido en España, pero viene con complejidad y coste. Gobbly te ofrece la misma potencia con una configuración más sencilla, pantalla de cocina integrada y un plan gratuito para empezar.",
+      "features": [
+        { "name": "TPV en la nube", "gobbly": true, "competitor": true },
+        { "name": "Pantalla de cocina (KDS)", "gobbly": true, "competitor": false },
+        { "name": "Carta digital con QR", "gobbly": true, "competitor": false },
+        { "name": "Pedidos online", "gobbly": true, "competitor": true },
+        { "name": "Procesamiento de pagos", "gobbly": true, "competitor": true },
+        { "name": "Soporte multiidioma", "gobbly": true, "competitor": false },
+        { "name": "Facturación VeriFactu", "gobbly": true, "competitor": true },
+        { "name": "Plan gratuito disponible", "gobbly": true, "competitor": false },
+        { "name": "Gestión de mesas", "gobbly": true, "competitor": true },
+        { "name": "Analítica en tiempo real", "gobbly": true, "competitor": true }
+      ],
+      "advantages": [
+        {
+          "title": "Plan gratuito para empezar",
+          "description": "Empieza a usar Gobbly sin coste. Sin tarjeta de crédito, sin compromiso. Revo XEF requiere una suscripción de pago desde el primer día."
+        },
+        {
+          "title": "Pantalla de cocina integrada",
+          "description": "Gobbly incluye un sistema de pantalla de cocina en tiempo real sin coste adicional. Con Revo XEF necesitas módulos y hardware adicionales."
+        },
+        {
+          "title": "Carta QR y pedidos incluidos",
+          "description": "Tus clientes escanean, consultan la carta y piden desde su móvil. Sin apps adicionales — todo integrado en Gobbly."
+        },
+        {
+          "title": "Configuración más sencilla",
+          "description": "Pon tu restaurante en marcha en minutos, no en días. Gobbly está diseñado para la simplicidad sin sacrificar funcionalidades."
+        }
+      ],
+      "pricingGobbly": "Desde 0\u20ac/mes",
+      "pricingCompetitor": "Desde ~59\u20ac/mes",
+      "ctaTitle": "¿Listo para cambiar de Revo XEF?",
+      "ctaSubtitle": "Únete a cientos de restaurantes que ya han dado el paso a Gobbly. Empieza gratis, mejora cuando crezcas.",
+      "ctaButton": "Empieza gratis"
+    },
+    "coverManager": {
+      "title": "Gobbly vs CoverManager",
+      "description": "Compara Gobbly y CoverManager. Descubre cómo Gobbly ofrece una plataforma todo-en-uno para hostelería con TPV, pantalla de cocina y cartas digitales — sin comisiones por reserva.",
+      "heroTitle": "Gobbly vs CoverManager",
+      "heroSubtitle": "CoverManager destaca en reservas, pero los restaurantes necesitan más. Gobbly es una plataforma completa: TPV, pantalla de cocina, carta QR y pagos — todo en uno, sin comisiones por reserva.",
+      "features": [
+        { "name": "TPV en la nube", "gobbly": true, "competitor": false },
+        { "name": "Pantalla de cocina (KDS)", "gobbly": true, "competitor": false },
+        { "name": "Carta digital con QR", "gobbly": true, "competitor": false },
+        { "name": "Gestión de reservas", "gobbly": true, "competitor": true },
+        { "name": "Procesamiento de pagos", "gobbly": true, "competitor": false },
+        { "name": "Soporte multiidioma", "gobbly": true, "competitor": true },
+        { "name": "Facturación VeriFactu", "gobbly": true, "competitor": false },
+        { "name": "Plan gratuito disponible", "gobbly": true, "competitor": false },
+        { "name": "Pedidos online", "gobbly": true, "competitor": false },
+        { "name": "Analítica en tiempo real", "gobbly": true, "competitor": true }
+      ],
+      "advantages": [
+        {
+          "title": "Plataforma todo-en-uno",
+          "description": "TPV, pantalla de cocina, carta digital y pagos en una sola app. CoverManager se centra solo en reservas, dejándote montar el resto por tu cuenta."
+        },
+        {
+          "title": "Sin comisiones por reserva",
+          "description": "Gobbly cobra una tarifa mensual fija. Sin sorpresas. CoverManager cobra por reserva, lo que se acumula rápido en restaurantes con mucho volumen."
+        },
+        {
+          "title": "Gestión de cocina en tiempo real",
+          "description": "Los pedidos llegan al instante desde la mesa a la pantalla de cocina. CoverManager no ofrece operaciones de cocina."
+        },
+        {
+          "title": "Pedidos por QR integrados",
+          "description": "Los comensales escanean, consultan la carta y piden desde su móvil. Reduce la carga del personal y acelera el servicio."
+        }
+      ],
+      "pricingGobbly": "Desde 0\u20ac/mes",
+      "pricingCompetitor": "Comisiones por reserva",
+      "ctaTitle": "¿Listo para cambiar de CoverManager?",
+      "ctaSubtitle": "Gestiona reservas y todo lo demás en una sola plataforma. Empieza gratis hoy.",
+      "ctaButton": "Empieza gratis"
+    },
+    "square": {
+      "title": "Gobbly vs Square",
+      "description": "Compara Gobbly y Square para la gestión de hostelería. Descubre por qué los restaurantes europeos eligen Gobbly por sus funcionalidades específicas, facturación VeriFactu y alojamiento de datos en la UE.",
+      "heroTitle": "Gobbly vs Square",
+      "heroSubtitle": "Square es un TPV global pensado para el comercio minorista. Gobbly está diseñado específicamente para hostelería, con pantalla de cocina, cartas QR y cumplimiento total de la normativa fiscal europea como VeriFactu.",
+      "features": [
+        { "name": "TPV en la nube", "gobbly": true, "competitor": true },
+        { "name": "Pantalla de cocina (KDS)", "gobbly": true, "competitor": false },
+        { "name": "Carta digital con QR", "gobbly": true, "competitor": false },
+        { "name": "Pedidos online", "gobbly": true, "competitor": true },
+        { "name": "Procesamiento de pagos", "gobbly": true, "competitor": true },
+        { "name": "Soporte multiidioma", "gobbly": true, "competitor": false },
+        { "name": "Facturación VeriFactu", "gobbly": true, "competitor": false },
+        { "name": "Plan gratuito disponible", "gobbly": true, "competitor": true },
+        { "name": "Datos alojados en la UE", "gobbly": true, "competitor": false },
+        { "name": "Analítica en tiempo real", "gobbly": true, "competitor": true }
+      ],
+      "advantages": [
+        {
+          "title": "Diseñado para hostelería, no para retail",
+          "description": "Gobbly está diseñado exclusivamente para hostelería. Pantalla de cocina, gestión de mesas y cartas QR son funciones nativas, no añadidos."
+        },
+        {
+          "title": "Compatible con VeriFactu",
+          "description": "Gobbly cumple con los requisitos de facturación electrónica VeriFactu de forma nativa. Square no es compatible con VeriFactu."
+        },
+        {
+          "title": "Datos alojados en Europa",
+          "description": "Tus datos se quedan en la UE en servidores conformes con el RGPD. Square almacena los datos principalmente en EE.UU."
+        },
+        {
+          "title": "Soporte nativo en castellano y catalán",
+          "description": "Gobbly soporta castellano, catalán e inglés de forma nativa. La localización de Square para España es limitada."
+        }
+      ],
+      "pricingGobbly": "Desde 0\u20ac/mes",
+      "pricingCompetitor": "Desde ~0$ + comisiones por transacción",
+      "ctaTitle": "¿Listo para cambiar de Square?",
+      "ctaSubtitle": "Consigue un TPV específico para hostelería con cumplimiento europeo. Empieza gratis hoy.",
+      "ctaButton": "Empieza gratis"
+    }
+  },
+  "useCases": {
+    "breadcrumbSolutions": "Soluciones",
+    "restaurants": {
+      "title": "Gobbly para Restaurantes",
+      "description": "Gestión integral de restaurantes: TPV con gestión de mesas, pantalla de cocina en tiempo real, carta QR y pagos inteligentes. Diseñado para restaurantes de servicio completo.",
+      "heroTitle": "Hecho para restaurantes que cuidan cada detalle",
+      "heroSubtitle": "Desde la primera reserva hasta la cuenta final, Gobbly mantiene tu sala y tu cocina perfectamente sincronizadas, para que cada comensal viva una experiencia excepcional.",
+      "painPointsLabel": "Retos habituales",
+      "painPointsTitle": "¿Te suena?",
+      "painPoints": [
+        {
+          "title": "Malabarismos con múltiples sistemas",
+          "description": "El TPV en una pantalla, las reservas en otra, el inventario en una hoja de cálculo. Herramientas desconectadas crean caos y te hacen perder tiempo."
+        },
+        {
+          "title": "Fallos de comunicación en cocina",
+          "description": "Los tickets de papel se pierden, los pedidos se leen mal y los platos llegan a la mesa equivocada. Tu equipo de cocina merece algo mejor."
+        },
+        {
+          "title": "Tickets en papel y procesos manuales",
+          "description": "Pedidos a mano, recuentos de stock manuales y cálculos de cierre que devoran horas que deberían dedicarse a la hospitalidad."
+        }
+      ],
+      "featuresLabel": "Cómo Gobbly te ayuda",
+      "featuresTitle": "Todo lo que tu restaurante necesita",
+      "features": [
+        {
+          "title": "TPV con gestión de mesas",
+          "description": "Plano visual de sala, asignación de mesas y pedidos por tiempos. Mueve comensales, divide cuentas y gestiona cubiertos sin esfuerzo."
+        },
+        {
+          "title": "Pantalla de cocina en tiempo real",
+          "description": "Los pedidos aparecen en la pantalla de cocina en el instante en que se toman. Controla tiempos de preparación, señala retrasos y mantén cada estación sincronizada."
+        },
+        {
+          "title": "Carta QR para comensales",
+          "description": "Los comensales escanean, consultan la carta completa con fotos y alérgenos, y piden directamente desde su móvil. Menos esperas, más disfrute."
+        },
+        {
+          "title": "División inteligente de pagos",
+          "description": "Divide por artículo, por comensal o por cantidad personalizada. Acepta tarjeta, contactless y pagos móviles, todo desde un solo dispositivo."
+        },
+        {
+          "title": "Control de inventario",
+          "description": "Sabe exactamente lo que tienes en stock. Alertas automáticas cuando un producto baja de nivel y actualizaciones en tiempo real conforme se venden platos."
+        },
+        {
+          "title": "Informes de cierre",
+          "description": "Facturación, cubiertos, ticket medio, platos más vendidos: todo resumido en un panel limpio que puedes consultar desde cualquier lugar."
+        }
+      ],
+      "workflowLabel": "Un día con Gobbly",
+      "workflowTitle": "Mira cómo encaja en tu rutina",
+      "workflow": [
+        {
+          "title": "Preparación matinal",
+          "description": "Abre Gobbly, revisa las reservas del día, actualiza las sugerencias del día y tu plano de sala está listo. Las pantallas de cocina se activan automáticamente."
+        },
+        {
+          "title": "Servicio del mediodía",
+          "description": "Los pedidos fluyen de las mesas a la pantalla de cocina en tiempo real. El equipo se centra en los comensales, no en correr con tickets de papel. La carta QR gestiona el desbordamiento."
+        },
+        {
+          "title": "Cierre del día",
+          "description": "Cierra las cuentas, revisa las cifras del día y exporta informes con un toque. Cuadra la caja en minutos, no en horas."
+        }
+      ],
+      "benefits": [
+        { "stat": "30%", "description": "más rotación de mesas" },
+        { "stat": "0", "description": "pedidos perdidos" },
+        { "stat": "<2 min", "description": "preparación por turno" },
+        { "stat": "99,9%", "description": "disponibilidad" }
+      ],
+      "exploreTitle": "Gobbly funciona para todo tipo de negocio",
+      "exploreSubtitle": "Descubre cómo Gobbly se adapta a distintos negocios de hostelería",
+      "ctaTitle": "¿Listo para transformar tu restaurante?",
+      "ctaButton": "Empieza gratis"
+    },
+    "bars": {
+      "title": "Gobbly para Bares y Cafeterías",
+      "description": "TPV rápido para bares y cafeterías: interfaz de pedido rápido, gestión de cuentas abiertas, autopedido por QR e inventario en tiempo real. Hecho para servicio de alto volumen.",
+      "heroTitle": "Acelera cada ronda, simplifica cada cuenta",
+      "heroSubtitle": "Cuando la barra está a tope, necesitas un sistema que siga tu ritmo. Gobbly está hecho para el ritmo de bares y cafeterías: pedidos rápidos, cuentas fáciles y cero confusión.",
+      "painPointsLabel": "Retos habituales",
+      "painPointsTitle": "¿Te suena?",
+      "painPoints": [
+        {
+          "title": "Pedidos rápidos a gran volumen",
+          "description": "Los clientes quieren su bebida ya, no después de que navegues por cinco pantallas. Cada segundo en la caja es un segundo sin servir."
+        },
+        {
+          "title": "Caos con las cuentas abiertas",
+          "description": "Las cuentas abiertas se acumulan, los nombres se mezclan y la hora de cierre se convierte en una investigación. Las cuentas deberían ser sencillas."
+        },
+        {
+          "title": "Cuellos de botella en hora punta",
+          "description": "Viernes noche, dos camareros, cincuenta clientes. Sin las herramientas adecuadas, el servicio se hunde y los clientes se van."
+        }
+      ],
+      "featuresLabel": "Cómo Gobbly te ayuda",
+      "featuresTitle": "Hecho para velocidad y volumen",
+      "features": [
+        {
+          "title": "TPV de pedido rápido",
+          "description": "Botones grandes, artículos favoritos fijados y pedido con un toque. Cobra una caña en menos de tres segundos."
+        },
+        {
+          "title": "Cuentas abiertas y pedidos continuos",
+          "description": "Abre una cuenta con un nombre o tarjeta, añade artículos durante toda la noche y cierra con un solo toque. Sin más cuentas perdidas."
+        },
+        {
+          "title": "Autopedido por QR",
+          "description": "Los clientes escanean un código en su mesa o en la barra y piden ellos mismos. Menos colas, servicio más rápido, clientes más contentos."
+        },
+        {
+          "title": "Inventario en tiempo real",
+          "description": "Sabe exactamente cuántas botellas te quedan. Recibe alertas antes de quedarte sin stock a mitad de turno. Nunca te quedes sin un producto por sorpresa."
+        }
+      ],
+      "workflowLabel": "Un día con Gobbly",
+      "workflowTitle": "Mira cómo encaja en tu rutina",
+      "workflow": [
+        {
+          "title": "Apertura y ofertas del día",
+          "description": "Toca para actualizar los cócteles del día, los precios de happy hour y las novedades de temporada. Tu carta QR se actualiza al instante."
+        },
+        {
+          "title": "Hora punta con autopedido",
+          "description": "Cuando la cola llega a la puerta, los clientes piden desde sus móviles. Tus camareros se centran en servir, no en teclear pedidos."
+        },
+        {
+          "title": "Cierre de cuentas y arqueo",
+          "description": "Cierra todas las cuentas abiertas de un vistazo, cuadra efectivo y tarjeta, y exporta el informe de la noche en segundos."
+        }
+      ],
+      "benefits": [
+        { "stat": "50%", "description": "pedidos más rápidos" },
+        { "stat": "3x", "description": "más rendimiento en hora punta" },
+        { "stat": "0", "description": "cuentas confundidas" },
+        { "stat": "<20s", "description": "por pedido" }
+      ],
+      "exploreTitle": "Gobbly funciona para todo tipo de negocio",
+      "exploreSubtitle": "Descubre cómo Gobbly se adapta a distintos negocios de hostelería",
+      "ctaTitle": "¿Listo para acelerar tu bar?",
+      "ctaButton": "Empieza gratis"
+    },
+    "foodTrucks": {
+      "title": "Gobbly para Food Trucks",
+      "description": "TPV móvil para food trucks: funciona en cualquier móvil o tablet, modo sin conexión, pedidos por QR y pagos móviles. Sin inversión en hardware.",
+      "heroTitle": "Tu cocina sobre ruedas, impulsada por tu móvil",
+      "heroSubtitle": "Sin hardware aparatoso, sin depender del wifi, sin montajes complicados. Gobbly funciona en el dispositivo que llevas en el bolsillo y trabaja donde sea que aparques.",
+      "painPointsLabel": "Retos habituales",
+      "painPointsTitle": "¿Te suena?",
+      "painPoints": [
+        {
+          "title": "Espacio limitado para hardware",
+          "description": "No hay sitio para un terminal TPV completo en un food truck. Necesitas algo que quepa en tu mano, no en un mostrador."
+        },
+        {
+          "title": "Sin wifi en algunas ubicaciones",
+          "description": "Parques, festivales, mercadillos: geniales para el negocio, terribles para la conectividad. Tu TPV no debería depender del wifi de otro."
+        },
+        {
+          "title": "Condiciones al aire libre",
+          "description": "Lluvia, sol, viento, polvo. El hardware tradicional de TPV no está hecho para la calle. Necesitas algo resistente."
+        }
+      ],
+      "featuresLabel": "Cómo Gobbly te ayuda",
+      "featuresTitle": "Diseñado para la vida en movimiento",
+      "features": [
+        {
+          "title": "Funciona en cualquier móvil o tablet",
+          "description": "Sin hardware especializado. Usa el móvil o la tablet que ya tienes. Android o iOS: Gobbly funciona en ambos."
+        },
+        {
+          "title": "Modo sin conexión completo",
+          "description": "Toma pedidos, procesa pagos y gestiona tu food truck incluso sin conexión a internet. Todo se sincroniza cuando vuelves a estar online."
+        },
+        {
+          "title": "Pedidos por QR — sin cajero",
+          "description": "Imprime un código QR, pégalo en la ventanilla de tu food truck. Los clientes piden y pagan desde sus móviles mientras esperan en la cola."
+        },
+        {
+          "title": "Pagos móviles",
+          "description": "Acepta tarjeta, contactless y monederos móviles. Conéctalo con cualquier lector Bluetooth o usa tap-to-pay en tu móvil."
+        }
+      ],
+      "workflowLabel": "Un día con Gobbly",
+      "workflowTitle": "Mira cómo encaja en tu rutina",
+      "workflow": [
+        {
+          "title": "Llegar a la ubicación",
+          "description": "Conduce, aparca y abre Gobbly en tu móvil. Tu carta, precios y código QR están listos para funcionar."
+        },
+        {
+          "title": "Montaje en 5 minutos",
+          "description": "Pega tu código QR en la ventanilla, enciende tu lector Bluetooth y empieza a tomar pedidos. Sin cables, sin calibraciones."
+        },
+        {
+          "title": "Sirve y cobra al instante",
+          "description": "Los pedidos llegan por la app y el QR. Los pagos se procesan en el momento. Recoge y revisa tus ganancias de camino a casa."
+        }
+      ],
+      "benefits": [
+        { "stat": "5 min", "description": "tiempo de montaje" },
+        { "stat": "100%", "description": "funciona sin conexión" },
+        { "stat": "1", "description": "dispositivo necesario" },
+        { "stat": "0€", "description": "inversión en hardware" }
+      ],
+      "exploreTitle": "Gobbly funciona para todo tipo de negocio",
+      "exploreSubtitle": "Descubre cómo Gobbly se adapta a distintos negocios de hostelería",
+      "ctaTitle": "¿Listo para salir a la carretera con Gobbly?",
+      "ctaButton": "Empieza gratis"
+    }
   }
 }

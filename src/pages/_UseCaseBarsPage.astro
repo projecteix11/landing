@@ -1,0 +1,14 @@
+---
+import UseCaseLayout from '@components/sections/UseCaseLayout.astro'
+import type { Locale } from '@i18n/types'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+---
+
+<UseCaseLayout
+  locale={locale}
+  useCaseKey="bars"
+  path="/solutions/bars-cafes/"
+  emoji="🍸"
+/>
