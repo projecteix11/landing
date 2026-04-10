@@ -9,7 +9,7 @@
     "howItWorks": "Com funciona",
     "pricing": "Preus",
     "signIn": "Iniciar sessió",
-    "getStartedFree": "Comença gratis",
+    "getStartedFree": "Prova 1 mes gratis",
     "toggleMenu": "Obrir menú",
     "home": "Inici",
     "compare": "Comparar",
@@ -20,7 +20,7 @@
     "titleLine1": "El teu restaurant,",
     "titleHighlight": "tot en un sol lloc",
     "subtitle": "Oblida't de les comandes en paper i les eines disperses. Gobbly unifica el teu TPV, cuina, carta i pagaments en una sola plataforma en temps real.",
-    "ctaPrimary": "Comença gratis",
+    "ctaPrimary": "Prova 1 mes gratis",
     "ctaSecondary": "Mira com funciona",
     "mockupKitchenLabel": "Cuina",
     "mockupRisotto": "Risotto",
@@ -126,7 +126,7 @@
   "pricing": {
     "label": "Preus",
     "title": "Preus simples i transparents",
-    "description": "Comença gratis i escala a mesura que creixes. Sense costos ocults, sense contractes.",
+    "description": "Prova 1 mes gratis i escala a mesura que creixes. Sense costos ocults, sense contractes.",
     "mostPopular": "Més popular",
     "perMonth": "/mes",
     "plans": [
@@ -156,7 +156,7 @@
           "Facturació VeriFactu",
           "Suport prioritari"
         ],
-        "cta": "Prova gratis"
+        "cta": "Prova 1 mes gratis"
       },
       {
         "name": "Enterprise",
@@ -178,7 +178,7 @@
     "titleLine1": "Preparat per transformar",
     "titleLine2": "el teu restaurant?",
     "subtitle": "Uneix-te a centenars de restaurants que ja utilitzen Gobbly per optimitzar les seves operacions i delectar els seus clients.",
-    "button": "Comença gratis",
+    "button": "Prova 1 mes gratis",
     "note": "Sense targeta de crèdit"
   },
   "footer": {
@@ -362,7 +362,7 @@
       },
       {
         "heading": "4. Pagaments i facturació",
-        "content": "Els plans de pagament es facturen mensualment o anualment per avançat. Els preus són en euros i no inclouen impostos aplicables. Ens reservem el dret de canviar els preus amb 30 dies d'avís. Els reemborsaments es gestionen cas per cas. L'ús del pla gratuït està subjecte als límits descrits a la nostra pàgina de preus."
+        "content": "Els plans de pagament es facturen mensualment o anualment per avançat. Els preus són en euros i no inclouen impostos aplicables. Ens reservem el dret de canviar els preus amb 30 dies d'avís. Els reemborsaments es gestionen cas per cas. La prova gratuïta d'1 mes està subjecta a les condicions descrites a la nostra pàgina de preus."
       },
       {
         "heading": "5. Ús acceptable",
@@ -429,7 +429,7 @@
         { "stat": "99,9%", "description": "Disponibilitat amb mode offline com a xarxa de seguretat" }
       ],
       "ctaTitle": "Preparat per actualitzar el teu TPV?",
-      "ctaButton": "Comença gratis",
+      "ctaButton": "Prova 1 mes gratis",
       "exploreTitle": "Descobreix més funcionalitats",
       "exploreSubtitle": "Gobbly connecta cada part del teu restaurant."
     },
@@ -471,7 +471,7 @@
         { "stat": "100%", "description": "Visibilitat per a sala sobre l'estat de les comandes" }
       ],
       "ctaTitle": "Preparat per digitalitzar la teva cuina?",
-      "ctaButton": "Comença gratis",
+      "ctaButton": "Prova 1 mes gratis",
       "exploreTitle": "Descobreix més funcionalitats",
       "exploreSubtitle": "Gobbly connecta cada part del teu restaurant."
     },
@@ -513,7 +513,7 @@
         { "stat": "12+", "description": "Idiomes suportats de sèrie" }
       ],
       "ctaTitle": "Preparat per fer el salt digital?",
-      "ctaButton": "Comença gratis",
+      "ctaButton": "Prova 1 mes gratis",
       "exploreTitle": "Descobreix més funcionalitats",
       "exploreSubtitle": "Gobbly connecta cada part del teu restaurant."
     },
@@ -554,14 +554,14 @@
         { "stat": "5 min", "description": "Tancament de torn en lloc de més de 30 minuts" }
       ],
       "ctaTitle": "Preparat per simplificar els pagaments?",
-      "ctaButton": "Comença gratis",
+      "ctaButton": "Prova 1 mes gratis",
       "exploreTitle": "Descobreix més funcionalitats",
       "exploreSubtitle": "Gobbly connecta cada part del teu restaurant."
     }
   },
   "pricingPage": {
     "title": "Preus",
-    "description": "Preus simples i transparents per a restaurants de qualsevol mida. Comença gratis i escala a mesura que creixes.",
+    "description": "Preus simples i transparents per a restaurants de qualsevol mida. Prova 1 mes gratis i escala a mesura que creixes.",
     "heroTitle": "Preus simples per a cada restaurant",
     "heroSubtitle": "Sense costos ocults, sense sorpreses. Tria el pla que s'adapti al teu restaurant i amplia quan ho necessitis.",
     "starterName": "Starter",
@@ -581,7 +581,7 @@
     "proSubtitle": "Per a restaurants en creixement que necessiten més potència",
     "proPrice": "49 €",
     "proPriceSuffix": "/mes",
-    "proCta": "Prova gratis",
+    "proCta": "Prova 1 mes gratis",
     "proFeatures": [
       "Taules il·limitades",
       "TPV avançat amb modes personalitzats",
@@ -638,8 +638,8 @@
         "answer": "Acceptem les principals targetes de crèdit i dèbit (Visa, Mastercard, American Express) així com domiciliació bancària SEPA per a clients europeus. Tots els pagaments es processen de forma segura a través de Stripe."
       },
       {
-        "question": "Hi ha prova gratuïta del pla Pro?",
-        "answer": "Sí. Tens 14 dies de prova gratuïta del pla Pro amb accés complet a totes les funcionalitats. No cal targeta de crèdit per començar. Al final de la prova, pots subscriure't o passar al pla gratuït Starter."
+        "question": "Hi ha prova gratuïta?",
+        "answer": "Sí. Tens 1 mes de prova gratuïta amb accés complet a totes les funcionalitats. No cal targeta de crèdit per començar. Al final de la prova, pots triar el pla que millor s'adapti al teu restaurant."
       },
       {
         "question": "Què passa si supero els límits del pla Starter?",
@@ -651,8 +651,8 @@
       }
     ],
     "ctaTitle": "Preparat per començar?",
-    "ctaSubtitle": "Uneix-te a centenars de restaurants que ja utilitzen Gobbly. Comença gratis, sense targeta de crèdit.",
-    "ctaButton": "Comença gratis"
+    "ctaSubtitle": "Uneix-te a centenars de restaurants que ja utilitzen Gobbly. Prova 1 mes gratis, sense targeta de crèdit.",
+    "ctaButton": "Prova 1 mes gratis"
   },
   "faqPage": {
     "title": "Preguntes Freqüents",
@@ -685,8 +685,8 @@
         "title": "Preus i Plans",
         "items": [
           {
-            "question": "Hi ha un pla gratuït?",
-            "answer": "Sí. El nostre pla Starter és completament gratuït i inclou fins a 10 taules, TPV, pantalla de cuina, carta QR amb comandes i analítiques bàsiques. No cal targeta de crèdit per començar."
+            "question": "Hi ha prova gratuïta?",
+            "answer": "Sí. Oferim 1 mes de prova gratuïta amb accés complet a totes les funcionalitats. No cal targeta de crèdit per començar. En acabar, pots triar el pla que millor s'adapti al teu restaurant."
           },
           {
             "question": "Puc canviar de pla en qualsevol moment?",
@@ -762,6 +762,51 @@
     "ctaText": "El nostre equip és aquí per ajudar-te. Escriu-nos i et respondrem en menys de 24 hores.",
     "ctaButton": "Contacta'ns"
   },
+  "comparePage": {
+    "breadcrumb": "Comparar",
+    "title": "Gobbly vs altres TPV",
+    "description": "Descobreix per què Gobbly és la millor alternativa per gestionar el teu restaurant. Compara funcionalitats, preus i suport amb altres TPV del mercat.",
+    "heroTitle": "Per què Gobbly i no un altre TPV?",
+    "heroSubtitle": "Els TPV genèrics no estan pensats per a hostaleria. Gobbly t'ofereix una plataforma tot-en-un dissenyada específicament per a restaurants, bars i food trucks.",
+    "featuresLabel": "Funcionalitats",
+    "featuresTitle": "Tot el que necessites, inclòs",
+    "features": [
+      "TPV al núvol, dissenyat per a hostaleria",
+      "Pantalla de cuina (KDS) en temps real",
+      "Carta digital amb QR i comandes integrades",
+      "Gestió de taules visual",
+      "Processament de pagaments integrat",
+      "Suport multiidioma (ES, CA, EN)",
+      "Facturació VeriFactu inclosa",
+      "Dades allotjades a la UE (RGPD)",
+      "Analítica en temps real",
+      "1 mes de prova gratis, sense targeta de crèdit"
+    ],
+    "advantagesTitle": "El que ens diferencia",
+    "advantages": [
+      {
+        "title": "Tot en una sola app",
+        "description": "TPV, pantalla de cuina, carta digital, comandes QR i pagaments — sense necessitat de combinar múltiples eines."
+      },
+      {
+        "title": "Dissenyat per a hostaleria",
+        "description": "A diferència dels TPV genèrics, Gobbly està pensat exclusivament per a restaurants, bars i food trucks."
+      },
+      {
+        "title": "Compliment fiscal europeu",
+        "description": "Facturació VeriFactu integrada i dades allotjades a la UE. Sense pegats ni mòduls addicionals."
+      },
+      {
+        "title": "Configuració en minuts",
+        "description": "Posa el teu restaurant en marxa en minuts, no en dies. Sense maquinari especial, sense tècnics."
+      }
+    ],
+    "pricingTitle": "Preus clars, sense sorpreses",
+    "pricingSubtitle": "Des de 19€/mes. Sense comissions ocultes, sense permanència.",
+    "ctaTitle": "Preparat per provar-ho?",
+    "ctaSubtitle": "Uneix-te a centenars de restaurants que ja utilitzen Gobbly. Prova 1 mes gratis, sense compromís.",
+    "ctaButton": "Prova 1 mes gratis"
+  },
   "comparisons": {
     "breadcrumbCompare": "Comparar",
     "vsLabel": "vs",
@@ -773,7 +818,7 @@
       "title": "Gobbly vs Revo XEF",
       "description": "Compara Gobbly i Revo XEF costat a costat. Descobreix per què els restaurants canvien de Revo XEF a Gobbly per un TPV més senzill, assequible i amb pantalla de cuina i menús QR integrats.",
       "heroTitle": "Gobbly vs Revo XEF",
-      "heroSubtitle": "Revo XEF és un TPV conegut a Espanya, però ve amb complexitat i cost. Gobbly t'ofereix la mateixa potència amb una configuració més senzilla, pantalla de cuina integrada i un pla gratuït per començar.",
+      "heroSubtitle": "Revo XEF és un TPV conegut a Espanya, però ve amb complexitat i cost. Gobbly t'ofereix la mateixa potència amb una configuració més senzilla, pantalla de cuina integrada i 1 mes de prova gratis.",
       "features": [
         { "name": "TPV al núvol", "gobbly": true, "competitor": true },
         { "name": "Pantalla de cuina (KDS)", "gobbly": true, "competitor": false },
@@ -782,14 +827,14 @@
         { "name": "Processament de pagaments", "gobbly": true, "competitor": true },
         { "name": "Suport multiidioma", "gobbly": true, "competitor": false },
         { "name": "Facturació VeriFactu", "gobbly": true, "competitor": true },
-        { "name": "Pla gratuït disponible", "gobbly": true, "competitor": false },
+        { "name": "1 mes de prova gratis", "gobbly": true, "competitor": false },
         { "name": "Gestió de taules", "gobbly": true, "competitor": true },
         { "name": "Analítica en temps real", "gobbly": true, "competitor": true }
       ],
       "advantages": [
         {
-          "title": "Pla gratuït per començar",
-          "description": "Comença a usar Gobbly sense cost. Sense targeta de crèdit, sense compromís. Revo XEF requereix una subscripció de pagament des del primer dia."
+          "title": "1 mes de prova gratis",
+          "description": "Prova Gobbly durant 1 mes sense cost. Sense targeta de crèdit, sense compromís. Revo XEF requereix una subscripció de pagament des del primer dia."
         },
         {
           "title": "Pantalla de cuina integrada",
@@ -804,11 +849,11 @@
           "description": "Posa el teu restaurant en marxa en minuts, no en dies. Gobbly està dissenyat per a la simplicitat sense sacrificar funcionalitats."
         }
       ],
-      "pricingGobbly": "Des de 0\u20ac/mes",
+      "pricingGobbly": "Des de 19\u20ac/mes",
       "pricingCompetitor": "Des de ~59\u20ac/mes",
       "ctaTitle": "Preparat per canviar de Revo XEF?",
-      "ctaSubtitle": "Uneix-te a centenars de restaurants que ja han fet el pas a Gobbly. Comença gratis, millora quan creixes.",
-      "ctaButton": "Comença gratis"
+      "ctaSubtitle": "Uneix-te a centenars de restaurants que ja han fet el pas a Gobbly. Prova 1 mes gratis, sense compromís.",
+      "ctaButton": "Prova 1 mes gratis"
     },
     "coverManager": {
       "title": "Gobbly vs CoverManager",
@@ -823,7 +868,7 @@
         { "name": "Processament de pagaments", "gobbly": true, "competitor": false },
         { "name": "Suport multiidioma", "gobbly": true, "competitor": true },
         { "name": "Facturació VeriFactu", "gobbly": true, "competitor": false },
-        { "name": "Pla gratuït disponible", "gobbly": true, "competitor": false },
+        { "name": "1 mes de prova gratis", "gobbly": true, "competitor": false },
         { "name": "Comandes en línia", "gobbly": true, "competitor": false },
         { "name": "Analítica en temps real", "gobbly": true, "competitor": true }
       ],
@@ -845,11 +890,11 @@
           "description": "Els comensals escanegen, consulten la carta i demanen des del seu mòbil. Redueix la càrrega del personal i accelera el servei."
         }
       ],
-      "pricingGobbly": "Des de 0\u20ac/mes",
+      "pricingGobbly": "Des de 19\u20ac/mes",
       "pricingCompetitor": "Comissions per reserva",
       "ctaTitle": "Preparat per canviar de CoverManager?",
-      "ctaSubtitle": "Gestiona reserves i tot el reste en una sola plataforma. Comença gratis avui.",
-      "ctaButton": "Comença gratis"
+      "ctaSubtitle": "Gestiona reserves i tot el reste en una sola plataforma. Prova 1 mes gratis.",
+      "ctaButton": "Prova 1 mes gratis"
     },
     "square": {
       "title": "Gobbly vs Square",
@@ -864,7 +909,7 @@
         { "name": "Processament de pagaments", "gobbly": true, "competitor": true },
         { "name": "Suport multiidioma", "gobbly": true, "competitor": false },
         { "name": "Facturació VeriFactu", "gobbly": true, "competitor": false },
-        { "name": "Pla gratuït disponible", "gobbly": true, "competitor": true },
+        { "name": "1 mes de prova gratis", "gobbly": true, "competitor": true },
         { "name": "Dades allotjades a la UE", "gobbly": true, "competitor": false },
         { "name": "Analítica en temps real", "gobbly": true, "competitor": true }
       ],
@@ -886,11 +931,11 @@
           "description": "Gobbly suporta castellà, català i anglès de forma nativa. La localització de Square per a Espanya és limitada."
         }
       ],
-      "pricingGobbly": "Des de 0\u20ac/mes",
+      "pricingGobbly": "Des de 19\u20ac/mes",
       "pricingCompetitor": "Des de ~0$ + comissions per transacció",
       "ctaTitle": "Preparat per canviar de Square?",
-      "ctaSubtitle": "Aconsegueix un TPV específic per a hostaleria amb compliment europeu. Comença gratis avui.",
-      "ctaButton": "Comença gratis"
+      "ctaSubtitle": "Aconsegueix un TPV específic per a hostaleria amb compliment europeu. Prova 1 mes gratis.",
+      "ctaButton": "Prova 1 mes gratis"
     }
   },
   "useCases": {
@@ -969,7 +1014,7 @@
       "exploreTitle": "Gobbly funciona per a tot tipus de negoci",
       "exploreSubtitle": "Descobreix com Gobbly s'adapta a diferents negocis d'hostaleria",
       "ctaTitle": "Preparat per transformar el teu restaurant?",
-      "ctaButton": "Comença gratis"
+      "ctaButton": "Prova 1 mes gratis"
     },
     "bars": {
       "title": "Gobbly per a Bars i Cafeteries",
@@ -1037,7 +1082,7 @@
       "exploreTitle": "Gobbly funciona per a tot tipus de negoci",
       "exploreSubtitle": "Descobreix com Gobbly s'adapta a diferents negocis d'hostaleria",
       "ctaTitle": "Preparat per accelerar el teu bar?",
-      "ctaButton": "Comença gratis"
+      "ctaButton": "Prova 1 mes gratis"
     },
     "foodTrucks": {
       "title": "Gobbly per a Food Trucks",
@@ -1105,7 +1150,7 @@
       "exploreTitle": "Gobbly funciona per a tot tipus de negoci",
       "exploreSubtitle": "Descobreix com Gobbly s'adapta a diferents negocis d'hostaleria",
       "ctaTitle": "Preparat per sortir a la carretera amb Gobbly?",
-      "ctaButton": "Comença gratis"
+      "ctaButton": "Prova 1 mes gratis"
     }
   },
   "stats": {
@@ -1134,7 +1179,7 @@
       },
       {
         "question": "Hi ha prova gratuïta?",
-        "answer": "Sí. Tens 14 dies de prova gratuïta del pla Pro amb accés complet. Sense targeta de crèdit. En acabar, pots subscriure't o passar al pla Starter."
+        "answer": "Sí. Tens 1 mes de prova gratuïta amb accés complet a totes les funcionalitats. Sense targeta de crèdit. En acabar, pots triar el pla que millor s'adapti al teu restaurant."
       },
       {
         "question": "Els clients poden demanar des del mòbil?",

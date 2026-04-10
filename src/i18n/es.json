@@ -9,7 +9,7 @@
     "howItWorks": "Cómo funciona",
     "pricing": "Precios",
     "signIn": "Iniciar sesión",
-    "getStartedFree": "Empieza gratis",
+    "getStartedFree": "Prueba 1 mes gratis",
     "toggleMenu": "Abrir menú",
     "home": "Inicio",
     "compare": "Comparar",
@@ -20,7 +20,7 @@
     "titleLine1": "Tu restaurante,",
     "titleHighlight": "todo en un solo lugar",
     "subtitle": "Olvídate de las comandas en papel y las herramientas dispersas. Gobbly unifica tu TPV, cocina, carta y pagos en una sola plataforma en tiempo real.",
-    "ctaPrimary": "Empieza gratis",
+    "ctaPrimary": "Prueba 1 mes gratis",
     "ctaSecondary": "Mira cómo funciona",
     "mockupKitchenLabel": "Cocina",
     "mockupRisotto": "Risotto",
@@ -126,7 +126,7 @@
   "pricing": {
     "label": "Precios",
     "title": "Precios simples y transparentes",
-    "description": "Empieza gratis y escala a medida que creces. Sin costes ocultos, sin contratos.",
+    "description": "Prueba 1 mes gratis y escala a medida que creces. Sin costes ocultos, sin contratos.",
     "mostPopular": "Más popular",
     "perMonth": "/mes",
     "plans": [
@@ -156,7 +156,7 @@
           "Facturación VeriFactu",
           "Soporte prioritario"
         ],
-        "cta": "Prueba gratis"
+        "cta": "Prueba 1 mes gratis"
       },
       {
         "name": "Enterprise",
@@ -178,7 +178,7 @@
     "titleLine1": "¿Listo para transformar",
     "titleLine2": "tu restaurante?",
     "subtitle": "Únete a cientos de restaurantes que ya usan Gobbly para optimizar sus operaciones y deleitar a sus clientes.",
-    "button": "Empieza gratis",
+    "button": "Prueba 1 mes gratis",
     "note": "Sin tarjeta de crédito"
   },
   "footer": {
@@ -362,7 +362,7 @@
       },
       {
         "heading": "4. Pagos y facturación",
-        "content": "Los planes de pago se facturan mensual o anualmente por adelantado. Los precios están en euros y no incluyen impuestos aplicables. Nos reservamos el derecho de cambiar los precios con 30 días de aviso. Los reembolsos se gestionan caso por caso. El uso del plan gratuito está sujeto a los límites descritos en nuestra página de precios."
+        "content": "Los planes de pago se facturan mensual o anualmente por adelantado. Los precios están en euros y no incluyen impuestos aplicables. Nos reservamos el derecho de cambiar los precios con 30 días de aviso. Los reembolsos se gestionan caso por caso. La prueba gratuita de 1 mes está sujeta a las condiciones descritas en nuestra página de precios."
       },
       {
         "heading": "5. Uso aceptable",
@@ -429,7 +429,7 @@
         { "stat": "99,9%", "description": "Disponibilidad con modo offline como red de seguridad" }
       ],
       "ctaTitle": "¿Listo para actualizar tu TPV?",
-      "ctaButton": "Empieza gratis",
+      "ctaButton": "Prueba 1 mes gratis",
       "exploreTitle": "Descubre más funcionalidades",
       "exploreSubtitle": "Gobbly conecta cada parte de tu restaurante."
     },
@@ -471,7 +471,7 @@
         { "stat": "100%", "description": "Visibilidad para sala sobre el estado de las comandas" }
       ],
       "ctaTitle": "¿Listo para digitalizar tu cocina?",
-      "ctaButton": "Empieza gratis",
+      "ctaButton": "Prueba 1 mes gratis",
       "exploreTitle": "Descubre más funcionalidades",
       "exploreSubtitle": "Gobbly conecta cada parte de tu restaurante."
     },
@@ -513,7 +513,7 @@
         { "stat": "12+", "description": "Idiomas soportados de serie" }
       ],
       "ctaTitle": "¿Listo para dar el salto digital?",
-      "ctaButton": "Empieza gratis",
+      "ctaButton": "Prueba 1 mes gratis",
       "exploreTitle": "Descubre más funcionalidades",
       "exploreSubtitle": "Gobbly conecta cada parte de tu restaurante."
     },
@@ -554,14 +554,14 @@
         { "stat": "5 min", "description": "Cierre de turno en lugar de más de 30 minutos" }
       ],
       "ctaTitle": "¿Listo para simplificar los pagos?",
-      "ctaButton": "Empieza gratis",
+      "ctaButton": "Prueba 1 mes gratis",
       "exploreTitle": "Descubre más funcionalidades",
       "exploreSubtitle": "Gobbly conecta cada parte de tu restaurante."
     }
   },
   "pricingPage": {
     "title": "Precios",
-    "description": "Precios simples y transparentes para restaurantes de cualquier tamaño. Empieza gratis y escala a medida que creces.",
+    "description": "Precios simples y transparentes para restaurantes de cualquier tamaño. Prueba 1 mes gratis y escala a medida que creces.",
     "heroTitle": "Precios simples para cada restaurante",
     "heroSubtitle": "Sin costes ocultos, sin sorpresas. Elige el plan que se adapte a tu restaurante y amplía cuando lo necesites.",
     "starterName": "Starter",
@@ -581,7 +581,7 @@
     "proSubtitle": "Para restaurantes en crecimiento que necesitan más potencia",
     "proPrice": "49 €",
     "proPriceSuffix": "/mes",
-    "proCta": "Prueba gratis",
+    "proCta": "Prueba 1 mes gratis",
     "proFeatures": [
       "Mesas ilimitadas",
       "TPV avanzado con modos personalizados",
@@ -638,8 +638,8 @@
         "answer": "Aceptamos las principales tarjetas de crédito y débito (Visa, Mastercard, American Express) así como domiciliación bancaria SEPA para clientes europeos. Todos los pagos se procesan de forma segura a través de Stripe."
       },
       {
-        "question": "¿Hay prueba gratuita del plan Pro?",
-        "answer": "Sí. Tienes 14 días de prueba gratuita del plan Pro con acceso completo a todas las funcionalidades. No se requiere tarjeta de crédito para empezar. Al final de la prueba, puedes suscribirte o pasar al plan gratuito Starter."
+        "question": "¿Hay prueba gratuita?",
+        "answer": "Sí. Tienes 1 mes de prueba gratuita con acceso completo a todas las funcionalidades. No se requiere tarjeta de crédito para empezar. Al final de la prueba, puedes elegir el plan que mejor se adapte a tu restaurante."
       },
       {
         "question": "¿Qué pasa si supero los límites del plan Starter?",
@@ -651,8 +651,8 @@
       }
     ],
     "ctaTitle": "¿Listo para empezar?",
-    "ctaSubtitle": "Únete a cientos de restaurantes que ya usan Gobbly. Empieza gratis, sin tarjeta de crédito.",
-    "ctaButton": "Empieza gratis"
+    "ctaSubtitle": "Únete a cientos de restaurantes que ya usan Gobbly. Prueba 1 mes gratis, sin tarjeta de crédito.",
+    "ctaButton": "Prueba 1 mes gratis"
   },
   "faqPage": {
     "title": "Preguntas Frecuentes",
@@ -685,8 +685,8 @@
         "title": "Precios y Planes",
         "items": [
           {
-            "question": "¿Hay un plan gratuito?",
-            "answer": "Sí. Nuestro plan Starter es completamente gratuito e incluye hasta 10 mesas, TPV, pantalla de cocina, carta QR con pedidos y analíticas básicas. No se necesita tarjeta de crédito para empezar."
+            "question": "¿Hay prueba gratuita?",
+            "answer": "Sí. Ofrecemos 1 mes de prueba gratuita con acceso completo a todas las funcionalidades. No se necesita tarjeta de crédito para empezar. Al finalizar, puedes elegir el plan que mejor se adapte a tu restaurante."
           },
           {
             "question": "¿Puedo cambiar de plan en cualquier momento?",
@@ -762,6 +762,51 @@
     "ctaText": "Nuestro equipo está aquí para ayudarte. Escríbenos y te responderemos en menos de 24 horas.",
     "ctaButton": "Contáctanos"
   },
+  "comparePage": {
+    "breadcrumb": "Comparar",
+    "title": "Gobbly vs otros TPV",
+    "description": "Descubre por qué Gobbly es la mejor alternativa para gestionar tu restaurante. Compara funcionalidades, precios y soporte con otros TPV del mercado.",
+    "heroTitle": "¿Por qué Gobbly y no otro TPV?",
+    "heroSubtitle": "Los TPV genéricos no están pensados para hostelería. Gobbly te ofrece una plataforma todo-en-uno diseñada específicamente para restaurantes, bares y food trucks.",
+    "featuresLabel": "Funcionalidades",
+    "featuresTitle": "Todo lo que necesitas, incluido",
+    "features": [
+      "TPV en la nube, diseñado para hostelería",
+      "Pantalla de cocina (KDS) en tiempo real",
+      "Carta digital con QR y pedidos integrados",
+      "Gestión de mesas visual",
+      "Procesamiento de pagos integrado",
+      "Soporte multiidioma (ES, CA, EN)",
+      "Facturación VeriFactu incluida",
+      "Datos alojados en la UE (RGPD)",
+      "Analítica en tiempo real",
+      "1 mes de prueba gratis, sin tarjeta de crédito"
+    ],
+    "advantagesTitle": "Lo que nos diferencia",
+    "advantages": [
+      {
+        "title": "Todo en una sola app",
+        "description": "TPV, pantalla de cocina, carta digital, pedidos QR y pagos — sin necesidad de combinar múltiples herramientas."
+      },
+      {
+        "title": "Diseñado para hostelería",
+        "description": "A diferencia de los TPV genéricos, Gobbly está pensado exclusivamente para restaurantes, bares y food trucks."
+      },
+      {
+        "title": "Cumplimiento fiscal europeo",
+        "description": "Facturación VeriFactu integrada y datos alojados en la UE. Sin parches ni módulos adicionales."
+      },
+      {
+        "title": "Configuración en minutos",
+        "description": "Pon tu restaurante en marcha en minutos, no en días. Sin hardware especial, sin técnicos."
+      }
+    ],
+    "pricingTitle": "Precios claros, sin sorpresas",
+    "pricingSubtitle": "Desde 19€/mes. Sin comisiones ocultas, sin permanencia.",
+    "ctaTitle": "¿Listo para probarlo?",
+    "ctaSubtitle": "Únete a cientos de restaurantes que ya usan Gobbly. Prueba 1 mes gratis, sin compromiso.",
+    "ctaButton": "Prueba 1 mes gratis"
+  },
   "comparisons": {
     "breadcrumbCompare": "Comparar",
     "vsLabel": "vs",
@@ -773,7 +818,7 @@
       "title": "Gobbly vs Revo XEF",
       "description": "Compara Gobbly y Revo XEF lado a lado. Descubre por qué los restaurantes cambian de Revo XEF a Gobbly por un TPV más sencillo, asequible y con pantalla de cocina y menús QR integrados.",
       "heroTitle": "Gobbly vs Revo XEF",
-      "heroSubtitle": "Revo XEF es un TPV conocido en España, pero viene con complejidad y coste. Gobbly te ofrece la misma potencia con una configuración más sencilla, pantalla de cocina integrada y un plan gratuito para empezar.",
+      "heroSubtitle": "Revo XEF es un TPV conocido en España, pero viene con complejidad y coste. Gobbly te ofrece la misma potencia con una configuración más sencilla, pantalla de cocina integrada y 1 mes de prueba gratis.",
       "features": [
         { "name": "TPV en la nube", "gobbly": true, "competitor": true },
         { "name": "Pantalla de cocina (KDS)", "gobbly": true, "competitor": false },
@@ -782,14 +827,14 @@
         { "name": "Procesamiento de pagos", "gobbly": true, "competitor": true },
         { "name": "Soporte multiidioma", "gobbly": true, "competitor": false },
         { "name": "Facturación VeriFactu", "gobbly": true, "competitor": true },
-        { "name": "Plan gratuito disponible", "gobbly": true, "competitor": false },
+        { "name": "1 mes de prueba gratis", "gobbly": true, "competitor": false },
         { "name": "Gestión de mesas", "gobbly": true, "competitor": true },
         { "name": "Analítica en tiempo real", "gobbly": true, "competitor": true }
       ],
       "advantages": [
         {
-          "title": "Plan gratuito para empezar",
-          "description": "Empieza a usar Gobbly sin coste. Sin tarjeta de crédito, sin compromiso. Revo XEF requiere una suscripción de pago desde el primer día."
+          "title": "1 mes de prueba gratis",
+          "description": "Prueba Gobbly durante 1 mes sin coste. Sin tarjeta de crédito, sin compromiso. Revo XEF requiere una suscripción de pago desde el primer día."
         },
         {
           "title": "Pantalla de cocina integrada",
@@ -804,11 +849,11 @@
           "description": "Pon tu restaurante en marcha en minutos, no en días. Gobbly está diseñado para la simplicidad sin sacrificar funcionalidades."
         }
       ],
-      "pricingGobbly": "Desde 0\u20ac/mes",
+      "pricingGobbly": "Desde 19\u20ac/mes",
       "pricingCompetitor": "Desde ~59\u20ac/mes",
       "ctaTitle": "¿Listo para cambiar de Revo XEF?",
-      "ctaSubtitle": "Únete a cientos de restaurantes que ya han dado el paso a Gobbly. Empieza gratis, mejora cuando crezcas.",
-      "ctaButton": "Empieza gratis"
+      "ctaSubtitle": "Únete a cientos de restaurantes que ya han dado el paso a Gobbly. Prueba 1 mes gratis, sin compromiso.",
+      "ctaButton": "Prueba 1 mes gratis"
     },
     "coverManager": {
       "title": "Gobbly vs CoverManager",
@@ -823,7 +868,7 @@
         { "name": "Procesamiento de pagos", "gobbly": true, "competitor": false },
         { "name": "Soporte multiidioma", "gobbly": true, "competitor": true },
         { "name": "Facturación VeriFactu", "gobbly": true, "competitor": false },
-        { "name": "Plan gratuito disponible", "gobbly": true, "competitor": false },
+        { "name": "1 mes de prueba gratis", "gobbly": true, "competitor": false },
         { "name": "Pedidos online", "gobbly": true, "competitor": false },
         { "name": "Analítica en tiempo real", "gobbly": true, "competitor": true }
       ],
@@ -845,11 +890,11 @@
           "description": "Los comensales escanean, consultan la carta y piden desde su móvil. Reduce la carga del personal y acelera el servicio."
         }
       ],
-      "pricingGobbly": "Desde 0\u20ac/mes",
+      "pricingGobbly": "Desde 19\u20ac/mes",
       "pricingCompetitor": "Comisiones por reserva",
       "ctaTitle": "¿Listo para cambiar de CoverManager?",
-      "ctaSubtitle": "Gestiona reservas y todo lo demás en una sola plataforma. Empieza gratis hoy.",
-      "ctaButton": "Empieza gratis"
+      "ctaSubtitle": "Gestiona reservas y todo lo demás en una sola plataforma. Prueba 1 mes gratis.",
+      "ctaButton": "Prueba 1 mes gratis"
     },
     "square": {
       "title": "Gobbly vs Square",
@@ -864,7 +909,7 @@
         { "name": "Procesamiento de pagos", "gobbly": true, "competitor": true },
         { "name": "Soporte multiidioma", "gobbly": true, "competitor": false },
         { "name": "Facturación VeriFactu", "gobbly": true, "competitor": false },
-        { "name": "Plan gratuito disponible", "gobbly": true, "competitor": true },
+        { "name": "1 mes de prueba gratis", "gobbly": true, "competitor": true },
         { "name": "Datos alojados en la UE", "gobbly": true, "competitor": false },
         { "name": "Analítica en tiempo real", "gobbly": true, "competitor": true }
       ],
@@ -886,11 +931,11 @@
           "description": "Gobbly soporta castellano, catalán e inglés de forma nativa. La localización de Square para España es limitada."
         }
       ],
-      "pricingGobbly": "Desde 0\u20ac/mes",
+      "pricingGobbly": "Desde 19\u20ac/mes",
       "pricingCompetitor": "Desde ~0$ + comisiones por transacción",
       "ctaTitle": "¿Listo para cambiar de Square?",
-      "ctaSubtitle": "Consigue un TPV específico para hostelería con cumplimiento europeo. Empieza gratis hoy.",
-      "ctaButton": "Empieza gratis"
+      "ctaSubtitle": "Consigue un TPV específico para hostelería con cumplimiento europeo. Prueba 1 mes gratis.",
+      "ctaButton": "Prueba 1 mes gratis"
     }
   },
   "useCases": {
@@ -969,7 +1014,7 @@
       "exploreTitle": "Gobbly funciona para todo tipo de negocio",
       "exploreSubtitle": "Descubre cómo Gobbly se adapta a distintos negocios de hostelería",
       "ctaTitle": "¿Listo para transformar tu restaurante?",
-      "ctaButton": "Empieza gratis"
+      "ctaButton": "Prueba 1 mes gratis"
     },
     "bars": {
       "title": "Gobbly para Bares y Cafeterías",
@@ -1037,7 +1082,7 @@
       "exploreTitle": "Gobbly funciona para todo tipo de negocio",
       "exploreSubtitle": "Descubre cómo Gobbly se adapta a distintos negocios de hostelería",
       "ctaTitle": "¿Listo para acelerar tu bar?",
-      "ctaButton": "Empieza gratis"
+      "ctaButton": "Prueba 1 mes gratis"
     },
     "foodTrucks": {
       "title": "Gobbly para Food Trucks",
@@ -1105,7 +1150,7 @@
       "exploreTitle": "Gobbly funciona para todo tipo de negocio",
       "exploreSubtitle": "Descubre cómo Gobbly se adapta a distintos negocios de hostelería",
       "ctaTitle": "¿Listo para salir a la carretera con Gobbly?",
-      "ctaButton": "Empieza gratis"
+      "ctaButton": "Prueba 1 mes gratis"
     }
   },
   "stats": {

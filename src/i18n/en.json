@@ -9,7 +9,7 @@
     "howItWorks": "How it works",
     "pricing": "Pricing",
     "signIn": "Sign in",
-    "getStartedFree": "Get started free",
+    "getStartedFree": "Try 1 month free",
     "toggleMenu": "Toggle menu",
     "home": "Home",
     "compare": "Compare",
@@ -20,7 +20,7 @@
     "titleLine1": "Your restaurant,",
     "titleHighlight": "all in one place",
     "subtitle": "Ditch the paper tickets and scattered tools. Gobbly brings your POS, kitchen, menu, and payments into a single, real-time platform.",
-    "ctaPrimary": "Start for free",
+    "ctaPrimary": "Try 1 month free",
     "ctaSecondary": "See how it works",
     "mockupKitchenLabel": "Kitchen",
     "mockupRisotto": "Risotto",
@@ -126,7 +126,7 @@
   "pricing": {
     "label": "Pricing",
     "title": "Simple, transparent pricing",
-    "description": "Start free and scale as you grow. No hidden fees, no contracts.",
+    "description": "Try 1 month free and scale as you grow. No hidden fees, no contracts.",
     "mostPopular": "Most popular",
     "perMonth": "/month",
     "plans": [
@@ -156,7 +156,7 @@
           "VeriFactu invoicing",
           "Priority support"
         ],
-        "cta": "Start free trial"
+        "cta": "Try 1 month free"
       },
       {
         "name": "Enterprise",
@@ -178,7 +178,7 @@
     "titleLine1": "Ready to transform",
     "titleLine2": "your restaurant?",
     "subtitle": "Join hundreds of restaurants already using Gobbly to streamline their operations and delight their guests.",
-    "button": "Get started for free",
+    "button": "Try 1 month free",
     "note": "No credit card required"
   },
   "footer": {
@@ -362,7 +362,7 @@
       },
       {
         "heading": "4. Payments & Billing",
-        "content": "Paid plans are billed monthly or annually in advance. Prices are in euros and exclude applicable taxes. We reserve the right to change pricing with 30 days' notice. Refunds are handled on a case-by-case basis. Free tier usage is subject to the limits described on our pricing page."
+        "content": "Paid plans are billed monthly or annually in advance. Prices are in euros and exclude applicable taxes. We reserve the right to change pricing with 30 days' notice. Refunds are handled on a case-by-case basis. The 1-month free trial is subject to the conditions described on our pricing page."
       },
       {
         "heading": "5. Acceptable Use",
@@ -429,7 +429,7 @@
         { "stat": "99.9%", "description": "Uptime with offline mode as your safety net" }
       ],
       "ctaTitle": "Ready to upgrade your POS?",
-      "ctaButton": "Start for free",
+      "ctaButton": "Try 1 month free",
       "exploreTitle": "Explore more features",
       "exploreSubtitle": "Gobbly connects every part of your restaurant."
     },
@@ -471,7 +471,7 @@
         { "stat": "100%", "description": "Visibility for floor staff on order status" }
       ],
       "ctaTitle": "Ready to digitize your kitchen?",
-      "ctaButton": "Start for free",
+      "ctaButton": "Try 1 month free",
       "exploreTitle": "Explore more features",
       "exploreSubtitle": "Gobbly connects every part of your restaurant."
     },
@@ -513,7 +513,7 @@
         { "stat": "12+", "description": "Languages supported out of the box" }
       ],
       "ctaTitle": "Ready to go digital?",
-      "ctaButton": "Start for free",
+      "ctaButton": "Try 1 month free",
       "exploreTitle": "Explore more features",
       "exploreSubtitle": "Gobbly connects every part of your restaurant."
     },
@@ -554,14 +554,14 @@
         { "stat": "5 min", "description": "Shift close instead of 30+ minutes" }
       ],
       "ctaTitle": "Ready to simplify payments?",
-      "ctaButton": "Start for free",
+      "ctaButton": "Try 1 month free",
       "exploreTitle": "Explore more features",
       "exploreSubtitle": "Gobbly connects every part of your restaurant."
     }
   },
   "pricingPage": {
     "title": "Pricing",
-    "description": "Simple, transparent pricing for restaurants of every size. Start free and scale as you grow.",
+    "description": "Simple, transparent pricing for restaurants of every size. Try 1 month free and scale as you grow.",
     "heroTitle": "Simple pricing for every restaurant",
     "heroSubtitle": "No hidden fees, no surprises. Pick the plan that fits your restaurant and upgrade anytime as you grow.",
     "starterName": "Starter",
@@ -581,7 +581,7 @@
     "proSubtitle": "For growing restaurants that need more power",
     "proPrice": "€49",
     "proPriceSuffix": "/month",
-    "proCta": "Start free trial",
+    "proCta": "Try 1 month free",
     "proFeatures": [
       "Unlimited tables",
       "Advanced POS with custom modes",
@@ -638,8 +638,8 @@
         "answer": "We accept all major credit and debit cards (Visa, Mastercard, American Express) as well as SEPA direct debit for European customers. All payments are securely processed through Stripe."
       },
       {
-        "question": "Is there a free trial for the Pro plan?",
-        "answer": "Yes. You get a 14-day free trial of the Pro plan with full access to all features. No credit card required to start. At the end of the trial, you can choose to subscribe or switch to the free Starter plan."
+        "question": "Is there a free trial?",
+        "answer": "Yes. You get a 1-month free trial with full access to all features. No credit card required to start. At the end of the trial, you can choose the plan that best fits your restaurant."
       },
       {
         "question": "What happens if I exceed the Starter plan limits?",
@@ -651,8 +651,8 @@
       }
     ],
     "ctaTitle": "Ready to get started?",
-    "ctaSubtitle": "Join hundreds of restaurants already using Gobbly. Start free, no credit card required.",
-    "ctaButton": "Start for free"
+    "ctaSubtitle": "Join hundreds of restaurants already using Gobbly. Try 1 month free, no credit card required.",
+    "ctaButton": "Try 1 month free"
   },
   "faqPage": {
     "title": "Frequently Asked Questions",
@@ -685,8 +685,8 @@
         "title": "Pricing & Plans",
         "items": [
           {
-            "question": "Is there a free plan?",
-            "answer": "Yes. Our Starter plan is completely free and includes up to 10 tables, POS, kitchen display, QR menu and ordering, and basic analytics. No credit card required to get started."
+            "question": "Is there a free trial?",
+            "answer": "Yes. We offer a 1-month free trial with full access to all features. No credit card required to get started. After the trial, you can choose the plan that best fits your restaurant."
           },
           {
             "question": "Can I switch plans anytime?",
@@ -762,6 +762,51 @@
     "ctaText": "Our team is here to help. Reach out and we will get back to you within 24 hours.",
     "ctaButton": "Contact us"
   },
+  "comparePage": {
+    "breadcrumb": "Compare",
+    "title": "Gobbly vs other POS systems",
+    "description": "Discover why Gobbly is the best alternative for managing your restaurant. Compare features, pricing and support with other POS systems on the market.",
+    "heroTitle": "Why Gobbly over other POS systems?",
+    "heroSubtitle": "Generic POS systems aren't built for hospitality. Gobbly offers an all-in-one platform designed specifically for restaurants, bars and food trucks.",
+    "featuresLabel": "Features",
+    "featuresTitle": "Everything you need, included",
+    "features": [
+      "Cloud-based POS, built for hospitality",
+      "Real-time Kitchen Display System (KDS)",
+      "QR digital menu with integrated ordering",
+      "Visual table management",
+      "Integrated payment processing",
+      "Multi-language support (ES, CA, EN)",
+      "VeriFactu invoicing included",
+      "EU-hosted data (GDPR compliant)",
+      "Real-time analytics",
+      "1-month free trial, no credit card required"
+    ],
+    "advantagesTitle": "What sets us apart",
+    "advantages": [
+      {
+        "title": "Everything in one app",
+        "description": "POS, kitchen display, digital menu, QR ordering and payments — no need to combine multiple tools."
+      },
+      {
+        "title": "Built for hospitality",
+        "description": "Unlike generic POS systems, Gobbly is designed exclusively for restaurants, bars and food trucks."
+      },
+      {
+        "title": "European tax compliance",
+        "description": "VeriFactu invoicing built-in and EU-hosted data. No patches or additional modules needed."
+      },
+      {
+        "title": "Set up in minutes",
+        "description": "Get your restaurant running in minutes, not days. No special hardware, no technicians."
+      }
+    ],
+    "pricingTitle": "Clear pricing, no surprises",
+    "pricingSubtitle": "From €19/month. No hidden fees, no lock-in.",
+    "ctaTitle": "Ready to try it?",
+    "ctaSubtitle": "Join hundreds of restaurants already using Gobbly. Try 1 month free, no commitment.",
+    "ctaButton": "Try 1 month free"
+  },
   "comparisons": {
     "breadcrumbCompare": "Compare",
     "vsLabel": "vs",
@@ -773,7 +818,7 @@
       "title": "Gobbly vs Revo XEF",
       "description": "Compare Gobbly and Revo XEF side by side. See why restaurants switch from Revo XEF to Gobbly for a simpler, more affordable POS with built-in kitchen display and QR menus.",
       "heroTitle": "Gobbly vs Revo XEF",
-      "heroSubtitle": "Revo XEF is a well-known POS in Spain, but it comes with complexity and cost. Gobbly gives you the same power with a simpler setup, built-in kitchen display, and a free plan to get started.",
+      "heroSubtitle": "Revo XEF is a well-known POS in Spain, but it comes with complexity and cost. Gobbly gives you the same power with a simpler setup, built-in kitchen display, and a 1-month free trial.",
       "features": [
         { "name": "Cloud-based POS", "gobbly": true, "competitor": true },
         { "name": "Kitchen Display System", "gobbly": true, "competitor": false },
@@ -782,14 +827,14 @@
         { "name": "Payment Processing", "gobbly": true, "competitor": true },
         { "name": "Multi-language Support", "gobbly": true, "competitor": false },
         { "name": "VeriFactu Compliance", "gobbly": true, "competitor": true },
-        { "name": "Free Plan Available", "gobbly": true, "competitor": false },
+        { "name": "1-month free trial", "gobbly": true, "competitor": false },
         { "name": "Table Management", "gobbly": true, "competitor": true },
         { "name": "Real-time Analytics", "gobbly": true, "competitor": true }
       ],
       "advantages": [
         {
-          "title": "Free plan to get started",
-          "description": "Start using Gobbly at no cost. No credit card, no commitment. Revo XEF requires a paid subscription from day one."
+          "title": "1-month free trial",
+          "description": "Try Gobbly for 1 month at no cost. No credit card, no commitment. Revo XEF requires a paid subscription from day one."
         },
         {
           "title": "Built-in kitchen display",
@@ -804,11 +849,11 @@
           "description": "Get your restaurant running in minutes, not days. Gobbly is designed for simplicity without sacrificing features."
         }
       ],
-      "pricingGobbly": "From \u20ac0/month",
+      "pricingGobbly": "From \u20ac19/month",
       "pricingCompetitor": "From ~\u20ac59/month",
       "ctaTitle": "Ready to switch from Revo XEF?",
-      "ctaSubtitle": "Join hundreds of restaurants that made the switch to Gobbly. Start free, upgrade when you grow.",
-      "ctaButton": "Start for free"
+      "ctaSubtitle": "Join hundreds of restaurants that made the switch to Gobbly. Try 1 month free, no commitment.",
+      "ctaButton": "Try 1 month free"
     },
     "coverManager": {
       "title": "Gobbly vs CoverManager",
@@ -823,7 +868,7 @@
         { "name": "Payment Processing", "gobbly": true, "competitor": false },
         { "name": "Multi-language Support", "gobbly": true, "competitor": true },
         { "name": "VeriFactu Compliance", "gobbly": true, "competitor": false },
-        { "name": "Free Plan Available", "gobbly": true, "competitor": false },
+        { "name": "1-month free trial", "gobbly": true, "competitor": false },
         { "name": "Online Ordering", "gobbly": true, "competitor": false },
         { "name": "Real-time Analytics", "gobbly": true, "competitor": true }
       ],
@@ -845,11 +890,11 @@
           "description": "Guests scan, browse the menu, and order from their phone. Reduce wait staff workload and speed up service."
         }
       ],
-      "pricingGobbly": "From \u20ac0/month",
+      "pricingGobbly": "From \u20ac19/month",
       "pricingCompetitor": "Per-reservation fees",
       "ctaTitle": "Ready to switch from CoverManager?",
-      "ctaSubtitle": "Get reservations and everything else in one platform. Start free today.",
-      "ctaButton": "Start for free"
+      "ctaSubtitle": "Get reservations and everything else in one platform. Try 1 month free.",
+      "ctaButton": "Try 1 month free"
     },
     "square": {
       "title": "Gobbly vs Square",
@@ -864,7 +909,7 @@
         { "name": "Payment Processing", "gobbly": true, "competitor": true },
         { "name": "Multi-language Support", "gobbly": true, "competitor": false },
         { "name": "VeriFactu Compliance", "gobbly": true, "competitor": false },
-        { "name": "Free Plan Available", "gobbly": true, "competitor": true },
+        { "name": "1-month free trial", "gobbly": true, "competitor": true },
         { "name": "EU Data Hosting", "gobbly": true, "competitor": false },
         { "name": "Real-time Analytics", "gobbly": true, "competitor": true }
       ],
@@ -886,11 +931,11 @@
           "description": "Gobbly supports Spanish, Catalan, and English natively. Square's localisation for Spain is limited."
         }
       ],
-      "pricingGobbly": "From \u20ac0/month",
+      "pricingGobbly": "From \u20ac19/month",
       "pricingCompetitor": "From ~$0 + transaction fees",
       "ctaTitle": "Ready to switch from Square?",
-      "ctaSubtitle": "Get a restaurant-specific POS with European compliance. Start free today.",
-      "ctaButton": "Start for free"
+      "ctaSubtitle": "Get a restaurant-specific POS with European compliance. Try 1 month free.",
+      "ctaButton": "Try 1 month free"
     }
   },
   "useCases": {
@@ -969,7 +1014,7 @@
       "exploreTitle": "Gobbly works for every type of business",
       "exploreSubtitle": "See how Gobbly adapts to different hospitality businesses",
       "ctaTitle": "Ready to transform your restaurant?",
-      "ctaButton": "Start for free"
+      "ctaButton": "Try 1 month free"
     },
     "bars": {
       "title": "Gobbly for Bars & Cafes",
@@ -1037,7 +1082,7 @@
       "exploreTitle": "Gobbly works for every type of business",
       "exploreSubtitle": "See how Gobbly adapts to different hospitality businesses",
       "ctaTitle": "Ready to speed up your bar?",
-      "ctaButton": "Start for free"
+      "ctaButton": "Try 1 month free"
     },
     "foodTrucks": {
       "title": "Gobbly for Food Trucks",
@@ -1105,7 +1150,7 @@
       "exploreTitle": "Gobbly works for every type of business",
       "exploreSubtitle": "See how Gobbly adapts to different hospitality businesses",
       "ctaTitle": "Ready to hit the road with Gobbly?",
-      "ctaButton": "Start for free"
+      "ctaButton": "Try 1 month free"
     }
   },
   "stats": {
@@ -1134,7 +1179,7 @@
       },
       {
         "question": "Is there a free trial?",
-        "answer": "Yes. You get a 14-day free trial of the Pro plan with full access to all features. No credit card required. After the trial, you can subscribe or switch to the Starter plan."
+        "answer": "Yes. You get a 1-month free trial with full access to all features. No credit card required. After the trial, you can choose the plan that best fits your restaurant."
       },
       {
         "question": "Can customers order from their phone?",
