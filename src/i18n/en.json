@@ -17,9 +17,9 @@
   },
   "hero": {
     "badge": "Now in open beta",
-    "titleLine1": "Your restaurant,",
-    "titleHighlight": "all in one place",
-    "subtitle": "Ditch the paper tickets and scattered tools. Gobbly brings your POS, kitchen, menu, and payments into a single, real-time platform.",
+    "titleLine1": "Restaurant management software",
+    "titleHighlight": "POS, kitchen display, digital menu & payments in one app",
+    "subtitle": "Gobbly brings your POS, kitchen display, digital menu, and payments into a single, real-time platform. Set up in minutes on any tablet.",
     "ctaPrimary": "Try 1 month free",
     "ctaSecondary": "See how it works",
     "mockupKitchenLabel": "Kitchen",
@@ -175,7 +175,6 @@
     "legal": "Legal",
     "legalPrivacy": "Privacy",
     "legalTerms": "Terms",
-    "legalCookies": "Cookies",
     "compare": "Compare",
     "compareRevo": "Gobbly vs Revo XEF",
     "compareCoverManager": "Gobbly vs CoverManager",
@@ -265,8 +264,6 @@
     "infoResponseTime": "We typically respond within 24 hours.",
     "infoAddressLabel": "Our office",
     "infoAddress": "Barcelona, Spain",
-    "infoPhoneLabel": "Call us",
-    "infoPhone": "+34 XXX XXX XXX",
     "infoHoursLabel": "Working hours",
     "infoHours": "Mon-Fri, 9:00 - 18:00 CET",
     "mapPlaceholder": "Barcelona, Spain",
@@ -301,24 +298,20 @@
         "content": "We do not sell your personal information. We may share your information with third-party service providers who perform services on our behalf, such as payment processing (Stripe), email delivery, and cloud hosting. These providers are bound by contractual obligations to keep your information confidential."
       },
       {
-        "heading": "4. Cookies & Tracking",
-        "content": "We use essential cookies to keep you logged in and remember your preferences. We also use analytics cookies to understand how our platform is used. You can control cookie preferences through your browser settings. Our platform does not respond to Do Not Track signals."
-      },
-      {
-        "heading": "5. Data Security",
+        "heading": "4. Data Security",
         "content": "We implement industry-standard security measures to protect your data, including encryption in transit (TLS) and at rest. Payment data is processed by PCI DSS-compliant providers and never stored on our servers. We conduct regular security audits and maintain strict access controls."
       },
       {
-        "heading": "6. Your Rights (GDPR)",
+        "heading": "5. Your Rights (GDPR)",
         "content": "If you are in the European Economic Area, you have the right to access, correct, or delete your personal data; object to or restrict processing; data portability; and withdraw consent at any time. To exercise these rights, contact us at info@gobbly.app. We will respond within 30 days."
       },
       {
-        "heading": "7. Data Retention",
+        "heading": "6. Data Retention",
         "content": "We retain your personal data for as long as your account is active or as needed to provide you services. If you delete your account, we will delete or anonymize your data within 90 days, except where we are required to retain it for legal or regulatory purposes."
       },
       {
-        "heading": "8. Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at info@gobbly.app or write to us at Gobbly SL, Barcelona, Spain."
+        "heading": "7. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at info@gobbly.app."
       }
     ]
   },
@@ -365,7 +358,7 @@
       },
       {
         "heading": "10. Contact",
-        "content": "For questions about these Terms of Service, contact us at info@gobbly.app or write to Gobbly SL, Barcelona, Spain."
+        "content": "For questions about these Terms of Service, contact us at info@gobbly.app."
       }
     ]
   },
@@ -406,6 +399,25 @@
         { "stat": "20 min", "description": "Average setup time from zero to first order" },
         { "stat": "Any tablet", "description": "Works on iPad, Android, or any device with a browser" },
         { "stat": "99.9%", "description": "Uptime with offline mode as your safety net" }
+      ],
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "question": "What payment methods does Gobbly POS support?",
+          "answer": "Gobbly POS supports cash, credit and debit cards, contactless payments, and mobile wallets. You can also process mixed payments on the same bill, combining any of these methods."
+        },
+        {
+          "question": "Can Gobbly POS split bills between customers?",
+          "answer": "Yes. Gobbly lets you split bills by item, by equal shares, or by custom amounts. Each person can pay with a different method, and the system tracks everything automatically."
+        },
+        {
+          "question": "Does Gobbly POS work offline?",
+          "answer": "Yes. Gobbly has a full offline mode that lets you continue taking orders and processing payments even without an internet connection. All data syncs automatically when connectivity is restored."
+        },
+        {
+          "question": "What hardware do I need for Gobbly POS?",
+          "answer": "Gobbly runs in any modern web browser, so you can use an iPad, Android tablet, or any device you already own. No proprietary hardware is required. Optionally, you can pair a Bluetooth receipt printer or card reader."
+        }
       ],
       "ctaTitle": "Ready to upgrade your POS?",
       "ctaButton": "Try 1 month free",
@@ -449,6 +461,25 @@
         { "stat": "Zero", "description": "Paper waste from printed kitchen tickets" },
         { "stat": "100%", "description": "Visibility for floor staff on order status" }
       ],
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "question": "How does the kitchen display system track order status?",
+          "answer": "Each order moves through three stages: Pending, Cooking, and Ready. Kitchen staff tap to update the status, and the display uses color-coded badges and timer alerts so the entire team can see progress at a glance."
+        },
+        {
+          "question": "Can kitchen staff mark dishes as ready from the display?",
+          "answer": "Yes. A single tap moves a dish from Cooking to Ready. The floor staff are notified immediately, so they can serve the dish while it is still hot."
+        },
+        {
+          "question": "Does the kitchen display update in real time?",
+          "answer": "Yes. Orders appear on the kitchen display the instant they are placed from the POS or QR menu. There is no delay or manual relay step between the front of house and the kitchen."
+        },
+        {
+          "question": "Can I set up multiple kitchen stations on separate screens?",
+          "answer": "Yes. Gobbly supports multi-station configuration. You can assign specific categories to each screen — for example, grill, fryer, and desserts — so each cook sees only the orders relevant to their station."
+        }
+      ],
       "ctaTitle": "Ready to digitize your kitchen?",
       "ctaButton": "Try 1 month free",
       "exploreTitle": "Explore more features",
@@ -491,6 +522,25 @@
         { "stat": "Zero", "description": "Printing costs for physical menus" },
         { "stat": "12+", "description": "Languages supported out of the box" }
       ],
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "question": "How do customers access the QR menu?",
+          "answer": "Customers scan a QR code at their table using their phone camera. The menu opens in their browser instantly — no app download is needed. Each table has its own unique QR code."
+        },
+        {
+          "question": "Can I customize the digital menu design?",
+          "answer": "Yes. You can match the menu's colors, fonts, and layout to your restaurant's brand. You also control which photos, descriptions, and allergen details appear for each dish."
+        },
+        {
+          "question": "Does the QR menu show allergen information?",
+          "answer": "Yes. Every dish can include full allergen information that customers see before ordering. This helps comply with food safety regulations and gives guests confidence in their choices."
+        },
+        {
+          "question": "Can customers order directly from the QR menu?",
+          "answer": "Yes. Customers can browse the menu, add items to their order, and send it directly to the kitchen — all from their phone. This reduces wait times and frees up your staff."
+        }
+      ],
       "ctaTitle": "Ready to go digital?",
       "ctaButton": "Try 1 month free",
       "exploreTitle": "Explore more features",
@@ -531,6 +581,25 @@
         { "stat": "100%", "description": "Legal invoicing compliance built in" },
         { "stat": "15%", "description": "More tips with the digital tipping option" },
         { "stat": "5 min", "description": "Shift close instead of 30+ minutes" }
+      ],
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "question": "What payment methods does Gobbly accept?",
+          "answer": "Gobbly accepts cash, credit and debit cards, contactless payments, and mobile wallets. You can combine multiple payment methods on the same bill."
+        },
+        {
+          "question": "Is Gobbly payment processing VeriFactu compliant?",
+          "answer": "Yes. Gobbly generates legally valid invoices automatically and is fully compliant with Spain's VeriFactu regulation. No additional modules or plugins are needed."
+        },
+        {
+          "question": "Can I generate invoices from Gobbly?",
+          "answer": "Yes. Invoices are generated automatically at checkout with all required legal details. You can also issue invoices retroactively from the dashboard for any past transaction."
+        },
+        {
+          "question": "How does bill splitting work in Gobbly?",
+          "answer": "Gobbly offers three split modes: by item (each person picks what they ordered), by equal shares, or by custom amounts. Each portion can be paid with a different payment method."
+        }
       ],
       "ctaTitle": "Ready to simplify payments?",
       "ctaButton": "Try 1 month free",
@@ -782,6 +851,25 @@
     ],
     "pricingTitle": "Clear pricing, no surprises",
     "pricingSubtitle": "From €19/month. No hidden fees, no lock-in.",
+    "faqTitle": "Frequently asked questions",
+    "faq": [
+      {
+        "question": "How does Gobbly compare to traditional POS systems?",
+        "answer": "Traditional POS systems are typically built for retail and require expensive proprietary hardware. Gobbly is designed specifically for hospitality, runs on any tablet or phone, and includes kitchen display, QR ordering, and payments in a single platform."
+      },
+      {
+        "question": "Why choose an all-in-one platform over separate tools?",
+        "answer": "Separate tools mean separate logins, separate bills, and data that does not connect. With Gobbly, your POS, kitchen, menu, and payments share one data layer, so orders flow in real time and reporting is unified."
+      },
+      {
+        "question": "Can I migrate from my current POS system to Gobbly?",
+        "answer": "Yes. You can import your menu from a spreadsheet and set up your floor plan in minutes. Most restaurants are fully operational on Gobbly within a single shift."
+      },
+      {
+        "question": "Does Gobbly work in countries outside Spain?",
+        "answer": "Gobbly is cloud-based and works anywhere with an internet connection. VeriFactu invoicing is specific to Spain, but the POS, kitchen display, QR menu, and payment features work internationally."
+      }
+    ],
     "ctaTitle": "Ready to try it?",
     "ctaSubtitle": "Join hundreds of restaurants already using Gobbly. Try 1 month free, no commitment.",
     "ctaButton": "Try 1 month free"
@@ -992,6 +1080,21 @@
       ],
       "exploreTitle": "Gobbly works for every type of business",
       "exploreSubtitle": "See how Gobbly adapts to different hospitality businesses",
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "question": "Is Gobbly suitable for multi-location restaurants?",
+          "answer": "Yes. Gobbly supports multi-location setups from the Enterprise plan. You can manage menus, staff, and reporting across all your locations from a single dashboard."
+        },
+        {
+          "question": "Can Gobbly handle table management and reservations?",
+          "answer": "Yes. Gobbly includes a visual floor plan where you can assign tables, track their status in real time, and manage covers. Reservation integration is available on Pro and Enterprise plans."
+        },
+        {
+          "question": "How does Gobbly help restaurants manage their kitchen workflow?",
+          "answer": "Orders placed from the POS or QR menu appear instantly on the kitchen display. Chefs see items sorted by priority with timer alerts, and can mark dishes as ready with a single tap, notifying floor staff immediately."
+        }
+      ],
       "ctaTitle": "Ready to transform your restaurant?",
       "ctaButton": "Try 1 month free"
     },
@@ -1060,6 +1163,21 @@
       ],
       "exploreTitle": "Gobbly works for every type of business",
       "exploreSubtitle": "See how Gobbly adapts to different hospitality businesses",
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "question": "Does Gobbly work for bars with high-volume quick orders?",
+          "answer": "Yes. Gobbly's quick-order POS features large buttons, pinned favourites, and one-tap ordering designed for speed. A typical drink order takes under three seconds to process."
+        },
+        {
+          "question": "Can bar staff use Gobbly on a tablet?",
+          "answer": "Yes. Gobbly runs in any modern web browser, so it works on iPads, Android tablets, and any device your bar already owns. No proprietary hardware is needed."
+        },
+        {
+          "question": "Does Gobbly support tab management for bars?",
+          "answer": "Yes. You can open a tab with a name or card, add items throughout the night, and close it with a single tap. The system tracks all open tabs clearly, eliminating mix-ups at closing time."
+        }
+      ],
       "ctaTitle": "Ready to speed up your bar?",
       "ctaButton": "Try 1 month free"
     },
@@ -1128,6 +1246,21 @@
       ],
       "exploreTitle": "Gobbly works for every type of business",
       "exploreSubtitle": "See how Gobbly adapts to different hospitality businesses",
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "question": "Can Gobbly work on a mobile device for food trucks?",
+          "answer": "Yes. Gobbly runs on any smartphone or tablet with a modern browser. No specialized hardware is required — use the device you already carry in your pocket."
+        },
+        {
+          "question": "Does Gobbly work without a permanent internet connection?",
+          "answer": "Yes. Gobbly has a full offline mode. You can take orders, process payments, and run your food truck without internet. Everything syncs automatically when you reconnect."
+        },
+        {
+          "question": "Is Gobbly affordable for small food truck operations?",
+          "answer": "Yes. Gobbly starts at 19 EUR per month with no hardware investment required. There are no hidden fees, no long-term contracts, and you can try it free for one month."
+        }
+      ],
       "ctaTitle": "Ready to hit the road with Gobbly?",
       "ctaButton": "Try 1 month free"
     }
