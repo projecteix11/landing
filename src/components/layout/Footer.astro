@@ -11,7 +11,7 @@ const t = getTranslations(locale)
 
 <footer class="border-t border-border bg-surface-card">
   <div class="max-w-6xl mx-auto px-6 py-14">
-    <div class="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-12">
+    <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 md:gap-12">
       <!-- Brand column -->
       <div class="col-span-2">
         <a href={`/${locale}/`} class="flex items-center no-underline mb-4">
@@ -28,6 +28,26 @@ const t = getTranslations(locale)
         <ul class="space-y-2.5">
           <li><a href="#features" class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.productFeatures}</a></li>
           <li><a href={`/${locale}/pricing/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.productPricing}</a></li>
+        </ul>
+      </div>
+
+      <!-- Solutions -->
+      <div>
+        <h4 class="text-sm font-semibold text-text-primary mb-4">{t.footer.solutions}</h4>
+        <ul class="space-y-2.5">
+          <li><a href={`/${locale}/solutions/restaurants/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.solutionsRestaurants}</a></li>
+          <li><a href={`/${locale}/solutions/bars-cafes/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.solutionsBars}</a></li>
+          <li><a href={`/${locale}/solutions/food-trucks/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.solutionsFoodTrucks}</a></li>
+        </ul>
+      </div>
+
+      <!-- Compare -->
+      <div>
+        <h4 class="text-sm font-semibold text-text-primary mb-4">{t.footer.compare}</h4>
+        <ul class="space-y-2.5">
+          <li><a href={`/${locale}/compare/revo-xef/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.compareRevo}</a></li>
+          <li><a href={`/${locale}/compare/covermanager/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.compareCoverManager}</a></li>
+          <li><a href={`/${locale}/compare/square/`} class="text-sm text-text-secondary hover:text-text-primary transition-colors">{t.footer.compareSquare}</a></li>
         </ul>
       </div>
 

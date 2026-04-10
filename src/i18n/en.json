@@ -197,6 +197,14 @@
     "legalPrivacy": "Privacy",
     "legalTerms": "Terms",
     "legalCookies": "Cookies",
+    "compare": "Compare",
+    "compareRevo": "Gobbly vs Revo XEF",
+    "compareCoverManager": "Gobbly vs CoverManager",
+    "compareSquare": "Gobbly vs Square",
+    "solutions": "Solutions",
+    "solutionsRestaurants": "Restaurants",
+    "solutionsBars": "Bars & Cafés",
+    "solutionsFoodTrucks": "Food Trucks",
     "copyright": "© 2026 Gobbly. All rights reserved."
   },
   "languageSwitcher": {
