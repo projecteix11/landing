@@ -118,17 +118,6 @@
               0 2px 8px -2px rgba(34, 197, 94, 0.1);
 }
 
-/* Testimonial card tilt on hover */
-.testimonial-card {
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
-              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.testimonial-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 40px -12px rgba(28, 25, 23, 0.08),
-              0 4px 12px -4px rgba(28, 25, 23, 0.04);
-}
-
 /* Feature card hover */
 .feature-card {
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),

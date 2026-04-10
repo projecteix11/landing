@@ -102,27 +102,6 @@
     "mockupCooking": "Cooking",
     "mockupPending": "Pending"
   },
-  "testimonials": {
-    "label": "Testimonials",
-    "title": "Loved by restaurateurs",
-    "items": [
-      {
-        "quote": "\u201cWe cut order errors by 80% the first week. The kitchen display alone saved us from constant miscommunication during rush hours.\u201d",
-        "name": "Marta P\u00e9rez",
-        "role": "Owner, La Bodeguita"
-      },
-      {
-        "quote": "\u201cOur customers love the QR ordering. They scan, browse the menu with allergen info, and pay \u2014 all without waiting for a waiter. Tips went up 15%.\u201d",
-        "name": "Joan Llu\u00eds",
-        "role": "Manager, Can Roca Petit"
-      },
-      {
-        "quote": "\u201cSetting up took 20 minutes. The VeriFactu invoicing was the killer feature for us \u2014 no more juggling a separate billing system.\u201d",
-        "name": "Ana Garc\u00eda",
-        "role": "Co-founder, Grupo Umami"
-      }
-    ]
-  },
   "pricing": {
     "label": "Pricing",
     "title": "Simple, transparent pricing",

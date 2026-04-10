@@ -102,27 +102,6 @@
     "mockupCooking": "Cuinant",
     "mockupPending": "Pendent"
   },
-  "testimonials": {
-    "label": "Testimonis",
-    "title": "Els restauradors ens estimen",
-    "items": [
-      {
-        "quote": "\u201cVam reduir els errors en comandes un 80% la primera setmana. Només la pantalla de cuina ens va salvar de la falta de comunicació constant a les hores punta.\u201d",
-        "name": "Marta Pérez",
-        "role": "Propietària, La Bodeguita"
-      },
-      {
-        "quote": "\u201cAls nostres clients els encanta demanar per QR. Escanegen, veuen la carta amb info d'al·lèrgens i paguen — tot sense esperar el cambrer. Les propines van pujar un 15%.\u201d",
-        "name": "Joan Lluís",
-        "role": "Gerent, Can Roca Petit"
-      },
-      {
-        "quote": "\u201cLa configuració va tardar 20 minuts. La facturació VeriFactu va ser la funcionalitat clau per a nosaltres — s'ha acabat fer malabarismes amb un sistema de facturació apart.\u201d",
-        "name": "Ana García",
-        "role": "Cofundadora, Grupo Umami"
-      }
-    ]
-  },
   "pricing": {
     "label": "Preus",
     "title": "Preus simples i transparents",
