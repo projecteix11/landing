@@ -1,28 +1,28 @@
 ---
-import Layout from '@layouts/Layout.astro'
-import JsonLd from '@components/ui/JsonLd.astro'
-import Navbar from '@components/layout/Navbar.astro'
-import Hero from '@components/sections/Hero.astro'
-import TrustedBy from '@components/sections/TrustedBy.astro'
-import ProblemSolution from '@components/sections/ProblemSolution.astro'
-import Features from '@components/sections/Features.astro'
-import AppScreenshots from '@components/sections/AppScreenshots.astro'
-import HowItWorks from '@components/sections/HowItWorks.astro'
-import Stats from '@components/sections/Stats.astro'
-import Pricing from '@components/sections/Pricing.astro'
-import FaqLanding from '@components/sections/FaqLanding.astro'
-import CtaSection from '@components/sections/CtaSection.astro'
-import Footer from '@components/layout/Footer.astro'
-import '@styles/global.css'
-import type { Locale } from '@i18n/types'
-import { getTranslations } from '@i18n/utils'
+import Layout from "@layouts/Layout.astro";
+import JsonLd from "@components/ui/JsonLd.astro";
+import Navbar from "@components/layout/Navbar.astro";
+import Hero from "@components/sections/Hero.astro";
+import TrustedBy from "@components/sections/TrustedBy.astro";
+import ProblemSolution from "@components/sections/ProblemSolution.astro";
+import Features from "@components/sections/Features.astro";
+import AppScreenshots from "@components/sections/AppScreenshots.astro";
+import HowItWorks from "@components/sections/HowItWorks.astro";
+import Stats from "@components/sections/Stats.astro";
+import Pricing from "@components/sections/Pricing.astro";
+import FaqLanding from "@components/sections/FaqLanding.astro";
+import CtaSection from "@components/sections/CtaSection.astro";
+import Footer from "@components/layout/Footer.astro";
+import "@styles/global.css";
+import type { Locale } from "@i18n/types";
+import { getTranslations } from "@i18n/utils";
 
 interface Props {
-  locale: Locale
+  locale: Locale;
 }
 
-const { locale } = Astro.props
-const t = getTranslations(locale)
+const { locale } = Astro.props;
+const t = getTranslations(locale);
 ---
 
 <Layout locale={locale} title={t.meta.title} description={t.meta.description}>
@@ -35,25 +35,26 @@ const t = getTranslations(locale)
     <AppScreenshots locale={locale} />
     <HowItWorks locale={locale} />
     <Stats locale={locale} />
-    {/* <Testimonials locale={locale} /> */}
     <Pricing locale={locale} />
     <FaqLanding locale={locale} />
     <CtaSection locale={locale} />
   </main>
   <Footer locale={locale} />
-  <JsonLd schema={{
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Gobbly",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "description": t.hero.subtitle,
-    "offers": {
-      "@type": "AggregateOffer",
-      "priceCurrency": "EUR",
-      "lowPrice": "19",
-      "highPrice": "49",
-      "offerCount": "3"
-    }
-  }} />
+  <JsonLd
+    schema={{
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      name: "Gobbly",
+      applicationCategory: "BusinessApplication",
+      operatingSystem: "Web",
+      description: t.hero.subtitle,
+      offers: {
+        "@type": "AggregateOffer",
+        priceCurrency: "EUR",
+        lowPrice: "19",
+        highPrice: "49",
+        offerCount: "3",
+      },
+    }}
+  />
 </Layout>
