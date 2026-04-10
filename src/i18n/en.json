@@ -10,7 +10,10 @@
     "pricing": "Pricing",
     "signIn": "Sign in",
     "getStartedFree": "Get started free",
-    "toggleMenu": "Toggle menu"
+    "toggleMenu": "Toggle menu",
+    "home": "Home",
+    "compare": "Compare",
+    "solutions": "Solutions"
   },
   "hero": {
     "badge": "Now in open beta",
@@ -194,7 +197,15 @@
     "legalPrivacy": "Privacy",
     "legalTerms": "Terms",
     "legalCookies": "Cookies",
-    "copyright": "© 2025 Gobbly. All rights reserved."
+    "compare": "Compare",
+    "compareRevo": "Gobbly vs Revo XEF",
+    "compareCoverManager": "Gobbly vs CoverManager",
+    "compareSquare": "Gobbly vs Square",
+    "solutions": "Solutions",
+    "solutionsRestaurants": "Restaurants",
+    "solutionsBars": "Bars & Cafés",
+    "solutionsFoodTrucks": "Food Trucks",
+    "copyright": "© 2026 Gobbly. All rights reserved."
   },
   "languageSwitcher": {
     "label": "Change language",
@@ -214,19 +225,57 @@
       {
         "name": "Marc Solé",
         "role": "CEO & Co-founder",
-        "bio": "Former restaurant manager turned tech entrepreneur. After years of dealing with fragmented tools and paper tickets, Marc set out to build the all-in-one platform he wished he'd had. He leads product vision and strategy."
+        "bio": "Former restaurant manager turned tech entrepreneur. After years of dealing with fragmented tools and paper tickets, Marc set out to build the all-in-one platform he wished he'd had. He leads product vision and strategy, working closely with restaurant owners across Spain to ensure Gobbly stays true to the realities of daily service."
       },
       {
         "name": "Elena Vidal",
         "role": "CTO & Co-founder",
-        "bio": "Full-stack engineer with a decade of experience building real-time systems. Elena architects Gobbly's infrastructure — from the kitchen display sync to the payment processing pipeline — ensuring everything just works."
+        "bio": "Full-stack engineer with a decade of experience building real-time systems. Elena architects Gobbly's infrastructure — from the kitchen display sync to the payment processing pipeline — ensuring everything just works. Before Gobbly, she led engineering teams at two Barcelona-based SaaS startups, shipping products used by thousands of businesses daily."
       },
       {
         "name": "Pau Ribera",
         "role": "COO & Co-founder",
-        "bio": "Operations specialist with a background in hospitality consulting. Pau works directly with restaurant partners to shape the product roadmap and ensure Gobbly solves real problems for real kitchens."
+        "bio": "Operations specialist with a background in hospitality consulting. Pau works directly with restaurant partners to shape the product roadmap and ensure Gobbly solves real problems for real kitchens. His hands-on approach means he regularly spends time in partner restaurants, observing workflows and gathering feedback firsthand."
       }
-    ]
+    ],
+    "story": {
+      "title": "Our Story",
+      "paragraphs": [
+        "Gobbly was born in Barcelona in 2024, out of a shared frustration that every restaurant owner knows too well: the daily juggling act between a point-of-sale system that doesn't talk to the kitchen, a paper ticket workflow that falls apart during rush hour, and a stack of disconnected tools that were never designed to work together.",
+        "Our founding team brings together deep restaurant industry experience and modern engineering expertise. Marc spent over a decade managing restaurants and knew exactly where the pain points were. Elena had spent years building real-time collaborative software and saw that the same technology powering modern workplaces could transform hospitality. Pau, with his background in operations consulting, understood how to bridge the gap between what technology can do and what restaurant teams actually need.",
+        "Together, we set out with a clear mission: make technology serve hospitality, not the other way around. We wanted to build a platform that a restaurant owner could set up in minutes, that kitchen staff would actually enjoy using, and that diners would find seamless. Today, Gobbly is used by restaurants across Spain and beyond, and we're just getting started."
+      ]
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "Simplicity",
+          "description": "Technology should simplify, not complicate. Every feature we ship must pass a simple test: does it make a restaurant owner's day easier?"
+        },
+        {
+          "title": "Real-time",
+          "description": "Restaurants move fast, and your tools should too. From order placement to kitchen display to payment, everything happens in real time — no refreshing, no delays."
+        },
+        {
+          "title": "Transparency",
+          "description": "No hidden fees, no lock-in contracts. You can see our pricing, export your data anytime, and cancel whenever you want. We earn your trust every month."
+        },
+        {
+          "title": "Local",
+          "description": "Built in Barcelona, for restaurants everywhere. We understand the Mediterranean hospitality culture, and we design with the warmth and pace of real service in mind."
+        }
+      ]
+    },
+    "numbers": {
+      "title": "Gobbly in Numbers",
+      "items": [
+        { "value": "500+", "label": "Restaurants served" },
+        { "value": "3", "label": "Languages supported" },
+        { "value": "99.9%", "label": "Platform uptime" },
+        { "value": "<20 min", "label": "Average setup time" }
+      ]
+    }
   },
   "contact": {
     "title": "Get in touch",
@@ -235,6 +284,13 @@
     "infoEmail": "gobbly.app@gmail.com",
     "infoEmailLabel": "Email us directly",
     "infoResponseTime": "We typically respond within 24 hours.",
+    "infoAddressLabel": "Our office",
+    "infoAddress": "Barcelona, Spain",
+    "infoPhoneLabel": "Call us",
+    "infoPhone": "+34 XXX XXX XXX",
+    "infoHoursLabel": "Working hours",
+    "infoHours": "Mon-Fri, 9:00 - 18:00 CET",
+    "mapPlaceholder": "Barcelona, Spain",
     "formName": "Your name",
     "formEmail": "Email address",
     "formSubject": "Subject",
@@ -250,6 +306,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
+    "description": "Learn how Gobbly collects, uses, and protects your personal data. GDPR compliant.",
     "lastUpdated": "Last updated: January 1, 2025",
     "sections": [
       {
@@ -288,6 +345,7 @@
   },
   "terms": {
     "title": "Terms of Service",
+    "description": "Read the terms and conditions for using Gobbly restaurant management platform.",
     "lastUpdated": "Last updated: January 1, 2025",
     "sections": [
       {
@@ -331,5 +389,723 @@
         "content": "For questions about these Terms of Service, contact us at gobbly.app@gmail.com or write to Gobbly SL, Barcelona, Spain."
       }
     ]
+  },
+  "featurePages": {
+    "pos": {
+      "title": "Point of Sale",
+      "description": "Intuitive POS system designed for restaurants. Table management, quick search, and instant order creation.",
+      "heroTitle": "A POS built for restaurants, not retail",
+      "heroSubtitle": "Forget clunky legacy systems. Gobbly's POS runs on any tablet, sets up in minutes, and handles everything from table management to split bills.",
+      "problemsLabel": "The problem",
+      "problemsTitle": "Legacy POS holds you back",
+      "problems": [
+        { "title": "Slow & outdated hardware", "description": "Bulky terminals that crash during rush hour and cost thousands to replace." },
+        { "title": "Expensive licensing fees", "description": "Monthly fees that keep rising, with charges for every terminal and every update." },
+        { "title": "Complicated setup", "description": "Weeks of installation and training before your staff can take a single order." }
+      ],
+      "highlightsLabel": "Key capabilities",
+      "highlightsTitle": "Everything you need at the point of sale",
+      "highlights": [
+        { "title": "Table grid management", "description": "Visual floor plan with real-time status for every table — free, occupied, waiting for bill." },
+        { "title": "Quick item search", "description": "Find any dish instantly with smart search across categories, names, and custom tags." },
+        { "title": "Custom modifiers", "description": "Add extras, remove ingredients, or note special requests with a single tap." },
+        { "title": "Discounts & promotions", "description": "Apply percentage or fixed discounts per item or per table. Set up happy hour rules automatically." },
+        { "title": "Split orders", "description": "Move items between seats, split courses for the kitchen, and manage group dining effortlessly." },
+        { "title": "Offline mode", "description": "Keep taking orders even when the internet drops. Everything syncs automatically when you're back online." }
+      ],
+      "stepsLabel": "How it works",
+      "stepsTitle": "Up and running in three steps",
+      "steps": [
+        { "title": "Set up your menu", "description": "Import your dishes, set categories, prices, and modifiers. Done in minutes." },
+        { "title": "Assign your tables", "description": "Drag and drop tables on the visual floor plan to match your restaurant layout." },
+        { "title": "Start taking orders", "description": "Tap a table, add items, send to the kitchen. Your staff will learn it in one shift." }
+      ],
+      "benefitsLabel": "Results",
+      "benefitsTitle": "Measurable impact from day one",
+      "benefits": [
+        { "stat": "3x", "description": "Faster order entry compared to legacy POS systems" },
+        { "stat": "20 min", "description": "Average setup time from zero to first order" },
+        { "stat": "Any tablet", "description": "Works on iPad, Android, or any device with a browser" },
+        { "stat": "99.9%", "description": "Uptime with offline mode as your safety net" }
+      ],
+      "ctaTitle": "Ready to upgrade your POS?",
+      "ctaButton": "Start for free",
+      "exploreTitle": "Explore more features",
+      "exploreSubtitle": "Gobbly connects every part of your restaurant."
+    },
+    "kitchen": {
+      "title": "Kitchen Display",
+      "description": "Real-time kitchen display system. See orders instantly, track status, and eliminate paper tickets.",
+      "heroTitle": "A kitchen screen that keeps up with your chefs",
+      "heroSubtitle": "No more paper tickets getting lost, smudged, or piling up. Every order appears on screen the moment it's placed, with clear priorities and status tracking.",
+      "problemsLabel": "The problem",
+      "problemsTitle": "Paper tickets create kitchen chaos",
+      "problems": [
+        { "title": "Tickets get lost or smudged", "description": "Paper tickets fall off the rail, get wet, or become unreadable during the busiest hours." },
+        { "title": "No order priority", "description": "Without a clear queue, the kitchen guesses which orders came first and which tables are waiting longest." },
+        { "title": "Zero visibility for the floor", "description": "Waiters have no idea what's cooking, what's ready, or how long a table has been waiting." }
+      ],
+      "highlightsLabel": "Key capabilities",
+      "highlightsTitle": "A command center for your kitchen",
+      "highlights": [
+        { "title": "Real-time order feed", "description": "Orders appear instantly as they're placed from the POS or QR menu. No delays, no middleman." },
+        { "title": "Priority sorting", "description": "Automatic queue based on order time. Oldest orders always visible at the top." },
+        { "title": "Status badges", "description": "Tap to move orders through Pending, Cooking, and Ready. The whole team sees the current state." },
+        { "title": "Timer alerts", "description": "Visual warnings when orders exceed target prep time. Never let a table wait too long." },
+        { "title": "Multi-station support", "description": "Split the display by station — grill, fryer, desserts — so each cook sees only what matters." },
+        { "title": "Touch-friendly design", "description": "Large buttons, high contrast, and swipe gestures designed for greasy fingers and fast-paced kitchens." }
+      ],
+      "stepsLabel": "How it works",
+      "stepsTitle": "From table to kitchen in seconds",
+      "steps": [
+        { "title": "Order placed", "description": "A waiter enters the order on the POS, or a customer orders via QR. It arrives instantly." },
+        { "title": "Appears on screen", "description": "The order shows up on the kitchen display with all items, modifiers, and table number." },
+        { "title": "Mark as ready", "description": "The chef taps 'Ready' and the waiter is notified. The dish goes out while it's hot." }
+      ],
+      "benefitsLabel": "Results",
+      "benefitsTitle": "Measurable impact from day one",
+      "benefits": [
+        { "stat": "80%", "description": "Fewer order errors in the first week" },
+        { "stat": "30%", "description": "Faster average service time" },
+        { "stat": "Zero", "description": "Paper waste from printed kitchen tickets" },
+        { "stat": "100%", "description": "Visibility for floor staff on order status" }
+      ],
+      "ctaTitle": "Ready to digitize your kitchen?",
+      "ctaButton": "Start for free",
+      "exploreTitle": "Explore more features",
+      "exploreSubtitle": "Gobbly connects every part of your restaurant."
+    },
+    "qrMenu": {
+      "title": "Digital Menu & QR Ordering",
+      "description": "Interactive QR menus with photos, allergens, and direct ordering. Update instantly, print nothing.",
+      "heroTitle": "Your menu, always up to date, always in their hands",
+      "heroSubtitle": "Customers scan a QR code at their table and get your full menu with photos, allergen info, and the ability to order directly. No app download required.",
+      "problemsLabel": "The problem",
+      "problemsTitle": "Printed menus are a liability",
+      "problems": [
+        { "title": "Expensive to update", "description": "Every price change or seasonal dish means reprinting hundreds of menus. Money and time wasted." },
+        { "title": "No allergen transparency", "description": "Printed menus rarely show complete allergen info. One mistake can have serious consequences." },
+        { "title": "Slow ordering process", "description": "Customers wait for a waiter to bring the menu, then wait again to place their order." }
+      ],
+      "highlightsLabel": "Key capabilities",
+      "highlightsTitle": "A digital menu that does more than display",
+      "highlights": [
+        { "title": "QR code per table", "description": "Each table gets a unique QR code. Customers scan with their phone camera — no app needed." },
+        { "title": "Interactive menu", "description": "High-quality photos, detailed descriptions, and full allergen information for every dish." },
+        { "title": "Direct ordering", "description": "Customers add items to their order and send it straight to the kitchen. No waiter needed." },
+        { "title": "Real-time availability", "description": "86'd a dish? Mark it as unavailable and it disappears from the menu instantly." },
+        { "title": "Multi-language support", "description": "Your menu automatically displays in the customer's preferred language. Perfect for tourist areas." },
+        { "title": "Customizable design", "description": "Match the menu's look and feel to your restaurant's brand. Colors, fonts, and layout are all yours." }
+      ],
+      "stepsLabel": "How it works",
+      "stepsTitle": "Three steps to a paperless menu",
+      "steps": [
+        { "title": "Upload your menu", "description": "Add dishes with photos, prices, allergens, and categories. Import from a spreadsheet or build it visually." },
+        { "title": "Print QR codes", "description": "Generate unique QR codes for each table. Print them on table tents, stickers, or placemats." },
+        { "title": "Customers scan & order", "description": "Diners scan the code, browse the menu, and place their order. It goes straight to the kitchen." }
+      ],
+      "benefitsLabel": "Results",
+      "benefitsTitle": "Measurable impact from day one",
+      "benefits": [
+        { "stat": "40%", "description": "Less waiter workload on order-taking" },
+        { "stat": "Instant", "description": "Menu updates — no reprinting, no downtime" },
+        { "stat": "Zero", "description": "Printing costs for physical menus" },
+        { "stat": "12+", "description": "Languages supported out of the box" }
+      ],
+      "ctaTitle": "Ready to go digital?",
+      "ctaButton": "Start for free",
+      "exploreTitle": "Explore more features",
+      "exploreSubtitle": "Gobbly connects every part of your restaurant."
+    },
+    "payments": {
+      "title": "Smart Payments",
+      "description": "Flexible bill splitting, mixed payments, and VeriFactu-compliant invoicing. Close tables in seconds.",
+      "heroTitle": "Payments that match how people actually pay",
+      "heroSubtitle": "Split bills by item, by person, or by custom amount. Accept cash, card, or both. Generate legally compliant invoices automatically.",
+      "problemsLabel": "The problem",
+      "problemsTitle": "Checkout shouldn't be the worst part",
+      "problems": [
+        { "title": "Awkward bill splitting", "description": "Manually calculating who had what turns checkout into a slow, frustrating experience for everyone." },
+        { "title": "Manual invoicing", "description": "Writing invoices by hand or switching to a separate billing system wastes time and introduces errors." },
+        { "title": "Slow cash register closing", "description": "Counting cash, reconciling card payments, and generating daily reports takes ages at the end of every shift." }
+      ],
+      "highlightsLabel": "Key capabilities",
+      "highlightsTitle": "Every payment scenario, covered",
+      "highlights": [
+        { "title": "Smart bill splitting", "description": "Split by item (each person picks what they ordered), equal shares, or custom amounts. Three taps, done." },
+        { "title": "Cash, card, or mixed", "description": "Accept any combination of payment methods on the same bill. No workarounds needed." },
+        { "title": "VeriFactu-compliant invoicing", "description": "Generate legally valid invoices automatically. Fully compliant with Spain's VeriFactu regulation." },
+        { "title": "Digital tips", "description": "Customers can add a tip during digital payment. Suggested amounts make tipping easy and natural." },
+        { "title": "Automated cash register closing", "description": "One-tap shift close with automatic cash count, card reconciliation, and daily summary report." }
+      ],
+      "stepsLabel": "How it works",
+      "stepsTitle": "From bill to paid in seconds",
+      "steps": [
+        { "title": "Customer requests the bill", "description": "The waiter opens the table on the POS, or the customer taps 'Pay' on the QR menu." },
+        { "title": "Choose how to split", "description": "Pick a split method: by item, equal shares, or custom amount. Preview before confirming." },
+        { "title": "Pay & get the invoice", "description": "Process the payment, generate the invoice instantly, and close the table. Done." }
+      ],
+      "benefitsLabel": "Results",
+      "benefitsTitle": "Measurable impact from day one",
+      "benefits": [
+        { "stat": "2x", "description": "Faster checkout compared to manual billing" },
+        { "stat": "100%", "description": "Legal invoicing compliance built in" },
+        { "stat": "15%", "description": "More tips with the digital tipping option" },
+        { "stat": "5 min", "description": "Shift close instead of 30+ minutes" }
+      ],
+      "ctaTitle": "Ready to simplify payments?",
+      "ctaButton": "Start for free",
+      "exploreTitle": "Explore more features",
+      "exploreSubtitle": "Gobbly connects every part of your restaurant."
+    }
+  },
+  "pricingPage": {
+    "title": "Pricing",
+    "description": "Simple, transparent pricing for restaurants of every size. Start free and scale as you grow.",
+    "heroTitle": "Simple pricing for every restaurant",
+    "heroSubtitle": "No hidden fees, no surprises. Pick the plan that fits your restaurant and upgrade anytime as you grow.",
+    "starterName": "Starter",
+    "starterSubtitle": "For small restaurants getting started",
+    "starterPrice": "Free",
+    "starterPriceSuffix": "",
+    "starterCta": "Get started",
+    "starterFeatures": [
+      "Up to 10 tables",
+      "Basic POS",
+      "Kitchen display",
+      "QR menu & ordering",
+      "Basic analytics",
+      "Community support"
+    ],
+    "proName": "Pro",
+    "proSubtitle": "For growing restaurants that need more power",
+    "proPrice": "€49",
+    "proPriceSuffix": "/month",
+    "proCta": "Start free trial",
+    "proFeatures": [
+      "Unlimited tables",
+      "Advanced POS with custom modes",
+      "Kitchen display",
+      "QR menu & ordering",
+      "Bill splitting & mixed payments",
+      "VeriFactu invoicing",
+      "Advanced analytics",
+      "Priority support"
+    ],
+    "enterpriseName": "Enterprise",
+    "enterpriseSubtitle": "For restaurant groups & chains",
+    "enterprisePrice": "Custom",
+    "enterprisePriceSuffix": "",
+    "enterpriseCta": "Contact sales",
+    "enterpriseFeatures": [
+      "Everything in Pro",
+      "Multi-location management",
+      "Custom integrations",
+      "Dedicated account manager",
+      "SLA & guaranteed uptime",
+      "Custom onboarding & training"
+    ],
+    "mostPopular": "Most popular",
+    "comparisonTitle": "Compare plans in detail",
+    "comparisonSubtitle": "See exactly what's included in each plan.",
+    "featureLabel": "Feature",
+    "comparisonFeatures": [
+      { "name": "Tables", "starter": "Up to 10", "pro": "Unlimited", "enterprise": "Unlimited" },
+      { "name": "POS", "starter": "Basic", "pro": "Advanced", "enterprise": "Advanced + Custom" },
+      { "name": "Kitchen Display", "starter": true, "pro": true, "enterprise": true },
+      { "name": "QR Menu", "starter": true, "pro": true, "enterprise": "Custom branding" },
+      { "name": "Bill Splitting", "starter": false, "pro": true, "enterprise": true },
+      { "name": "VeriFactu Invoicing", "starter": false, "pro": true, "enterprise": true },
+      { "name": "Analytics", "starter": "Basic", "pro": "Advanced", "enterprise": "Advanced + API" },
+      { "name": "Support", "starter": "Community", "pro": "Priority", "enterprise": "Dedicated Manager" },
+      { "name": "Multi-location", "starter": false, "pro": false, "enterprise": true },
+      { "name": "Custom Integrations", "starter": false, "pro": false, "enterprise": true },
+      { "name": "SLA", "starter": false, "pro": false, "enterprise": true }
+    ],
+    "faqTitle": "Frequently asked questions",
+    "faqSubtitle": "Everything you need to know about our pricing.",
+    "faq": [
+      {
+        "question": "Can I switch plans at any time?",
+        "answer": "Yes. You can upgrade or downgrade your plan at any time from your account settings. When upgrading, you'll get immediate access to the new features. When downgrading, the change takes effect at the end of your current billing cycle."
+      },
+      {
+        "question": "Is there a contract or commitment?",
+        "answer": "No. All plans are month-to-month with no long-term commitment. You can cancel at any time. Enterprise plans may include custom terms depending on your needs."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit and debit cards (Visa, Mastercard, American Express) as well as SEPA direct debit for European customers. All payments are securely processed through Stripe."
+      },
+      {
+        "question": "Is there a free trial for the Pro plan?",
+        "answer": "Yes. You get a 14-day free trial of the Pro plan with full access to all features. No credit card required to start. At the end of the trial, you can choose to subscribe or switch to the free Starter plan."
+      },
+      {
+        "question": "What happens if I exceed the Starter plan limits?",
+        "answer": "If you need more than 10 tables, you'll be prompted to upgrade to the Pro plan. We'll never cut off your service unexpectedly — you'll receive a notification with plenty of time to decide."
+      },
+      {
+        "question": "Do you offer discounts for annual billing?",
+        "answer": "Yes. Annual billing saves you 20% compared to monthly billing. That means the Pro plan comes to just €39/month when billed annually."
+      }
+    ],
+    "ctaTitle": "Ready to get started?",
+    "ctaSubtitle": "Join hundreds of restaurants already using Gobbly. Start free, no credit card required.",
+    "ctaButton": "Start for free"
+  },
+  "faqPage": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers about Gobbly restaurant management platform — features, pricing, setup, compliance, and more.",
+    "heroTitle": "Frequently Asked Questions",
+    "heroSubtitle": "Everything you need to know about Gobbly. Can't find your answer? Get in touch with our team.",
+    "categories": {
+      "general": {
+        "title": "General",
+        "items": [
+          {
+            "question": "What is Gobbly?",
+            "answer": "Gobbly is an all-in-one restaurant management platform that combines POS, kitchen display, digital menus with QR ordering, and smart payments into a single real-time app. It replaces paper tickets and scattered tools with one unified system."
+          },
+          {
+            "question": "Who is Gobbly for?",
+            "answer": "Gobbly is designed for any food-service business — from small neighborhood bistros and cafes to multi-location restaurant groups. Whether you run a quick-service spot or a fine-dining establishment, Gobbly adapts to your workflow."
+          },
+          {
+            "question": "How is Gobbly different from other restaurant management tools?",
+            "answer": "Unlike traditional solutions that require multiple disconnected systems, Gobbly integrates POS, kitchen management, digital menus, and payments in one platform. Everything syncs in real time, so your front-of-house and kitchen are always on the same page."
+          },
+          {
+            "question": "Is Gobbly available in my language?",
+            "answer": "Gobbly is currently available in English, Spanish, and Catalan. We are actively working on adding more languages. Your customer-facing digital menu can be displayed in multiple languages simultaneously."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Pricing & Plans",
+        "items": [
+          {
+            "question": "Is there a free plan?",
+            "answer": "Yes. Our Starter plan is completely free and includes up to 10 tables, POS, kitchen display, QR menu and ordering, and basic analytics. No credit card required to get started."
+          },
+          {
+            "question": "Can I switch plans anytime?",
+            "answer": "Absolutely. You can upgrade or downgrade your plan at any time from your account settings. When upgrading, you get immediate access to new features. When downgrading, changes take effect at the end of your billing cycle."
+          },
+          {
+            "question": "Is there a contract or commitment?",
+            "answer": "No long-term contracts. All paid plans are billed monthly, and you can cancel at any time. We believe in earning your business every month, not locking you in."
+          },
+          {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept all major credit and debit cards (Visa, Mastercard, American Express) through our secure payment processor, Stripe. For Enterprise plans, we also offer bank transfer and custom invoicing."
+          }
+        ]
+      },
+      "features": {
+        "title": "Features",
+        "items": [
+          {
+            "question": "Does Gobbly work offline?",
+            "answer": "Gobbly is designed as an online-first platform for real-time synchronization. However, core POS functions continue to work during brief connectivity interruptions, and data syncs automatically once the connection is restored."
+          },
+          {
+            "question": "Can customers order from their phone?",
+            "answer": "Yes. Customers scan a QR code at their table to browse your full menu, view allergen information, and place orders directly from their phone. No app download required — it works in any mobile browser."
+          },
+          {
+            "question": "Does it support bill splitting?",
+            "answer": "Yes. Gobbly offers flexible bill splitting — customers can split by item, equal shares, or custom amounts. It supports cash, card, and mixed payments all in one transaction."
+          },
+          {
+            "question": "Can I customize my digital menu?",
+            "answer": "Absolutely. You can organize dishes into categories, add photos and allergen information, set daily specials, and manage availability in real time. Changes are reflected instantly on the customer-facing QR menu."
+          }
+        ]
+      },
+      "technical": {
+        "title": "Technical",
+        "items": [
+          {
+            "question": "What devices does Gobbly work on?",
+            "answer": "Gobbly runs in any modern web browser — Chrome, Safari, Firefox, or Edge — on tablets, laptops, and desktops. The kitchen display is optimized for tablet use, while the POS works great on any screen size."
+          },
+          {
+            "question": "Do I need special hardware?",
+            "answer": "No special hardware is required. Gobbly works on the devices you already have — any tablet, laptop, or computer with a web browser. For printing, it supports standard thermal receipt printers via the browser."
+          },
+          {
+            "question": "How do I set up Gobbly?",
+            "answer": "Setup takes about 20 minutes. Create your account, add your menu items (or import from a spreadsheet), print QR codes for your tables, and you are ready to go. Our onboarding guide walks you through every step."
+          }
+        ]
+      },
+      "legal": {
+        "title": "Legal & Compliance",
+        "items": [
+          {
+            "question": "Is Gobbly VeriFactu compliant?",
+            "answer": "Yes. Gobbly's Pro and Enterprise plans include VeriFactu-compliant invoicing out of the box. All invoices meet Spanish electronic invoicing regulations, so you stay compliant without any extra effort."
+          },
+          {
+            "question": "How does Gobbly handle my data (GDPR)?",
+            "answer": "Gobbly is fully GDPR compliant. Your data is encrypted in transit and at rest, stored on EU-based servers, and never sold to third parties. You can export or delete your data at any time from your account settings."
+          },
+          {
+            "question": "Does Gobbly generate legal invoices?",
+            "answer": "Yes. Gobbly generates legally valid invoices that comply with Spanish tax regulations. Pro and Enterprise plans include VeriFactu-compliant electronic invoicing, and all invoices can be downloaded or emailed directly to customers."
+          }
+        ]
+      }
+    },
+    "ctaTitle": "Still have questions?",
+    "ctaText": "Our team is here to help. Reach out and we will get back to you within 24 hours.",
+    "ctaButton": "Contact us"
+  },
+  "comparisons": {
+    "breadcrumbCompare": "Compare",
+    "vsLabel": "vs",
+    "featureTableTitle": "Feature comparison",
+    "gobblyColumn": "Gobbly",
+    "pricingCompareTitle": "Pricing at a glance",
+    "perMonth": "/month",
+    "revoXef": {
+      "title": "Gobbly vs Revo XEF",
+      "description": "Compare Gobbly and Revo XEF side by side. See why restaurants switch from Revo XEF to Gobbly for a simpler, more affordable POS with built-in kitchen display and QR menus.",
+      "heroTitle": "Gobbly vs Revo XEF",
+      "heroSubtitle": "Revo XEF is a well-known POS in Spain, but it comes with complexity and cost. Gobbly gives you the same power with a simpler setup, built-in kitchen display, and a free plan to get started.",
+      "features": [
+        { "name": "Cloud-based POS", "gobbly": true, "competitor": true },
+        { "name": "Kitchen Display System", "gobbly": true, "competitor": false },
+        { "name": "QR Digital Menu", "gobbly": true, "competitor": false },
+        { "name": "Online Ordering", "gobbly": true, "competitor": true },
+        { "name": "Payment Processing", "gobbly": true, "competitor": true },
+        { "name": "Multi-language Support", "gobbly": true, "competitor": false },
+        { "name": "VeriFactu Compliance", "gobbly": true, "competitor": true },
+        { "name": "Free Plan Available", "gobbly": true, "competitor": false },
+        { "name": "Table Management", "gobbly": true, "competitor": true },
+        { "name": "Real-time Analytics", "gobbly": true, "competitor": true }
+      ],
+      "advantages": [
+        {
+          "title": "Free plan to get started",
+          "description": "Start using Gobbly at no cost. No credit card, no commitment. Revo XEF requires a paid subscription from day one."
+        },
+        {
+          "title": "Built-in kitchen display",
+          "description": "Gobbly includes a real-time kitchen display system at no extra cost. With Revo XEF, you need additional modules and hardware."
+        },
+        {
+          "title": "QR menu and ordering included",
+          "description": "Let customers scan, browse, and order from their phone. No extra app needed — it's built right into Gobbly."
+        },
+        {
+          "title": "Simpler setup, faster onboarding",
+          "description": "Get your restaurant running in minutes, not days. Gobbly is designed for simplicity without sacrificing features."
+        }
+      ],
+      "pricingGobbly": "From \u20ac0/month",
+      "pricingCompetitor": "From ~\u20ac59/month",
+      "ctaTitle": "Ready to switch from Revo XEF?",
+      "ctaSubtitle": "Join hundreds of restaurants that made the switch to Gobbly. Start free, upgrade when you grow.",
+      "ctaButton": "Start for free"
+    },
+    "coverManager": {
+      "title": "Gobbly vs CoverManager",
+      "description": "Compare Gobbly and CoverManager. Discover how Gobbly offers an all-in-one restaurant platform with POS, kitchen display, and digital menus — without per-reservation fees.",
+      "heroTitle": "Gobbly vs CoverManager",
+      "heroSubtitle": "CoverManager excels at reservations, but restaurants need more. Gobbly is a complete platform: POS, kitchen display, QR menu, and payments — all in one, with no per-reservation fees.",
+      "features": [
+        { "name": "Cloud-based POS", "gobbly": true, "competitor": false },
+        { "name": "Kitchen Display System", "gobbly": true, "competitor": false },
+        { "name": "QR Digital Menu", "gobbly": true, "competitor": false },
+        { "name": "Reservation Management", "gobbly": true, "competitor": true },
+        { "name": "Payment Processing", "gobbly": true, "competitor": false },
+        { "name": "Multi-language Support", "gobbly": true, "competitor": true },
+        { "name": "VeriFactu Compliance", "gobbly": true, "competitor": false },
+        { "name": "Free Plan Available", "gobbly": true, "competitor": false },
+        { "name": "Online Ordering", "gobbly": true, "competitor": false },
+        { "name": "Real-time Analytics", "gobbly": true, "competitor": true }
+      ],
+      "advantages": [
+        {
+          "title": "All-in-one platform",
+          "description": "POS, kitchen display, digital menu, and payments in one app. CoverManager focuses only on reservations, leaving you to stitch together the rest."
+        },
+        {
+          "title": "No per-reservation fees",
+          "description": "Gobbly charges a flat monthly rate. No surprises. CoverManager charges per reservation, which adds up fast for busy restaurants."
+        },
+        {
+          "title": "Real-time kitchen management",
+          "description": "Orders flow instantly from table to kitchen screen. CoverManager doesn't offer kitchen operations at all."
+        },
+        {
+          "title": "Built-in QR ordering",
+          "description": "Guests scan, browse the menu, and order from their phone. Reduce wait staff workload and speed up service."
+        }
+      ],
+      "pricingGobbly": "From \u20ac0/month",
+      "pricingCompetitor": "Per-reservation fees",
+      "ctaTitle": "Ready to switch from CoverManager?",
+      "ctaSubtitle": "Get reservations and everything else in one platform. Start free today.",
+      "ctaButton": "Start for free"
+    },
+    "square": {
+      "title": "Gobbly vs Square",
+      "description": "Compare Gobbly and Square for restaurant management. See why European restaurants choose Gobbly for restaurant-specific features, VeriFactu compliance, and EU data hosting.",
+      "heroTitle": "Gobbly vs Square",
+      "heroSubtitle": "Square is a global POS built for retail. Gobbly is purpose-built for restaurants, with kitchen display, QR menus, and full compliance with European tax regulations like VeriFactu.",
+      "features": [
+        { "name": "Cloud-based POS", "gobbly": true, "competitor": true },
+        { "name": "Kitchen Display System", "gobbly": true, "competitor": false },
+        { "name": "QR Digital Menu", "gobbly": true, "competitor": false },
+        { "name": "Online Ordering", "gobbly": true, "competitor": true },
+        { "name": "Payment Processing", "gobbly": true, "competitor": true },
+        { "name": "Multi-language Support", "gobbly": true, "competitor": false },
+        { "name": "VeriFactu Compliance", "gobbly": true, "competitor": false },
+        { "name": "Free Plan Available", "gobbly": true, "competitor": true },
+        { "name": "EU Data Hosting", "gobbly": true, "competitor": false },
+        { "name": "Real-time Analytics", "gobbly": true, "competitor": true }
+      ],
+      "advantages": [
+        {
+          "title": "Built for restaurants, not retail",
+          "description": "Gobbly is designed exclusively for hospitality. Kitchen display, table management, and QR menus are native — not afterthoughts."
+        },
+        {
+          "title": "VeriFactu compliant",
+          "description": "Gobbly meets Spanish VeriFactu electronic invoicing requirements out of the box. Square does not support VeriFactu compliance."
+        },
+        {
+          "title": "European data hosting",
+          "description": "Your data stays in the EU on GDPR-compliant servers. Square stores data primarily in the US."
+        },
+        {
+          "title": "Native Spanish and Catalan support",
+          "description": "Gobbly supports Spanish, Catalan, and English natively. Square's localisation for Spain is limited."
+        }
+      ],
+      "pricingGobbly": "From \u20ac0/month",
+      "pricingCompetitor": "From ~$0 + transaction fees",
+      "ctaTitle": "Ready to switch from Square?",
+      "ctaSubtitle": "Get a restaurant-specific POS with European compliance. Start free today.",
+      "ctaButton": "Start for free"
+    }
+  },
+  "useCases": {
+    "breadcrumbSolutions": "Solutions",
+    "restaurants": {
+      "title": "Gobbly for Restaurants",
+      "description": "All-in-one restaurant management: POS with table management, real-time kitchen display, QR menus, and smart payments. Built for full-service restaurants.",
+      "heroTitle": "Built for restaurants that care about every detail",
+      "heroSubtitle": "From the first reservation to the final bill, Gobbly keeps your front of house and kitchen perfectly in sync — so every guest gets an exceptional experience.",
+      "painPointsLabel": "Common challenges",
+      "painPointsTitle": "Sound familiar?",
+      "painPoints": [
+        {
+          "title": "Juggling multiple systems",
+          "description": "POS on one screen, reservations on another, inventory in a spreadsheet. Disconnected tools create chaos and waste your time."
+        },
+        {
+          "title": "Kitchen miscommunication",
+          "description": "Paper tickets get lost, orders are misread, and dishes arrive at the wrong table. Your kitchen team deserves better."
+        },
+        {
+          "title": "Paper tickets and manual processes",
+          "description": "Handwritten orders, manual stock counts, and end-of-day calculations eat hours that should be spent on hospitality."
+        }
+      ],
+      "featuresLabel": "How Gobbly helps",
+      "featuresTitle": "Everything your restaurant needs",
+      "features": [
+        {
+          "title": "POS with table management",
+          "description": "Visual floor plan, table assignments, and course-by-course ordering. Move guests, split bills, and manage covers effortlessly."
+        },
+        {
+          "title": "Real-time kitchen display",
+          "description": "Orders appear on your kitchen screen the instant they are placed. Track preparation times, flag delays, and keep every station in sync."
+        },
+        {
+          "title": "QR menu for guests",
+          "description": "Guests scan, browse your full menu with photos and allergens, and order directly from their phone. Less waiting, more enjoying."
+        },
+        {
+          "title": "Smart payment splitting",
+          "description": "Split by item, by seat, or by custom amount. Accept cards, contactless, and mobile payments — all from one device."
+        },
+        {
+          "title": "Inventory tracking",
+          "description": "Know exactly what you have in stock. Automatic alerts when items run low, and real-time updates as dishes are sold."
+        },
+        {
+          "title": "End-of-day reporting",
+          "description": "Revenue, covers, average ticket, best sellers — all summarised in a clean dashboard you can check from anywhere."
+        }
+      ],
+      "workflowLabel": "A day with Gobbly",
+      "workflowTitle": "See how it fits your routine",
+      "workflow": [
+        {
+          "title": "Morning setup",
+          "description": "Open Gobbly, review today's reservations, update the daily specials, and your floor plan is ready. Kitchen screens come alive automatically."
+        },
+        {
+          "title": "Lunch rush",
+          "description": "Orders flow from tables to the kitchen display in real time. Staff focus on guests, not on running paper tickets. QR ordering handles the overflow."
+        },
+        {
+          "title": "End of day",
+          "description": "Close out tabs, review the day's numbers, and export reports in one tap. Cash up in minutes, not hours."
+        }
+      ],
+      "benefits": [
+        { "stat": "30%", "description": "faster table turnover" },
+        { "stat": "0", "description": "lost orders" },
+        { "stat": "<2 min", "description": "setup per shift" },
+        { "stat": "99.9%", "description": "uptime" }
+      ],
+      "exploreTitle": "Gobbly works for every type of business",
+      "exploreSubtitle": "See how Gobbly adapts to different hospitality businesses",
+      "ctaTitle": "Ready to transform your restaurant?",
+      "ctaButton": "Start for free"
+    },
+    "bars": {
+      "title": "Gobbly for Bars & Cafes",
+      "description": "Fast POS for bars and cafes: quick-order interface, tab management, QR self-ordering, and real-time inventory. Built for high-volume service.",
+      "heroTitle": "Speed up every round, simplify every tab",
+      "heroSubtitle": "When the bar is three-deep, you need a system that keeps up. Gobbly is built for the pace of bars and cafes — fast orders, easy tabs, and zero confusion.",
+      "painPointsLabel": "Common challenges",
+      "painPointsTitle": "Sound familiar?",
+      "painPoints": [
+        {
+          "title": "High-volume quick orders",
+          "description": "Customers want their drinks now, not after you have fumbled through five screens. Every second at the till is a second not serving."
+        },
+        {
+          "title": "Tab management chaos",
+          "description": "Open tabs pile up, names get mixed up, and closing time turns into a forensic investigation. Tabs should be simple."
+        },
+        {
+          "title": "Peak hour bottlenecks",
+          "description": "Friday night, two bartenders, fifty customers. Without the right tools, service collapses and customers walk out."
+        }
+      ],
+      "featuresLabel": "How Gobbly helps",
+      "featuresTitle": "Built for speed and volume",
+      "features": [
+        {
+          "title": "Quick-order POS",
+          "description": "Large buttons, favourite items pinned, and one-tap ordering. Ring up a beer in under three seconds."
+        },
+        {
+          "title": "Tab and running orders",
+          "description": "Open a tab with a name or card, add items throughout the night, and close out with a single tap. No more lost tabs."
+        },
+        {
+          "title": "QR self-ordering",
+          "description": "Guests scan a code at their table or at the bar and order themselves. Fewer queues, faster service, happier customers."
+        },
+        {
+          "title": "Real-time inventory",
+          "description": "Know exactly how many bottles you have left. Get alerts before you run out mid-shift. Never 86 a drink by surprise."
+        }
+      ],
+      "workflowLabel": "A day with Gobbly",
+      "workflowTitle": "See how it fits your routine",
+      "workflow": [
+        {
+          "title": "Open and set daily specials",
+          "description": "Tap to update today's cocktail specials, happy hour pricing, and seasonal additions. Your QR menu updates instantly."
+        },
+        {
+          "title": "Peak hour self-ordering",
+          "description": "When the queue hits the door, guests order from their phones. Your bartenders focus on pouring, not punching in orders."
+        },
+        {
+          "title": "Close tabs and cash up",
+          "description": "Close all open tabs with one sweep, reconcile cash and card totals, and export the night's report in seconds."
+        }
+      ],
+      "benefits": [
+        { "stat": "50%", "description": "faster orders" },
+        { "stat": "3x", "description": "more throughput at peak" },
+        { "stat": "0", "description": "tab mix-ups" },
+        { "stat": "<20s", "description": "per order" }
+      ],
+      "exploreTitle": "Gobbly works for every type of business",
+      "exploreSubtitle": "See how Gobbly adapts to different hospitality businesses",
+      "ctaTitle": "Ready to speed up your bar?",
+      "ctaButton": "Start for free"
+    },
+    "foodTrucks": {
+      "title": "Gobbly for Food Trucks",
+      "description": "Mobile POS for food trucks: works on any phone or tablet, offline mode, QR ordering, and mobile payments. No hardware investment needed.",
+      "heroTitle": "Your kitchen on wheels, powered by your phone",
+      "heroSubtitle": "No bulky hardware, no wifi dependency, no complicated setup. Gobbly runs on the device in your pocket and works wherever you park.",
+      "painPointsLabel": "Common challenges",
+      "painPointsTitle": "Sound familiar?",
+      "painPoints": [
+        {
+          "title": "Limited space for hardware",
+          "description": "There is no room for a full POS terminal in a food truck. You need something that fits in your hand, not on a counter."
+        },
+        {
+          "title": "No wifi at some locations",
+          "description": "Parks, festivals, markets — great for business, terrible for connectivity. Your POS should not depend on someone else's wifi."
+        },
+        {
+          "title": "Outdoor conditions",
+          "description": "Rain, sun, wind, dust. Traditional POS hardware was not built for the street. You need something resilient."
+        }
+      ],
+      "featuresLabel": "How Gobbly helps",
+      "featuresTitle": "Designed for life on the move",
+      "features": [
+        {
+          "title": "Works on any phone or tablet",
+          "description": "No specialised hardware needed. Use the phone or tablet you already own. Android or iOS — Gobbly works on both."
+        },
+        {
+          "title": "Full offline mode",
+          "description": "Take orders, process payments, and run your truck even without an internet connection. Everything syncs when you are back online."
+        },
+        {
+          "title": "QR ordering — no cashier needed",
+          "description": "Print a QR code, stick it on your truck window. Customers order and pay from their phones while they wait in line."
+        },
+        {
+          "title": "Mobile payments",
+          "description": "Accept cards, contactless, and mobile wallets. Pair with any Bluetooth card reader or use tap-to-pay on your phone."
+        }
+      ],
+      "workflowLabel": "A day with Gobbly",
+      "workflowTitle": "See how it fits your routine",
+      "workflow": [
+        {
+          "title": "Arrive at location",
+          "description": "Drive up, park, and open Gobbly on your phone. Your menu, prices, and QR code are ready to go."
+        },
+        {
+          "title": "Set up in 5 minutes",
+          "description": "Stick your QR code on the window, turn on your Bluetooth reader, and start taking orders. No cables, no calibration."
+        },
+        {
+          "title": "Serve and get paid instantly",
+          "description": "Orders come in through the app and QR. Payments are processed on the spot. Pack up and check your earnings on the drive home."
+        }
+      ],
+      "benefits": [
+        { "stat": "5 min", "description": "setup time" },
+        { "stat": "100%", "description": "works offline" },
+        { "stat": "1", "description": "device needed" },
+        { "stat": "€0", "description": "hardware investment" }
+      ],
+      "exploreTitle": "Gobbly works for every type of business",
+      "exploreSubtitle": "See how Gobbly adapts to different hospitality businesses",
+      "ctaTitle": "Ready to hit the road with Gobbly?",
+      "ctaButton": "Start for free"
+    }
   }
 }

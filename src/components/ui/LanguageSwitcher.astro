@@ -6,6 +6,9 @@ interface Props { locale: Locale }
 const { locale: currentLocale } = Astro.props
 const t = getTranslations(currentLocale)
 
+const pathname = Astro.url.pathname
+const pathWithoutLocale = pathname.replace(/^\/(en|es|ca)/, '') || '/'
+
 const languageLabels: Record<Locale, string> = {
   en: 'EN',
   es: 'ES',
@@ -31,7 +34,7 @@ const languageLabels: Record<Locale, string> = {
   <div id="lang-dropdown" class="absolute right-0 top-full mt-1 bg-surface-card border border-border rounded-xl shadow-lg py-1 min-w-[140px] hidden z-50">
     {locales.map((loc) => (
       <a
-        href={`/${loc}/`}
+        href={`/${loc}${pathWithoutLocale}`}
         class:list={[
           'flex items-center gap-2 px-4 py-2 text-sm transition-colors',
           loc === currentLocale

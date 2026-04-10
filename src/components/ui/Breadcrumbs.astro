@@ -1,0 +1,42 @@
+---
+import type { Locale } from '@i18n/types'
+
+interface BreadcrumbItem {
+  label: string
+  href?: string
+}
+interface Props {
+  items: BreadcrumbItem[]
+  locale: Locale
+}
+
+const { items, locale } = Astro.props
+
+const jsonLdItems = items.map((item, i) => ({
+  "@type": "ListItem",
+  "position": i + 1,
+  "name": item.label,
+  ...(item.href ? { "item": `https://gobbly.app${item.href}` } : {}),
+}))
+---
+
+<nav aria-label="Breadcrumb" class="text-sm text-text-muted">
+  <ol class="flex items-center gap-1.5">
+    {items.map((item, i) => (
+      <li class="flex items-center gap-1.5">
+        {i > 0 && <span aria-hidden="true">/</span>}
+        {item.href ? (
+          <a href={item.href} class="hover:text-text-primary transition-colors">{item.label}</a>
+        ) : (
+          <span class="text-text-secondary">{item.label}</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": jsonLdItems,
+})} />

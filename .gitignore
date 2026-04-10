@@ -23,3 +23,9 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+.rtk/filters.toml
+plan/action-plan.md
+plan/content-strategy.md
+plan/seo-audit.md
+plan/status.md
+plan/technical-improvements.md
