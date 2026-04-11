@@ -64,38 +64,40 @@ const navLinks = [
   }
 </style>
 
-<script>
-  const menuBtn = document.getElementById('menu-btn')
-  const mobileNav = document.getElementById('mobile-nav')
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    var menuBtn = document.getElementById('menu-btn')
+    var mobileNav = document.getElementById('mobile-nav')
+    var navbar = document.getElementById('navbar')
 
-  if (menuBtn && mobileNav) {
-    menuBtn.addEventListener('click', () => {
-      mobileNav.classList.toggle('open')
-      const isOpen = mobileNav.classList.contains('open')
-      menuBtn.setAttribute('aria-expanded', String(isOpen))
-    })
-
-    mobileNav.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
+    function closeMobileNav() {
+      if (mobileNav && mobileNav.classList.contains('open')) {
         mobileNav.classList.remove('open')
         menuBtn.setAttribute('aria-expanded', 'false')
-      })
-    })
-  }
+      }
+    }
 
-  const navBar = document.getElementById('navbar-bar')
-  if (navBar) {
-    window.addEventListener('scroll', () => {
-      const navbar = document.getElementById('navbar')
-      if (window.scrollY > 20) {
-        navbar?.classList.add('scrolled')
-      } else {
-        navbar?.classList.remove('scrolled')
+    if (menuBtn && mobileNav) {
+      menuBtn.addEventListener('click', function() {
+        mobileNav.classList.toggle('open')
+        var isOpen = mobileNav.classList.contains('open')
+        menuBtn.setAttribute('aria-expanded', String(isOpen))
+      })
+
+      mobileNav.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', closeMobileNav)
+      })
+    }
+
+    window.addEventListener('scroll', function() {
+      if (navbar) {
+        if (window.scrollY > 20) {
+          navbar.classList.add('scrolled')
+        } else {
+          navbar.classList.remove('scrolled')
+        }
       }
-      if (mobileNav?.classList.contains('open')) {
-        mobileNav.classList.remove('open')
-        menuBtn?.setAttribute('aria-expanded', 'false')
-      }
+      closeMobileNav()
     }, { passive: true })
-  }
+  })
 </script>
