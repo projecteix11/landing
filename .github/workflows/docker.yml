@@ -41,4 +41,4 @@ jobs:
         run: |
           curl -X POST "${{ secrets.DISCORD_WEBHOOK_URL }}" \
             -H "Content-Type: application/json" \
-            -d "{\"content\": \"# 🚀 DESPLEGANT A PRO 🚀\"}"
+            -d "{\"content\": \"# 🚀 DESPLEGANT A PRO 🚀\n# ⚠️ GIT PULL LANDING\"}"
