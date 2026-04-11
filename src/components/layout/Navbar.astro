@@ -16,7 +16,7 @@ const navLinks = [
 ]
 ---
 
-<nav id="navbar" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+<nav id="navbar" class="fixed top-0 inset-x-0 z-50 overflow-hidden transition-all duration-300">
   <div id="navbar-bar" class="nav-blur max-w-6xl mx-auto px-6 h-16 flex items-center justify-between transition-colors duration-300">
     <a href={`/${locale}/`} class="flex items-center no-underline">
       <Image src={logo} alt="Gobbly" height={96} class="h-8 w-auto" />
@@ -65,23 +65,31 @@ const navLinks = [
 </style>
 
 <script is:inline>
-  document.addEventListener('DOMContentLoaded', function() {
+  (function() {
     var menuBtn = document.getElementById('menu-btn')
     var mobileNav = document.getElementById('mobile-nav')
     var navbar = document.getElementById('navbar')
+    var scrollYOnOpen = null
 
     function closeMobileNav() {
       if (mobileNav && mobileNav.classList.contains('open')) {
         mobileNav.classList.remove('open')
         menuBtn.setAttribute('aria-expanded', 'false')
+        navbar.classList.add('overflow-hidden')
+        scrollYOnOpen = null
       }
     }
 
     if (menuBtn && mobileNav) {
       menuBtn.addEventListener('click', function() {
-        mobileNav.classList.toggle('open')
-        var isOpen = mobileNav.classList.contains('open')
-        menuBtn.setAttribute('aria-expanded', String(isOpen))
+        if (mobileNav.classList.contains('open')) {
+          closeMobileNav()
+        } else {
+          navbar.classList.remove('overflow-hidden')
+          mobileNav.classList.add('open')
+          menuBtn.setAttribute('aria-expanded', 'true')
+          scrollYOnOpen = window.scrollY
+        }
       })
 
       mobileNav.querySelectorAll('a').forEach(function(link) {
@@ -97,7 +105,9 @@ const navLinks = [
           navbar.classList.remove('scrolled')
         }
       }
-      closeMobileNav()
+      if (scrollYOnOpen !== null && Math.abs(window.scrollY - scrollYOnOpen) > 10) {
+        closeMobileNav()
+      }
     }, { passive: true })
-  })
+  })()
 </script>
