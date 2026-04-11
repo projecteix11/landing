@@ -92,6 +92,10 @@ const navLinks = [
       } else {
         navbar?.classList.remove('scrolled')
       }
+      if (mobileNav?.classList.contains('open')) {
+        mobileNav.classList.remove('open')
+        menuBtn?.setAttribute('aria-expanded', 'false')
+      }
     }, { passive: true })
   }
 </script>
