@@ -3,7 +3,6 @@ import Layout from "@layouts/Layout.astro";
 import JsonLd from "@components/ui/JsonLd.astro";
 import Navbar from "@components/layout/Navbar.astro";
 import Hero from "@components/sections/Hero.astro";
-import TrustedBy from "@components/sections/TrustedBy.astro";
 import ProblemSolution from "@components/sections/ProblemSolution.astro";
 import Features from "@components/sections/Features.astro";
 import AppScreenshots from "@components/sections/AppScreenshots.astro";
@@ -29,7 +28,6 @@ const t = getTranslations(locale);
   <Navbar locale={locale} />
   <main>
     <Hero locale={locale} />
-    <TrustedBy locale={locale} />
     <ProblemSolution locale={locale} />
     <Features locale={locale} />
     <AppScreenshots locale={locale} />
