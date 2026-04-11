@@ -1269,7 +1269,6 @@
     "label": "Gobbly in numbers",
     "title": "Real results for real restaurants",
     "items": [
-      { "value": "+500", "label": "Active restaurants" },
       { "value": "2M+", "label": "Orders processed" },
       { "value": "98%", "label": "No-show reduction" },
       { "value": "-20 min", "label": "Saved per table" }

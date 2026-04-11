@@ -1269,7 +1269,6 @@
     "label": "Gobbly en xifres",
     "title": "Resultats reals per a restaurants reals",
     "items": [
-      { "value": "+500", "label": "Restaurants actius" },
       { "value": "2M+", "label": "Comandes processades" },
       { "value": "98%", "label": "Reducció de no-shows" },
       { "value": "-20 min", "label": "Estalviats per taula" }
