@@ -58,8 +58,8 @@ const navLinks = [
 </nav>
 
 <style>
-  #navbar-bar.scrolled {
-    background: rgba(250, 250, 248, 0.92);
+  #navbar.scrolled {
+    background: rgb(250, 250, 248);
     box-shadow: 0 1px 0 var(--color-border);
   }
 </style>
@@ -86,10 +86,11 @@ const navLinks = [
   const navBar = document.getElementById('navbar-bar')
   if (navBar) {
     window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar')
       if (window.scrollY > 20) {
-        navBar.classList.add('scrolled')
+        navbar?.classList.add('scrolled')
       } else {
-        navBar.classList.remove('scrolled')
+        navbar?.classList.remove('scrolled')
       }
     }, { passive: true })
   }
