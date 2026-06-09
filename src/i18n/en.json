@@ -13,7 +13,17 @@
     "toggleMenu": "Toggle menu",
     "home": "Home",
     "compare": "Compare",
-    "solutions": "Solutions"
+    "solutions": "Solutions",
+    "restaurants": "Restaurants"
+  },
+  "restaurants": {
+    "label": "Our clients",
+    "title": "Restaurants powered by Gobbly",
+    "description": "Discover the restaurants and bars that run on Gobbly. Tap any to view their menu and book a table.",
+    "metaDescription": "Browse the restaurants and bars powered by Gobbly. View their menus and book a table directly.",
+    "viewSite": "Visit restaurant",
+    "empty": "No restaurants listed yet",
+    "emptyHint": "Check back soon — our directory is growing."
   },
   "hero": {
     "badge": "Now in open beta",

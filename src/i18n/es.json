@@ -13,7 +13,17 @@
     "toggleMenu": "Abrir menú",
     "home": "Inicio",
     "compare": "Comparar",
-    "solutions": "Soluciones"
+    "solutions": "Soluciones",
+    "restaurants": "Restaurantes"
+  },
+  "restaurants": {
+    "label": "Nuestros clientes",
+    "title": "Restaurantes que funcionan con Gobbly",
+    "description": "Descubre los restaurantes y bares que confían en Gobbly. Pulsa en cualquiera para ver su menú y reservar mesa.",
+    "metaDescription": "Explora los restaurantes y bares que funcionan con Gobbly. Mira sus menús y reserva mesa directamente.",
+    "viewSite": "Visitar restaurante",
+    "empty": "Aún no hay restaurantes listados",
+    "emptyHint": "Vuelve pronto — nuestro directorio está creciendo."
   },
   "hero": {
     "badge": "Ahora en beta abierta",

@@ -1,0 +1,89 @@
+---
+import type { Locale } from '@i18n/types'
+import { getTranslations } from '@i18n/utils'
+import SectionHeader from '@components/ui/SectionHeader.astro'
+import { fetchListedTenants, tenantUrl } from '@lib/tenants'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+
+const tenants = await fetchListedTenants()
+
+function initial(name: string): string {
+  return name.trim().charAt(0).toUpperCase() || '·'
+}
+---
+
+<section class="py-20 md:py-28">
+  <div class="max-w-6xl mx-auto px-6">
+    <SectionHeader
+      label={t.restaurants.label}
+      title={t.restaurants.title}
+      description={t.restaurants.description}
+    />
+
+    {tenants.length === 0 ? (
+      <div class="fade-up text-center py-16 border border-dashed border-border rounded-2xl bg-surface-card">
+        <p class="text-text-secondary font-medium">{t.restaurants.empty}</p>
+        <p class="text-text-muted text-sm mt-1">{t.restaurants.emptyHint}</p>
+      </div>
+    ) : (
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {tenants.map((tenant, i) => {
+          const b = tenant.branding ?? {}
+          const logo = b.logo ?? tenant.logo_url
+          const tagline = b.tagline
+          const cover = b.coverImage
+          const accent = b.primaryColor ?? 'var(--color-brand)'
+          return (
+            <a
+              href={tenantUrl(tenant.slug)}
+              class={`fade-up fade-up-delay-${(i % 3) + 1} group flex flex-col overflow-hidden rounded-2xl border border-border bg-surface-card no-underline transition-all hover:-translate-y-1 hover:shadow-[0_12px_32px_-12px_rgba(0,0,0,0.18)] hover:border-brand`}
+            >
+              <div class="relative h-32 overflow-hidden" style={`background:${accent}`}>
+                {cover && (
+                  <img
+                    src={cover}
+                    alt={tenant.name}
+                    loading="lazy"
+                    class="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                )}
+                <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+                {logo ? (
+                  <img
+                    src={logo}
+                    alt={`${tenant.name} logo`}
+                    loading="lazy"
+                    class="absolute bottom-3 left-4 h-12 w-12 rounded-xl bg-white object-contain p-1 shadow-md"
+                  />
+                ) : (
+                  <span class="absolute bottom-3 left-4 flex h-12 w-12 items-center justify-center rounded-xl bg-white text-xl font-bold shadow-md" style={`color:${accent}`}>
+                    {initial(tenant.name)}
+                  </span>
+                )}
+              </div>
+
+              <div class="flex flex-1 flex-col p-5">
+                <h3 class="font-display text-xl tracking-tight text-text-primary">{tenant.name}</h3>
+                {tenant.city && (
+                  <p class="mt-1 flex items-center gap-1.5 text-sm text-text-muted">
+                    <svg class="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    {tenant.city}
+                  </p>
+                )}
+                {tagline && <p class="mt-2 line-clamp-2 text-sm text-text-secondary">{tagline}</p>}
+
+                <span class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand">
+                  {t.restaurants.viewSite}
+                  <svg class="h-4 w-4 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </span>
+              </div>
+            </a>
+          )
+        })}
+      </div>
+    )}
+  </div>
+</section>
