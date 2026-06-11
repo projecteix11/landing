@@ -31,19 +31,39 @@ export function tenantUrl(slug: string): string {
 
 /**
  * Fetch the opt-in (is_listed) active tenants for the public directory.
- * Returns [] on any failure so the build never breaks on a transient API error.
+ *
+ * In dev, failures degrade to an empty list. In production builds an empty
+ * directory FAILS THE BUILD — a localhost API_URL baked into the CI image once
+ * shipped an empty "Our clients" section to prod for every deploy, silently.
+ * Set ALLOW_EMPTY_DIRECTORY=true to ship an intentionally empty directory.
  */
 export async function fetchListedTenants(): Promise<ListedTenant[]> {
+  let tenants: ListedTenant[] = []
+  let failure: string | null = null
   try {
     const res = await fetch(`${API_URL}/tenants/public`)
-    if (!res.ok) {
-      console.warn(`[tenants] /tenants/public responded ${res.status}`)
-      return []
+    if (res.ok) {
+      const json = (await res.json()) as { data: ListedTenant[] | null }
+      tenants = json.data ?? []
+    } else {
+      failure = `/tenants/public responded ${res.status}`
     }
-    const json = (await res.json()) as { data: ListedTenant[] | null }
-    return json.data ?? []
   } catch (e) {
-    console.warn('[tenants] failed to fetch public directory:', e)
-    return []
+    failure = `failed to fetch public directory: ${e}`
   }
+
+  if (failure) console.warn(`[tenants] ${failure} (API_URL=${API_URL})`)
+
+  if (
+    tenants.length === 0 &&
+    import.meta.env.PROD &&
+    import.meta.env.ALLOW_EMPTY_DIRECTORY !== 'true'
+  ) {
+    throw new Error(
+      `[tenants] Production build with an empty restaurant directory (API_URL=${API_URL}${failure ? `, ${failure}` : ''}). ` +
+        'Fix API_URL or set ALLOW_EMPTY_DIRECTORY=true to ship without it.',
+    )
+  }
+
+  return tenants
 }
