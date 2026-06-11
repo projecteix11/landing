@@ -3,3 +3,7 @@ dist
 .git
 .claude
 *.md
+# Never bake local env files into the image: a committed/local .env with
+# API_URL=http://localhost:3001 silently emptied the production directory.
+.env
+.env.*
