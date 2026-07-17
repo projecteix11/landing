@@ -1,0 +1,30 @@
+name: CI
+
+# Merge gate (XC-4): type-check + build must pass before a PR can merge to main.
+# The Docker image is built/pushed on push to main (docker.yml), so without this
+# gate the default branch could break on push.
+#
+# ALLOW_EMPTY_DIRECTORY=true here so the gate tests type/build correctness only,
+# not whether the runner can reach the public directory API. Production (docker.yml)
+# does NOT set it, so the prod build still fails loudly on an empty directory (XM-2).
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # pnpm version comes from the "packageManager" field in package.json.
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec astro check
+      - run: pnpm build
+        env:
+          ALLOW_EMPTY_DIRECTORY: 'true'
